@@ -45,7 +45,7 @@ library(ggplot2)
 library(dplyr)
 ```
 
-Ao carregar o pacote, as variáveis que contém os dados estarão
+Ao carregar o pacote, as variáveis que contêm os dados estarão
 disponíveis imediatamente para uso. Porém, os dados não serão
 traduzidos até que a variável seja “chamada” explicitamente por um
 comando. Neste exemplo, o conjunto de dados `diamante`, que provém de
@@ -74,9 +74,9 @@ Os dados traduzidos permanecerão carregados em sua sessão de R:
 diamante %>%
   filter(corte == "Bom") %>%
   ggplot() +
-  geom_boxplot(aes(claridade, preco, fill = transparencia)) +
+  geom_boxplot(aes(transparencia, preco, fill = transparencia)) +
   theme(legend.position = "none") +
-  labs(title = "Diamantes", subtitle = "Preço e transparência", y = "preço")
+  labs(title = "Diamantes", subtitle = "Preço e transparência", y = "Preço", x = "Transparência")
 ```
 
 <img src="man/figures/diamantes.png">
