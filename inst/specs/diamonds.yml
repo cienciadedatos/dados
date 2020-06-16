@@ -17,10 +17,10 @@ variables:
       Fair: Justo
   color:
     trans: cor
-    desc: Cor de diamante, de J (peor) a D (melhor)
+    desc: Cor de diamante, de J (pior) a D (melhor)
   clarity:
-    trans: claridade
-    desc: Quão claro é o diamante (I1 (peor), SI1, SI2, VS1, VS2, VVS1, VVS2, IF (melhor))
+    trans: transparencia
+    desc: Quão transparente é o diamante (I1 (peor), SI1, SI2, VS1, VS2, VVS1, VVS2, IF (melhor))
   depth:
     trans: profundidade
     desc: Porcentagem da profundidade total = z / mean(x, y) = 2 * z / (x + y) (43-79)
@@ -29,7 +29,7 @@ variables:
     desc: Largura do topo do diamante em relação ao seu ponto mais largo (43-95)
   x:
     trans: x
-    desc: Largo em milímetros
+    desc: Comprimento em milímetros
   y:
     trans: y
     desc: Largura em milímetros
@@ -42,4 +42,4 @@ help:
   title: Preço de 50.000 diamantes
   description: Um conjunto de dados contendo os preços de quase 54.000 diamantes
   usage: diamante
-  format: Um data.frame con 53.940 linhas y 10 colunas
+  format: Um data.frame com 53.940 linhas e 10 colunas
