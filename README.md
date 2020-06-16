@@ -12,7 +12,7 @@ disponíveis em outros pacotes de R. Os dados traduzidos são utilizados
 nos exemplos do livro [R for Data Science](https://r4ds.had.co.nz/) de
 Hadley Wickham & Garrett Grolemund, cuja [versão em
 português](https://www.altabooks.com.br/produto/r-para-data-science-importe-arrume-transforme-visualize-e-modele-dados/)
-foi publicado por AltaBooks & O’Reilly.
+foi publicada por AltaBooks & O’Reilly.
 
 ## Instalação
 

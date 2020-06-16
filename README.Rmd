@@ -25,7 +25,7 @@ knitr::opts_chunk$set(echo = TRUE)
 <!-- badges: start -->
 <!-- badges: end -->
 
-Este pacote faz a tradução de conjuntos de dados em inglês originalmente disponíveis em outros pacotes de R. Os dados traduzidos são utilizados nos exemplos do livro [R for Data Science](https://r4ds.had.co.nz/) de Hadley Wickham & Garrett Grolemund, cuja [versão em português](https://www.altabooks.com.br/produto/r-para-data-science-importe-arrume-transforme-visualize-e-modele-dados/) foi publicado por AltaBooks & O'Reilly.
+Este pacote faz a tradução de conjuntos de dados em inglês originalmente disponíveis em outros pacotes de R. Os dados traduzidos são utilizados nos exemplos do livro [R for Data Science](https://r4ds.had.co.nz/) de Hadley Wickham & Garrett Grolemund, cuja [versão em português](https://www.altabooks.com.br/produto/r-para-data-science-importe-arrume-transforme-visualize-e-modele-dados/) foi publicada por AltaBooks & O'Reilly.
 
 ## Instalação
 
