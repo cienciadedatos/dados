@@ -7,31 +7,29 @@
 
 <!-- badges: end -->
 
-Este paquete provee la traducción al español de conjuntos de datos en
-inglés originalmente disponibles en otros paquetes de R. Los datos
-traducidos son los que se utilizan en los ejemplos del libro [R for Data
-Science](https://r4ds.had.co.nz/) de Hadley Wickham & Garrett Grolemund,
-cuya [versión en
-portugués](https://www.altabooks.com.br/produto/r-para-data-science-importe-arrume-transforme-visualize-e-modele-dados/)
-fue publicada por AltaBooks y O’Reilly.
+Este pacote faz a tradução de conjuntos de dados em inglês originalmente
+disponíveis em outros pacotes de R. Os dados traduzidos são utilizados
+nos exemplos do livro [R for Data Science](https://r4ds.had.co.nz/) de
+Hadley Wickham & Garrett Grolemund, cuja [versão em
+português](https://www.altabooks.com.br/produto/r-para-data-science-importe-arrume-transforme-visualize-e-modele-dados/)
+foi publicado por AltaBooks & O’Reilly.
 
-## Instalación
+## Instalação
 
-El paquete `dados` se encuentra actualmente en desarrollo. Esta versión
-en proceso puede instalarse directamente desde GitHub:
+O pacote `dados` atualmente está em desenvolvimento. Esta versão (em
+progresso) pode ser instalada a partir do GitHub:
 
 ``` r
 # install.packages("remotes")
 remotes::install_github("cienciadedatos/dados")
 ```
 
-## Traducciones
+## Traduções
 
-Las traducciones disponibles actualmente dentro de `dados` son las
-siguientes:
+As traduções disponíveis dentro de `dados` são as seguintes:
 
-(NOTA: a medida que vayamos traduciendo irán apareciendo los datasets en
-esta tabla)
+(NOTA: a medida que vamos traduzindo, os conjuntos de dados serão
+exibidos nesta tabela)
 
 | Nome     | Título                    | Pacote  | Dataset  |
 | :------- | :------------------------ | :------ | :------- |
@@ -39,7 +37,7 @@ esta tabla)
 
 ## Uso
 
-El paquete `dados` se carga igual que todos los paquetes de R:
+O pacote `dados` pode ser carregado como qualquer outro pacote de R:
 
 ``` r
 library(dados)
@@ -47,12 +45,12 @@ library(ggplot2)
 library(dplyr)
 ```
 
-Las variables que contienen los datos van a estar disponibles
-inmediatamente para su uso, pero los datos no se traducirán hasta que la
-variable sea “llamada” explícitamente en el código que se escriba. En
-este ejemplo, el *dataset* `diamante`, que proviene de
-`ggplot2::diamonds`, se carga en la memoria de R en el momento en que lo
-llamamos por primera vez en portugués:
+Ao carregar o pacote, as variáveis que contém os dados estarão
+disponíveis imediatamente para uso. Porém, os dados não serão
+traduzidos até que a variável seja “chamada” explicitamente por um
+comando. Neste exemplo, o conjunto de dados `diamante`, que provém de
+`ggplot2::diamonds`, é carregado no *workspace* do R no momento em que o
+chamamos pela primeira vez em português:
 
 ``` r
 glimpse(diamante)
@@ -70,7 +68,7 @@ glimpse(diamante)
 #> $ z            <dbl> 2.43, 2.31, 2.31, 2.63, 2.75, 2.48, 2.47, 2.53, 2.49, 2.…
 ```
 
-Los datos traducidos quedarán cargados durante toda la sesión de R:
+Os dados traduzidos permanecerão carregados em sua sessão de R:
 
 ``` r
 diamante %>%
@@ -83,7 +81,7 @@ diamante %>%
 
 <img src="man/figures/diamantes.png">
 
-## `dados` internal functions
+## Funções internas de `dados`
 
-The internal functions of `dados` were developed originally for its twin
-package: [`datos`](https://cienciadedatos.github.io/datos/)
+As funções internas de `dados` foram desenvolvidas originalmente por seu
+pacote irmão: [`datos`](https://cienciadedatos.github.io/datos/)
