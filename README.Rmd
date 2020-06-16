@@ -1,0 +1,98 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/",
+  out.width = "100%"
+)
+
+library(dados)
+library(ggplot2)
+library(dplyr)
+library(purrr)
+library(stringr)
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# dados
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+Este paquete provee la traducción al español de conjuntos de datos en inglés originalmente disponibles en otros paquetes de R. Los datos traducidos son los que se utilizan en los ejemplos del libro [R for Data Science](https://r4ds.had.co.nz/) de Hadley Wickham & Garrett Grolemund, cuya [versión en portugués](https://www.altabooks.com.br/produto/r-para-data-science-importe-arrume-transforme-visualize-e-modele-dados/) fue publicada por AltaBooks y O'Reilly.
+
+## Instalación
+
+El paquete `dados` se encuentra actualmente en desarrollo. Esta versión en proceso puede instalarse directamente desde GitHub:
+
+```{r, eval = FALSE}
+# install.packages("remotes")
+remotes::install_github("cienciadedatos/dados")
+```
+
+
+## Traducciones
+
+Las traducciones disponibles actualmente dentro de `dados` son las siguientes:
+
+(NOTA: a medida que vayamos traduciendo irán apareciendo los datasets en esta tabla)
+
+```{r, echo = FALSE}
+
+specs <- list.files("inst/specs")
+all <- map(file.path("inst", "specs", specs), yaml::read_yaml)
+sources <- map_chr(all, ~.x$df$source)
+pkgs <- tibble(
+  Nome = map_chr(all, ~.x$df$name),
+  `Título` = map_chr(all, ~.x$help$title),
+  Pacote = map_chr(strsplit(sources, "::"), ~.x[[1]]),
+  Dataset = map_chr(strsplit(sources, "::"), ~.x[[2]])
+)
+
+
+pkgs %>%
+  arrange(Pacote, Dataset) %>%
+  knitr::kable()
+```
+
+
+## Uso
+
+El paquete `dados` se carga igual que todos los paquetes de R: 
+
+```{r, message = FALSE}
+library(dados)
+library(ggplot2)
+library(dplyr)
+```
+
+Las variables que contienen los datos van a estar disponibles inmediatamente para su uso, pero los datos no se traducirán hasta que la variable sea "llamada" explícitamente en el código que se escriba. En este ejemplo, el _dataset_ `diamante`, que proviene de `ggplot2::diamonds`, se carga en la memoria de R en el momento en que lo llamamos por primera vez en portugués:
+
+```{r}
+glimpse(diamante)
+```
+
+Los datos traducidos quedarán cargados durante toda la sesión de R:
+
+
+```{r eval = FALSE}
+diamante %>%
+  filter(corte == "Bom") %>%
+  ggplot() +
+  geom_boxplot(aes(claridade, preco, fill = claridade)) +
+  theme(legend.position = "none") +
+  labs(title = "Diamantes", subtitle = "Preço e claridade", y = "preço")
+
+```
+
+<img src="man/figures/diamantes.png">
+
+
+## `dados` internal functions
+The internal functions of `dados` were developed originally for its twin package: [`datos`](https://cienciadedatos.github.io/datos/)
