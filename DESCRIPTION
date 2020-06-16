@@ -2,11 +2,11 @@ Package: dados
 Title: Translate Datasets to Portuguese
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Riva",
+           family = "Quiroga",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+           email = "riva.quiroga@uc.cl",
+           comment = c(ORCID = "0000-0002-1147-4135"))
 Description: What the package does (one paragraph).
 License: GPL-3
 Encoding: UTF-8
