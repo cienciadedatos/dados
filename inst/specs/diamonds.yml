@@ -1,0 +1,45 @@
+df:
+  source: ggplot2::diamonds
+  name: diamante
+variables:
+  price:
+    trans: preco
+    desc: Preço em dólares americanos ($326-$18,823)
+  carat:
+    trans: quilate
+    desc: Peso do diamante (0.2-5.01)
+  cut:
+    trans: corte
+    desc: Qualidade de corte (Justo, Bom, Muito Bom, Premium, Ideal)
+    values:
+      Good: Bom
+      Very Good: Muito Bom
+      Fair: Justo
+  color:
+    trans: cor
+    desc: Cor de diamante, de J (peor) a D (melhor)
+  clarity:
+    trans: claridade
+    desc: Quão claro é o diamante (I1 (peor), SI1, SI2, VS1, VS2, VVS1, VVS2, IF (melhor))
+  depth:
+    trans: profundidade
+    desc: Porcentagem da profundidade total = z / mean(x, y) = 2 * z / (x + y) (43-79)
+  table:
+    trans: tabela
+    desc: Largura do topo do diamante em relação ao seu ponto mais largo (43-95)
+  x:
+    trans: x
+    desc: Largo em milímetros
+  y:
+    trans: y
+    desc: Largura em milímetros
+  z:
+    trans: z
+    desc: Profundidade em milímetros
+help:
+  name: diamante
+  alias: diamante
+  title: Preço de 50.000 diamantes
+  description: Um conjunto de dados contendo os preços de quase 54.000 diamantes
+  usage: diamante
+  format: Um data.frame con 53.940 linhas y 10 colunas
