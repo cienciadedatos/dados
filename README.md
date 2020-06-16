@@ -74,9 +74,9 @@ Os dados traduzidos permanecerão carregados em sua sessão de R:
 diamante %>%
   filter(corte == "Bom") %>%
   ggplot() +
-  geom_boxplot(aes(claridade, preco, fill = transparencia)) +
+  geom_boxplot(aes(transparencia, preco, fill = transparencia)) +
   theme(legend.position = "none") +
-  labs(title = "Diamantes", subtitle = "Preço e transparência", y = "preço")
+  labs(title = "Diamantes", subtitle = "Preço e transparência", y = "Preço", x = "Transparência")
 ```
 
 <img src="man/figures/diamantes.png">

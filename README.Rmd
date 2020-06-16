@@ -88,6 +88,7 @@ diamante %>%
   theme(legend.position = "none") +
   labs(title = "Diamantes", subtitle = "Preço e transparência", y = "Preço", x = "Transparência")
 
+
 ```
 
 <img src="man/figures/diamantes.png">
