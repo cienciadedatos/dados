@@ -1,13 +1,19 @@
 Package: dados
 Title: Translate Datasets to Portuguese
 Version: 0.0.0.9000
-Authors@R: 
+Authors@R: c(
     person(given = "Riva",
            family = "Quiroga",
            role = c("aut", "cre"),
            email = "riva.quiroga@uc.cl",
-           comment = c(ORCID = "0000-0002-1147-4135"))
-Description: Este pacote faz a tradução de as seguintes 
+           comment = c(ORCID = "0000-0002-1147-4135")),
+    person(given = "Sara",
+           family = "Mortara",
+           role = c("aut"),
+           email = "saramortara@gmail.com",
+           comment = c(ORCID = "0000-0001-6221-7537"))
+        )
+Description: Este pacote faz a tradução dos seguintes 
     conjuntos de dados: 'airlines', 'airports', 'AwardsManagers',
     'babynames', 'Batting', 'diamonds', 'faithful', 'fueleconomy',
     'Fielding', 'flights', 'gapminder', 'gss_cat', 'iris', 'Managers',
