@@ -5,158 +5,158 @@ variables:
   country:
     trans: pais
     values:
-      Afghanistan: "Afeganistão"
-      Albania: "Albânia"
-      Algeria: "Argélia"
+      Afghanistan: Afeganistão
+      Albania: Albânia
+      Algeria: Argélia
       Angola: Angola
       Argentina: Argentina
-      Australia: "Austrália"
-      Austria: "Áustria"
+      Australia: Austrália
+      Austria: Áustria
       Bahrain: Bahrein
       Bangladesh: Bangladesh
-      Belgium: "Bélgica"
+      Belgium: Bélgica
       Benin: Benim
-      Bolivia: "Bolívia"
-      Bosnia and Herzegovina: "Bósnia e Herzegovina"
+      Bolivia: Bolívia
+      Bosnia and Herzegovina: Bósnia e Herzegovina
       Botswana: Botsuana
       Brazil: Brasil
-      Bulgaria: "Bulgária"
+      Bulgaria: Bulgária
       Burkina Faso: Burquina Faso
       Burundi: Burundi
       Cambodia: Camboja
-      Cameroon: "Camarões"
-      Canada: "Canadá"
-      Central African Republic: "República Centroafricana"
+      Cameroon: Camarões
+      Canada: Canadá
+      Central African Republic: República Centroafricana
       Chad: Chade
       Chile: Chile
       China: China
-      Colombia: "Colômbia"
+      Colombia: Colômbia
       Comoros: Comores
-      Congo, Dem. Rep.: "República Democrática do Congo"
+      Congo, Dem. Rep.: República Democrática do Congo
       Congo, Rep.: Congo
       Costa Rica: Costa Rica
       Cote d'Ivoire: Costa de Marfim
-      Croatia: "Croácia"
+      Croatia: Croácia
       Cuba: Cuba
-      Czech Republic: "Chéquia"
+      Czech Republic: Chéquia
       Denmark: Dinamarca
       Djibouti: Jibuti
-      Dominican Republic: "República Dominicana"
+      Dominican Republic: República Dominicana
       Ecuador: Equador
       Egypt: Egito
       El Salvador: El Salvador
-      Equatorial Guinea: "Guiné-Equatorial"
+      Equatorial Guinea: Guiné-Equatorial
       Eritrea: Eritreia
-      Ethiopia: "Etiópia"
-      Finland: "Finlândia"
-      France: "França"
-      Gabon: "Gabão"
-      Gambia: "Gâmbia"
+      Ethiopia: Etiópia
+      Finland: Finlândia
+      France: França
+      Gabon: Gabão
+      Gambia: Gâmbia
       Germany: Alemanha
       Ghana: Gana
-      Greece: "Grécia"
+      Greece: Grécia
       Guatemala: Guatemala
-      Guinea-Bissau: "Guiné-Bissau"
-      Guinea: "Guiné"
+      Guinea-Bissau: Guiné-Bissau
+      Guinea: Guiné
       Haiti: Haiti
       Honduras: Honduras
-      Hong Kong, China: "Hong Kong, China"
+      Hong Kong, China: Hong Kong, China
       Hungary: Hungria
-      Iceland: "Islândia"
-      India: "Índia"
-      Indonesia: "Indonésia"
-      Iran: "Irã"
+      Iceland: Islândia
+      India: Índia
+      Indonesia: Indonésia
+      Iran: Irã
       Iraq: Iraque
       Ireland: Irlanda
       Israel: Israel
-      Italy: "Itália"
+      Italy: Itália
       Jamaica: Jamaica
-      Japan: "Japão"
-      Jordan: "Jordânia"
-      Kenya: "Quênia"
-      Korea, Dem. Rep.: "Coreia, Rep. Dem."
-      Korea, Rep.: "Coreia, Rep."
+      Japan: Japão
+      Jordan: Jordânia
+      Kenya: Quênia
+      Korea, Dem. Rep.: Coreia, Rep. Dem.
+      Korea, Rep.: Coreia, Rep.
       Kuwait: Kuwaite
-      Lebanon: "Líbano"
+      Lebanon: Líbano
       Lesotho: Lesoto
-      Liberia: "Libéria"
-      Libya: "Líbia"
+      Liberia: Libéria
+      Libya: Líbia
       Madagascar: Madagascar
       Malawi: Malaui
-      Malaysia: "Malásia"
+      Malaysia: Malásia
       Mali: Mali
-      Mauritania: "Mauritânia"
-      Mauritius: "Maurício"
-      Mexico: "México"
-      Mongolia: "Mongólia"
+      Mauritania: Mauritânia
+      Mauritius: Maurício
+      Mexico: México
+      Mongolia: Mongólia
       Montenegro: Montenegro
       Morocco: Marrocos
-      Mozambique: "Moçambique"
+      Mozambique: Moçambique
       Myanmar: Mianmar
-      Namibia: "Namíbia"
+      Namibia: Namíbia
       Nepal: Nepal
-      Netherlands: "Países Baixos"
-      New Zealand: "Nova Zelândia"
-      Nicaragua: "Nicarágua"
-      Niger: "Níger"
-      Nigeria: "Nigéria"
+      Netherlands: Países Baixos
+      New Zealand: Nova Zelândia
+      Nicaragua: Nicarágua
+      Niger: Níger
+      Nigeria: Nigéria
       Norway: Noruega
-      Oman: "Omã"
-      Pakistan: "Paquistão"
-      Panama: "Panamá"
+      Oman: Omã
+      Pakistan: Paquistão
+      Panama: Panamá
       Paraguay: Paraguai
       Peru: Peru
       Philippines: Filipinas
-      Poland: "Polônia"
+      Poland: Polônia
       Portugal: Portugal
       Puerto Rico: Porto Rico
-      Reunion: "Reunião"
-      Romania: "Romênia"
+      Reunion: Reunião
+      Romania: Romênia
       Rwanda: Ruanda
-      Sao Tome and Principe: "São Tomé e Príncipe"
-      Saudi Arabia: "Arábia Saudita"
+      Sao Tome and Principe: São Tomé e Príncipe
+      Saudi Arabia: Arábia Saudita
       Senegal: Senegal
-      Serbia: "Sérvia"
+      Serbia: Sérvia
       Sierra Leone: Serra Leoa
       Singapore: Singapura
-      Slovak Republic: "Eslováquia"
-      Slovenia: "Eslovênia"
-      Somalia: "Somália"
-      South Africa: "África do Sul"
+      Slovak Republic: Eslováquia
+      Slovenia: Eslovênia
+      Somalia: Somália
+      South Africa: África do Sul
       Spain: Espanha
       Sri Lanka: Sri Lanka
-      Sudan: "Sudão"
-      Swaziland: "Essuatíni"
-      Sweden: "Suécia"
-      Switzerland: "Suíça"
-      Syria: "Síria"
+      Sudan: Sudão
+      Swaziland: Essuatíni
+      Sweden: Suécia
+      Switzerland: Suíça
+      Syria: Síria
       Taiwan: Taiwan
-      Tanzania: "Tanzânia"
-      Thailand: "Tailândia"
+      Tanzania: Tanzânia
+      Thailand: Tailândia
       Togo: Togo
       Trinidad and Tobago: Trindade e Tobago
-      Tunisia: "Tunísia"
+      Tunisia: Tunísia
       Turkey: Turquia
       Uganda: Uganda
       United Kingdom: Reino Unido
       United States: Estados Unidos
       Uruguay: Uruguai
       Venezuela: Venezuela
-      Vietnam: "Vietnã"
-      West Bank and Gaza: "Territórios Palestinos"
-      Yemen, Rep.: "Iêmen"
-      Zambia: "Zâmbia"
-      Zimbabwe: "Zimbábue"
-    desc: "países incluídos (fator com 142 níveis)"
+      Vietnam: Vietnã
+      West Bank and Gaza: Territórios Palestinos
+      Yemen, Rep.: Iêmen
+      Zambia: Zâmbia
+      Zimbabwe: Zimbábue
+    desc: países incluídos (fator com 142 níveis)
   continent:
     trans: continente
     values:
-      Africa: "África"
-      Americas: "Américas"
-      Asia: "Ásia"
+      Africa: África
+      Americas: Américas
+      Asia: Ásia
       Europe: Europa
       Oceania: Oceania
-    desc: "continentes (fator com 5 níveis)"
+    desc: continentes (fator com 5 níveis)
   year:
     trans: ano
     desc: desde 1952 a 2007, dados a cada 5 anos
@@ -165,15 +165,15 @@ variables:
     desc: expectativa de vida ao nascer, em anos
   pop:
     trans: populacao
-    desc: "população"
+    desc: população
   gdpPercap:
     trans: pib_per_capita
-    desc: "PIB per capita (em dólares americanos, ajustados segundo a inflação)"
+    desc: PIB per capita (em dólares americanos, ajustados segundo a inflação)
 help:
   name: dados_gapminder
   alias: dados_gapminder
   title: Dados de Gapminder
-  description: "Extrato de dados de Gapminder sobre expectativa de vida, PIB per capita e população por país"
+  description: Extrato de dados de Gapminder sobre expectativa de vida, PIB per capita e população por país
   usage: dados_gapminder
   format: Um data.frame de 1704 filas e 6 colunas
   source: http://www.gapminder.org/data/
