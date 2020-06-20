@@ -33,7 +33,7 @@ variables:
       Colombia: Colômbia
       Comoros: Comores
       Congo, Dem. Rep.: República Democrática do Congo
-      Congo, Rep.: Congo
+      Congo, Rep.: República do Congo
       Costa Rica: Costa Rica
       Cote d'Ivoire: Costa de Marfim
       Croatia: Croácia
@@ -175,5 +175,5 @@ help:
   title: Dados de Gapminder
   description: Extrato de dados de Gapminder sobre expectativa de vida, PIB per capita e população por país
   usage: dados_gapminder
-  format: Um data.frame de 1704 filas e 6 colunas
+  format: Um data.frame de 1704 linhas e 6 colunas
   source: http://www.gapminder.org/data/
