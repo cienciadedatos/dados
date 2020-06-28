@@ -1,17 +1,17 @@
 df:
   source: nycflights13::airlines
-  name: aerolineas
+  name: companhias_aereas
 variables:
   carrier:
-    trans: aerolinea
-    desc: "abreviaci\u00f3n de dos caracteres del nombre de la aerol\u00EDnea"
+    trans: companhia_aerea
+    desc: "Abreviação de dois dígitos do nome da companhia aérea."
   name:
-    trans: nombre
-    desc: "nombre completo de la aerol\u00EDnea"
+    trans: nome
+    desc: "Nome completo da companhia aérea."
 help:
-  name: aerolineas
-  alias: aerolineas
-  title: "Nombres de aerol\u00EDneas"
-  description: "Nombres de aerol\u00EDneas y su respectivo c\u00f3digo carrier de dos d\u00EDgitos."
-  usage: aerolineas
-  format: Un data.frame con 16 filas y 2 columnas
+  name: companhias_aereas
+  alias: companhias_aereas
+  title: "Nomes de companhias aéreas"
+  description: "Nome das companhias aéreas e seu respectivo código de dois dígitos."
+  usage: companhias_aereas
+  format: Um data.frame com 16 linhas e 2 colunas
