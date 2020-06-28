@@ -31,7 +31,7 @@ variables:
     desc: "Atraso de chegada em minutos. Valores negativos indicam chegada adiantada."
   carrier:
     trans: companhia_aerea
-    desc: "Abreviação de duas letras da companhia aérea. Ver `companhias_aereas` para obter o nome da companhia aérea."
+    desc: "Abreviação de dois dígitos da companhia aérea. Ver `companhias_aereas` para obter o nome da companhia aérea."
   flight:
     trans: voo
     desc: "Número do voo."
