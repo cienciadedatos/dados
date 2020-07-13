@@ -1,0 +1,26 @@
+df:
+  source: babynames::babynames
+  name: nomes
+variables:
+  year:
+    trans: ano
+    desc: "Ano de registro"
+  sex:
+    trans: sexo
+    desc: "Sexo bebê"
+  name:
+    trans: nome
+    desc: nome
+  n:
+    trans: n
+    desc: Número de ocorrências
+  prop:
+    trans: prop
+    desc: "Proporção"
+help:
+  name: bebes
+  alias: bebes
+  title: "Nomes de bebê"
+  description: "Dados completos sobre nomes de bebês fornecidos pela Administração de Segurança Social dos EUA  EE.UU. Inclui todos os nomes com pelo menos 5 usos."
+  usage: nomes
+  format: Uma data.frame com 1924665 observações e 5 variáveis
