@@ -1,0 +1,23 @@
+df:
+  source: fueleconomy::common
+  name: comuns
+variables:
+  make:
+    trans: marca
+    desc: Marca
+  model:
+    trans: modelo
+    desc: Modelo
+  "n":
+    trans: total_modelos
+    desc: "Número total de modelos"
+  years:
+    trans: total_modelos_ano
+    desc: "Número total de modelos-ano"
+help:
+  name: comuns
+  alias: comuns
+  title: Modelos comuns de carros
+  description: "Esses modelos têm pelo menos 10 anos de dados. Esse conjunto de dados é adequado para uma join para restringir o número de observações a um nível mais gerenciável."
+  usage: comuns
+  format: Um data.frame com 347 linhas e 4 colunas
