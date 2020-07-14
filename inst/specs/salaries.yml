@@ -1,0 +1,25 @@
+df:
+  source: Lahman::Salaries
+  name: salários
+variables:
+  yearID:
+    trans: ano
+    desc: "Ano"
+  teamID:
+    trans: id_equipe
+    desc: ID equipe (fator)
+  lgID:
+    trans: id_liga
+    desc: ID liga (fator)
+  playerID:
+    trans: id_jogador
+    desc: ID do jogador
+  salary:
+    trans: salário
+    desc: "Salário em dólares"
+help:
+  name: salários
+  alias: salários
+  title: Tabela de salários
+  description: "Dados salariais do jogador."
+  format: Um data.frame com 26.428 linhas e 5 colunas
