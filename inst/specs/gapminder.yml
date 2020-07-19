@@ -1,0 +1,179 @@
+df:
+  source: gapminder::gapminder
+  name: dados_gapminder
+variables:
+  country:
+    trans: pais
+    values:
+      Afghanistan: Afeganistão
+      Albania: Albânia
+      Algeria: Argélia
+      Angola: Angola
+      Argentina: Argentina
+      Australia: Austrália
+      Austria: Áustria
+      Bahrain: Bahrein
+      Bangladesh: Bangladesh
+      Belgium: Bélgica
+      Benin: Benim
+      Bolivia: Bolívia
+      Bosnia and Herzegovina: Bósnia e Herzegovina
+      Botswana: Botsuana
+      Brazil: Brasil
+      Bulgaria: Bulgária
+      Burkina Faso: Burquina Faso
+      Burundi: Burundi
+      Cambodia: Camboja
+      Cameroon: Camarões
+      Canada: Canadá
+      Central African Republic: República Centroafricana
+      Chad: Chade
+      Chile: Chile
+      China: China
+      Colombia: Colômbia
+      Comoros: Comores
+      Congo, Dem. Rep.: República Democrática do Congo
+      Congo, Rep.: República do Congo
+      Costa Rica: Costa Rica
+      Cote d'Ivoire: Costa de Marfim
+      Croatia: Croácia
+      Cuba: Cuba
+      Czech Republic: Chéquia
+      Denmark: Dinamarca
+      Djibouti: Jibuti
+      Dominican Republic: República Dominicana
+      Ecuador: Equador
+      Egypt: Egito
+      El Salvador: El Salvador
+      Equatorial Guinea: Guiné-Equatorial
+      Eritrea: Eritreia
+      Ethiopia: Etiópia
+      Finland: Finlândia
+      France: França
+      Gabon: Gabão
+      Gambia: Gâmbia
+      Germany: Alemanha
+      Ghana: Gana
+      Greece: Grécia
+      Guatemala: Guatemala
+      Guinea-Bissau: Guiné-Bissau
+      Guinea: Guiné
+      Haiti: Haiti
+      Honduras: Honduras
+      Hong Kong, China: Hong Kong, China
+      Hungary: Hungria
+      Iceland: Islândia
+      India: Índia
+      Indonesia: Indonésia
+      Iran: Irã
+      Iraq: Iraque
+      Ireland: Irlanda
+      Israel: Israel
+      Italy: Itália
+      Jamaica: Jamaica
+      Japan: Japão
+      Jordan: Jordânia
+      Kenya: Quênia
+      Korea, Dem. Rep.: Coreia, Rep. Dem.
+      Korea, Rep.: Coreia, Rep.
+      Kuwait: Kuwaite
+      Lebanon: Líbano
+      Lesotho: Lesoto
+      Liberia: Libéria
+      Libya: Líbia
+      Madagascar: Madagascar
+      Malawi: Malaui
+      Malaysia: Malásia
+      Mali: Mali
+      Mauritania: Mauritânia
+      Mauritius: Maurício
+      Mexico: México
+      Mongolia: Mongólia
+      Montenegro: Montenegro
+      Morocco: Marrocos
+      Mozambique: Moçambique
+      Myanmar: Mianmar
+      Namibia: Namíbia
+      Nepal: Nepal
+      Netherlands: Países Baixos
+      New Zealand: Nova Zelândia
+      Nicaragua: Nicarágua
+      Niger: Níger
+      Nigeria: Nigéria
+      Norway: Noruega
+      Oman: Omã
+      Pakistan: Paquistão
+      Panama: Panamá
+      Paraguay: Paraguai
+      Peru: Peru
+      Philippines: Filipinas
+      Poland: Polônia
+      Portugal: Portugal
+      Puerto Rico: Porto Rico
+      Reunion: Reunião
+      Romania: Romênia
+      Rwanda: Ruanda
+      Sao Tome and Principe: São Tomé e Príncipe
+      Saudi Arabia: Arábia Saudita
+      Senegal: Senegal
+      Serbia: Sérvia
+      Sierra Leone: Serra Leoa
+      Singapore: Singapura
+      Slovak Republic: Eslováquia
+      Slovenia: Eslovênia
+      Somalia: Somália
+      South Africa: África do Sul
+      Spain: Espanha
+      Sri Lanka: Sri Lanka
+      Sudan: Sudão
+      Swaziland: Essuatíni
+      Sweden: Suécia
+      Switzerland: Suíça
+      Syria: Síria
+      Taiwan: Taiwan
+      Tanzania: Tanzânia
+      Thailand: Tailândia
+      Togo: Togo
+      Trinidad and Tobago: Trindade e Tobago
+      Tunisia: Tunísia
+      Turkey: Turquia
+      Uganda: Uganda
+      United Kingdom: Reino Unido
+      United States: Estados Unidos
+      Uruguay: Uruguai
+      Venezuela: Venezuela
+      Vietnam: Vietnã
+      West Bank and Gaza: Territórios Palestinos
+      Yemen, Rep.: Iêmen
+      Zambia: Zâmbia
+      Zimbabwe: Zimbábue
+    desc: países incluídos (fator com 142 níveis)
+  continent:
+    trans: continente
+    values:
+      Africa: África
+      Americas: Américas
+      Asia: Ásia
+      Europe: Europa
+      Oceania: Oceania
+    desc: continentes (fator com 5 níveis)
+  year:
+    trans: ano
+    desc: desde 1952 a 2007, dados a cada 5 anos
+  lifeExp:
+    trans: expectativa_de_vida
+    desc: expectativa de vida ao nascer, em anos
+  pop:
+    trans: populacao
+    desc: população
+  gdpPercap:
+    trans: pib_per_capita
+    desc: PIB per capita (em dólares americanos, ajustados segundo a inflação)
+help:
+  name: dados_gapminder
+  alias: dados_gapminder
+  title: Dados de Gapminder
+  description: Extrato de dados de Gapminder sobre expectativa de vida, PIB per capita e população por país
+  usage: dados_gapminder
+  format: Um data.frame de 1704 linhas e 6 colunas
+  source: http://www.gapminder.org/data/
