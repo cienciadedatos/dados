@@ -1,0 +1,35 @@
+df:
+  source: Lahman::AwardsManagers
+  name: premios_gerentes
+variables:
+  playerID:
+    trans: id_gerente
+    desc: ID do gerente
+  awardID:
+    trans: nome_premio
+    desc: Nome do prêmio recebido pelo gerente
+    values:
+      BBWAA Manager of the Year: "Gerente do Ano BBWAA"
+      TSN Manager of the Year: "Gerente do Ano da TSN"
+  yearID:
+    trans: ano
+    desc: "Ano"
+  lgID:
+    trans: id_liga
+    desc: ID liga (fator)
+  tie:
+    trans: empate
+    desc: "Tem valor \"S\" (sim) para os prêmios que correspondem a um empate
+      e \"N\" (não) caso contrário."
+    values:
+      "Y": "S"
+      "N": "N"
+  notes:
+    trans: notas
+    desc: Notas sobre o prêmio
+help:
+  name: premios_gerentes
+  alias: premios_gerentes
+  title: Tabela de prêmios dos gerentes
+  description: "Informações sobre prêmios para gerentes"
+  format: Um data.frame com 179 linhas e 6 colunas
