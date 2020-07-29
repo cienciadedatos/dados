@@ -5,6 +5,9 @@
 
 <!-- badges: start -->
 
+[![Project Status: WIP – Initial development is in progress, but there
+has not yet been a stable, usable release suitable for the
+public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 <!-- badges: end -->
 
 Este pacote faz a tradução de conjuntos de dados em inglês originalmente
@@ -31,9 +34,12 @@ As traduções disponíveis dentro de `dados` são as seguintes:
 (NOTA: a medida que vamos traduzindo, os conjuntos de dados serão
 exibidos nesta tabela)
 
-| Nome     | Título                    | Pacote  | Dataset  |
-| :------- | :------------------------ | :------ | :------- |
-| diamante | Preço de 50.000 diamantes | ggplot2 | diamonds |
+| Nome              | Título                         | Pacote      | Dataset        |
+| :---------------- | :----------------------------- | :---------- | :------------- |
+| comuns            | Modelos comuns de carros       | fueleconomy | common         |
+| dados\_gapminder  | Dados de Gapminder             | gapminder   | gapminder      |
+| diamante          | Preço de 50.000 diamantes      | ggplot2     | diamonds       |
+| premios\_gerentes | Tabela de prêmios dos gerentes | Lahman      | AwardsManagers |
 
 ## Uso
 

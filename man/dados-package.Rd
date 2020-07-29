@@ -6,18 +6,32 @@
 \alias{dados-package}
 \title{dados: Translate Datasets to Portuguese}
 \description{
-What the package does (one paragraph).
+Este pacote faz a tradução dos seguintes 
+    conjuntos de dados: 'airlines', 'airports', 'AwardsManagers',
+    'babynames', 'Batting', 'diamonds', 'faithful', 'fueleconomy',
+    'Fielding', 'flights', 'gapminder', 'gss_cat', 'iris', 'Managers',
+    'mpg', 'mtcars', 'atmos', 'People, 'Pitching', 'planes',
+    'presidential', 'table1', 'table2', 'table3', 'table4a', 'table4b',
+    'table5', 'vehicles', 'weather', 'who'.  English: It provides a
+    Portuguese translated version of the datasets listed above.
 }
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/rivaquiroga/dados}
-  \item Report bugs at \url{https://github.com/rivaquiroga/dados/issues}
+  \item \url{https://github.com/cienciadedatos/dados}
+  \item Report bugs at \url{https://github.com/cienciadedatos/dados/issues}
 }
 
 }
 \author{
 \strong{Maintainer}: Riva Quiroga \email{riva.quiroga@uc.cl} (\href{https://orcid.org/0000-0002-1147-4135}{ORCID})
+
+Authors:
+\itemize{
+  \item Sara Mortara \email{saramortara@gmail.com} (\href{https://orcid.org/0000-0001-6221-7537}{ORCID})
+  \item Beatriz Milz \email{beatriz.milz@usp.br} (\href{https://orcid.org/0000-0002-3064-4486}{ORCID})
+  \item Andrea Sánchez-Tapia \email{andreasancheztapia@gmail.com} (\href{https://orcid.org/0000-0002-3521-4338}{ORCID})
+}
 
 }
 \keyword{internal}
