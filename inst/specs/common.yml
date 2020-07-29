@@ -10,7 +10,7 @@ variables:
     desc: Modelo
   "n":
     trans: total_modelos
-    desc: "Número total de modelos"
+    desc: Número total de modelos
   years:
     trans: total_modelos_ano
     desc: "Número total de modelos-ano"
