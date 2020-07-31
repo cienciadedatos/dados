@@ -1,0 +1,44 @@
+df:
+  source: datasets::mtcars
+  name: mtcarros
+variables:
+  mpg:
+    trans: milhares
+    desc: "Milhares por galão (EUA)"
+  cyl:
+    trans: cilindros
+    desc: "número de cilindros"
+  disp:
+    trans: cilindrada
+    desc: "volume de deslocamento do motor em polegadas cúbicas"
+  hp:
+    trans: cabalhos força
+    desc: caballos força bruto
+  drat:
+    trans: eixo
+    desc: "Relação de eixo traseiro"
+  wt:
+    trans: peso
+    desc: peso (1000 libra)
+  qsec:
+    trans: velocidade
+    desc: tempo em percorrer 1/4 de milha
+  vs:
+    trans: forma
+    desc: forma do motor (V ou em linha)
+  am:
+    trans: transmision
+    desc: "tipo de transmissão (0 = automático, 1 = manual)"
+  gear:
+    trans: marchas
+    desc: "Número de marchas à frente"
+  carb:
+    trans: carburadores
+    desc: "Número de carburadores"
+help:
+  name: mtcarros
+  alias: mtcarros
+  title: "Testes de estrada para automóveis"
+  description: "Os dados foram extraídos da revista Motor Trend US, de 1974, e incluem o consumo de combustível e 10 aspectos do design e desempenho de automóveis para 32 automóveis (modelos 1973-74)."
+  usage: mtcarros
+  format: Um data.frame com 32 linhas y 12 colunas
