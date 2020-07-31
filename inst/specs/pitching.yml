@@ -1,0 +1,100 @@
+df:
+  source: Lahman::Pitching
+  name: arremesadores
+variables:
+  playerID:
+    trans: id_jogador
+    desc: ID do jogador
+  yearID:
+    trans: id_ano
+    desc: "Ano"
+  stint:
+    trans: ordem_equipes
+    desc: "Ordem na qual o jogador se mudou entre equipes na mesma temporada"
+  teamID:
+    trans: id_equipe
+    desc: ID do equipe (factor)
+  lgID:
+    trans: id_liga
+    desc: ID da liga (fator com os níveis AA, AL, FL, NL, PL, UA)
+  W:
+    trans: jogos_ganhados
+    desc: Jogos disputados ganhados
+  L:
+    trans: jogos_perdidos
+    desc: Jogos disputados perdidos
+  G:
+    trans: jogos_disputados
+    desc: Jogos disputados
+  GS:
+    trans: jogos_disputados
+    desc: Jogos disputados iniciados
+  CG:
+    trans: jogos_completos
+    desc: "Número de jogos completos (9 innings lançados) que o jogador lançou"
+  SHO:
+    trans: shutouts
+    desc: "Número de shutouts (jogos completos sem permitir corridas) que o jogador lançou"
+  SV:
+    trans: jogos_salvados
+    desc: Jogos salvados
+  IPouts:
+    trans: IPouts
+    desc: Outs lançadas à equipe adversária (igual a innings lançadas x 3)
+  H:
+    trans: hits
+    desc: Hits permitidos pelo oponente
+  ER:
+    trans: corridas_vencidas
+    desc: Corridas limpas recebidas
+  HR:
+    trans: cuadrangulares
+    desc: Cuadrangulares recibidos
+  BB:
+    trans: BB
+    desc: Base nas bolas cedidas ao oponente
+  SO:
+    trans: ponches
+    desc: Ponches dados ao oponente
+  BAOpp:
+    trans: media_rebatida_oponente
+    desc: Média de rebatidas do oponente
+  ERA:
+    trans: media_execucoes_limpas
+    desc: Média de execuções limpas permitidas  (normalizada para 9 innings lançadas)
+  IBB:
+    trans: IBB
+    desc: Base em bolas intencionais cedidas ao oponente
+  WP:
+    trans: lances_desviados
+    desc: Lances desviados lançados pelo arremessador
+  HBP:
+    trans: HBP
+    desc: Bateadores golpeador por el lanzador
+  BK:
+    trans: BK
+    desc: Balks (movimento ilegal do corpo pelo lançador)
+  BFP:
+    trans: BFP
+    desc: Batedores que o arremessador enfrentou
+  GF:
+    trans: jogos_terminados
+    desc: "Jogos em que o lançador termina o jogo"
+  R:
+    trans: corridas
+    desc: Corridas recebidas (sujas e limpas)
+  SH:
+    trans: sacrificios_golpeados
+    desc: Toques de sacrifício que o oponente fez ao arremessador
+  SF:
+    trans: vuelos_sacrificio
+    desc: Elevado (fly) sacrifício que o oponente fez ao arremessador
+  GIDP:
+    trans: duplo_abate
+    desc: Abate induzido duplo pelo lançador
+help:
+  name: arremesadores
+  alias: arremesadores
+  title: Tabela de estatísticas de arremesadores
+  description: "Estatísticas de arremesadores"
+  format: Um data frame com 46.699 linhas e 30 colunas
