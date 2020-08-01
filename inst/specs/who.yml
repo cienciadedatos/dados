@@ -1,0 +1,407 @@
+df:
+  source: tidyr::who
+  name: dados_oms
+variables:
+  country:
+    trans: pais
+    desc: nome do país
+    values:
+      Afghanistan: Afeganistão
+      Albania: Albânia
+      Algeria: Argélia
+      American Samoa: Samoa Americana
+      Andorra: Andorra
+      Angola: Angola
+      Anguilla: Anguila
+      Argentina: Argentina
+      Armenia: Armênia
+      Aruba: Aruba
+      Australia: Austrália
+      Austria: Áustria
+      Azerbaijan: Azerbaijão
+      Bahamas: Bahamas
+      Bahrain: Bahrein
+      Bangladesh: Bangladesh
+      Barbados: Barbados
+      Belarus: Bielorrúsia
+      Belgium: Bélgica
+      Belize: Belice
+      Benin: Benim
+      Bermuda: Bermuda
+      Bolivia (Plurinational State of): Bolívia
+      Bosnia and Herzegovina: Bósnia e Herzegovina
+      Bonaire, Saint Eustatius and Saba: Bonaire, Santo Eustáquio e Saba
+      Botswana: Botsuana
+      Brazil: Brasil
+      British Virgin Islands: Ilhas Virgens Britânicas
+      Brunei Darussalam: Brunei
+      Bulgaria: Bulgária
+      Burkina Faso: Burquina Faso
+      Burundi: Burundi
+      Bhutan: Butão
+      Cabo Verde: Cabo Verde
+      Cayman Islands: Ilhas Caiman
+      Cambodia: Camboja
+      Cameroon: Camarões
+      Canada: Canadá
+      Central African Republic: República Centroafricana
+      Chad: Chade
+      Chile: Chile
+      China, Macao SAR: Macau, China
+      Colombia: Colômbia
+      Comoros: Comores
+      Congo: República do Congo
+      Cook Islands: Ilhas Cook
+      Costa Rica: Costa Rica
+      Cote d'Ivoire: Costa de Marfim
+      Croatia: Croácia
+      Cuba: Cuba
+      Curacao: Curaçao
+      Cyprus: Chipre
+      Czech Republic: República Checa
+      Democratic Republic of the Congo: República Democrática do Congo
+      Denmark: Dinamarca
+      Djibouti: Jibuti
+      Dominica: Dominica
+      Dominican Republic: República Dominicana
+      Ecuador: Equador
+      Egypt: Egito
+      El Salvador: El Salvador
+      Equatorial Guinea: Guiné-Equatorial
+      Eritrea: Eritreia
+      Estonia: Estônia
+      Ethiopia: Etiópia
+      Fiji: Fiji
+      Finland: Finlândia
+      France: França
+      French Polynesia: Polinésia Francesa
+      Gabon: Gabão
+      Gambia: Gâmbia
+      Georgia: Geórgia
+      Germany: Alemanha
+      Ghana: Gana
+      Greece: Grécia
+      Greenland: Groenlândia
+      Grenada: Granada
+      Guatemala: Guatemala
+      Guam: Guam
+      Guinea-Bissau: Guiné-Bissau
+      Guyana: Guiana
+      Guinea: Guiné
+      Haiti: Haiti
+      Honduras: Honduras
+      China, Hong Kong SAR: Hong Kong, China
+      Hungary: Hungria
+      Iceland: Islândia
+      India: Índia
+      Indonesia: Indonésia
+      Iran (Islamic Republic of): Irã
+      Iraq: Iraque
+      Ireland: Irlanda
+      Israel: Israel
+      Italy: Itália
+      Jamaica: Jamaica
+      Japan: Japão
+      Jordan: Jordânia
+      Kazakhstan: Cazaquistão
+      Kenya: Quênia
+      Democratic People's Republic of Korea: Coreia, Rep. Dem.
+      Republic of Korea: Coreia, Rep.
+      Kiribati: Kiribati
+      Kyrgyzstan: Quirguistão
+      Kuwait: Kuwaite
+      Lao People's Democratic Republic: Laos
+      Latvia: Letônia
+      Lebanon: Líbano
+      Lesotho: Lesoto
+      Liberia: Libéria
+      Libya: Líbia
+      Lithuania: Lituânia
+      Luxembourg: Luxemburgo
+      Madagascar: Madagascar
+      Malawi: Maláui
+      Malaysia: Malásia
+      Maldives: Maldivas
+      Mali: Mali
+      Malta: Malta
+      Marshall Islands: Ilhas Marshall
+      Mauritania: Mauritânia
+      Mauritius: Maurício
+      Mexico: México
+      Micronesia (Federated States of): Micronésia
+      Mongolia: Mongólia
+      Monaco: Mônaco
+      Montenegro: Montenegro
+      Montserrat: Montserrat
+      Morocco: Marrocos
+      Mozambique: Moçambique
+      Myanmar: Mianmar
+      Namibia: Namíbia
+      Nauru: Nauru
+      Nepal: Nepal
+      Netherlands: Países Baixos
+      Netherlands Antilles: Antilhas Neerlandesas
+      New Caledonia: Nova Caledônia
+      New Zealand: Nova Zelândia
+      Nicaragua: Nicarágua
+      Niger: Níger
+      Nigeria: Nigéria
+      Niue: Niue
+      Norway: Noruega
+      Northern Mariana Islands: Ilhas Marianas do Norte
+      Oman: Omã
+      Pakistan: Paquistão
+      Palau: Palau
+      Panama: Panamá
+      Papua New Guinea: Papua Nova Guiné
+      Paraguay: Paraguai
+      Peru: Peru
+      Philippines: Filipinas
+      Poland: Polônia
+      Portugal: Portugal
+      Puerto Rico: Porto Rico
+      Qatar: Catar
+      Republic of Moldova: Moldávia
+      Romania: Romênia
+      Rwanda: Ruanda
+      Russian Federation: Federação Russa
+      Samoa: Samoa
+      Saint Kitts and Nevis: San Cristóvao e Nevis
+      Saint Lucia: Santa Lúcia
+      Saint Vincent and the Grenadines: São Vicente e Granadinas
+      Sao Tome and Principe: São Tomé e Príncipe
+      San Marino: San Marino
+      Saudi Arabia: Arábia Saudita
+      Senegal: Senegal
+      Serbia & Montenegro: Sérvia e Montenegro
+      Seychelles: Seychelles
+      Sierra Leone: Serra Leoa
+      Singapore: Singapura
+      Sint Maarten (Dutch part): São Martinho (parte neerlandesa)
+      Slovakia: Eslováquia
+      Slovenia: Eslovênia
+      Solomon Islands: Ilhas Salomão
+      Somalia: Somália
+      South Africa: África do Sul
+      South Sudan: Sudão do Sul
+      Spain: Espanha
+      Sri Lanka: Sri Lanka
+      Sudan: Sudão
+      Suriname: Suriname
+      Swaziland: Essuatíni
+      Sweden: Suécia
+      Switzerland: Suíça
+      Syrian Arab Republic: Síria
+      United Republic of Tanzania: Tanzânia
+      Tajikistan: Tajiquistão
+      Thailand: Tailândia
+      The Former Yugoslav Republic of Macedonia: Macedônia do Norte
+      Timor-Leste: Timor-Leste
+      Togo: Togo
+      Trinidad and Tobago: Trindade e Tobago
+      Tokelau: Tokelau
+      Tonga: Tonga
+      Tunisia: Tunísia
+      Turkey: Turquia
+      Turkmenistan: Turcomenistão
+      Turks and Caicos Islands: Ilhas Turcas e Caicos
+      Tuvalu: Tuvalu
+      Uganda: Uganda
+      United Arab Emirates: Emiratos Árabes Unidos
+      United Kingdom of Great Britain and Northern Ireland: Reino Unido
+      United States of America: Estados Unidos
+      US Virgin Islands: Ilhas Virgens dos Estados Unidos
+      Uruguay: Uruguai
+      Uzbekistan: Uzbequistão
+      Vanuatu: Vanuatu
+      Venezuela (Bolivarian Republic of): Venezuela
+      Viet Nam: Vietnã
+      Wallis and Futuna Islands: Wallis e Futuna
+      West Bank and Gaza Strip: Territórios Palestinos
+      Yemen: Iêmen
+      Zambia: Zâmbia
+      Zimbabwe: Zimbábue
+  iso2:
+    trans: iso2
+    desc: código ISO de dois dígitos do país
+  iso3:
+    trans: iso3
+    desc: código ISO de três dígitos do país
+  year:
+    trans: ano
+    desc: ano
+  new_sp_m014:
+    trans: novos_fpp_h014
+    desc: casos novos, diagnóstico frotis pulmonar positivo (fpp), homens (h) de 0 a 14 anos (014)
+  new_sp_m1524:
+    trans: novos_fpp_h1524
+    desc: casos novos, diagnóstico frotis pulmonar positivo (fpp), homens (h) de 15 a 24 anos (1524)
+  new_sp_m2534:
+    trans: novos_fpp_h2534
+    desc: casos novos, diagnóstico frotis pulmonar positivo (fpp), homens (h) de 25 a 34 anos (2534)
+  new_sp_m3544:
+    trans: novos_fpp_h3544
+    desc: casos novos, diagnóstico frotis pulmonar positivo (fpp), homens (h) de 35 a 44 anos (3544)
+  new_sp_m4554:
+    trans: novos_fpp_h4554
+    desc: casos novos, diagnóstico frotis pulmonar positivo (fpp), homens (h) de 45 a 54 anos (4554)
+  new_sp_m5564:
+    trans: novos_fpp_h5564
+    desc: casos novos, diagnóstico frotis pulmonar positivo (fpp), homens (h) de 55 a 64 anos (5564)
+  new_sp_m65:
+    trans: novos_fpp_h65
+    desc: casos novos, diagnóstico frotis pulmonar positivo (fpp), homens (h) de 65 ou mais anos
+  new_sp_f014:
+    trans: novos_fpp_m014
+    desc: casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 0 a 14 anos (014)
+  new_sp_f1524:
+    trans: novos_fpp_m1524
+    desc: casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 15 a 24 anos (1524)
+  new_sp_f2534:
+    trans: novos_fpp_m2534
+    desc: casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 25 a 34 anos (2534)
+  new_sp_f3544:
+    trans: novos_fpp_m3544
+    desc: casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 35 a 44 anos (3544)
+  new_sp_f4554:
+    trans: novos_fpp_m4554
+    desc: casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 45 a 54 anos (4554)
+  new_sp_f5564:
+    trans: novos_fpp_m5564
+    desc: casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 55 a 64 anos (5564)
+  new_sp_f65:
+    trans: novos_fpp_m65
+    desc: casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 65 ou mais anos
+  new_sn_m014:
+    trans: novos_fpn_h014
+    desc: casos novos, diagnóstico frotis pulmonar negativo (fpn), homens (h) de 0 a 14 anos (014)
+  new_sn_m1524:
+    trans: novos_fpn_h1524
+    desc: casos novos, diagnóstico frotis pulmonar negativo (fpn), homens (h) de 15 a 24 anos (1524)
+  new_sn_m2534:
+    trans: novos_fpn_h2534
+    desc: casos novos, diagnóstico frotis pulmonar negativo (fpn), homens (h) de 25 a 34 anos (2534)
+  new_sn_m3544:
+    trans: novos_fpn_h3544
+    desc: casos novos, diagnóstico frotis pulmonar negativo (fpn), homens (h) de 35 a 44 anos (3544)
+  new_sn_m4554:
+    trans: novos_fpn_h4554
+    desc: casos novos, diagnóstico frotis pulmonar negativo (fpn), homens (h) de 45 a 54 anos (4554)
+  new_sn_m5564:
+    trans: novos_fpn_h5564
+    desc: casos novos, diagnóstico frotis pulmonar negativo (fpn), homens (h) de 55 a 64 anos (5564)
+  new_sn_m65:
+    trans: novos_fpn_h65
+    desc: casos novos, diagnóstico frotis pulmonar negativo (fpn), homens (h) de 65 ou mais anos
+  new_sn_f014:
+    trans: novos_fpn_m014
+    desc: casos novos, diagnóstico frotis pulmonar negativo (fpn), mulheres (m) de 0 a 14 anos (014)
+  new_sn_f1524:
+    trans: novos_fpn_m1524
+    desc: casos novos, diagnóstico frotis pulmonar negativo (fpn), mulheres (m) de 15 a 24 anos (1524)
+  new_sn_f2534:
+    trans: novos_fpn_m2534
+    desc: casos novos, diagnóstico frotis pulmonar negativo (fpn), mulheres (m) de 25 a 34 anos (2534)
+  new_sn_f3544:
+    trans: novos_fpn_m3544
+    desc: casos novos, diagnóstico frotis pulmonar negativo (fpn), mulheres (m) de 35 a 44 anos (3544)
+  new_sn_f4554:
+    trans: novos_fpn_m4554
+    desc: casos novos, diagnóstico frotis pulmonar negativo (fpn), mulheres (m) de 45 a 54 anos (4554)
+  new_sn_f5564:
+    trans: novos_fpn_m5564
+    desc: casos novos, diagnóstico frotis pulmonar negativo (fpn), mulheres (m) de 55 a 64 anos (5564)
+  new_sn_f65:
+    trans: novos_fpn_m65
+    desc: casos novos, diagnóstico frotis pulmonar negativo (fpn), mulheres (m) de 65 ou mais anos
+  new_ep_m014:
+    trans: novos_ep_h014
+    desc: casos novos, diagnóstico extrapulmonar (ep), homens (h) de 0 a 14 anos (014)
+  new_ep_m1524:
+    trans: novos_ep_h1524
+    desc: casos novos, diagnóstico extrapulmonar (ep), homens (h) de 15 a 24 anos (1524)
+  new_ep_m2534:
+    trans: novos_ep_h2534
+    desc: casos novos, diagnóstico extrapulmonar (ep), homens (h) de 25 a 34 anos (2534)
+  new_ep_m3544:
+    trans: novos_ep_h3544
+    desc: casos novos, diagnóstico extrapulmonar (ep), homens (h) de 35 a 44 anos (3544)
+  new_ep_m4554:
+    trans: novos_ep_h4554
+    desc: casos novos, diagnóstico extrapulmonar (ep), homens (h) de 45 a 54 anos (4554)
+  new_ep_m5564:
+    trans: novos_ep_h5564
+    desc: casos novos, diagnóstico extrapulmonar (ep), homens (h) de 55 a 64 anos (5564)
+  new_ep_m65:
+    trans: novos_ep_h65
+    desc: casos novos, diagnóstico extrapulmonar (ep), homens (h) de 65 ou mais anos
+  new_ep_f014:
+    trans: novos_ep_m014
+    desc: casos novos, diagnóstico extrapulmonar (ep), mulheres (m) de 0 a 14 anos (014)
+  new_ep_f1524:
+    trans: novos_ep_m1524
+    desc: casos novos, diagnóstico extrapulmonar (ep), mulheres (m) de 15 a 24 anos (1524)
+  new_ep_f2534:
+    trans: novos_ep_m2534
+    desc: casos novos, diagnóstico extrapulmonar (ep), mulheres (m) de 25 a 34 anos (2534)
+  new_ep_f3544:
+    trans: novos_ep_m3544
+    desc: casos novos, diagnóstico extrapulmonar (ep), mulheres (m) de 35 a 44 anos (3544)
+  new_ep_f4554:
+    trans: novos_ep_m4554
+    desc: casos novos, diagnóstico extrapulmonar (ep), mulheres (m) de 45 a 54 anos (4554)
+  new_ep_f5564:
+    trans: novos_ep_m5564
+    desc: casos novos, diagnóstico extrapulmonar (ep), mulheres (m) de 55 a 64 anos (5564)
+  new_ep_f65:
+    trans: novos_ep_m65
+    desc: casos novos, diagnóstico extrapulmonar (ep), mulheres (m) de 65 ou mais anos
+  newrel_m014:
+    trans: novos_recaida_h014
+    desc: novas recaídas, homens (h) de 0 a 14 anos (014)
+  newrel_m1524:
+    trans: novos_recaida_h1524
+    desc: novas recaídas, homens (h) de 15 a 24 anos (1524)
+  newrel_m2534:
+    trans: novos_recaida_h2534
+    desc: novas recaídas, homens (h) de 25 a 34 anos (2534)
+  newrel_m3544:
+    trans: novos_recaida_h3544
+    desc: novas recaídas, homens (h) de 35 a 44 anos (3544)
+  newrel_m4554:
+    trans: novos_recaida_h4554
+    desc: novas recaídas, homens (h) de 45 a 54 anos (4554)
+  newrel_m5564:
+    trans: novos_recaida_h5564
+    desc: novas recaídas, homens (h) de 55 a 64 anos (5564)
+  newrel_m65:
+    trans: novos_recaida_h65
+    desc: novas recaídas, homens (h) de 65 ou mais anos
+  newrel_f014:
+    trans: novos_recaida_m014
+    desc: novas recaídas, mulheres (m) de 0 a 14 anos (014)
+  newrel_f1524:
+    trans: novos_recaida_m1524
+    desc: novas recaídas, mulheres (m) de 15 a 24 anos (1524)
+  newrel_f2534:
+    trans: novos_recaida_m2534
+    desc: novas recaídas, mulheres (m) de 25 a 34 anos (2534)
+  newrel_f3544:
+    trans: novos_recaida_m3544
+    desc: novas recaídas, mulheres (m) de 35 a 44 anos (3544)
+  newrel_f4554:
+    trans: novos_recaida_m4554
+    desc: novas recaídas, mulheres (m) de 45 a 54 anos (4554)
+  newrel_f5564:
+    trans: novos_recaida_m5564
+    desc: novas recaídas, mulheres (m) de 55 a 64 anos (5564)
+  newrel_f65:
+    trans: novos_recaida_m65
+    desc: novas recaídas, mulheres (m) de 65 ou mais anos
+help:
+  name: oms
+  alias: oms
+  title: "Dados de tuberculose da Organização Mundial da Saúde"
+  description: "Subconjunto de dados do relatório anual de tuberculose da Organização Mundial da Saúde"
+  usage: dados_oms
+  format: Um data.frame com 7240 linhas e 60 colunas
