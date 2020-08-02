@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# dados
+# dados <img src="man/figures/dados-hex.png" align="right" width = "120px"/>
 
 <!-- badges: start -->
 
