@@ -1,3 +1,5 @@
+delayedAssign('dados_atmosfera',
+        eval(parse(file.path(system.file('scripts','dados_atmosfera.txt', package = 'dados')))))
 delayedAssign('premios_gerentes',
         eval(parse(file.path(system.file('scripts','premios_gerentes.txt', package = 'dados')))))
 delayedAssign('comuns',

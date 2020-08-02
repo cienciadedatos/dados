@@ -40,6 +40,7 @@ exibidos nesta tabela)
 | dados\_gapminder  | Dados de Gapminder             | gapminder   | gapminder      |
 | diamante          | Preço de 50.000 diamantes      | ggplot2     | diamonds       |
 | premios\_gerentes | Tabela de prêmios dos gerentes | Lahman      | AwardsManagers |
+| dados\_atmosfera  | Dados atmosféricos             | nasaweather | atmos          |
 
 ## Uso
 
