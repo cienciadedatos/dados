@@ -18,4 +18,5 @@
 }}
 \usage{dados_atmosfera}
 \description{Dados atmosféricos}
+\seealso{\code{\link[nasaweather]{atmos}}}
 \keyword{datasets}

@@ -14,4 +14,5 @@
 \usage{dados_gapminder}
 \description{Extrato de dados de Gapminder sobre expectativa de vida, PIB per capita e população por país}
 \source{http://www.gapminder.org/data/}
+\seealso{\code{\link[gapminder]{gapminder}}}
 \keyword{datasets}
