@@ -12,4 +12,5 @@
 \item{notas}{Notas sobre o prêmio}
 }}
 \description{Informações sobre prêmios para gerentes}
+\seealso{\code{\link[Lahman]{AwardsManagers}}}
 \keyword{datasets}

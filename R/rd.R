@@ -28,6 +28,9 @@ create_rd <- function(spec_path) {
   if (!is.null(spec$help$source)) {
     footer <- c(footer, paste0("\\source{", spec$help$source, "}"))
   }
+  if (!is.null(spec$df$source)) {
+    footer <- c(footer, paste0("\\seealso{\\code{\\link[", regmatches(spec$df$source, regexec("(\\w+)::\\w+", spec$df$source))[[1]][2], "]", "{", regmatches(spec$df$source, regexec("\\w+::(\\w+)", spec$df$source))[[1]][2], "}}}"))
+  }
   footer <- c(footer, "\\keyword{datasets}")
   rd <- c(header, items, footer)
   as.character(rd)
