@@ -1,0 +1,47 @@
+df:
+  source: Lahman::Managers
+  name: gerentes
+variables:
+  playerID:
+    trans: id_jogador
+    desc: ID jogador
+  yearID:
+    trans: ano
+    desc: "Ano"
+  teamID:
+    trans: id_equipe
+    desc: ID do equipe (factor)
+  lgID:
+    trans: id_liga
+    desc: ID liga (factor)
+  inseason:
+    trans: orden_gerencial_temporada
+    desc: "Ordem na gerência de equipes durante uma temporada.
+      0 Se o indivíduo gerenciava a equipe o ano inteiro.
+      Caso contrário, indica onde o gerente apareceu na ordem gerencial
+      (1 para o primeiro gerente, 2 para o segundo etc.)"
+  G:
+    trans: jogos_gerenciados
+    desc: Jogos gerenciados
+  W:
+    trans: jogos_ganados
+    desc: Jogos ganados
+  L:
+    trans: jogos_perdidos
+    desc: Jogos perdidos
+  rank:
+    trans: posição
+    desc: "Posição final da equipe na classificação daquele ano"
+  plyrMgr:
+    trans: jogador_gerente
+    desc: "Tem valor 'S' (sim) para jogadores que foram jogadores e gerentes de equipe
+       por uma temporada e 'N' (não) caso contrário (fator)."
+    values:
+      "Y": "S"
+      "N": "N"
+help:
+  name: gerentes
+  alias: gerentes
+  title: Tabela de gerentes
+  description: "Informações sobre gerentes de equipe individuais, equipes que eles gerenciaram e algumas estatísticas básicas para essas equipes em cada ano."
+  format: UM data frame com 3.504 linhas e 10 colunas
