@@ -22,4 +22,4 @@ help:
   alias: presidentes_eua
   title: Período que engloba 11 presidentes, desde Eisenhower até Obama
   description: "Nome, data de início e de término do mandato e partido político de 11 presidentes dos Estados Unidos, de Eisenhower a Obama."
-  format: Um data.frame con 11 linhas e 4 colunas
+  format: Um data.frame com 11 linhas e 4 colunas
