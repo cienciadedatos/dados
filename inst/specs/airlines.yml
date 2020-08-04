@@ -12,6 +12,6 @@ help:
   name: companhias_aereas
   alias: companhias_aereas
   title: "Nomes de companhias aéreas"
-  description: "Nome das companhias aéreas e seu respectivo código de dois dígitos."
+  description: "Nomes das companhias aéreas e seus respectivos códigos de dois dígitos."
   usage: companhias_aereas
   format: Um data.frame com 16 linhas e 2 colunas
