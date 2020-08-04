@@ -4,7 +4,7 @@ df:
 variables:
   country:
     trans: pais
-    desc: Nome do país
+    desc: "Nome do país"
     values:
       Afghanistan: "Afeganistão"
       Brazil: Brasil
@@ -20,7 +20,7 @@ variables:
       population: "população"
   count:
     trans: contagem
-    desc: Quantidade de observações para cada tipo
+    desc: "Quantidade de observações para cada tipo"
 help:
   name: tabela2
   alias: tabela2
