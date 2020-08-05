@@ -4,7 +4,7 @@ df:
 variables:
   year:
     trans: ano
-    desc: "Ano da data de saída do voo."
+    desc: Ano da data de saída do voo
   month:
     trans: mes
     desc: "Mês da data de saída do voo."

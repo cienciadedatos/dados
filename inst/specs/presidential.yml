@@ -7,7 +7,7 @@ variables:
     desc: Nome do presidente
   start:
     trans: inicio
-    desc: "Data de início do período presidencial"
+    desc: Data de início do período presidencial
   end:
     trans: fim
     desc: "Data do término do período presidencial"
