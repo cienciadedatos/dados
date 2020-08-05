@@ -4,7 +4,7 @@ df:
 variables:
   carrier:
     trans: companhia_aerea
-    desc: "Abreviação de dois dígitos do nome da companhia aérea."
+    desc: Abreviação de dois dígitos do nome da companhia aérea
   name:
     trans: nome
     desc: "Nome completo da companhia aérea."
