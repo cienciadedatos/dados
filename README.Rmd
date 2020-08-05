@@ -24,6 +24,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <!-- badges: start -->
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+[![Travis build status](https://travis-ci.com/cienciadedatos/dados.svg?branch=master)](https://travis-ci.com/cienciadedatos/dados)
 <!-- badges: end -->
 
 Este pacote faz a tradução de conjuntos de dados em inglês originalmente disponíveis em outros pacotes de R. Os dados traduzidos são utilizados nos exemplos do livro [R for Data Science](https://r4ds.had.co.nz/) de Hadley Wickham & Garrett Grolemund, cuja [versão em português](https://www.altabooks.com.br/produto/r-para-data-science-importe-arrume-transforme-visualize-e-modele-dados/) foi publicada por AltaBooks & O'Reilly.

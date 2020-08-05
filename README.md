@@ -8,6 +8,8 @@
 [![Project Status: WIP – Initial development is in progress, but there
 has not yet been a stable, usable release suitable for the
 public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+[![Travis build
+status](https://travis-ci.com/cienciadedatos/dados.svg?branch=master)](https://travis-ci.com/cienciadedatos/dados)
 <!-- badges: end -->
 
 Este pacote faz a tradução de conjuntos de dados em inglês originalmente
