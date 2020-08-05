@@ -34,13 +34,21 @@ As traduções disponíveis dentro de `dados` são as seguintes:
 (NOTA: a medida que vamos traduzindo, os conjuntos de dados serão
 exibidos nesta tabela)
 
-| Nome              | Título                         | Pacote      | Dataset        |
-| :---------------- | :----------------------------- | :---------- | :------------- |
-| comuns            | Modelos comuns de carros       | fueleconomy | common         |
-| dados\_gapminder  | Dados de Gapminder             | gapminder   | gapminder      |
-| diamante          | Preço de 50.000 diamantes      | ggplot2     | diamonds       |
-| premios\_gerentes | Tabela de prêmios dos gerentes | Lahman      | AwardsManagers |
-| dados\_atmosfera  | Dados atmosféricos             | nasaweather | atmos          |
+| Nome               | Título                                                                       | Pacote       | Dataset        |
+| :----------------- | :--------------------------------------------------------------------------- | :----------- | :------------- |
+| comuns             | Modelos comuns de carros                                                     | fueleconomy  | common         |
+| dados\_gapminder   | Dados de Gapminder                                                           | gapminder    | gapminder      |
+| diamante           | Preço de 50.000 diamantes                                                    | ggplot2      | diamonds       |
+| presidentes\_eua   | Período que engloba 11 presidentes, desde Eisenhower até Obama               | ggplot2      | presidential   |
+| premios\_gerentes  | Tabela de prêmios dos gerentes                                               | Lahman       | AwardsManagers |
+| dados\_atmosfera   | Dados atmosféricos                                                           | nasaweather  | atmos          |
+| companhias\_aereas | Nomes de companhias aéreas                                                   | nycflights13 | airlines       |
+| voos               | Dados de voos                                                                | nycflights13 | flights        |
+| tabela1            | Registros de tuberculose da Organização Mundial da Saúde (Primeira variante) | tidyr        | table1         |
+| tabela2            | Registros de tuberculose da Organização Mundial de Saúde (Segunda variante)  | tidyr        | table2         |
+| tabela3            | Registros de tuberculose da Organização Mundial de Saúde (Terceira variante) | tidyr        | table3         |
+| tabela4a           | Registros de tuberculose da Organização Mundial de Saúde (variante 4a)       | tidyr        | table4a        |
+| tabela4b           | Registros de tuberculose da Organização Mundial de Saúde (variante 4a)       | tidyr        | table4b        |
 
 ## Uso
 
