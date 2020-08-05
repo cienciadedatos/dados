@@ -26,7 +26,7 @@ variables:
       Minivan - 2WD: "Minivan - 2WD"
       Minivan - 4WD: "Minivan - 4WD"
       Small Pickup Trucks: Picapes pequenas
-      Small Pickup Trucks 2WD: "Picapes pesquenas 2WD"
+      Small Pickup Trucks 2WD: "Picapes pequenas 2WD"
       Small Pickup Trucks 4WD: "Picapes pequenas 4WD"
       Small Sport Utility Vehicle 2WD: "Veículo utilitário pequeno 2WD"
       Small Sport Utility Vehicle 4WD: "Veículo utilitário pequeno 4WD"
@@ -121,7 +121,7 @@ variables:
     trans: motor
     desc: "tamanho do motor do automóvel, em litros"
   fuel:
-    trans: "combustível""
+    trans: "combustível"
     values:
       CNG: "Gás natural comprimido"
       Diesel: Diesel
