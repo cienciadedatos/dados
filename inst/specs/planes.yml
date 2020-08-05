@@ -1,0 +1,50 @@
+df:
+  source: nycflights13::planes
+  name: avioes
+variables:
+  tailnum:
+    trans: codigo_cauda
+    desc: "código da cauda do avião"
+  year:
+    trans: ano
+    desc: "ano de fabricação"
+  type:
+    trans: tipo
+    desc: "tipo de avião"
+    values:
+      Fixed wing multi engine: Ala fixa multimotor
+      Fixed wing single engine: Ala fixa monomotor
+      Rotorcraft: De rotor
+  manufacturer:
+    trans: fabricante
+    desc: "fabricante do avião"
+  model:
+    trans: modelo
+    desc: "modelo de avião"
+  engines:
+    trans: motores
+    desc: quantidade de motores
+  seats:
+    trans: assentos
+    desc: quantidade de assentos
+  speed:
+    trans: velocidade
+    desc: "velocidade média de cruzeiro em milhas por hora"
+  engine:
+    trans: tipo_motor
+    desc: "tipo de motor do avião"
+    values:
+      4 Cycle: "Quatro tempos"
+      Reciprocating: "Recíproco"
+      Turbo-fan: "Turbo ventilador"
+      Turbo-jet: "Turbo reator"
+      Turbo-prop: "Turbo hélice"
+      Turbo-shaft: "Turbo eixo"
+help:
+  name: avioes
+  alias: avioes
+  title: Dados de aviões
+  description: "Metadatos de aviões e seus códigos de cauda no registro de aviação da FAA."
+    "American Airways (AA) e Envoy Air (MQ) reportam número de frota no lugar do número de calda, por isso não é possível relacioná-los."
+  usage: avioes
+  format: Um data.frame com 3.322 linhas e 9 colunas
