@@ -58,5 +58,5 @@ help:
   alias: milhas
   title: "Dados de economia de combustível de 1999 a 2008 para 38 modelos populares de carros"
   description: "Este conjunto de dados contém um subconjunto dos dados de economia de combustível que a EPA disponibiliza em http://fueleconomy.gov. Ele contém apenas modelos que tiveram um novo lançamento todos os anos entre 1999 e 2008 - isso foi usado como um proxy para a popularidade do carro."
-  usage: millas
+  usage: milhas
   format: Um data.frame com 234 linhas e 11 colunas
