@@ -31,7 +31,12 @@ Authors@R: c(
            family = "Maurer Costa",
            role = c("aut"),
            email = "beatrizmcosta@me.com",
-           )   
+           ),
+   person(given = "Jean",
+           family = "Prado",
+           role = c("aut"),
+           email = "jeangrprado@gmail.com",
+           comment = c(ORCID = "0000-0002-7928-774X")),
         )
 Description: Este pacote faz a tradução dos seguintes 
     conjuntos de dados: 'airlines', 'airports', 'AwardsManagers',
