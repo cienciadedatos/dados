@@ -4,10 +4,10 @@ df:
 variables:
   eruptions:
     trans: erupcoes
-    desc: Tempo das erupções (em minutos)
+    desc: "Tempo das erupções (em minutos)"
   waiting:
     trans: tempo_espera
-    desc: Minutos entre as erupções
+    desc: "Minutos entre as erupções"
 help:
   name: velho_fiel
   alias: velho_fiel
