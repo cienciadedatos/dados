@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Nomes de companhias aéreas — companhias_aereas • dados</title>
+<title>Dados de economia de combustível — veículos • dados</title>
 
 
 <!-- jquery -->
@@ -39,8 +39,8 @@
 
 
 
-<meta property="og:title" content="Nomes de companhias aéreas — companhias_aereas" />
-<meta property="og:description" content="Nomes das companhias aéreas e seus respectivos códigos de dois dígitos." />
+<meta property="og:title" content="Dados de economia de combustível — veículos" />
+<meta property="og:description" content="Dados de economia de combustível da Agência de Proteção Ambiental(EPA) dos Estados Unidos, 1985-2015. Contém uma seleção de variáveis e não considera veículos com dados incompletos." />
 
 
 
@@ -108,28 +108,38 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Nomes de companhias aéreas</h1>
+    <h1>Dados de economia de combustível</h1>
     
-    <div class="hidden name"><code>companhias_aereas.rd</code></div>
+    <div class="hidden name"><code>veiculos.rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Nomes das companhias aéreas e seus respectivos códigos de dois dígitos.</p>
+    <p>Dados de economia de combustível da Agência de Proteção Ambiental(EPA) dos Estados Unidos, 1985-2015. Contém uma seleção de variáveis e não considera veículos com dados incompletos.</p>
     </div>
 
-    <pre class="usage"><span class='no'>companhias_aereas</span></pre>
+    <pre class="usage"><span class='no'>veiculos</span></pre>
 
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>Um data.frame com 16 linhas e 2 colunas</p><dl'>
-<dt>companhia_aerea</dt><dd><p>Abreviação de dois dígitos do nome da companhia aérea</p></dd>
-<dt>nome</dt><dd><p>Nome completo da companhia aérea.</p></dd>
+    <p>Um data.frame com 33442 linhas e 12 colunas</p><dl'>
+<dt>id</dt><dd><p>Identificador único EPA</p></dd>
+<dt>fabricante</dt><dd><p>Fabricante</p></dd>
+<dt>modelo</dt><dd><p>Nome do modelo</p></dd>
+<dt>ano</dt><dd><p>Ano de fabricação</p></dd>
+<dt>classe</dt><dd><p>tipo de Automóveis</p></dd>
+<dt>transmissao</dt><dd><p>tipo de transmissão</p></dd>
+<dt>tracao</dt><dd><p>tipo de tração</p></dd>
+<dt>cilindros</dt><dd><p>número de cilindros</p></dd>
+<dt>motor</dt><dd><p>tamanho do motor do automóvel, em litros</p></dd>
+<dt>combustível</dt><dd><p>tipo de combustível</p></dd>
+<dt>autopista</dt><dd><p>milhas por galão de combustível na estrada</p></dd>
+<dt>cidade</dt><dd><p>milhas por galão de combustível na cidade</p></dd>
 
 </dl>
     <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
 
-    <div class='dont-index'><p><code><a href='https://rdrr.io/pkg/nycflights13/man/airlines.html'>airlines</a></code></p></div>
+    <div class='dont-index'><p><code><a href='https://rdrr.io/pkg/fueleconomy/man/vehicles.html'>vehicles</a></code></p></div>
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">

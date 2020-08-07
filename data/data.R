@@ -12,6 +12,8 @@ delayedAssign('voos',
         eval(parse(file.path(system.file('scripts','voos.txt', package = 'dados')))))
 delayedAssign('dados_gapminder',
         eval(parse(file.path(system.file('scripts','dados_gapminder.txt', package = 'dados')))))
+delayedAssign('gerentes',
+        eval(parse(file.path(system.file('scripts','gerentes.txt', package = 'dados')))))
 delayedAssign('presidentes_eua',
         eval(parse(file.path(system.file('scripts','presidentes_eua.txt', package = 'dados')))))
 delayedAssign('tabela1',
@@ -24,3 +26,5 @@ delayedAssign('tabela4a',
         eval(parse(file.path(system.file('scripts','tabela4a.txt', package = 'dados')))))
 delayedAssign('tabela4b',
         eval(parse(file.path(system.file('scripts','tabela4b.txt', package = 'dados')))))
+delayedAssign('veiculos',
+        eval(parse(file.path(system.file('scripts','veiculos.txt', package = 'dados')))))

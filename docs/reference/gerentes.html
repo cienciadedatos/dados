@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Nomes de companhias aéreas — companhias_aereas • dados</title>
+<title>Tabela de gerentes — gerentes • dados</title>
 
 
 <!-- jquery -->
@@ -39,8 +39,8 @@
 
 
 
-<meta property="og:title" content="Nomes de companhias aéreas — companhias_aereas" />
-<meta property="og:description" content="Nomes das companhias aéreas e seus respectivos códigos de dois dígitos." />
+<meta property="og:title" content="Tabela de gerentes — gerentes" />
+<meta property="og:description" content="Informações sobre gerentes de equipe individuais, equipes que eles gerenciaram e algumas estatísticas básicas para essas equipes em cada ano." />
 
 
 
@@ -108,28 +108,35 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Nomes de companhias aéreas</h1>
+    <h1>Tabela de gerentes</h1>
     
-    <div class="hidden name"><code>companhias_aereas.rd</code></div>
+    <div class="hidden name"><code>gerentes.rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Nomes das companhias aéreas e seus respectivos códigos de dois dígitos.</p>
+    <p>Informações sobre gerentes de equipe individuais, equipes que eles gerenciaram e algumas estatísticas básicas para essas equipes em cada ano.</p>
     </div>
 
-    <pre class="usage"><span class='no'>companhias_aereas</span></pre>
 
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>Um data.frame com 16 linhas e 2 colunas</p><dl'>
-<dt>companhia_aerea</dt><dd><p>Abreviação de dois dígitos do nome da companhia aérea</p></dd>
-<dt>nome</dt><dd><p>Nome completo da companhia aérea.</p></dd>
+    <p>Um data frame com 3.504 linhas e 10 colunas</p><dl'>
+<dt>id_jogador</dt><dd><p>ID do jogador</p></dd>
+<dt>ano</dt><dd><p>Ano</p></dd>
+<dt>id_equipe</dt><dd><p>ID da equipe (factor)</p></dd>
+<dt>id_liga</dt><dd><p>ID da liga (factor)</p></dd>
+<dt>ordem_gerencial_temporada</dt><dd><p>Ordem na gerência de equipes durante uma temporada. 0 Se o indivíduo gerenciava a equipe o ano inteiro. Caso contrário, indica onde o gerente apareceu na ordem gerencial (1 para o primeiro gerente, 2 para o segundo etc.)</p></dd>
+<dt>jogos_gerenciados</dt><dd><p>Jogos gerenciados</p></dd>
+<dt>jogos_ganhos</dt><dd><p>Jogos ganhos</p></dd>
+<dt>jogos_perdidos</dt><dd><p>Jogos perdidos</p></dd>
+<dt>posicao</dt><dd><p>Posição final da equipe na classificação daquele ano</p></dd>
+<dt>jogador_gerente</dt><dd><p>Tem valor 'S' (sim) para jogadores que foram jogadores e gerentes de equipe por uma temporada e 'N' (não) caso contrário (factor).</p></dd>
 
 </dl>
     <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
 
-    <div class='dont-index'><p><code><a href='https://rdrr.io/pkg/nycflights13/man/airlines.html'>airlines</a></code></p></div>
+    <div class='dont-index'><p><code><a href='https://rdrr.io/pkg/Lahman/man/Managers.html'>Managers</a></code></p></div>
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
