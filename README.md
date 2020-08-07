@@ -39,10 +39,12 @@ exibidos nesta tabela)
 | Nome               | Título                                                                       | Pacote       | Dataset        |
 | :----------------- | :--------------------------------------------------------------------------- | :----------- | :------------- |
 | comuns             | Modelos comuns de carros                                                     | fueleconomy  | common         |
+| veiculos           | Dados de economia de combustível                                             | fueleconomy  | vehicles       |
 | dados\_gapminder   | Dados de Gapminder                                                           | gapminder    | gapminder      |
 | diamante           | Preço de 50.000 diamantes                                                    | ggplot2      | diamonds       |
 | presidentes\_eua   | Período que engloba 11 presidentes, desde Eisenhower até Obama               | ggplot2      | presidential   |
 | premios\_gerentes  | Tabela de prêmios dos gerentes                                               | Lahman       | AwardsManagers |
+| gerentes           | Tabela de gerentes                                                           | Lahman       | Managers       |
 | dados\_atmosfera   | Dados atmosféricos                                                           | nasaweather  | atmos          |
 | companhias\_aereas | Nomes de companhias aéreas                                                   | nycflights13 | airlines       |
 | voos               | Dados de voos                                                                | nycflights13 | flights        |
