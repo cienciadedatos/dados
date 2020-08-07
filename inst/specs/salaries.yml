@@ -1,21 +1,21 @@
 df:
   source: Lahman::Salaries
-  name: salários
+  name: salarios
 variables:
   yearID:
     trans: ano
     desc: "Ano"
   teamID:
     trans: id_equipe
-    desc: ID equipe (fator)
+    desc: ID da equipe (factor)
   lgID:
     trans: id_liga
-    desc: ID liga (fator)
+    desc: ID da liga (factor)
   playerID:
     trans: id_jogador
     desc: ID do jogador
   salary:
-    trans: salário
+    trans: salario
     desc: "Salário em dólares"
 help:
   name: salários
