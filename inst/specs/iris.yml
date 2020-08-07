@@ -20,7 +20,7 @@ variables:
 help:
   name: dados_iris
   alias: dados_iris
-  title: Dados sobre a flor de Íris por Edgar Anderson
+  title: "Dados sobre a flor de Íris por Edgar Anderson"
   description: "O conjunto de dados sobre a flor de Íris fornece as medidas em centímetros das variáveis de comprimento e largura da sépala e comprimento e largura da pétala, respectivamente, para 50 flores de cada uma das 3 espécies de íris. As espécies são Iris setosa, versicolor e virginica."
   usage: dados_iris
-  format: Um dataframe com 150 casos (linhas) e 5 variáveis (colunas)
+  format: Um dataframe com 150 linhas e 5 colunas
