@@ -4,22 +4,22 @@ df:
 variables:
   faa:
     trans: codigo_aeroporto
-    desc: "código FAA do aeroporto"
+    desc: "Código FAA do aeroporto"
   name:
     trans: nome
     desc: nome do aeroporto
   lat:
     trans: latitude
-    desc: "coordenada de localização do aeroporto"
+    desc: "Coordenada de localização do aeroporto"
   lon:
     trans: longitude
-    desc: "coordenada de localização do aeroporto"
+    desc: "Coordenada de localização do aeroporto"
   alt:
     trans: altura
-    desc: altura medida em pés
+    desc: "Altura medida em pés"
   tz:
     trans: fuso_horario
-    desc: diferença de fuso horário do Meridiano  de Greenwich (GMT)
+    desc: "Diferença de fuso horário do Meridiano  de Greenwich (GMT)"
   dst:
     trans: horario_verao
     desc: "horário legal de acordo com as políticas de economia de energia.
@@ -30,7 +30,7 @@ variables:
       N = Não possui fuso horário especial."
   tzone:
     trans: fuso_horario_iana
-    desc: fuso horario IANA, que é determinado de acordo com o serviço web GeoNames
+    desc: "Fuso horario IANA, que é determinado de acordo com o serviço web GeoNames"
 help:
   name: aeroportos
   alias: aeroportos
