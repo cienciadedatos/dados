@@ -33,6 +33,7 @@ Authors:
   \item Andrea Sánchez-Tapia \email{andreasancheztapia@gmail.com} (\href{https://orcid.org/0000-0002-3521-4338}{ORCID})
   \item Alejandra Andrea Tapia Silva \email{alejandraandreatapiasilva@gmail.com} (\href{https://orcid.org/0000-0003-0762-7618}{ORCID})
   \item Beatriz Maurer Costa \email{beatrizmcosta@me.com}
+  \item Jean Prado \email{jeangrprado@gmail.com} (\href{https://orcid.org/0000-0002-7928-774X}{ORCID})
 }
 
 }

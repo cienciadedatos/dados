@@ -1,6 +1,6 @@
 \docType{data}
-\name{veículos}
-\alias{veículos}
+\name{veiculos}
+\alias{veiculos}
 \title{Dados de economia de combustível}
 \format{Um data.frame com 33442 linhas e 12 colunas
 \describe{

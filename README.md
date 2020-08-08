@@ -38,6 +38,8 @@ exibidos nesta tabela)
 
 | Nome               | Título                                                                       | Pacote       | Dataset        |
 | :----------------- | :--------------------------------------------------------------------------- | :----------- | :------------- |
+| velho\_fiel        | Dados do gêiser Velho Fiel (Old Faithful)                                    | datasets     | faithful       |
+| dados\_iris        | Dados sobre a flor de Íris por Edgar Anderson                                | datasets     | iris           |
 | comuns             | Modelos comuns de carros                                                     | fueleconomy  | common         |
 | veiculos           | Dados de economia de combustível                                             | fueleconomy  | vehicles       |
 | dados\_gapminder   | Dados de Gapminder                                                           | gapminder    | gapminder      |
@@ -53,6 +55,7 @@ exibidos nesta tabela)
 | tabela3            | Registros de tuberculose da Organização Mundial de Saúde (Terceira variante) | tidyr        | table3         |
 | tabela4a           | Registros de tuberculose da Organização Mundial de Saúde (variante 4a)       | tidyr        | table4a        |
 | tabela4b           | Registros de tuberculose da Organização Mundial de Saúde (variante 4a)       | tidyr        | table4b        |
+| tabela5            | Registros de tuberculose da Organização Mundial da Saúde (Quinta variante)   | tidyr        | table5         |
 
 ## Uso
 

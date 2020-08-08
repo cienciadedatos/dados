@@ -4,7 +4,7 @@ df:
 variables:
   id:
     trans: id
-    desc: "Identificador único EPA"
+    desc: Identificador único EPA
   make:
     trans: fabricante
     desc: Fabricante
@@ -144,8 +144,8 @@ variables:
     trans: cidade
     desc: "milhas por galão de combustível na cidade"
 help:
-  name: veículos
-  alias: veículos
+  name: veiculos
+  alias: veiculos
   title: "Dados de economia de combustível"
   description: "Dados de economia de combustível da Agência de Proteção Ambiental(EPA) dos Estados Unidos, 1985-2015. Contém uma seleção de variáveis e não considera veículos com dados incompletos."
   usage: veiculos

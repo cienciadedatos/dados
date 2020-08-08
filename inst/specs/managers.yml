@@ -16,10 +16,10 @@ variables:
     desc: ID da liga (factor)
   inseason:
     trans: ordem_gerencial_temporada
-    desc: "Ordem na gerência de equipes durante uma temporada.
+    desc: Ordem na gerência de equipes durante uma temporada.
       0 Se o indivíduo gerenciava a equipe o ano inteiro.
       Caso contrário, indica onde o gerente apareceu na ordem gerencial
-      (1 para o primeiro gerente, 2 para o segundo etc.)"
+      (1 para o primeiro gerente, 2 para o segundo etc.)
   G:
     trans: jogos_gerenciados
     desc: Jogos gerenciados
