@@ -4,14 +4,14 @@ df:
 variables:
   carrier:
     trans: companhia_aerea
-    desc: Abreviação de dois dígitos do nome da companhia aérea
+    desc: "Abreviação de dois dígitos do nome da companhia aérea"
   name:
     trans: nome
-    desc: "Nome completo da companhia aérea."
+    desc: "Nome completo da companhia aérea"
 help:
   name: companhias_aereas
   alias: companhias_aereas
   title: "Nomes de companhias aéreas"
-  description: "Nomes das companhias aéreas e seus respectivos códigos de dois dígitos."
+  description: "Nomes das companhias aéreas e seus respectivos códigos de dois dígitos"
   usage: companhias_aereas
   format: Um data.frame com 16 linhas e 2 colunas
