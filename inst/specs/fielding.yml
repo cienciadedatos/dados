@@ -1,0 +1,64 @@
+df:
+  source: Lahman::Fielding
+  name: jardineiros
+variables:
+  playerID:
+    trans: id_jogador
+    desc: ID do jogador
+  yearID:
+    trans: id_ano
+    desc: Ano
+  stint:
+    trans: ordem_equipe
+    desc: "Ordem em que o jogador se moveu entre as equipes na mesma temporada"
+  teamID:
+    trans: id_equipe
+    desc: ID da equipe (factor)
+  lgID:
+    trans: id_liga
+    desc: ID da liga (factor com níveis AA, AL, FL, NL, PL, UA)
+  POS:
+    trans: posicao
+    desc: "Posição do jogador defensivo"
+  G:
+    trans: jogos
+    desc: Jogos
+  GS:
+    trans: jogos_iniciados
+    desc: Jogos iniciados
+  InnOuts:
+    trans: inn_outs
+    desc: Tempo jogado pelo jogador expresso em outs
+  PO:
+    trans: outs_feitos
+    desc: Outs feitas pelo jogador
+  A:
+    trans: assistencias
+    desc: "Assistências realizadas pelo jogador""
+  E:
+    trans: erros
+    desc: Erros cometidos pelo jogador
+  DP:
+    trans: dupla_mata
+    desc: Dupla mata em que o jogador esteve envolvido defensivamente
+  PB:
+    trans: bolas_passadas
+    desc: "Bolas passadas (aplicável a receptores)"
+  WP:
+    trans: lancamentos_desviados
+    desc: "Lançamentos desviados (aplicável a receptores)"
+  SB:
+    trans: bases_roubadas
+    desc: "Bases roubadas pelo oponente (aplicável aos apanhadores)"
+  CS:
+    trans: atrapados_roubando
+    desc: "Opositores apanhados em tentativa de roubo (aplicável a receptores)"
+  ZR:
+    trans: clasificacion_zona
+    desc: "Porcentagem de bolas capturadas por um defensor, em sua zona defensiva típica"
+help:
+  name: jardineiros
+  alias: jardineiros
+  title: "Tabela de estatísticas do jardineiro"
+  description: "Estatísticas de jardineiro"
+  format: Um data frame com 140.921 linhas e 18 colunas
