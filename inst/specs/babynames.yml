@@ -10,7 +10,7 @@ variables:
     desc: "Sexo do(a) bebê"
   name:
     trans: nome
-    desc: nome
+    desc: Nome
   n:
     trans: n
     desc: "Número de ocorrências"
@@ -20,7 +20,7 @@ variables:
 help:
   name: bebes
   alias: bebes
-  title: "Nomes de bebê"
+  title: "Nomes de bebês"
   description: "Dados completos sobre nomes de bebês fornecidos pela Administração de Segurança Social dos EUA  EE.UU. Inclui todos os nomes com pelo menos 5 usos."
-  usage: nomes
+  usage: bebes
   format: Um data.frame com 1924665 filhas e 5 colunas
