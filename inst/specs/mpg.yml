@@ -18,10 +18,10 @@ variables:
     trans: cilindros
     desc: "Número de cilindros"
   trans:
-    trans: transmissão
+    trans: transmissao
     desc: "Tipo de transmissão"
   drv:
-    trans: tração
+    trans: tracao
     values:
       f: d
       r: t
@@ -34,7 +34,7 @@ variables:
     trans: rodovia
     desc: "Milhas rodoviárias por galão"
   fl:
-    trans: combustível
+    trans: combustivel
     values:
       p: p
       r: r
