@@ -1,0 +1,126 @@
+df:
+  source: forcats::gss_cat
+  name: questionario
+variables:
+  year:
+    trans: ano
+    desc: "Ano do questionário, 2000-2014"
+  marital:
+    trans: estado_civil
+    desc: Estado civil
+    values:
+      No answer: Sem resposta
+      Never married: Nunca casou
+      Separated: "Separado(a)"
+      Divorced: "Divorciado(a)"
+      Widowed: "Viúvo(a)"
+      Married: "Casado(a)"
+  age:
+    trans: idade
+    desc: "Idade. Idade máxima truncada a 89 anos."
+  race:
+    trans: raca
+    desc: "Categorias raciais segundo o questionário"
+    values:
+      Other: Outra
+      Black: Negra
+      White: Branca
+      Not applicable: "Não se aplica"
+  rincome:
+    trans: renda
+    desc: Renda respondida pelas pessoas entrevistadas (US$)
+    values:
+      No answer: Sem resposta
+      Don't know: "Não sabe"
+      Refused: Se negou a responder
+      $25000 or more: "25000 ou mais"
+      $20000 - 24999: 20000 - 24999
+      $15000 - 19999: 15000 - 19999
+      $10000 - 14999: 10000 - 14999
+      $8000 to 9999: 8000 - 9999
+      $7000 to 7999: 7000 - 7999
+      $6000 to 6999: 6000 - 6999
+      $5000 to 5999: 5000 - 5999
+      $4000 to 4999: 4000 - 4999
+      $3000 to 3999: 3000 - 3999
+      $1000 to 2999: 1000 - 2999
+      Lt $1000: Menos de 1000
+      Not applicable: "Não se aplica"
+  partyid:
+    trans: partido
+    desc: "Partido político com quem a pessoa entrevistada se identifica"
+    values:
+      No answer: Sem resposta
+      Don't know: "Não sabe"
+      Other party: Outro partido
+      Strong republican: Fortemente republicano
+      Not str republican: "Não fortemente repubicano"
+      Ind,near rep: "Independente, inclinação republicano"
+      Independent: Independente
+      Ind,near dem: "Independente, inclinação democrata"
+      Not str democrat: "Não fortemente democrata"
+      Strong democrat: Fortemente democrata
+  relig:
+    trans: religiao
+    desc: "Religião"
+    values:
+      No answer: Sem resposta
+      Don't know: "Não sabe"
+      Inter-nondenominational: "Inter não denominacional"
+      Native american: Nativa americana
+      Christian: "Cristã"
+      Orthodox-christian: "Cristã ortodoxa"
+      Moslem/islam: "Muçulmana/Islã"
+      Other eastern: "Outra religião oriental"
+      Hinduism: "Hinduísmo"
+      Buddhism: Budismo
+      Other: Outra
+      None: Nenhuma
+      Jewish: "Judaísmo"
+      Catholic: "Católica"
+      Protestant: Protestante
+      Not applicable: "Não se aplica"
+  denom:
+    trans: denominacao
+    desc: "Denominação religiosa a que pertence"
+    values:
+      No answer: Sem resposta
+      Don't know: "Não sabe"
+      No denomination: "Sem denominação"
+      Other: Outra
+      Episcopal: Episcopal
+      Presbyterian-dk wh: "Presbiteriana, não sabe qual"
+      Presbyterian, merged: Presbiteriana, fusionadas
+      Other presbyterian: Outra presbiteriana
+      United pres ch in us: "União presbiteriana de igrejas"
+      Presbyterian c in us: "Igreja Presbiteriana dos EUA
+      Lutheran-dk which: "Luterana, não sabe qual"
+      Evangelical luth: "Evangélica luterana"
+      Other lutheran: Outras luteranas
+      Wi evan luth synod: "Sínodo evangélico luterano de Wisconsin"
+      Lutheran-mo synod: "Sínodo luterano"
+      Luth ch in america: Igreja luterana dos EUA
+      Am lutheran: Igreja luterana americana
+      Methodist-dk which: "Metodista, não sabe qual"
+      Other methodist: Outras metodistas
+      United methodist: Igreja metodista unida
+      Afr meth ep zion: Igreja africana metodista episcopal de Sion
+      Afr meth episcopal: Igreja africana metodista episcopal
+      Baptist-dk which: "Batista, não sabe qual"
+      Other baptists: Outras batistas
+      Southern baptist: Batistas do sul
+      Nat bapt conv usa: "Convenção nacional batista dos EUA"
+      Nat bapt conv of am: "Convenção nacional batista da América"
+      Am bapt ch in usa: Igrejas batistas dos EUA
+      Am baptist asso: "Associação batista estadounidense"
+      Not applicable: "Não se aplica"
+  tvhours:
+    trans: horas_tv
+    desc: "Horas de televisão assistidas por dia"
+help:
+  name: questionario
+  alias: questionario
+  title: "Amostra de variáveis categóricas do questinário 'General Social Survey' (GSS)"
+  description: "Amostra de variáveis categóricas do questinário 'General Social Survey' (GSS)"
+  usage: questionario
+  format: Um data.frame com 21.473 linhas e 9 colunas
