@@ -55,7 +55,7 @@ variables:
       Other party: Outro partido
       Strong republican: Fortemente republicano
       Not str republican: "Não fortemente repubicano"
-      Ind,near rep: "Independente, inclinação republicano"
+      Ind,near rep: "Independente, inclinação republicana"
       Independent: Independente
       Ind,near dem: "Independente, inclinação democrata"
       Not str democrat: "Não fortemente democrata"
@@ -93,7 +93,7 @@ variables:
       Presbyterian, merged: Presbiteriana, fusionadas
       Other presbyterian: Outra presbiteriana
       United pres ch in us: "União presbiteriana de igrejas"
-      Presbyterian c in us: "Igreja Presbiteriana dos EUA
+      Presbyterian c in us: Igreja Presbiteriana dos EUA
       Lutheran-dk which: "Luterana, não sabe qual"
       Evangelical luth: "Evangélica luterana"
       Other lutheran: Outras luteranas
