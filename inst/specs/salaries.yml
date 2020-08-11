@@ -7,10 +7,10 @@ variables:
     desc: "Ano"
   teamID:
     trans: id_equipe
-    desc: ID da equipe (factor)
+    desc: ID da equipe (fator)
   lgID:
     trans: id_liga
-    desc: ID da liga (factor)
+    desc: ID da liga (fator)
   playerID:
     trans: id_jogador
     desc: ID do jogador
