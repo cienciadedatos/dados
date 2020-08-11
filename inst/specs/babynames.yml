@@ -21,6 +21,6 @@ help:
   name: bebes
   alias: bebes
   title: "Nomes de bebês"
-  description: "Dados completos sobre nomes de bebês fornecidos pela Administração de Segurança Social dos EUA. Inclui todos os nomes com pelo menos 5 usos."
+  description: "Dados completos sobre nomes de bebês fornecidos pela Administração de Segurança Social dos EUA. Inclui todos os nomes com pelo menos 5 usos"
   usage: bebes
-  format: Um data.frame com 1.924.665 filhas e 5 colunas
+  format: Um data.frame com 1.924.665 linhas e 5 colunas
