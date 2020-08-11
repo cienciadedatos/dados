@@ -37,7 +37,7 @@ variables:
     desc: "Número do voo"
   tailnum:
     trans: cauda
-    desc: "Número da cauda do avião""
+    desc: "Número da cauda do avião"
   origin:
     trans: origem
     desc: "Origem do voo. Ver `aeroportos` para metadados adicionais"
