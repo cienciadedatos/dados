@@ -4,10 +4,10 @@ df:
 variables:
   manufacturer:
     trans: fabricante
-    desc: nome do fabricante
+    desc: Nome do fabricante
   model:
     trans: modelo
-    desc: nome do modelo
+    desc: Nome do modelo
   displ:
     trans: cilindrada
     desc: "Capacidade do motor, em litros"
@@ -41,7 +41,7 @@ variables:
       e: e
       d: d
       c: g
-    desc: tipo de combustível (p = premium, r = regular, e = etanol, d = diesel, g = gás natural comprimido)
+    desc: Tipo de combustível (p = premium, r = regular, e = etanol, d = diesel, g = gás natural comprimido)
   class:
     trans: classe
     values:
@@ -57,6 +57,6 @@ help:
   name: milhas
   alias: milhas
   title: "Dados de economia de combustível de 1999 a 2008 para 38 modelos populares de carros"
-  description: "Este conjunto de dados contém um subconjunto dos dados de economia de combustível que a EPA disponibiliza em http://fueleconomy.gov. Ele contém apenas modelos que tiveram um novo lançamento todos os anos entre 1999 e 2008 - isso foi usado como um proxy para a popularidade do carro."
+  description: "Este conjunto de dados contém um subconjunto dos dados de economia de combustível que a EPA disponibiliza em http://fueleconomy.gov. Ele contém apenas modelos que tiveram um novo lançamento todos os anos entre 1999 e 2008 - isso foi usado como um proxy para a popularidade do carro"
   usage: milhas
   format: Um data.frame com 234 linhas e 11 colunas
