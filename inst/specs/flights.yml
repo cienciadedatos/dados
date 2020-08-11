@@ -43,7 +43,7 @@ variables:
     desc: "Origem do voo. Ver `aeroportos` para metadados adicionais"
   dest:
     trans: destino
-    desc: "Destino do voo. Ver `aeroportos` para metadados adicionais".""
+    desc: "Destino do voo. Ver `aeroportos` para metadados adicionais"
   air_time:
     trans: tempo_voo
     desc: "Quantidade de tempo no ar, em minutos"
