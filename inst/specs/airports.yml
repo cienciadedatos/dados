@@ -19,22 +19,22 @@ variables:
     desc: "Altura medida em pés"
   tz:
     trans: fuso_horario
-    desc: "Diferença de fuso horário do Meridiano  de Greenwich (GMT)"
+    desc: "Diferença de fuso horário do Meridiano de Greenwich (GMT)"
   dst:
     trans: horario_verao
     desc: "Horário legal de acordo com as políticas de economia de energia.
-      A = Fuso horário de economia de luz de Dia (DST) padrão dos EUA:
-        começa o segundo sábado de março E
-        termina o primeiro sábado de novembro.
-      U = Desconhecido.
-      N = Não possui fuso horário especial."
+      A = Horário de verão (Daylight Saving Time) padrão dos EUA:
+        começa o segundo sábado de março E;
+        termina o primeiro sábado de novembro;
+      U = Desconhecido;
+      N = Não possui horário de verão"
   tzone:
     trans: fuso_horario_iana
-    desc: "Fuso horário IANA, que é determinado de acordo com o serviço web GeoNames"
+    desc: "Fuso horário IANA, determinado de acordo com o serviço web GeoNames"
 help:
   name: aeroportos
   alias: aeroportos
   title: Aeroportos
-  description: "Metadados úteis sobre aeroportos."
+  description: "Metadados úteis sobre aeroportos"
   usage: aeroportos
   format: Um data.frame com 1.458 linhas e 8 colunas
