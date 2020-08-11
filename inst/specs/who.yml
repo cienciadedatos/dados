@@ -4,7 +4,7 @@ df:
 variables:
   country:
     trans: pais
-    desc: nome do país
+    desc: Nome do país
     values:
       Afghanistan: Afeganistão
       Albania: Albânia
@@ -223,184 +223,184 @@ variables:
       Zimbabwe: Zimbábue
   iso2:
     trans: iso2
-    desc: código ISO de dois dígitos do país
+    desc: Código ISO de dois dígitos do país
   iso3:
     trans: iso3
-    desc: código ISO de três dígitos do país
+    desc: Código ISO de três dígitos do país
   year:
     trans: ano
-    desc: ano
+    desc: Ano
   new_sp_m014:
     trans: novos_fpp_h014
-    desc: casos novos, diagnóstico frotis pulmonar positivo (fpp), homens (h) de 0 a 14 anos (014)
+    desc: Casos novos, diagnóstico frotis pulmonar positivo (fpp), homens (h) de 0 a 14 anos (014)
   new_sp_m1524:
     trans: novos_fpp_h1524
-    desc: casos novos, diagnóstico frotis pulmonar positivo (fpp), homens (h) de 15 a 24 anos (1524)
+    desc: Casos novos, diagnóstico frotis pulmonar positivo (fpp), homens (h) de 15 a 24 anos (1524)
   new_sp_m2534:
     trans: novos_fpp_h2534
-    desc: casos novos, diagnóstico frotis pulmonar positivo (fpp), homens (h) de 25 a 34 anos (2534)
+    desc: Casos novos, diagnóstico frotis pulmonar positivo (fpp), homens (h) de 25 a 34 anos (2534)
   new_sp_m3544:
     trans: novos_fpp_h3544
-    desc: casos novos, diagnóstico frotis pulmonar positivo (fpp), homens (h) de 35 a 44 anos (3544)
+    desc: Casos novos, diagnóstico frotis pulmonar positivo (fpp), homens (h) de 35 a 44 anos (3544)
   new_sp_m4554:
     trans: novos_fpp_h4554
-    desc: casos novos, diagnóstico frotis pulmonar positivo (fpp), homens (h) de 45 a 54 anos (4554)
+    desc: Casos novos, diagnóstico frotis pulmonar positivo (fpp), homens (h) de 45 a 54 anos (4554)
   new_sp_m5564:
     trans: novos_fpp_h5564
-    desc: casos novos, diagnóstico frotis pulmonar positivo (fpp), homens (h) de 55 a 64 anos (5564)
+    desc: Casos novos, diagnóstico frotis pulmonar positivo (fpp), homens (h) de 55 a 64 anos (5564)
   new_sp_m65:
     trans: novos_fpp_h65
-    desc: casos novos, diagnóstico frotis pulmonar positivo (fpp), homens (h) de 65 ou mais anos
+    desc: Casos novos, diagnóstico frotis pulmonar positivo (fpp), homens (h) de 65 ou mais anos
   new_sp_f014:
     trans: novos_fpp_m014
-    desc: casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 0 a 14 anos (014)
+    desc: Casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 0 a 14 anos (014)
   new_sp_f1524:
     trans: novos_fpp_m1524
-    desc: casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 15 a 24 anos (1524)
+    desc: Casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 15 a 24 anos (1524)
   new_sp_f2534:
     trans: novos_fpp_m2534
-    desc: casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 25 a 34 anos (2534)
+    desc: Casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 25 a 34 anos (2534)
   new_sp_f3544:
     trans: novos_fpp_m3544
-    desc: casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 35 a 44 anos (3544)
+    desc: Casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 35 a 44 anos (3544)
   new_sp_f4554:
     trans: novos_fpp_m4554
-    desc: casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 45 a 54 anos (4554)
+    desc: Casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 45 a 54 anos (4554)
   new_sp_f5564:
     trans: novos_fpp_m5564
-    desc: casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 55 a 64 anos (5564)
+    desc: Casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 55 a 64 anos (5564)
   new_sp_f65:
     trans: novos_fpp_m65
-    desc: casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 65 ou mais anos
+    desc: Casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 65 ou mais anos
   new_sn_m014:
     trans: novos_fpn_h014
-    desc: casos novos, diagnóstico frotis pulmonar negativo (fpn), homens (h) de 0 a 14 anos (014)
+    desc: Casos novos, diagnóstico frotis pulmonar negativo (fpn), homens (h) de 0 a 14 anos (014)
   new_sn_m1524:
     trans: novos_fpn_h1524
-    desc: casos novos, diagnóstico frotis pulmonar negativo (fpn), homens (h) de 15 a 24 anos (1524)
+    desc: Casos novos, diagnóstico frotis pulmonar negativo (fpn), homens (h) de 15 a 24 anos (1524)
   new_sn_m2534:
     trans: novos_fpn_h2534
-    desc: casos novos, diagnóstico frotis pulmonar negativo (fpn), homens (h) de 25 a 34 anos (2534)
+    desc: Casos novos, diagnóstico frotis pulmonar negativo (fpn), homens (h) de 25 a 34 anos (2534)
   new_sn_m3544:
     trans: novos_fpn_h3544
-    desc: casos novos, diagnóstico frotis pulmonar negativo (fpn), homens (h) de 35 a 44 anos (3544)
+    desc: Casos novos, diagnóstico frotis pulmonar negativo (fpn), homens (h) de 35 a 44 anos (3544)
   new_sn_m4554:
     trans: novos_fpn_h4554
-    desc: casos novos, diagnóstico frotis pulmonar negativo (fpn), homens (h) de 45 a 54 anos (4554)
+    desc: Casos novos, diagnóstico frotis pulmonar negativo (fpn), homens (h) de 45 a 54 anos (4554)
   new_sn_m5564:
     trans: novos_fpn_h5564
-    desc: casos novos, diagnóstico frotis pulmonar negativo (fpn), homens (h) de 55 a 64 anos (5564)
+    desc: Casos novos, diagnóstico frotis pulmonar negativo (fpn), homens (h) de 55 a 64 anos (5564)
   new_sn_m65:
     trans: novos_fpn_h65
-    desc: casos novos, diagnóstico frotis pulmonar negativo (fpn), homens (h) de 65 ou mais anos
+    desc: Casos novos, diagnóstico frotis pulmonar negativo (fpn), homens (h) de 65 ou mais anos
   new_sn_f014:
     trans: novos_fpn_m014
-    desc: casos novos, diagnóstico frotis pulmonar negativo (fpn), mulheres (m) de 0 a 14 anos (014)
+    desc: Casos novos, diagnóstico frotis pulmonar negativo (fpn), mulheres (m) de 0 a 14 anos (014)
   new_sn_f1524:
     trans: novos_fpn_m1524
-    desc: casos novos, diagnóstico frotis pulmonar negativo (fpn), mulheres (m) de 15 a 24 anos (1524)
+    desc: Casos novos, diagnóstico frotis pulmonar negativo (fpn), mulheres (m) de 15 a 24 anos (1524)
   new_sn_f2534:
     trans: novos_fpn_m2534
-    desc: casos novos, diagnóstico frotis pulmonar negativo (fpn), mulheres (m) de 25 a 34 anos (2534)
+    desc: Casos novos, diagnóstico frotis pulmonar negativo (fpn), mulheres (m) de 25 a 34 anos (2534)
   new_sn_f3544:
     trans: novos_fpn_m3544
-    desc: casos novos, diagnóstico frotis pulmonar negativo (fpn), mulheres (m) de 35 a 44 anos (3544)
+    desc: Casos novos, diagnóstico frotis pulmonar negativo (fpn), mulheres (m) de 35 a 44 anos (3544)
   new_sn_f4554:
     trans: novos_fpn_m4554
-    desc: casos novos, diagnóstico frotis pulmonar negativo (fpn), mulheres (m) de 45 a 54 anos (4554)
+    desc: Casos novos, diagnóstico frotis pulmonar negativo (fpn), mulheres (m) de 45 a 54 anos (4554)
   new_sn_f5564:
     trans: novos_fpn_m5564
-    desc: casos novos, diagnóstico frotis pulmonar negativo (fpn), mulheres (m) de 55 a 64 anos (5564)
+    desc: Casos novos, diagnóstico frotis pulmonar negativo (fpn), mulheres (m) de 55 a 64 anos (5564)
   new_sn_f65:
     trans: novos_fpn_m65
-    desc: casos novos, diagnóstico frotis pulmonar negativo (fpn), mulheres (m) de 65 ou mais anos
+    desc: Casos novos, diagnóstico frotis pulmonar negativo (fpn), mulheres (m) de 65 ou mais anos
   new_ep_m014:
     trans: novos_ep_h014
-    desc: casos novos, diagnóstico extrapulmonar (ep), homens (h) de 0 a 14 anos (014)
+    desc: Casos novos, diagnóstico extrapulmonar (ep), homens (h) de 0 a 14 anos (014)
   new_ep_m1524:
     trans: novos_ep_h1524
-    desc: casos novos, diagnóstico extrapulmonar (ep), homens (h) de 15 a 24 anos (1524)
+    desc: Casos novos, diagnóstico extrapulmonar (ep), homens (h) de 15 a 24 anos (1524)
   new_ep_m2534:
     trans: novos_ep_h2534
-    desc: casos novos, diagnóstico extrapulmonar (ep), homens (h) de 25 a 34 anos (2534)
+    desc: Casos novos, diagnóstico extrapulmonar (ep), homens (h) de 25 a 34 anos (2534)
   new_ep_m3544:
     trans: novos_ep_h3544
-    desc: casos novos, diagnóstico extrapulmonar (ep), homens (h) de 35 a 44 anos (3544)
+    desc: Casos novos, diagnóstico extrapulmonar (ep), homens (h) de 35 a 44 anos (3544)
   new_ep_m4554:
     trans: novos_ep_h4554
-    desc: casos novos, diagnóstico extrapulmonar (ep), homens (h) de 45 a 54 anos (4554)
+    desc: Casos novos, diagnóstico extrapulmonar (ep), homens (h) de 45 a 54 anos (4554)
   new_ep_m5564:
     trans: novos_ep_h5564
-    desc: casos novos, diagnóstico extrapulmonar (ep), homens (h) de 55 a 64 anos (5564)
+    desc: Casos novos, diagnóstico extrapulmonar (ep), homens (h) de 55 a 64 anos (5564)
   new_ep_m65:
     trans: novos_ep_h65
-    desc: casos novos, diagnóstico extrapulmonar (ep), homens (h) de 65 ou mais anos
+    desc: Casos novos, diagnóstico extrapulmonar (ep), homens (h) de 65 ou mais anos
   new_ep_f014:
     trans: novos_ep_m014
-    desc: casos novos, diagnóstico extrapulmonar (ep), mulheres (m) de 0 a 14 anos (014)
+    desc: Casos novos, diagnóstico extrapulmonar (ep), mulheres (m) de 0 a 14 anos (014)
   new_ep_f1524:
     trans: novos_ep_m1524
-    desc: casos novos, diagnóstico extrapulmonar (ep), mulheres (m) de 15 a 24 anos (1524)
+    desc: Casos novos, diagnóstico extrapulmonar (ep), mulheres (m) de 15 a 24 anos (1524)
   new_ep_f2534:
     trans: novos_ep_m2534
-    desc: casos novos, diagnóstico extrapulmonar (ep), mulheres (m) de 25 a 34 anos (2534)
+    desc: Casos novos, diagnóstico extrapulmonar (ep), mulheres (m) de 25 a 34 anos (2534)
   new_ep_f3544:
     trans: novos_ep_m3544
-    desc: casos novos, diagnóstico extrapulmonar (ep), mulheres (m) de 35 a 44 anos (3544)
+    desc: Casos novos, diagnóstico extrapulmonar (ep), mulheres (m) de 35 a 44 anos (3544)
   new_ep_f4554:
     trans: novos_ep_m4554
-    desc: casos novos, diagnóstico extrapulmonar (ep), mulheres (m) de 45 a 54 anos (4554)
+    desc: Casos novos, diagnóstico extrapulmonar (ep), mulheres (m) de 45 a 54 anos (4554)
   new_ep_f5564:
     trans: novos_ep_m5564
-    desc: casos novos, diagnóstico extrapulmonar (ep), mulheres (m) de 55 a 64 anos (5564)
+    desc: Casos novos, diagnóstico extrapulmonar (ep), mulheres (m) de 55 a 64 anos (5564)
   new_ep_f65:
     trans: novos_ep_m65
-    desc: casos novos, diagnóstico extrapulmonar (ep), mulheres (m) de 65 ou mais anos
+    desc: Casos novos, diagnóstico extrapulmonar (ep), mulheres (m) de 65 ou mais anos
   newrel_m014:
     trans: novos_recaida_h014
-    desc: novas recaídas, homens (h) de 0 a 14 anos (014)
+    desc: Novas recaídas, homens (h) de 0 a 14 anos (014)
   newrel_m1524:
     trans: novos_recaida_h1524
-    desc: novas recaídas, homens (h) de 15 a 24 anos (1524)
+    desc: Novas recaídas, homens (h) de 15 a 24 anos (1524)
   newrel_m2534:
     trans: novos_recaida_h2534
-    desc: novas recaídas, homens (h) de 25 a 34 anos (2534)
+    desc: Novas recaídas, homens (h) de 25 a 34 anos (2534)
   newrel_m3544:
     trans: novos_recaida_h3544
-    desc: novas recaídas, homens (h) de 35 a 44 anos (3544)
+    desc: Novas recaídas, homens (h) de 35 a 44 anos (3544)
   newrel_m4554:
     trans: novos_recaida_h4554
-    desc: novas recaídas, homens (h) de 45 a 54 anos (4554)
+    desc: Novas recaídas, homens (h) de 45 a 54 anos (4554)
   newrel_m5564:
-    trans: novos_recaida_h5564
-    desc: novas recaídas, homens (h) de 55 a 64 anos (5564)
+    trans: Novos_recaida_h5564
+    desc: Novas recaídas, homens (h) de 55 a 64 anos (5564)
   newrel_m65:
     trans: novos_recaida_h65
-    desc: novas recaídas, homens (h) de 65 ou mais anos
+    desc: Novas recaídas, homens (h) de 65 ou mais anos
   newrel_f014:
     trans: novos_recaida_m014
-    desc: novas recaídas, mulheres (m) de 0 a 14 anos (014)
+    desc: Novas recaídas, mulheres (m) de 0 a 14 anos (014)
   newrel_f1524:
     trans: novos_recaida_m1524
-    desc: novas recaídas, mulheres (m) de 15 a 24 anos (1524)
+    desc: Novas recaídas, mulheres (m) de 15 a 24 anos (1524)
   newrel_f2534:
     trans: novos_recaida_m2534
-    desc: novas recaídas, mulheres (m) de 25 a 34 anos (2534)
+    desc: Novas recaídas, mulheres (m) de 25 a 34 anos (2534)
   newrel_f3544:
     trans: novos_recaida_m3544
-    desc: novas recaídas, mulheres (m) de 35 a 44 anos (3544)
+    desc: Novas recaídas, mulheres (m) de 35 a 44 anos (3544)
   newrel_f4554:
     trans: novos_recaida_m4554
-    desc: novas recaídas, mulheres (m) de 45 a 54 anos (4554)
+    desc: Novas recaídas, mulheres (m) de 45 a 54 anos (4554)
   newrel_f5564:
     trans: novos_recaida_m5564
-    desc: novas recaídas, mulheres (m) de 55 a 64 anos (5564)
+    desc: Novas recaídas, mulheres (m) de 55 a 64 anos (5564)
   newrel_f65:
     trans: novos_recaida_m65
-    desc: novas recaídas, mulheres (m) de 65 ou mais anos
+    desc: Novas recaídas, mulheres (m) de 65 ou mais anos
 help:
-  name: oms
-  alias: oms
+  name: dados_oms
+  alias: dados_oms
   title: "Dados de tuberculose da Organização Mundial da Saúde"
   description: "Subconjunto de dados do relatório anual de tuberculose da Organização Mundial da Saúde"
   usage: dados_oms
