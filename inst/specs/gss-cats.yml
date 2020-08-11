@@ -17,7 +17,7 @@ variables:
       Married: "Casado(a)"
   age:
     trans: idade
-    desc: "Idade. Idade máxima truncada a 89 anos."
+    desc: "Idade. Idade máxima limitada a 89 anos"
   race:
     trans: raca
     desc: "Categorias raciais segundo o questionário"
@@ -33,18 +33,18 @@ variables:
       No answer: Sem resposta
       Don't know: "Não sabe"
       Refused: Se negou a responder
-      $25000 or more: "25000 ou mais"
-      $20000 - 24999: 20000 - 24999
-      $15000 - 19999: 15000 - 19999
-      $10000 - 14999: 10000 - 14999
-      $8000 to 9999: 8000 - 9999
-      $7000 to 7999: 7000 - 7999
-      $6000 to 6999: 6000 - 6999
-      $5000 to 5999: 5000 - 5999
-      $4000 to 4999: 4000 - 4999
-      $3000 to 3999: 3000 - 3999
-      $1000 to 2999: 1000 - 2999
-      Lt $1000: Menos de 1000
+      $25000 or more: "US$ 25000 ou mais"
+      $20000 - 24999: "US$ 20000 - 24999"
+      $15000 - 19999: "US$ 15000 - 19999"
+      $10000 - 14999: "US$ 10000 - 14999"
+      $8000 to 9999: "US$ 8000 - 9999"
+      $7000 to 7999: "US$ 7000 - 7999"
+      $6000 to 6999: "US$ 6000 - 6999"
+      $5000 to 5999: "US$ 5000 - 5999"
+      $4000 to 4999: "US$ 4000 - 4999"
+      $3000 to 3999: "US$ 3000 - 3999"
+      $1000 to 2999: "US$ 1000 - 2999"
+      Lt $1000: "Menos de US$ 1000"
       Not applicable: "Não se aplica"
   partyid:
     trans: partido
