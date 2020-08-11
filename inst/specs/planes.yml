@@ -45,6 +45,6 @@ help:
   alias: avioes
   title: Dados de aviões
   description: "Metadatos de aviões e seus códigos de cauda no registro de aviação da FAA."
-    "American Airways (AA) e Envoy Air (MQ) reportam número de frota no lugar do número de calda, por isso não é possível relacioná-los."
+    "American Airways (AA) e Envoy Air (MQ) reportam número de frota no lugar do número de calda, por isso não é possível relacioná-los"
   usage: avioes
   format: Um data.frame com 3.322 linhas e 9 colunas
