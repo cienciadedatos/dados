@@ -1,0 +1,45 @@
+df:
+  source: palmerpenguins::penguins
+  name: pinguins
+variables:
+  species:
+    trans: especies
+    desc: "Um fator com as espécies de pinguim (Pinguim-de-adélia, Pinguim-de-barbicha e Pinguim-gentoo)"
+    values:
+      Adelie: "Pinguim-de-adélia"
+      Chinstrap: "Pinguim-de-barbicha"
+      Gentoo: "Pinguim-gentoo"
+  island:
+    trans: ilha
+    desc: "Um fator com cada ilha do Arquipélago Palmer, na Antártida (Biscoe, Dream, Togersen)"
+    values:
+      Biscoe: Biscoe
+      Dream: Dream
+      Togersen: Togersen
+  bill_length_mm:
+    trans: comprimento_bico
+    desc: "Um número inteiro que indica o comprimento do bico (em milímetros)"
+  bill_depth_mm:
+    trans: profundidade_bico
+    desc: "Um número inteiro que indica a profundidade do bico (em milímetros)"
+  flipper_length_mm:
+    trans: comprimento_nadadeira
+    desc: "Um número inteiro que indica o comprimento da nadadeira (em milímetros)"
+  body_mass_g:
+    trans: massa_corporal
+    desc: "Um número inteiro que indica a massa corporal (em gramas)"
+  sex:
+    trans: sexo
+    desc: "Um fator que indica o sexo do(a) pinguim (macho, fêmea)"
+    values:
+      male: "macho"
+      female: "fêmea"
+  year:
+    trans: ano
+    desc: "Um número inteiro que indica o ano de estudo (2007, 2008 ou 2009)"
+help:
+  name: pinguins
+  alias: pinguins
+  title: "Medidas de pinguins adultos perto da Estação Palmer, Antártida (Palmer Station)"
+  description: "Inclui espécies de pinguins e ilhas do Arquipélago Palmer, medidas de cada espécie (comprimento da nadadeira, massa corporal e dimensões do bico), sexo de cada pinguim e ano de documentação. Esse é um subconjunto de dados do `penguins_raw`."
+  format: Um tibble com 344 linhas e 8 colunas
