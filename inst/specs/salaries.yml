@@ -18,8 +18,8 @@ variables:
     trans: salario
     desc: "Salário em dólares"
 help:
-  name: salários
-  alias: salários
-  title: Tabela de salários
+  name: salarios
+  alias: salarios"
+  title: "Tabela de salários
   description: "Dados salariais do jogador"
   format: Um data.frame com 26.428 linhas e 5 colunas
