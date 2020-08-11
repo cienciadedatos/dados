@@ -18,6 +18,6 @@ variables:
 help:
   name: tabela3
   alias: tabela3
-  title: "Registros de tuberculose da  Organização Mundial de Saúde (Terceira variante)"
-  description: "Contém observações de casos registrados no Afeganistão, Brasil e China nos anos 1999 e 2000."
+  title: "Registros de tuberculose da Organização Mundial da Saúde (terceira variante)"
+  description: "Contém observações de casos registrados no Afeganistão, Brasil e China nos anos de 1999 e 2000"
   format: Um tibble com 6 linhas e 3 colunas

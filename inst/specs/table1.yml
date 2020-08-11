@@ -21,6 +21,6 @@ variables:
 help:
   name: tabela1
   alias: tabela1
-  title: "Registros de tuberculose da Organização Mundial da Saúde (Primeira variante)"
-  description: "Contém observações de casos registrados no Afeganistão, Brasil e China nos anos 1999 e 2000."
+  title: "Registros de tuberculose da Organização Mundial da Saúde (primeira variante)"
+  description: "Contém observações de casos registrados no Afeganistão, Brasil e China nos anos de 1999 e 2000"
   format: Um tibble com 6 linhas e 4 colunas
