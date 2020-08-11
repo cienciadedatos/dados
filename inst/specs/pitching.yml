@@ -13,10 +13,10 @@ variables:
     desc: "Ordem na qual o jogador se mudou entre equipes na mesma temporada"
   teamID:
     trans: id_equipe
-    desc: ID do equipe (factor)
+    desc: ID da equipe (fator)
   lgID:
     trans: id_liga
-    desc: ID da liga (fator com os níveis AA, AL, FL, NL, PL, UA)
+    desc: "ID da liga (fator com os níveis AA, AL, FL, NL, PL, UA)"
   W:
     trans: jogos_ganhados
     desc: Jogos disputados ganhados
@@ -27,20 +27,20 @@ variables:
     trans: jogos_disputados
     desc: Jogos disputados
   GS:
-    trans: jogos_disputados
+    trans: jogos_iniciados
     desc: Jogos disputados iniciados
   CG:
     trans: jogos_completos
-    desc: "Número de jogos completos (9 innings lançados) que o jogador lançou"
+    desc: "Número de jogos completos (9 entradas lançadas) que o jogador lançou"
   SHO:
     trans: shutouts
     desc: "Número de shutouts (jogos completos sem permitir corridas) que o jogador lançou"
   SV:
-    trans: jogos_salvados
-    desc: Jogos salvados
+    trans: jogos_salvos
+    desc: Jogos salvos
   IPouts:
     trans: IPouts
-    desc: Outs lançadas à equipe adversária (igual a innings lançadas x 3)
+    desc: "Outs lançadas à equipe adversária (igual a entradas lançadas x 3)"
   H:
     trans: hits
     desc: Hits permitidos pelo oponente
@@ -58,10 +58,10 @@ variables:
     desc: Ponches dados ao oponente
   BAOpp:
     trans: media_rebatida_oponente
-    desc: Média de rebatidas do oponente
+    desc: "Média de rebatidas do oponente"
   ERA:
     trans: media_execucoes_limpas
-    desc: Média de execuções limpas permitidas  (normalizada para 9 innings lançadas)
+    desc: "Média de execuções limpas permitidas  (normalizada para 9 entradas lançadas)"
   IBB:
     trans: IBB
     desc: Base em bolas intencionais cedidas ao oponente
@@ -70,7 +70,7 @@ variables:
     desc: Lances desviados lançados pelo arremessador
   HBP:
     trans: HBP
-    desc: Bateadores golpeador por el lanzador
+    desc: Batedores golpeados pelo arremessador
   BK:
     trans: BK
     desc: Balks (movimento ilegal do corpo pelo lançador)
@@ -85,13 +85,13 @@ variables:
     desc: Corridas recebidas (sujas e limpas)
   SH:
     trans: sacrificios_golpeados
-    desc: Toques de sacrifício que o oponente fez ao arremessador
+    desc: "Toques de sacrifício feitos pelo (batedor) oponente"
   SF:
     trans: vuelos_sacrificio
-    desc: Elevado (fly) sacrifício que o oponente fez ao arremessador
+    desc: "Elevado (fly) sacrifício que o oponente fez ao arremessador"
   GIDP:
     trans: duplo_abate
-    desc: Abate induzido duplo pelo lançador
+    desc: "Abate induzido duplo pelo lançador"
 help:
   name: arremesadores
   alias: arremesadores
