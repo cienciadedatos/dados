@@ -12,7 +12,7 @@ variables:
     trans: cilindrada
     desc: "Volume de deslocamento do motor em polegadas cúbicas"
   hp:
-    trans: cavalos força
+    trans: cavalos_forca
     desc: "Cavalos força bruto"
   drat:
     trans: eixo
