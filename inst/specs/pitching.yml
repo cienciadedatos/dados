@@ -31,7 +31,7 @@ variables:
     desc: Jogos disputados iniciados
   CG:
     trans: jogos_completos
-    desc: "Número de jogos completos (9 entradas lançadas) que o jogador lançou"
+    desc: "Número de jogos completos que o jogador lançou"
   SHO:
     trans: shutouts
     desc: "Número de shutouts (jogos completos sem permitir corridas) que o jogador lançou"
@@ -43,7 +43,7 @@ variables:
     desc: "Outs lançadas à equipe adversária (igual a entradas lançadas x 3)"
   H:
     trans: hits
-    desc: Hits permitidos pelo oponente
+    desc: Hits cedidos ao oponente
   ER:
     trans: corridas_vencidas
     desc: Corridas limpas recebidas
@@ -52,10 +52,10 @@ variables:
     desc: Cuadrangulares recibidos
   BB:
     trans: BB
-    desc: Base nas bolas cedidas ao oponente
+    desc: Base por bolas cedidas ao oponente
   SO:
-    trans: ponches
-    desc: Ponches dados ao oponente
+    trans: strikeout
+    desc: Strikeout dados ao oponente
   BAOpp:
     trans: media_rebatida_oponente
     desc: "Média de rebatidas do oponente"
@@ -64,7 +64,7 @@ variables:
     desc: "Média de execuções limpas permitidas  (normalizada para 9 entradas lançadas)"
   IBB:
     trans: IBB
-    desc: Base em bolas intencionais cedidas ao oponente
+    desc: Base por bolas intencionais cedidas ao oponente
   WP:
     trans: lances_desviados
     desc: Lances desviados lançados pelo arremessador
@@ -82,16 +82,16 @@ variables:
     desc: "Jogos em que o lançador termina o jogo"
   R:
     trans: corridas
-    desc: Corridas recebidas (sujas e limpas)
+    desc: Corridas cedidas (merecidas e ñao merecidas)
   SH:
     trans: sacrificios_golpeados
     desc: "Toques de sacrifício feitos pelo (batedor) oponente"
   SF:
-    trans: vuelos_sacrificio
-    desc: "Elevado (fly) sacrifício que o oponente fez ao arremessador"
+    trans: fly_sacrificio
+    desc: "Flys (rebatidas altas no campo externo) de sacrifício (impulsiona uma corrida) contra o arremessador"
   GIDP:
-    trans: duplo_abate
-    desc: "Abate induzido duplo pelo lançador"
+    trans: eliminacao_dupla
+    desc: "Arremessos que levam a uma rebatida rasteira com eliminação dupla na mesma jogada"
 help:
   name: arremesadores
   alias: arremesadores
