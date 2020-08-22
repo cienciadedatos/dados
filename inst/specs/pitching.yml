@@ -48,8 +48,8 @@ variables:
     trans: corridas_merecidas
     desc: Corridas merecidas (por culpa do arremessador) cedidas
   HR:
-    trans: cuadrangulares
-    desc: Cuadrangulares recibidos
+    trans: homerun
+    desc: "Número de homeruns"
   BB:
     trans: BB
     desc: Base por bolas cedidas ao oponente
@@ -67,10 +67,10 @@ variables:
     desc: Base por bolas intencionais cedidas ao oponente
   WP:
     trans: lances_desviados
-    desc: Wild pitches (arremessos ruins que permitem o avanço de corredores adversários) lançados pelo arremessador
+    desc: "Wild pitches (arremessos ruins que permitem o avanço de corredores adversários) lançados pelo arremessador"
   HBP:
     trans: HBP
-    desc: Número de avanços cedidos à primeira base por atingir o rebatedor com o arremesso
+    desc: "Número de avanços cedidos à primeira base por atingir o rebatedor com o arremesso"
   BK:
     trans: BK
     desc: Balks (movimento ilegal do corpo pelo lançador)
@@ -95,6 +95,6 @@ variables:
 help:
   name: arremesadores
   alias: arremesadores
-  title: Tabela de estatísticas de arremesadores
+  title: "Tabela de estatísticas de arremesadores"
   description: "Estatísticas de arremesadores"
   format: Um data frame com 46.699 linhas e 30 colunas
