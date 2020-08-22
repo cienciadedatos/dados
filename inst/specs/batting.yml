@@ -58,7 +58,7 @@ variables:
     desc: Base por bolas intencional
   HBP:
     trans: HBP
-    desc: "Vezes atingidas pelo arremessador"
+    desc: "Vezes atingidas pelo arremessador (Hit by pitch - HBP)"
   SH:
     trans: toque_sacrificio
     desc: Toque de sacrifício
