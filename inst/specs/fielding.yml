@@ -39,26 +39,26 @@ variables:
     trans: erros
     desc: Erros cometidos pelo jogador
   DP:
-    trans: dupla_mata
-    desc: Dupla mata em que o jogador esteve envolvido defensivamente
+    trans: eliminacao_dupla
+    desc: Eliminação dupla em que o jogador esteve envolvido defensivamente
   PB:
     trans: bolas_passadas
     desc: "Bolas passadas (aplicável a receptores)"
   WP:
     trans: lancamentos_desviados
-    desc: "Lançamentos desviados (aplicável a receptores)"
+    desc: "Wild pitches - arremessos ruins que permitem o avanço de corredores adversários (aplicável a arremessadores)"
   SB:
     trans: bases_roubadas
-    desc: "Bases roubadas pelo oponente (aplicável aos apanhadores)"
+    desc: "Bases roubadas pelo oponente (aplicável aos receptor)"
   CS:
-    trans: atrapados_roubando
+    trans: capturado_roubando
     desc: "Opositores apanhados em tentativa de roubo (aplicável a receptores)"
   ZR:
-    trans: clasificacion_zona
+    trans: taxa_zona
     desc: "Porcentagem de bolas capturadas por um defensor, em sua zona defensiva típica"
 help:
   name: jardineiros
   alias: jardineiros
   title: "Tabela de estatísticas do jardineiro"
-  description: "Estatísticas de jardineiro"
+  description: "Estatísticas de defesa"
   format: Um data frame com 140.921 linhas e 18 colunas
