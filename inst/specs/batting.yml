@@ -57,7 +57,7 @@ variables:
     trans: base_intencional
     desc: Base por bolas intencional
   HBP:
-    trans: golpeado
+    trans: HBP
     desc: "Vezes atingidas pelo arremessador"
   SH:
     trans: toque_sacrificio
