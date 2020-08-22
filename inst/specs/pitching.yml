@@ -45,8 +45,8 @@ variables:
     trans: hits
     desc: Hits cedidos ao oponente
   ER:
-    trans: corridas_vencidas
-    desc: Corridas limpas recebidas
+    trans: corridas_merecidas
+    desc: Corridas merecidas (por culpa do arremessador) cedidas
   HR:
     trans: cuadrangulares
     desc: Cuadrangulares recibidos
@@ -60,23 +60,23 @@ variables:
     trans: media_rebatida_oponente
     desc: "Média de rebatidas do oponente"
   ERA:
-    trans: media_execucoes_limpas
-    desc: "Média de execuções limpas permitidas  (normalizada para 9 entradas lançadas)"
+    trans: media_corridas_merecidas
+    desc: "Média de corridas merecidas cedidas (normalizada para 9 entradas lançadas)"
   IBB:
     trans: IBB
     desc: Base por bolas intencionais cedidas ao oponente
   WP:
     trans: lances_desviados
-    desc: Lances desviados lançados pelo arremessador
+    desc: Wild pitches (arremessos ruins que permitem o avanço de corredores adversários) lançados pelo arremessador
   HBP:
     trans: HBP
-    desc: Batedores golpeados pelo arremessador
+    desc: Número de avanços cedidos à primeira base por atingir o rebatedor com o arremesso
   BK:
     trans: BK
     desc: Balks (movimento ilegal do corpo pelo lançador)
   BFP:
     trans: BFP
-    desc: Batedores que o arremessador enfrentou
+    desc: Rebatedores que o arremessador enfrentou
   GF:
     trans: jogos_terminados
     desc: "Jogos em que o lançador termina o jogo"
@@ -84,8 +84,8 @@ variables:
     trans: corridas
     desc: Corridas cedidas (merecidas e ñao merecidas)
   SH:
-    trans: sacrificios_golpeados
-    desc: "Toques de sacrifício feitos pelo (batedor) oponente"
+    trans: toques_sacrificio
+    desc: "Toques de sacrifício (impulsiona o avanço de um corredor) feitos pelo (rebatedor) oponente"
   SF:
     trans: fly_sacrificio
     desc: "Flys (rebatidas altas no campo externo) de sacrifício (impulsiona uma corrida) contra o arremessador"
