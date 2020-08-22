@@ -10,7 +10,7 @@ variables:
     desc: "Ano de nascimento"
   birthMonth:
     trans: mes_nascimento
-    desc: Mês de nascimento
+    desc: "Mês de nascimento"
   birthDay:
     trans: dia_nascimento
     desc: "Dia de nascimento"
@@ -48,8 +48,8 @@ variables:
     trans: sobrenome
     desc: Sobrenome
   nameGiven:
-    trans: nome_completo
-    desc: Nome e sobrenome
+    trans: nome_proprio
+    desc: "Nome próprio"
   weight:
     trans: peso
     desc: Peso em libras
@@ -73,7 +73,7 @@ variables:
     desc: "Data do primeiro jogo na primeira divisão"
   finalGame:
     trans: data_ultimo_jogo
-    desc: "Data do ultimo jogo na primeira divisão"
+    desc: "Data do último jogo na primeira divisão"
   retroID:
     trans: id_retrosheet
     desc: "Código do jogador usado em Retrosheet (http://www.retrosheet.org/)"
@@ -91,7 +91,7 @@ help:
   alias: pessoas
   title: Tabela de pessoas
   description: "Nomes de jogadores, data de nascimento e informações
-     bibliográfico. Este arquivo é usado para obter detalhes sobre os jogadores listados em rebatedores,
+     bibliográficas. Este arquivo é usado para obter detalhes sobre os jogadores listados em rebatedores,
      arremessadores e outros arquivos nos quais os jogadores são identificados por
-    id_jugador."
+    id_jogador"
   format: Um data frame com 19.617 linhas e 26 colunas
