@@ -13,10 +13,10 @@ variables:
     desc: "Ordem em que o jogador se moveu entre as equipes na mesma temporada"
   teamID:
     trans: id_equipe
-    desc: ID da equipe (factor)
+    desc: ID da equipe (fator)
   lgID:
     trans: id_liga
-    desc: ID da liga (factor com níveis AA, AL, FL, NL, PL, UA)
+    desc: ID da liga (fator com níveis AA, AL, FL, NL, PL, UA)
   POS:
     trans: posicao
     desc: "Posição do jogador defensivo"
@@ -34,7 +34,7 @@ variables:
     desc: Outs feitas pelo jogador
   A:
     trans: assistencias
-    desc: "Assistências realizadas pelo jogador""
+    desc: "Assistências realizadas pelo jogador"
   E:
     trans: erros
     desc: Erros cometidos pelo jogador
