@@ -1,0 +1,76 @@
+df:
+  source: Lahman::Batting
+  name: rebatedores
+variables:
+  playerID:
+    trans: id_jogador
+    desc: ID do jogador
+  yearID:
+    trans: id_ano
+    desc: Ano
+  stint:
+    trans: ordem_equipes
+    desc: "Ordem na qual o jogador se mudou entre equipes na mesma temporada"
+  teamID:
+    trans: id_equipe
+    desc: ID da equipe (fator)
+  lgID:
+    trans: id_liga
+    desc: "ID da liga (fator com os níveis AA, AL, FL, NL, PL, UA)"
+  G:
+    trans: jogos
+    desc: "Número de jogos em que o jogador participou oficialmente"
+  AB:
+    trans: vez_bastao
+    desc: "Número de vezes ao bastão válidas"
+  R:
+    trans: corridas
+    desc: "Corridas anotadas"
+  H:
+    trans: rebatidas_simples
+    desc: "Número de vezes em que o jogador chegou à primeira base com uma rebatida válida"
+  X2B:
+    trans: rebatidas_duplas
+    desc: "Número de vezes em que o jogador chegou à segunda base com uma rebatida válida"
+  X3B:
+    trans: rebatidas_triplas
+    desc: "Número de vezes em que o jogador chegou à terceira base com uma rebatida válida"
+  HR:
+    trans: homerun
+    desc: "Número de homeruns"
+  RBI:
+    trans: corridas_impulsionadas
+    desc: "Corridas impulsionadas como resultado da vez ao bastão do rebatedor"
+  SB:
+    trans: bases_roubadas
+    desc: Bases roubadas
+  CS:
+    trans: capturado_roubando
+    desc: "Eliminações em tentativa de roubo de base"
+  BB:
+    trans: base_bolas
+    desc: Base por bolas
+  SO:
+    trans: strikeouts
+    desc: "Eliminações por strikes"
+  IBB:
+    trans: base_intencional
+    desc: Base por bolas intencional
+  HBP:
+    trans: HBP
+    desc: "Vezes atingidas pelo arremessador (Hit by pitch - HBP)"
+  SH:
+    trans: toque_sacrificio
+    desc: Toque de sacrifício
+  SF:
+    trans: fly_sacrificio
+    desc: "Flys (rebatidas altas no campo externo) de sacrifício (impulsiona uma corrida)"
+  GIDP:
+    trans: eliminacao_dupla_induzida
+    desc: "Rebatidas rasteiras induzindo a uma eliminação dupla"
+help:
+  name: rebatedores
+  alias: rebatedores
+  title: "Tabela de estatíticas de Beisebol"
+  description: "Estatísticas de rebatedores"
+  format: Um data frame com 105.861 linhas e 22 colunas
