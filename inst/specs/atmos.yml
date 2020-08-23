@@ -4,7 +4,7 @@ df:
 variables:
   lat:
     trans: latitude
-    desc: "Localização da medição. Grade espacial de 24 por 24 pontos de coleta, uniformemente espaçada, desde a longitude 113,80W à 56,20W, e latitude 36,20N à 21,20S"
+    desc: Localização da medição. Grade espacial de 24 por 24 pontos de coleta, uniformemente espaçada, desde a longitude 113,80W à 56,20W, e latitude 36,20N à 21,20S
   long:
     trans: longitude
     desc: "Localização da medição. Grade espacial de 24 por 24 pontos de coleta, uniformemente espaçada, desde a longitude 113,80W à 56,20W, e latitude 36,20N à 21,20S"

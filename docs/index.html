@@ -16,7 +16,7 @@
     conjuntos de dados: airlines, airports, AwardsManagers,
     babynames, Batting, diamonds, faithful, fueleconomy,
     Fielding, flights, gapminder, gss_cat, iris, Managers,
-    mpg, mtcars, atmos, People, Pitching, planes,
+    mpg, mtcars, atmos, penguins, People, Pitching, planes,
     presidential, table1, table2, table3, table4a, table4b,
     table5, vehicles, weather, who'.  English: It provides a
     Portuguese translated version of the datasets listed above.">
@@ -94,10 +94,10 @@
 <p>(NOTA: a medida que vamos traduzindo, os conjuntos de dados serão exibidos nesta tabela)</p>
 <table class="table">
 <colgroup>
-<col width="15%">
-<col width="63%">
+<col width="13%">
+<col width="64%">
 <col width="10%">
-<col width="11%">
+<col width="10%">
 </colgroup>
 <thead><tr class="header">
 <th align="left">Nome</th>
@@ -107,40 +107,64 @@
 </tr></thead>
 <tbody>
 <tr class="odd">
+<td align="left">bebes</td>
+<td align="left">Nomes de bebês</td>
+<td align="left">babynames</td>
+<td align="left">babynames</td>
+</tr>
+<tr class="even">
 <td align="left">velho_fiel</td>
 <td align="left">Dados do gêiser Velho Fiel (Old Faithful)</td>
 <td align="left">datasets</td>
 <td align="left">faithful</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">dados_iris</td>
-<td align="left">Dados sobre a flor de Íris por Edgar Anderson</td>
+<td align="left">Dados de espécies de flor de Íris por Edgar Anderson</td>
 <td align="left">datasets</td>
 <td align="left">iris</td>
 </tr>
+<tr class="even">
+<td align="left">mtcarros</td>
+<td align="left">Testes de estrada para automóveis</td>
+<td align="left">datasets</td>
+<td align="left">mtcars</td>
+</tr>
 <tr class="odd">
+<td align="left">questionario</td>
+<td align="left">Amostra de variáveis categóricas do questinário ‘General Social Survey’ (GSS)</td>
+<td align="left">forcats</td>
+<td align="left">gss_cat</td>
+</tr>
+<tr class="even">
 <td align="left">comuns</td>
 <td align="left">Modelos comuns de carros</td>
 <td align="left">fueleconomy</td>
 <td align="left">common</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">veiculos</td>
 <td align="left">Dados de economia de combustível</td>
 <td align="left">fueleconomy</td>
 <td align="left">vehicles</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">dados_gapminder</td>
 <td align="left">Dados de Gapminder</td>
 <td align="left">gapminder</td>
 <td align="left">gapminder</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">diamante</td>
-<td align="left">Preço de 50.000 diamantes</td>
+<td align="left">Preço de 50 mil diamantes</td>
 <td align="left">ggplot2</td>
 <td align="left">diamonds</td>
+</tr>
+<tr class="even">
+<td align="left">milhas</td>
+<td align="left">Dados de economia de combustível de 1999 a 2008 para 38 modelos populares de carros</td>
+<td align="left">ggplot2</td>
+<td align="left">mpg</td>
 </tr>
 <tr class="odd">
 <td align="left">presidentes_eua</td>
@@ -155,22 +179,58 @@
 <td align="left">AwardsManagers</td>
 </tr>
 <tr class="odd">
+<td align="left">rebatedores</td>
+<td align="left">Tabela de estatíticas de Beisebol</td>
+<td align="left">Lahman</td>
+<td align="left">Batting</td>
+</tr>
+<tr class="even">
+<td align="left">jardineiros</td>
+<td align="left">Tabela de estatísticas do jardineiro</td>
+<td align="left">Lahman</td>
+<td align="left">Fielding</td>
+</tr>
+<tr class="odd">
 <td align="left">gerentes</td>
 <td align="left">Tabela de gerentes</td>
 <td align="left">Lahman</td>
 <td align="left">Managers</td>
 </tr>
 <tr class="even">
+<td align="left">pessoas</td>
+<td align="left">Tabela de pessoas</td>
+<td align="left">Lahman</td>
+<td align="left">People</td>
+</tr>
+<tr class="odd">
+<td align="left">arremesadores</td>
+<td align="left">Tabela de estatísticas de arremesadores</td>
+<td align="left">Lahman</td>
+<td align="left">Pitching</td>
+</tr>
+<tr class="even">
+<td align="left">salarios</td>
+<td align="left">Tabela de salários</td>
+<td align="left">Lahman</td>
+<td align="left">Salaries</td>
+</tr>
+<tr class="odd">
 <td align="left">dados_atmosfera</td>
 <td align="left">Dados atmosféricos</td>
 <td align="left">nasaweather</td>
 <td align="left">atmos</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">companhias_aereas</td>
 <td align="left">Nomes de companhias aéreas</td>
 <td align="left">nycflights13</td>
 <td align="left">airlines</td>
+</tr>
+<tr class="odd">
+<td align="left">aeroportos</td>
+<td align="left">Aeroportos</td>
+<td align="left">nycflights13</td>
+<td align="left">airports</td>
 </tr>
 <tr class="even">
 <td align="left">voos</td>
@@ -179,40 +239,64 @@
 <td align="left">flights</td>
 </tr>
 <tr class="odd">
+<td align="left">avioes</td>
+<td align="left">Dados de aviões</td>
+<td align="left">nycflights13</td>
+<td align="left">planes</td>
+</tr>
+<tr class="even">
+<td align="left">clima</td>
+<td align="left">Dados de clima</td>
+<td align="left">nycflights13</td>
+<td align="left">weather</td>
+</tr>
+<tr class="odd">
+<td align="left">pinguins</td>
+<td align="left">Medidas de pinguins adultos perto da Estação Palmer, Antártida (Palmer Station)</td>
+<td align="left">palmerpenguins</td>
+<td align="left">penguins</td>
+</tr>
+<tr class="even">
 <td align="left">tabela1</td>
-<td align="left">Registros de tuberculose da Organização Mundial da Saúde (Primeira variante)</td>
+<td align="left">Registros de tuberculose da Organização Mundial da Saúde (primeira variante)</td>
 <td align="left">tidyr</td>
 <td align="left">table1</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">tabela2</td>
-<td align="left">Registros de tuberculose da Organização Mundial de Saúde (Segunda variante)</td>
+<td align="left">Registros de tuberculose da Organização Mundial da Saúde (segunda variante)</td>
 <td align="left">tidyr</td>
 <td align="left">table2</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">tabela3</td>
-<td align="left">Registros de tuberculose da Organização Mundial de Saúde (Terceira variante)</td>
+<td align="left">Registros de tuberculose da Organização Mundial da Saúde (terceira variante)</td>
 <td align="left">tidyr</td>
 <td align="left">table3</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">tabela4a</td>
-<td align="left">Registros de tuberculose da Organização Mundial de Saúde (variante 4a)</td>
+<td align="left">Registros de tuberculose da Organização Mundial da Saúde (variante 4a)</td>
 <td align="left">tidyr</td>
 <td align="left">table4a</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">tabela4b</td>
-<td align="left">Registros de tuberculose da Organização Mundial de Saúde (variante 4a)</td>
+<td align="left">Registros de tuberculose da Organização Mundial da Saúde (variante 4a)</td>
 <td align="left">tidyr</td>
 <td align="left">table4b</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">tabela5</td>
-<td align="left">Registros de tuberculose da Organização Mundial da Saúde (Quinta variante)</td>
+<td align="left">Registros de tuberculose da Organização Mundial da Saúde (quinta variante)</td>
 <td align="left">tidyr</td>
 <td align="left">table5</td>
+</tr>
+<tr class="even">
+<td align="left">dados_oms</td>
+<td align="left">Dados de tuberculose da Organização Mundial da Saúde</td>
+<td align="left">tidyr</td>
+<td align="left">who</td>
 </tr>
 </tbody>
 </table>
@@ -283,6 +367,7 @@
 <li>Alejandra Andrea Tapia Silva <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0003-0762-7618" target="orcid.widget" aria-label="ORCID"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
 <li>Beatriz Maurer Costa <br><small class="roles"> Author </small>  </li>
 <li>Jean Prado <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0002-7928-774X" target="orcid.widget" aria-label="ORCID"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li>Renata Hirota <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0002-3589-3246" target="orcid.widget" aria-label="ORCID"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
 </ul>
 </div>
 
@@ -298,7 +383,7 @@
 
 
       <footer><div class="copyright">
-  <p>Developed by Riva Quiroga, Sara Mortara, Beatriz Milz, Andrea Sánchez-Tapia, Alejandra Andrea Tapia Silva, Beatriz Maurer Costa, Jean Prado.</p>
+  <p>Developed by Riva Quiroga, Sara Mortara, Beatriz Milz, Andrea Sánchez-Tapia, Alejandra Andrea Tapia Silva, Beatriz Maurer Costa, Jean Prado, Renata Hirota.</p>
 </div>
 
 <div class="pkgdown">

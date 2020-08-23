@@ -10,7 +10,7 @@ variables:
     desc: "Ano de nascimento"
   birthMonth:
     trans: mes_nascimento
-    desc: "Mês de nascimento"
+    desc: Mês de nascimento
   birthDay:
     trans: dia_nascimento
     desc: "Dia de nascimento"

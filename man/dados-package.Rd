@@ -10,7 +10,7 @@ Este pacote faz a tradução dos seguintes
     conjuntos de dados: 'airlines', 'airports', 'AwardsManagers',
     'babynames', 'Batting', 'diamonds', 'faithful', 'fueleconomy',
     'Fielding', 'flights', 'gapminder', 'gss_cat', 'iris', 'Managers',
-    'mpg', 'mtcars', 'atmos', 'People, 'Pitching', 'planes',
+    'mpg', 'mtcars', 'atmos', 'penguins', 'People, 'Pitching', 'planes',
     'presidential', 'table1', 'table2', 'table3', 'table4a', 'table4b',
     'table5', 'vehicles', 'weather', 'who'.  English: It provides a
     Portuguese translated version of the datasets listed above.
@@ -34,6 +34,7 @@ Authors:
   \item Alejandra Andrea Tapia Silva \email{alejandraandreatapiasilva@gmail.com} (\href{https://orcid.org/0000-0003-0762-7618}{ORCID})
   \item Beatriz Maurer Costa \email{beatrizmcosta@me.com}
   \item Jean Prado \email{jeangrprado@gmail.com} (\href{https://orcid.org/0000-0002-7928-774X}{ORCID})
+  \item Renata Hirota \email{re.hirota@gmail.com} (\href{https://orcid.org/0000-0002-3589-3246}{ORCID})
 }
 
 }

@@ -1,56 +1,56 @@
 df:
   source: nycflights13::weather
-name: clima
+  name: clima
 variables:
-  origin: "Estação meteorológica. Coluna origem pode ser usada para juntar com os dados dados::voos"
-  trans: origem
-desc: "Estação metereológica"
-year:
-  trans: ano
-desc: "Ano do registro"
-month:
-  trans: mes
-desc: "Mês do registro"
-day:
-  trans: dia
-desc: "Dia do registro"
-hour:
-  trans: hora
-desc: "Hora do registro"
-temp:
-  trans: temperatura
-desc: "Temperatura média em graus Farenheint"
-dewp:
-  trans: ponto_condensacao
-desc: "Ponto de condensação, isto é, temperatura (em Farenheits) na qual o vapor d'água se condensa"
-humid:
-  trans: umidade
-desc: "Umidade relativa"
-wind_dir:
-  trans: direcao_vento
-desc: "Direção do vento em graus"
-wind_speed:
-  trans: velocidade_vento
-desc: "Velocidade do vento medida em milhas por hora"
-wind_gust:
-  trans: velocidade_rajada
-desc: "Velocidade da rajada de vento medida em milhas por hora"
-precip:
-  trans: precipitacao
-desc: "Precipitação da chuva medida em polegadas"
-pressure:
-  trans: pressao
-desc: "Pressão atmosférica ao nível do mar em milibares"
-visib:
-  trans: visibilidade
-desc: "Visibilidade média em milhas"
-time_hour:
-  trans: data_hora
-desc: "Data e hora de registro em formato POSIXct"
+  origin:
+    trans: origem
+    desc: Estação meteorológica. Coluna origem pode ser usada para juntar com os dados dados::voos
+  year:
+    trans: ano
+    desc: "Ano do registro"
+  month:
+    trans: mes
+    desc: "Mês do registro"
+  day:
+    trans: dia
+    desc: "Dia do registro"
+  hour:
+    trans: hora
+    desc: "Hora do registro"
+  temp:
+    trans: temperatura
+    desc: "Temperatura média em graus Farenheint"
+  dewp:
+    trans: ponto_condensacao
+    desc: "Ponto de condensação, isto é, temperatura (em Farenheits) na qual o vapor d'água se condensa"
+  humid:
+    trans: umidade
+    desc: "Umidade relativa"
+  wind_dir:
+    trans: direcao_vento
+    desc: "Direção do vento em graus"
+  wind_speed:
+    trans: velocidade_vento
+    desc: "Velocidade do vento medida em milhas por hora"
+  wind_gust:
+    trans: velocidade_rajada
+    desc: "Velocidade da rajada de vento medida em milhas por hora"
+  precip:
+    trans: precipitacao
+    desc: "Precipitação da chuva medida em polegadas"
+  pressure:
+    trans: pressao
+    desc: "Pressão atmosférica ao nível do mar em milibares"
+  visib:
+    trans: visibilidade
+    desc: "Visibilidade média em milhas"
+  time_hour:
+    trans: data_hora
+    desc: "Data e hora de registro em formato POSIXct"
 help:
   name: clima
-alias: clima
-title: Dados de clima
-description: "Metadatos da estação meteorológica de três aeroportos de Nova Iorque LGA, JFK e EWR"
-usage: clima
-format: Um data.frame com 26.115 linhas e 15 colunas
+  alias: clima
+  title: Dados de clima
+  description: "Metadatos da estação meteorológica de três aeroportos de Nova Iorque LGA, JFK e EWR"
+  usage: clima
+  format: Um data.frame com 26.115 linhas e 15 colunas

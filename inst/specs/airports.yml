@@ -4,7 +4,7 @@ df:
 variables:
   faa:
     trans: codigo_aeroporto
-    desc: "Código FAA do aeroporto"
+    desc: Código FAA do aeroporto
   name:
     trans: nome
     desc: Nome do aeroporto

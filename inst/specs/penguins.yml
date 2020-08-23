@@ -4,7 +4,7 @@ df:
 variables:
   species:
     trans: especies
-    desc: "Um fator com as espécies de pinguim (Pinguim-de-adélia, Pinguim-de-barbicha e Pinguim-gentoo)"
+    desc: Um fator com as espécies de pinguim (Pinguim-de-adélia, Pinguim-de-barbicha e Pinguim-gentoo)
     values:
       Adelie: "Pinguim-de-adélia"
       Chinstrap: "Pinguim-de-barbicha"
