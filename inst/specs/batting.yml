@@ -16,7 +16,7 @@ variables:
     desc: ID da equipe (fator)
   lgID:
     trans: id_liga
-    desc: "ID da liga (fator com os níveis AA, AL, FL, NL, PL, UA)"
+    desc: ID da liga (fator com os níveis AA, AL, FL, NL, PL, UA)
   G:
     trans: jogos
     desc: "Número de jogos em que o jogador participou oficialmente"

@@ -7,7 +7,7 @@ variables:
     desc: "Ano de registro"
   sex:
     trans: sexo
-    desc: "Sexo do(a) bebê"
+    desc: Sexo do(a) bebê
   name:
     trans: nome
     desc: Nome

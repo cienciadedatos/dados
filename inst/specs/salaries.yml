@@ -16,7 +16,7 @@ variables:
     desc: ID do jogador
   salary:
     trans: salario
-    desc: "Salário em dólares"
+    desc: Salário em dólares
 help:
   name: salarios
   alias: salarios

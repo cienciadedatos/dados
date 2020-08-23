@@ -13,7 +13,7 @@ variables:
     desc: "Capacidade do motor, em litros"
   year:
     trans: ano
-    desc: "Ano de fabricação"
+    desc: Ano de fabricação
   cyl:
     trans: cilindros
     desc: "Número de cilindros"

@@ -4,7 +4,7 @@ df:
 variables:
   Sepal.Length:
     trans: Comprimento.Sepala
-    desc: "Comprimento da Sépala"
+    desc: Comprimento da Sépala
   Sepal.Width:
     trans: Largura.Sepala
     desc: "Largura da Sépala"

@@ -4,7 +4,7 @@ df:
 variables:
   year:
     trans: ano
-    desc: "Ano do questionário, 2000-2014"
+    desc: Ano do questionário, 2000-2014
   marital:
     trans: estado_civil
     desc: Estado civil

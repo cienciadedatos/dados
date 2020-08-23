@@ -4,7 +4,7 @@ df:
 variables:
   mpg:
     trans: milhares
-    desc: "Milhares por galão (EUA)"
+    desc: Milhares por galão (EUA)
   cyl:
     trans: cilindros
     desc: "Número de cilindros"

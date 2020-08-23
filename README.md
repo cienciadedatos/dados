@@ -36,26 +36,40 @@ As traduções disponíveis dentro de `dados` são as seguintes:
 (NOTA: a medida que vamos traduzindo, os conjuntos de dados serão
 exibidos nesta tabela)
 
-| Nome               | Título                                                                       | Pacote       | Dataset        |
-| :----------------- | :--------------------------------------------------------------------------- | :----------- | :------------- |
-| velho\_fiel        | Dados do gêiser Velho Fiel (Old Faithful)                                    | datasets     | faithful       |
-| dados\_iris        | Dados sobre a flor de Íris por Edgar Anderson                                | datasets     | iris           |
-| comuns             | Modelos comuns de carros                                                     | fueleconomy  | common         |
-| veiculos           | Dados de economia de combustível                                             | fueleconomy  | vehicles       |
-| dados\_gapminder   | Dados de Gapminder                                                           | gapminder    | gapminder      |
-| diamante           | Preço de 50.000 diamantes                                                    | ggplot2      | diamonds       |
-| presidentes\_eua   | Período que engloba 11 presidentes, desde Eisenhower até Obama               | ggplot2      | presidential   |
-| premios\_gerentes  | Tabela de prêmios dos gerentes                                               | Lahman       | AwardsManagers |
-| gerentes           | Tabela de gerentes                                                           | Lahman       | Managers       |
-| dados\_atmosfera   | Dados atmosféricos                                                           | nasaweather  | atmos          |
-| companhias\_aereas | Nomes de companhias aéreas                                                   | nycflights13 | airlines       |
-| voos               | Dados de voos                                                                | nycflights13 | flights        |
-| tabela1            | Registros de tuberculose da Organização Mundial da Saúde (Primeira variante) | tidyr        | table1         |
-| tabela2            | Registros de tuberculose da Organização Mundial de Saúde (Segunda variante)  | tidyr        | table2         |
-| tabela3            | Registros de tuberculose da Organização Mundial de Saúde (Terceira variante) | tidyr        | table3         |
-| tabela4a           | Registros de tuberculose da Organização Mundial de Saúde (variante 4a)       | tidyr        | table4a        |
-| tabela4b           | Registros de tuberculose da Organização Mundial de Saúde (variante 4a)       | tidyr        | table4b        |
-| tabela5            | Registros de tuberculose da Organização Mundial da Saúde (Quinta variante)   | tidyr        | table5         |
+| Nome               | Título                                                                              | Pacote         | Dataset        |
+| :----------------- | :---------------------------------------------------------------------------------- | :------------- | :------------- |
+| bebes              | Nomes de bebês                                                                      | babynames      | babynames      |
+| velho\_fiel        | Dados do gêiser Velho Fiel (Old Faithful)                                           | datasets       | faithful       |
+| dados\_iris        | Dados de espécies de flor de Íris por Edgar Anderson                                | datasets       | iris           |
+| mtcarros           | Testes de estrada para automóveis                                                   | datasets       | mtcars         |
+| questionario       | Amostra de variáveis categóricas do questinário ‘General Social Survey’ (GSS)       | forcats        | gss\_cat       |
+| comuns             | Modelos comuns de carros                                                            | fueleconomy    | common         |
+| veiculos           | Dados de economia de combustível                                                    | fueleconomy    | vehicles       |
+| dados\_gapminder   | Dados de Gapminder                                                                  | gapminder      | gapminder      |
+| diamante           | Preço de 50 mil diamantes                                                           | ggplot2        | diamonds       |
+| milhas             | Dados de economia de combustível de 1999 a 2008 para 38 modelos populares de carros | ggplot2        | mpg            |
+| presidentes\_eua   | Período que engloba 11 presidentes, desde Eisenhower até Obama                      | ggplot2        | presidential   |
+| premios\_gerentes  | Tabela de prêmios dos gerentes                                                      | Lahman         | AwardsManagers |
+| rebatedores        | Tabela de estatíticas de Beisebol                                                   | Lahman         | Batting        |
+| jardineiros        | Tabela de estatísticas do jardineiro                                                | Lahman         | Fielding       |
+| gerentes           | Tabela de gerentes                                                                  | Lahman         | Managers       |
+| pessoas            | Tabela de pessoas                                                                   | Lahman         | People         |
+| arremesadores      | Tabela de estatísticas de arremesadores                                             | Lahman         | Pitching       |
+| salarios           | Tabela de salários                                                                  | Lahman         | Salaries       |
+| dados\_atmosfera   | Dados atmosféricos                                                                  | nasaweather    | atmos          |
+| companhias\_aereas | Nomes de companhias aéreas                                                          | nycflights13   | airlines       |
+| aeroportos         | Aeroportos                                                                          | nycflights13   | airports       |
+| voos               | Dados de voos                                                                       | nycflights13   | flights        |
+| avioes             | Dados de aviões                                                                     | nycflights13   | planes         |
+| clima              | Dados de clima                                                                      | nycflights13   | weather        |
+| pinguins           | Medidas de pinguins adultos perto da Estação Palmer, Antártida (Palmer Station)     | palmerpenguins | penguins       |
+| tabela1            | Registros de tuberculose da Organização Mundial da Saúde (primeira variante)        | tidyr          | table1         |
+| tabela2            | Registros de tuberculose da Organização Mundial da Saúde (segunda variante)         | tidyr          | table2         |
+| tabela3            | Registros de tuberculose da Organização Mundial da Saúde (terceira variante)        | tidyr          | table3         |
+| tabela4a           | Registros de tuberculose da Organização Mundial da Saúde (variante 4a)              | tidyr          | table4a        |
+| tabela4b           | Registros de tuberculose da Organização Mundial da Saúde (variante 4a)              | tidyr          | table4b        |
+| tabela5            | Registros de tuberculose da Organização Mundial da Saúde (quinta variante)          | tidyr          | table5         |
+| dados\_oms         | Dados de tuberculose da Organização Mundial da Saúde                                | tidyr          | who            |
 
 ## Uso
 
