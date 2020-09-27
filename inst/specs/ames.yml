@@ -30,7 +30,7 @@ variables:
       180:	desenvolvimento de unidade planejada (PUD) multinível (incluindo salão de entrada ou nível dividido)
       190:	conversão para 2 famílias - todos os estilos e idades
   MS Zoning:
-    trans: modaria_zoneamento
+    trans: moradia_zoneamento
     desc: Classificação do zoneamento da venda
     values:
       A (agr): Agricultura
