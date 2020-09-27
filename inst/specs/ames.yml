@@ -499,7 +499,7 @@ variables:
       Fin: terminada
       RFn: acabamento grosseiro
       Unf: não terminada
-      NA: sem geragem
+      NA: sem garagem
   Garage Cars:
     trans: garagem_capacidade_carros
     desc: Capacidade de carros da garagem
