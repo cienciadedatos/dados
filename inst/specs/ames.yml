@@ -10,7 +10,7 @@ variables:
     trans: pid
     desc: Código de identificação análogo ao CEP no Brasil (Parcel identification number)
   MS SubClass:
-    trans: moradia_class
+    trans: moradia_classe
     desc: Tipo de moradia envolvida na venda
     values:
       020:	1 andar (1946 e mais novas, todos os estilos)
