@@ -494,7 +494,7 @@ variables:
     desc: Ano de construção da garagem
   Garage Finish:
     trans: garagem_acabamento
-    desc: Tipo de acabamento da garabem
+    desc: Tipo de acabamento da garagem
     values:
       Fin: terminada
       RFn: acabamento grosseiro
