@@ -8,7 +8,7 @@ variables:
     values:
   PID:
     trans: pid
-    desc: Parcel identification number código de identificação análogo ao cep no brasil
+    desc: Código de identificação análogo ao CEP no Brasil (Parcel identification number)
   MS SubClass:
     trans: moradia_class
     desc: Tipo de moradia envolvida na venda
