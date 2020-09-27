@@ -1,0 +1,623 @@
+df:
+  source: AmesHousing::ames_raw
+  name: ames
+variables:
+  Order:
+    trans: ordem
+    desc: Número da observação (id)
+    values:
+  PID:
+    trans: pid
+    desc: Parcel identification number código de identificação análogo ao cep no brasil
+  MS SubClass:
+    trans: moradia_class
+    desc: Tipo de moradia envolvida na venda
+    values:
+      020:	1 andar (1946 e mais novas, todos os estilos)
+      030:	1 andar (1945 e mais antigas)
+      040:	1 andar com sótão acabado (todas as idades)
+      045:	1 andar e meio (inacabada, todas as idades)
+      050:	1 andar e meio (acabada, todas as idades)
+      060:	2 andares (1946 e mais novas)
+      070:	2 andar (1945 e mais antigas)
+      075:	2 andares e meio (todas as idades)
+      080:	dividida ou multinível
+      085:	salão de entrada dividido (split foyer)
+      090:	duplex - todas os estilos e idades
+      120:	desenvolvimento de unidade planejada de 1 andar (1946 e mais novas, todos os estilos)
+      150:	desenvolvimento de unidade planejada (PUD) de 1 andar e meio  (todas as idades)
+      160:	desenvolvimento de unidade planejada (PUD) de 2 andares (1946 e mais novas)
+      180:	desenvolvimento de unidade planejada (PUD) multinível (incluindo salão de entrada ou nível dividido)
+      190:	conversão para 2 famílias - todos os estilos e idades
+  MS Zoning:
+    trans: modaria_zoneamento
+    desc: Classificação do zoneamento da venda
+    values:
+      A (agr): Agricultura
+      C (all): Comercial
+      FV: Residencial vila flutuante
+      I (all): Industrial
+      RH: Residencial alta densidade
+      RL: Residencial baixa densidade
+      RM: Residencial média densidade
+  Lot Frontage:
+    trans: lote_fachada
+    desc: Porção da fachada cercada por uma rua (pés)
+  Lot Area:
+    trans: lote_area
+    desc: Area do lote (pés quadrados)
+  Street:
+    trans: rua_tipo
+    desc: Tipo de rua que dá acesso à propriedade
+    values:
+      Grvl: cascalho
+      Pave: pavimentada
+  Alley:
+    trans: beco_tipo
+    desc: Tipo do beco que dá acesso à propriedade
+    values:
+      Grvl: cascalho
+      Pave: pavimentado
+      NA: sem acesso por beco
+  Lot Shape:
+    trans: lote_formato
+    desc: Formato da propriedade
+    values:
+      IR1: levemente irregular
+      IR2: moderadamente irregular
+      IR3: irregular
+      Reg: regular
+  Land Contour:
+    trans: terreno_contorno
+    desc: Nivelamento da propriedade
+    values:
+      Bnk: bancada (aumento rápido e significativo do nível da rua para o prédio)
+      HLS: encosta - declive significativo de lado a lado
+      Low: depressão
+      Lvl: aproximadamente plana/nivelada
+  Utilities:
+    trans: utilidades
+    desc: Tipo de utilizades disponível
+    values:
+      AllPub: todas as utilidades públicas (eletricidade, gás, água e esgoto)
+      NoSeWa: eletrecidade, gás e água (tanque séptico)
+      NoSewr: eletrecidade e gás apenas
+      ELO: apenas eletrecidade
+  Lot Config:
+    trans: lote_config
+    desc: Configuração do lote
+    values:
+      Corner: lote de esquina
+      CulDSac: rua sem saída
+      FR2: fachada em dois lados da propriedade
+      FR3: fachada em três lados da propriedade
+      Inside: lote interno
+  Land Slope:
+    trans: terreno_declive
+    desc: Declive do terreno
+    values:
+      Gtl: declive leve
+      Mod: declive moderado
+      Sev: declive severo
+  Neighborhood:
+    trans: vizinhanca
+    desc: Localizações físicas dentro dos limites da cidade de ames
+    values:
+      Blmngtn: Bloomington Heights
+      Blueste: Bluestem
+      BrDale: Briardale
+      BrkSide: Brookside
+      ClearCr: Clear Creek
+      CollgCr: College Creek
+      Crawfor: Crawford
+      Edwards: Edwards
+      Gilbert: Gilbert
+      Greens: Greens
+      GrnHill: Green Hills
+      IDOTRR: Iowa DOT and Rail Road
+      Landmrk: Landmark
+      MeadowV: Meadow Village
+      Mitchel: Mitchell
+      Names: North Ames
+      NoRidge: Northridge
+      NPkVill: Northpark Villa
+      NridgHt: Northridge Heights
+      NWAmes: Northwest Ames
+      OldTown: Old Town
+      SWISU: South & West of Iowa State University
+      Sawyer: Sawyer
+      SawyerW: Sawyer West
+      Somerst: Somerset
+      StoneBr: Stone Brook
+      Timber: Timberland
+      Veenker: Veenker
+  Condition 1:
+    trans: condicao_1
+    desc: Proximidade da propriedade estradas ou rodovias importantes
+    values:
+      Artery: adjacente a rua arterial
+      Feedr: adjacente a rua alimentadora
+      Norm: normal
+      PosA: próximo a recurso positivo
+      PosN: próximo a recurso positivo - parque, cinturão verde etc
+      RRAe: adjacente à ferrovia Leste-Oeste
+      RRAn: adjacente à ferrovia Norte-Sul
+      RRNe: dentro de 200 pés da ferrovia Leste-Oeste
+      RRNn: dentro de 200 pés da ferrorvia Norte-Sul
+  Condition 2:
+    trans: condicao_2
+    desc: Proximidade da propriedade estradas ou rodovias importantes (caso uma segunda exista)
+    values:
+      Artery: adjacente a rua arterial
+      Feedr: adjacente a rua alimentadora
+      Norm: normal
+      PosA: próximo a recurso positivo
+      PosN: próximo a recurso positivo - parque, cinturão verde etc
+      RRAe: adjacente à ferrovia Leste-Oeste
+      RRAn: adjacente à ferrovia Norte-Sul
+      RRNe: dentro de 200 pés da ferrovia Leste-Oeste
+      RRNn: dentro de 200 pés da ferrorvia Norte-Sul
+  Bldg Type:
+    trans: moradia_tipo
+    desc: Tipo de moradia
+    values:
+      1Fam: família única
+      2fmCon: conversão para 2 famílias (originalmente construída para 2 famílias)
+      Duplex: duplex
+      Twnhs: unidade final de moradia (Townhouse End Unit)
+      TwnhsE: unidade interna de moradia (Townhouse Inside Unit)
+  House Style:
+    trans: moradia_estilo
+    desc: Estilo da moradia
+    values:
+      1.5Fin: um andar e meio (segundo nível terminado)
+      1.5Unf: um andar e meio (segundo nível não terminado)
+      1Story: um andar
+      2.5Fin: dois andares e meio (segundo nível terminado)
+      2.5Unf: dois andares e meio (segundo nível não terminado)
+      2Story: dois andares
+      SFoyer: hall de entrada dividido (split foyer)
+      SLvl: nível dividido (split level)
+  Overall Qual:
+    trans: geral_qualidade
+    desc: Avaliação do material e acabamento geral da casa
+    values:
+       10: Muito excelente
+       9:	excelente
+       8:	muito boa
+       7:	boa
+       6:	acima da média
+       5:	média
+       4:	abaixo da média
+       3:	regular
+       2:	ruim
+       1:	muito ruim
+  Overall Cond:
+    trans: geral_condicao
+    desc: Avaliação da condição geral da casa
+    values:
+       10: Muito excelente
+       9:	excelente
+       8:	muito boa
+       7:	boa
+       6:	acima da média
+       5:	média
+       4:	abaixo da média
+       3:	regular
+       2:	ruim
+       1:	muito ruim
+  Year Built:
+    trans: construcao_ano
+    desc: Ano de construção da casa
+  Year Remod/Add:
+    trans: remodelacao_ano
+    desc: Ano de remodelação da casa
+  Roof Style:
+    trans: telhado_estilo
+    desc: Estilho do telhado
+    values:
+      Flat: plano
+      Gable: duas águas
+      Gambrel: gambrel
+      Hip: quadril
+      Mansard: mansarda
+      Shed: galpão
+  Roof Matl:
+    trans: telhado_material
+    desc: Material do qual o telhado é feito
+    values:
+      ClyTile: barro ou azulejo
+      CompShg: telha padrão (composto)
+      Membran: membrana
+      Metal: metal
+      Roll: rolo
+      Tar&Grv: cascalho
+      WdShake: telhas de madeira (shakes)
+      WdShngl: telhas de madeira (shingles)
+  Exterior 1st:
+    trans: exterior_cobertura_1
+    desc: Cobertura do exterior da casa
+    values:
+      AsbShng: telha de amianto
+      AsphShn: telha de asfalto
+      BrkComm: tijolo comum
+      BrkFace: face de tijolo
+      CBlock: bloco de concreto
+      CemntBd: placa de cimento
+      HdBoard: placa dura
+      ImStucc: imitação de reboco
+      MetalSd: tapume de metal
+      Plywood: madeirra compensada
+      PreCast: concreto precast
+      Stone: pedra
+      Stucco: reboco
+      VinylSd: tapume de vinil
+      Wd Sdng: tapume de madeira
+      WdShing: telhas de madeira
+      Other: outro
+  Exterior 2nd:
+    trans: exterior_cobertura_2
+    desc: Cobertura do exterior da casa (se tiver mais de uma)
+    values:
+      AsbShng: telha de amianto
+      AsphShn: telha de asfalto
+      BrkComm: tijolo comum
+      BrkFace: face de tijolo
+      CBlock: bloco de concreto
+      CemntBd: placa de cimento
+      HdBoard: placa dura
+      ImStucc: imitação de reboco
+      MetalSd: tapume de metal
+      Plywood: madeirra compensada
+      PreCast: concreto precast
+      Stone: pedra
+      Stucco: reboco
+      VinylSd: tapume de vinil
+      Wd Sdng: tapume de madeira
+      WdShing: telhas de madeira
+      Other: outro
+  Mas Vnr Type:
+    trans: alvenaria_tipo
+    desc: Tipo de alvenaria da casa
+    values:
+      BrkCmn: tijolo comum
+      BrkFace: face de tijolo
+      CBlock: bloco de concreto
+      None: nenhum
+      Stone: pedra
+  Mas Vnr Area:
+    trans: alvenaria_area
+    desc: Área da alvenaria (pés quadrados)
+  Exter Qual:
+    trans: exterior_qualidade
+    desc: Avaliação da qualidade do material usado no exterior da casa
+    values:
+      Ex: excelente
+      Fa: regular
+      Gd: boa
+      Po: ruim
+      TA: média
+  Exter Cond:
+    trans: exterior_condicao
+    desc: Avaliação da condição do exterior da casa
+    values:
+      Ex: excelente
+      Fa: regular
+      Gd: boa
+      Po: ruim
+      TA: média
+  Foundation:
+    trans: fundacao_tipo
+    desc: Tipo da fundação da casa
+    values:
+      BrkTil: tijolo e telha
+      CBlock: bloco de concreto
+      PConc: concreto derrramado
+      Slab: laje
+      Stone: pedra
+      Wood: madeira
+  Bsmt Qual:
+    trans: porao_qualidade
+    desc: Avaliação da altura do porão
+    values:
+      Ex: excelente
+      Fa: regular
+      Gd: boa
+      Po: ruim
+      TA: média
+  Bsmt Cond:
+    trans: porao_condicao
+    desc: Avaliação da condição do porão
+    values:
+      Ex: excelente
+      Fa: regular
+      Gd: boa
+      Po: ruim
+      TA: média
+  Bsmt Exposure:
+    trans: porao_exposicao
+    desc: Refere-se a saída ou paredes no nível do jardim
+    values:
+      Av: exposição média
+      Gd: exposição boa
+      Mn: exposição mínima
+      No: sem exposição
+      NA: sem porão
+  BsmtFin Type 1:
+    trans: porao_acabamento_1
+    desc: Avaliação da área do porão com acabamento
+    values:
+      ALQ: alojamento médio
+      BLQ: alojamento abaixo da média
+      GLQ: alojamento bom
+      LwQ: baixa qualidade
+      Rec: sala de recreação média
+      Unf: não finalizado
+      NA: sem porão
+  BsmtFin SF 1:
+    trans: porao_area_com_acabamento_1
+    desc: Área do porão com acabamento (em pés quadrados)
+  BsmtFin Type 2:
+    trans: porao_acabamento_2
+    desc: Avaliação da área do porão com acabamento (se houver várias)
+    values:
+      ALQ: alojamento médio
+      BLQ: alojamento abaixo da média
+      GLQ: alojamento bom
+      LwQ: baixa qualidade
+      Rec: sala de recreação média
+      Unf: não finalizado
+      NA: sem porão
+  BsmtFin SF 2:
+    trans: porao_area_com_acabamento_2
+    desc: Área do porão com acabamento (em pés quadrados)
+  Bsmt Unf SF:
+    trans: porao_area_sem_acabamento
+    desc: Área do porão sem acabamento (em pés quadrados)
+  Total Bsmt SF:
+    trans: porao_area_total
+    desc: Área total do porão (em pés quadrados)
+  Bsmt Full Bath:
+    trans: porao_num_banheiros
+    desc: Número de banheiros do porão
+  Bsmt Half Bath:
+    trans: porao_num_banheiros_lavabos
+    desc: Número de lavabos do porão
+  Heating:
+    trans: aquecimento_tipo
+    desc: Tipo de aquecimento instalado na casa
+    values:
+      Floor: forno de piso
+      GasA: forno de ar quente a gás
+      GasW: água quente a gás ou calor de vapor
+      Grav: forno de gravidade
+      OthW: água quente ou calor de vapor diferente de gás
+      Wall: forno de parede
+  Heating QC:
+    trans: aquecimento_qualidade_condicao
+    desc: Avaliação da qualidade e condição do aquecimento
+    values:
+      Ex: excelente
+      Fa: regular
+      Gd: boa
+      Po: ruim
+      TA: média
+  Central Air:
+    trans: ar_condicionado_central
+    desc: Ar condicionado central da casa
+    values:
+      N: não
+      Y: sim
+  Electrical:
+    trans: sistema_eletrico_tipo
+    desc: Tipo de sistema elétrico da casa
+    values:
+      FuseA: caixa de fusíveis acima de 60 AMP e toda a fiação Romex (média)
+      FuseF: caixa de fusíveis de 60 AMP e principalmente fiação Romex (regular)
+      FuseP: caixa de fusível de 60 AMP e principalmente fiação de botão e tubo (ruim)
+      Mix: misto
+      SBrkr: disjuntores padrão e Romex
+  1st Flr SF:
+    trans: primeiro_andar_area
+    desc: Área do primeiro andar (pés quadrados)
+  2nd Flr SF:
+    trans: segundo_andar_area
+    desc: Área do segundo andar (pés quadrados)
+  Low Qual Fin SF:
+    trans: acabmento_baixa_qualidade_area
+    desc: Área da casa com acabamento de baixa qualidade (pés quadrados)
+  Gr Liv Area:
+    trans: acima_solo_area
+    desc: Área da casa acima do solo (pés quadrados)
+  Full Bath:
+    trans: acima_solo_num_banheiros
+    desc: Número de banheiros acima do solo
+  Half Bath:
+    trans: acima_solo_num_lavabos
+    desc: Número de lavabos acima do solo
+  Bedroom AbvGr:
+    trans: acima_solo_num_quartos
+    desc: Número de quartos da casa
+  Kitchen AbvGr:
+    trans: acima_solo_num_cozinhas
+    desc: Número de cozinhas da casa
+  Kitchen Qual:
+    trans: cozinha_qualidade
+    desc: Qualidade da cozinha
+    values:
+      Ex: excelente
+      Fa: regular
+      Gd: boa
+      Po: ruim
+      TA: média
+  TotRms AbvGrd:
+    trans: acima_solo_num_comodos
+    desc: Número de cômodos acima do solo
+  Functional:
+    trans: funcional
+    desc: Funcionalidade da casa (indica o quanto a casa está apta para moradia)
+    values:
+      Maj1: deduções maiores 1
+      Maj2: deduções maiores 2
+      Min1: deduções menores 1
+      Min2: deduções menores 2
+      Mod: deduções moderadas
+      Sal: apenas recuperação
+      Sev: severamente danificada
+      Typ: funcionalidade típica
+  Fireplaces:
+    trans: total_num_lareiras
+    desc: Número total de lareiras
+  Fireplace Qu:
+    trans: lareira_qualidade
+    desc: Qualidade da(s) lareira(s)
+    values:
+      Ex: excelente (fogueira de alvenaria exepecional)
+      Fa: regular (fogueira pré-fabricada no porão)
+      Gd: boa (lareira de alvenaria no nível principal)
+      Po: ruim (fogão Ben Franklin)
+      TA: média (lareira pré-fabricada na sala de estar principal ou lareira de alvenaria no porão)
+      NA: sem lareira
+  Garage Type:
+    trans: garagem_tipo
+    desc: Localização da garagem
+    values:
+      2Types: mais do que 1 tipo de garargem
+      Attchd: anexada à casa
+      Basment: garem no porão
+      BuiltIn: embutida (parte da casa - tipicamente tem cômodo acima da garagem)
+      CarPort: abrigo com teto construído ao lado da casa (carport)
+      Detchd: garagem não anexada à casa
+      NA: sem geragem
+  Garage Yr Blt:
+    trans: garagem_ano_construcao
+    desc: Ano de construção da garagem
+  Garage Finish:
+    trans: garagem_acabamento
+    desc: Tipo de acabamento da garabem
+    values:
+      Fin: terminada
+      RFn: acabamento grosseiro
+      Unf: não terminada
+      NA: sem geragem
+  Garage Cars:
+    trans: garagem_capacidade_carros
+    desc: Capacidade de carros da garagem
+  Garage Area:
+    trans: garagem_area
+    desc: Área da garagem (pés quadrados)
+  Garage Qual:
+    trans: garagem_qualidade
+    desc: Qualidade da garagem
+    values:
+      Ex: excelente
+      Fa: regular
+      Gd: boa
+      Po: ruim
+      TA: média
+  Garage Cond:
+    trans: garagem_condicao
+    desc: Condição da garagem
+    values:
+      Ex: excelente
+      Fa: regular
+      Gd: boa
+      Po: ruim
+      TA: média
+  Paved Drive:
+    trans: entrada_veiculo_pavimentada
+    desc: Pavimentação da entrada de veículos
+    values:
+      N: terra/cascalho
+      P: parcialmente pavimentada
+      Y: pavimentada
+  Wood Deck SF:
+    trans: deck_madeira_area
+    desc: Área do deck de madeira da casa (em pés quadradas)
+  Open Porch SF:
+    trans: varanda_aberta_area
+    desc: Área da varanda coberta da casa (em pés quadradas)
+  Enclosed Porch:
+    trans: varanda_fechada_area
+    desc: Área da varanda fechada da casa (em pés quadradas)
+  3Ssn Porch:
+    trans: varanda_3ssn_area
+    desc: Área da varanda 'three season' da casa (em pés quadradas)
+  Screen Porch:
+    trans: varanda_com_tela_area
+    desc: Área da varanda com tela da casa (em pés quadradas)
+  Pool Area:
+    trans: piscina_area
+    desc: Área da piscina (em pés quadradas)
+  Pool QC:
+    trans: piscina_qualidade
+    desc: Qualidade da piscina
+    values:
+      Ex: excelente
+      Fa: regular
+      Gd: boa
+      Po: ruim
+      TA: média
+  Fence:
+    trans: cerca_qualidade
+    desc: Qualidade da cerca
+    values:
+      GdPrv: boa privacidade
+      GdWo: boa madeira
+      MnPrv: mínima privacidade
+      MnWw: mínima madeira/arame
+      NA: sem cerca
+  Misc Feature:
+    trans: funcionalidades_diversas
+    desc: Funcionalidades diversas da casa (não incluidas nas outras categorias)
+    values:
+      Elev: elevador
+      Gar2: segunda garagem (se não descrito na seção garagem)
+      Othr: outro
+      Shed: galpão
+      TenC: quadra de tênis
+      NA: nenhuma
+  Misc Val:
+    trans: funcionalidades_valor
+    desc: Valor das funcionalidades diversas
+  Mo Sold:
+    trans: venda_mes
+    desc: Mês da venda
+  Yr Sold:
+    trans: venda_ano
+    desc: Ano da venda
+  Sale Type:
+    trans: venda_tipo
+    desc: Tipo da venda
+    values:
+      COD: escritura / propriedade do oficial de justiça
+      Con: contrato de 15% de pagamento inicial e termos normais
+      ConLD: contrato de baixo pagamento inicial
+      ConLI: contrato de juros baixos
+      ConLw: contrato de baixo pagamento inicial e juros baixos
+      CWD: escritura de garantia (dinheiro)
+      New: casa recém-construída e vendida
+      Oth: outro
+      VWD: escritura de garantia (empréstimo VA)
+      WD : escriturar de garantia (convencional)
+  Sale Condition:
+    trans: venda_condicao
+    desc: Condição da venda
+    values:
+      Abnorml: venda anormal (troca, execução hipotecária, venda a descoberto)
+      AdjLand: compra de terreno adjacente
+      Alloca: alocação (duas propriedades vinculadas com escrituras separadas, normalmente em condomínio com garagem)
+      Family: venda entre membros de família
+      Normal: venda normal
+      Partial: casa não foi concluída na última avaliação (associada a novas casas)
+  SalePrice:
+    trans: venda_valor
+    desc: Valor da venda
+help:
+  name: ames
+  alias: ames
+  title: "Dados de habitação em Ames"
+  description: "Base dados descrita em De Cock (2011) com 82 características de 2930 propriedades vendidas em Ames, Iowa, EUA."
+  usage: ames
+  format: Um data.frame com 1.924.665 linhas e 5 colunas
+  source: 'De Cock, D. (2011). "Ames, Iowa: Alternative to the Boston Housing Data as an End of Semester Regression Project," Journal of Statistics Education, Volume 19, Number 3.'
