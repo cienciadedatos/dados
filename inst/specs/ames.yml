@@ -424,7 +424,7 @@ variables:
     trans: segundo_andar_area
     desc: Área do segundo andar (pés quadrados)
   Low Qual Fin SF:
-    trans: acabmento_baixa_qualidade_area
+    trans: acabamento_baixa_qualidade_area
     desc: Área da casa com acabamento de baixa qualidade (pés quadrados)
   Gr Liv Area:
     trans: acima_solo_area
