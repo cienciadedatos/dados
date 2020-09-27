@@ -7,7 +7,7 @@
 \title{dados: Translate Datasets to Portuguese}
 \description{
 Este pacote faz a tradução dos seguintes 
-    conjuntos de dados: 'airlines', 'airports', 'AwardsManagers',
+    conjuntos de dados: 'airlines', 'airports', 'ames', 'AwardsManagers',
     'babynames', 'Batting', 'diamonds', 'faithful', 'fueleconomy',
     'Fielding', 'flights', 'gapminder', 'gss_cat', 'iris', 'Managers',
     'mpg', 'mtcars', 'atmos', 'penguins', 'People, 'Pitching', 'planes',
@@ -35,6 +35,7 @@ Authors:
   \item Beatriz Maurer Costa \email{beatrizmcosta@me.com}
   \item Jean Prado \email{jeangrprado@gmail.com} (\href{https://orcid.org/0000-0002-7928-774X}{ORCID})
   \item Renata Hirota \email{re.hirota@gmail.com} (\href{https://orcid.org/0000-0002-3589-3246}{ORCID})
+  \item William Amorim \email{wamorim@curso-r.com} (\href{https://orcid.org/0000-0003-0543-3473}{ORCID})
 }
 
 }

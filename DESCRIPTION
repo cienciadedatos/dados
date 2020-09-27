@@ -41,10 +41,15 @@ Authors@R: c(
            family = "Hirota",
            role = c("aut"),
            email = "re.hirota@gmail.com",
-           comment = c(ORCID = "0000-0002-3589-3246"))
+           comment = c(ORCID = "0000-0002-3589-3246")),
+    person(given = "William",
+           family = "Amorim",
+           role = c("aut"),
+           email = "wamorim@curso-r.com",
+           comment = c(ORCID = "0000-0003-0543-3473"))
         )
 Description: Este pacote faz a tradução dos seguintes 
-    conjuntos de dados: 'airlines', 'airports', 'AwardsManagers',
+    conjuntos de dados: 'airlines', 'airports', 'ames', 'AwardsManagers',
     'babynames', 'Batting', 'diamonds', 'faithful', 'fueleconomy',
     'Fielding', 'flights', 'gapminder', 'gss_cat', 'iris', 'Managers',
     'mpg', 'mtcars', 'atmos', 'penguins', 'People, 'Pitching', 'planes',
@@ -61,6 +66,7 @@ BugReports: https://github.com/cienciadedatos/dados/issues
 Depends: 
     R (>= 3.5.0)
 Imports:
+    AmesHousing,
     babynames,
     dplyr,
     forcats,
