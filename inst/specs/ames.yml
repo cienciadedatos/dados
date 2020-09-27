@@ -488,7 +488,7 @@ variables:
       BuiltIn: embutida (parte da casa - tipicamente tem cômodo acima da garagem)
       CarPort: abrigo com teto construído ao lado da casa (carport)
       Detchd: garagem não anexada à casa
-      NA: sem geragem
+      NA: sem garagem
   Garage Yr Blt:
     trans: garagem_ano_construcao
     desc: Ano de construção da garagem
