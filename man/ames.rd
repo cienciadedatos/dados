@@ -2,7 +2,7 @@
 \name{ames}
 \alias{ames}
 \title{Dados de habitação em Ames}
-\format{Um data.frame com 1.924.665 linhas e 5 colunas
+\format{Um data.frame com 2930 linhas e 82 colunas.
 \describe{
 \item{ordem}{Número da observação (id)}
 \item{pid}{Parcel identification number código de identificação análogo ao cep no brasil}
@@ -89,6 +89,6 @@
 }}
 \usage{ames}
 \description{Base dados descrita em De Cock (2011) com 82 características de 2930 propriedades vendidas em Ames, Iowa, EUA.}
-\source{De Cock, D. (2011). "Ames, Iowa: Alternative to the Boston Housing Data as an End of Semester Regression Project," Journal of Statistics Education, Volume 19, Number 3.}
+\source{\url{http://jse.amstat.org/v19n3/decock/DataDocumentation.txt}}
 \seealso{\code{\link[AmesHousing]{ames_raw}}}
 \keyword{datasets}
