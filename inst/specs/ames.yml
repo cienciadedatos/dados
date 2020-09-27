@@ -80,9 +80,9 @@ variables:
     desc: Tipo de utilizades disponível
     values:
       AllPub: todas as utilidades públicas (eletricidade, gás, água e esgoto)
-      NoSeWa: eletrecidade, gás e água (tanque séptico)
-      NoSewr: eletrecidade e gás apenas
-      ELO: apenas eletrecidade
+      NoSeWa: eletricidade, gás e água (tanque séptico)
+      NoSewr: eletricidade e gás apenas
+      ELO: apenas eletricidade
   Lot Config:
     trans: lote_config
     desc: Configuração do lote
