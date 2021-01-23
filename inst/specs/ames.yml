@@ -1,6 +1,6 @@
 df:
   source: AmesHousing::ames_raw
-  name: ames
+  name: casas
 variables:
   Order:
     trans: ordem
@@ -45,7 +45,7 @@ variables:
     desc: Porção da fachada cercada por uma rua (pés)
   Lot Area:
     trans: lote_area
-    desc: Area do lote (pés quadrados)
+    desc: Área do lote (pés quadrados)
   Street:
     trans: rua_tipo
     desc: Tipo de rua que dá acesso à propriedade
@@ -69,17 +69,17 @@ variables:
       Reg: regular
   Land Contour:
     trans: terreno_contorno
-    desc: Nivelamento da propriedade
+    desc: Nivelamento da propriedade. Valores: bancada (aumento rápido e significativo do nível da rua para o prédio), encosta (declive significativo de lado a lado), depressão, aproximadamente plana/nivelada.
     values:
-      Bnk: bancada (aumento rápido e significativo do nível da rua para o prédio)
-      HLS: encosta - declive significativo de lado a lado
+      Bnk: bancada
+      HLS: encosta
       Low: depressão
       Lvl: aproximadamente plana/nivelada
   Utilities:
     trans: utilidades
-    desc: Tipo de utilizades disponível
+    desc: Tipo de utilizades disponíveis (eletricidade, gás, água e esgoto)
     values:
-      AllPub: todas as utilidades públicas (eletricidade, gás, água e esgoto)
+      AllPub: todas as utilidades públicas
       NoSeWa: eletricidade, gás e água (tanque séptico)
       NoSewr: eletricidade e gás apenas
       ELO: apenas eletricidade
@@ -146,7 +146,7 @@ variables:
       RRNn: dentro de 200 pés da ferrorvia Norte-Sul
   Condition 2:
     trans: condicao_2
-    desc: Proximidade da propriedade estradas ou rodovias importantes (caso uma segunda exista)
+    desc: Proximidade da propriedade de estradas ou rodovias importantes (caso uma segunda exista)
     values:
       Artery: adjacente a rua arterial
       Feedr: adjacente a rua alimentadora
@@ -159,13 +159,13 @@ variables:
       RRNn: dentro de 200 pés da ferrorvia Norte-Sul
   Bldg Type:
     trans: moradia_tipo
-    desc: Tipo de moradia
+    desc: Tipo de moradia. Valores: família única,  conversão para 2 famílias (originalmente construída para 2 famílias), duplex, unidade final de moradia (Townhouse End Unit), unidade interna de moradia (Townhouse Inside Unit).
     values:
       1Fam: família única
-      2fmCon: conversão para 2 famílias (originalmente construída para 2 famílias)
+      2fmCon: conversão para 2 famílias
       Duplex: duplex
-      Twnhs: unidade final de moradia (Townhouse End Unit)
-      TwnhsE: unidade interna de moradia (Townhouse Inside Unit)
+      Twnhs: unidade final de moradia
+      TwnhsE: unidade interna de moradia
   House Style:
     trans: moradia_estilo
     desc: Estilo da moradia
@@ -470,23 +470,23 @@ variables:
     desc: Número total de lareiras
   Fireplace Qu:
     trans: lareira_qualidade
-    desc: Qualidade da(s) lareira(s)
+    desc: Qualidade da(s) lareira(s). Valores: excelente (fogueira de alvenaria exepecional), boa (lareira de alvenaria no nível principal), regular (fogueira pré-fabricada no porão),  média (lareira pré-fabricada na sala de estar principal ou lareira de alvenaria no porão), ruim (fogão Ben Franklin), sem lareira
     values:
-      Ex: excelente (fogueira de alvenaria exepecional)
-      Fa: regular (fogueira pré-fabricada no porão)
-      Gd: boa (lareira de alvenaria no nível principal)
-      Po: ruim (fogão Ben Franklin)
-      TA: média (lareira pré-fabricada na sala de estar principal ou lareira de alvenaria no porão)
+      Ex: excelente
+      Fa: regular
+      Gd: boa
+      Po: ruim
+      TA: média
       NA: sem lareira
   Garage Type:
     trans: garagem_tipo
-    desc: Localização da garagem
+    desc: Localização da garagem. Valores: mais do que 1 tipo de garagem, anexada à casa, garagem no porão, embutida (parte da casa - tipicamente tem cômodo acima da garagem), abrigo com teto construído ao lado da casa (carport), garagem não anexada à casa, sem garagem.
     values:
-      2Types: mais do que 1 tipo de garargem
+      2Types: mais do que 1 tipo de garagem
       Attchd: anexada à casa
-      Basment: garem no porão
-      BuiltIn: embutida (parte da casa - tipicamente tem cômodo acima da garagem)
-      CarPort: abrigo com teto construído ao lado da casa (carport)
+      Basment: garagem no porão
+      BuiltIn: embutida
+      CarPort: abrigo com teto construído ao lado da casa
       Detchd: garagem não anexada à casa
       NA: sem garagem
   Garage Yr Blt:
@@ -569,10 +569,10 @@ variables:
       NA: sem cerca
   Misc Feature:
     trans: funcionalidades_diversas
-    desc: Funcionalidades diversas da casa (não incluidas nas outras categorias)
+    desc: Funcionalidades diversas da casa (não incluidas nas outras categorias). Valores: elevador, segunda garagem (se não descrito na seção garagem), galpão, quadra de tênis, outro, nenhuma.
     values:
       Elev: elevador
-      Gar2: segunda garagem (se não descrito na seção garagem)
+      Gar2: segunda garagem
       Othr: outro
       Shed: galpão
       TenC: quadra de tênis
@@ -599,23 +599,23 @@ variables:
       New: casa recém-construída e vendida
       Oth: outro
       VWD: escritura de garantia (empréstimo VA)
-      WD : escriturar de garantia (convencional)
+      WD : escritura de garantia (convencional)
   Sale Condition:
     trans: venda_condicao
-    desc: Condição da venda
+    desc: Condição da venda. Valores: venda anormal (troca, execução hipotecária, venda a descoberto), compra de terreno adjacente, alocação (duas propriedades vinculadas com escrituras separadas, normalmente em condomínio com garagem), venda entre membros de família, venda normal, casa não foi concluída na última avaliação (associada a novas casas)
     values:
-      Abnorml: venda anormal (troca, execução hipotecária, venda a descoberto)
+      Abnorml: venda anormal
       AdjLand: compra de terreno adjacente
-      Alloca: alocação (duas propriedades vinculadas com escrituras separadas, normalmente em condomínio com garagem)
+      Alloca: alocação
       Family: venda entre membros de família
       Normal: venda normal
-      Partial: casa não foi concluída na última avaliação (associada a novas casas)
+      Partial: casa não foi concluída na última avaliação
   SalePrice:
     trans: venda_valor
     desc: Valor da venda
 help:
-  name: ames
-  alias: ames
+  name: casas
+  alias: casas
   title: "Dados de habitação em Ames"
   description: "Base dados descrita em De Cock (2011) com 82 características de 2930 propriedades vendidas em Ames, Iowa, EUA."
   usage: ames
