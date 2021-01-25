@@ -2,8 +2,8 @@ delayedAssign('companhias_aereas',
         eval(parse(file.path(system.file('scripts','companhias_aereas.txt', package = 'dados')))))
 delayedAssign('aeroportos',
         eval(parse(file.path(system.file('scripts','aeroportos.txt', package = 'dados')))))
-delayedAssign('ames',
-        eval(parse(file.path(system.file('scripts','ames.txt', package = 'dados')))))
+delayedAssign('casas',
+        eval(parse(file.path(system.file('scripts','casas.txt', package = 'dados')))))
 delayedAssign('dados_atmosfera',
         eval(parse(file.path(system.file('scripts','dados_atmosfera.txt', package = 'dados')))))
 delayedAssign('premios_gerentes',

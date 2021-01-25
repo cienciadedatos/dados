@@ -49,7 +49,7 @@ Authors@R: c(
            comment = c(ORCID = "0000-0003-0543-3473"))
         )
 Description: Este pacote faz a tradução dos seguintes 
-    conjuntos de dados: 'airlines', 'airports', 'ames', 'AwardsManagers',
+    conjuntos de dados: 'airlines', 'airports', 'ames_raw', 'AwardsManagers',
     'babynames', 'Batting', 'diamonds', 'faithful', 'fueleconomy',
     'Fielding', 'flights', 'gapminder', 'gss_cat', 'iris', 'Managers',
     'mpg', 'mtcars', 'atmos', 'penguins', 'People, 'Pitching', 'planes',
