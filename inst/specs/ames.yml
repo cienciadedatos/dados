@@ -69,7 +69,7 @@ variables:
       Reg: regular
   Land Contour:
     trans: terreno_contorno
-    desc: Nivelamento da propriedade. Valores: bancada (aumento rápido e significativo do nível da rua para o prédio), encosta (declive significativo de lado a lado), depressão, aproximadamente plana/nivelada.
+    desc: "Nivelamento da propriedade. Valores: bancada (aumento rápido e significativo do nível da rua para o prédio), encosta (declive significativo de lado a lado), depressão, aproximadamente plana/nivelada."
     values:
       Bnk: bancada
       HLS: encosta
@@ -159,7 +159,7 @@ variables:
       RRNn: dentro de 200 pés da ferrorvia Norte-Sul
   Bldg Type:
     trans: moradia_tipo
-    desc: Tipo de moradia. Valores: família única,  conversão para 2 famílias (originalmente construída para 2 famílias), duplex, unidade final de moradia (Townhouse End Unit), unidade interna de moradia (Townhouse Inside Unit).
+    desc: "Tipo de moradia. Valores: família única,  conversão para 2 famílias (originalmente construída para 2 famílias), duplex, unidade final de moradia (Townhouse End Unit), unidade interna de moradia (Townhouse Inside Unit)."
     values:
       1Fam: família única
       2fmCon: conversão para 2 famílias
@@ -470,7 +470,7 @@ variables:
     desc: Número total de lareiras
   Fireplace Qu:
     trans: lareira_qualidade
-    desc: Qualidade da(s) lareira(s). Valores: excelente (fogueira de alvenaria exepecional), boa (lareira de alvenaria no nível principal), regular (fogueira pré-fabricada no porão),  média (lareira pré-fabricada na sala de estar principal ou lareira de alvenaria no porão), ruim (fogão Ben Franklin), sem lareira
+    desc: "Qualidade da(s) lareira(s). Valores: excelente (fogueira de alvenaria exepecional), boa (lareira de alvenaria no nível principal), regular (fogueira pré-fabricada no porão),  média (lareira pré-fabricada na sala de estar principal ou lareira de alvenaria no porão), ruim (fogão Ben Franklin), sem lareira."
     values:
       Ex: excelente
       Fa: regular
@@ -480,7 +480,7 @@ variables:
       NA: sem lareira
   Garage Type:
     trans: garagem_tipo
-    desc: Localização da garagem. Valores: mais do que 1 tipo de garagem, anexada à casa, garagem no porão, embutida (parte da casa - tipicamente tem cômodo acima da garagem), abrigo com teto construído ao lado da casa (carport), garagem não anexada à casa, sem garagem.
+    desc: "Localização da garagem. Valores: mais do que 1 tipo de garagem, anexada à casa, garagem no porão, embutida (parte da casa - tipicamente tem cômodo acima da garagem), abrigo com teto construído ao lado da casa (carport), garagem não anexada à casa, sem garagem."
     values:
       2Types: mais do que 1 tipo de garagem
       Attchd: anexada à casa
@@ -569,7 +569,7 @@ variables:
       NA: sem cerca
   Misc Feature:
     trans: funcionalidades_diversas
-    desc: Funcionalidades diversas da casa (não incluidas nas outras categorias). Valores: elevador, segunda garagem (se não descrito na seção garagem), galpão, quadra de tênis, outro, nenhuma.
+    desc: "Funcionalidades diversas da casa (não incluidas nas outras categorias). Valores: elevador, segunda garagem (se não descrito na seção garagem), galpão, quadra de tênis, outro, nenhuma."
     values:
       Elev: elevador
       Gar2: segunda garagem
@@ -602,7 +602,7 @@ variables:
       WD : escritura de garantia (convencional)
   Sale Condition:
     trans: venda_condicao
-    desc: Condição da venda. Valores: venda anormal (troca, execução hipotecária, venda a descoberto), compra de terreno adjacente, alocação (duas propriedades vinculadas com escrituras separadas, normalmente em condomínio com garagem), venda entre membros de família, venda normal, casa não foi concluída na última avaliação (associada a novas casas)
+    desc: "Condição da venda. Valores: venda anormal (troca, execução hipotecária, venda a descoberto), compra de terreno adjacente, alocação (duas propriedades vinculadas com escrituras separadas, normalmente em condomínio com garagem), venda entre membros de família, venda normal, casa não foi concluída na última avaliação (associada a novas casas)"
     values:
       Abnorml: venda anormal
       AdjLand: compra de terreno adjacente
@@ -618,6 +618,6 @@ help:
   alias: casas
   title: "Dados de habitação em Ames"
   description: "Base dados descrita em De Cock (2011) com 82 características de 2930 propriedades vendidas em Ames, Iowa, EUA."
-  usage: ames
+  usage: casas
   format: Um data.frame com 2930 linhas e 82 colunas.
   source: '\url{http://jse.amstat.org/v19n3/decock/DataDocumentation.txt}'

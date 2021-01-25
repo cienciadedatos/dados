@@ -7,7 +7,7 @@
 \title{dados: Translate Datasets to Portuguese}
 \description{
 Este pacote faz a tradução dos seguintes 
-    conjuntos de dados: 'airlines', 'airports', 'ames', 'AwardsManagers',
+    conjuntos de dados: 'airlines', 'airports', 'ames_raw', 'AwardsManagers',
     'babynames', 'Batting', 'diamonds', 'faithful', 'fueleconomy',
     'Fielding', 'flights', 'gapminder', 'gss_cat', 'iris', 'Managers',
     'mpg', 'mtcars', 'atmos', 'penguins', 'People, 'Pitching', 'planes',

@@ -37,7 +37,8 @@ As traduções disponíveis dentro de `dados` são as seguintes:
 exibidos nesta tabela)
 
 | Nome               | Título                                                                              | Pacote         | Dataset        |
-| :----------------- | :---------------------------------------------------------------------------------- | :------------- | :------------- |
+|:-------------------|:------------------------------------------------------------------------------------|:---------------|:---------------|
+| casas              | Dados de habitação em Ames                                                          | AmesHousing    | ames\_raw      |
 | bebes              | Nomes de bebês                                                                      | babynames      | babynames      |
 | velho\_fiel        | Dados do gêiser Velho Fiel (Old Faithful)                                           | datasets       | faithful       |
 | dados\_iris        | Dados de espécies de flor de Íris por Edgar Anderson                                | datasets       | iris           |
@@ -82,9 +83,9 @@ library(dplyr)
 ```
 
 Ao carregar o pacote, as variáveis que contêm os dados estarão
-disponíveis imediatamente para uso. Porém, os dados não serão
-traduzidos até que a variável seja “chamada” explicitamente por um
-comando. Neste exemplo, o conjunto de dados `diamante`, que provém de
+disponíveis imediatamente para uso. Porém, os dados não serão traduzidos
+até que a variável seja “chamada” explicitamente por um comando. Neste
+exemplo, o conjunto de dados `diamante`, que provém de
 `ggplot2::diamonds`, é carregado no *workspace* do R no momento em que o
 chamamos pela primeira vez em português:
 
