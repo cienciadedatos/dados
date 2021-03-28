@@ -3,7 +3,7 @@ df:
   name: pinguins
 variables:
   species:
-    trans: especies
+    trans: especie
     desc: Um fator com as espécies de pinguim (Pinguim-de-adélia, Pinguim-de-barbicha e Pinguim-gentoo)
     values:
       Adelie: "Pinguim-de-adélia"

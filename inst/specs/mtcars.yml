@@ -3,8 +3,8 @@ df:
   name: mtcarros
 variables:
   mpg:
-    trans: milhares
-    desc: Milhares por galão (EUA)
+    trans: milhas_por_galao
+    desc: "Milhas por galão (US)"
   cyl:
     trans: cilindros
     desc: "Número de cilindros"
@@ -19,7 +19,7 @@ variables:
     desc: "Relação de eixo traseiro"
   wt:
     trans: peso
-    desc: Peso (1000 libra)
+    desc: Peso (1000 libras)
   qsec:
     trans: velocidade
     desc: Tempo em percorrer 1/4 de milha
