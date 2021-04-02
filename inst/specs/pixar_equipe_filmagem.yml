@@ -34,7 +34,7 @@ variables:
             Lightyear: Lightyear
     role_type:
         trans: cargo
-        desc: Cargo das pessoas que trabalharam(ão) no filme
+        desc: "Cargo das pessoas que trabalharam(ão) no filme"
         values:
             Director: Diretor
             Screenwriter: Roteirista

@@ -4,7 +4,7 @@ df:
 variables:
   number:
     trans: numero
-    desc: "Order de lançamento dos filme"
+    desc: "Ordem de lançamento dos filme"
   film:
     trans: filme
     desc: "Título do filme"
