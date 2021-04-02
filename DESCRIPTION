@@ -86,6 +86,7 @@ Imports:
     rlang,
     tibble,
     tidyr,
-    yaml
+    yaml,
+    pixarfilms
 Suggests:
     covr
