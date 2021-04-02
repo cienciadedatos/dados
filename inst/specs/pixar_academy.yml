@@ -13,7 +13,7 @@ variables:
             Finding Nemo: Procurando Nemo
             The Incredibles: Os Incríveis
             Cars: Carros
-            Ratatouille: Ratatui
+            Ratatouille: Ratatouille
             WALL-E: WALL-E
             Up: Up - Altas Aventuras
             Toy Story 3: "Toy Story 3"
@@ -33,14 +33,14 @@ variables:
         trans: tipo_premio_indicado
         desc: "Tipo de prêmio"
         values:
-            Animated Feature: "Filme de Animação"
-            Original Screenplay: Roteiro Original
-            Adapted Screenplay: Roteiro Adaptado
-            Original Score: Banda Sonora
-            Original Song: "Canção Original"
+            Animated Feature: "Melhor Filme de Animação"
+            Original Screenplay: Melhor Roteiro Original
+            Adapted Screenplay: Melhor Roteiro Adaptado
+            Original Score: Melhor Trilha Sonora
+            Original Song: "Melhor Canção Original"
             Other: Outro
-            Sound Editing: "Edição de Som"
-            Sound Mixing: Mixagem de Som
+            Sound Editing: "Melhor Edição de Som"
+            Sound Mixing: Melhor Mixagem de Som
             Best Picture: Melhor Filme
     status:
         trans: resultado
