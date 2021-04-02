@@ -1,19 +1,19 @@
 df:
     source: pixarfilms::genres
-    name: pixar_genero_filme
+    name: pixar_generos
 variables:
     film:
         trans: filme
         desc: "Título do filme"
         values:
             Toy Story: "Toy Story - Um Mundo de Aventuras"
-            A Bug''s Life: Vida de Inseto
+            A Bug's Life: Vida de Inseto
             Toy Story 2: "Toy Story 2"
             Monsters, Inc.:  "Monstros S. A."
             Finding Nemo: Procurando Nemo
             The Incredibles: Os Incríveis
             Cars: Carros
-            Ratatouille: Ratatui
+            Ratatouille: Ratatouille
             WALL-E: WALL-E
             Up: Up - Altas Aventuras
             Toy Story 3: "Toy Story 3"
@@ -37,7 +37,7 @@ variables:
         desc: "Gênero do filme"
         values:
             Animation: "Animação"
-            Adventure: Aventuras
+            Adventure: Aventura
             Comedy: "Comédia"
             Family: "Família"
             Fantasy: Fantasia
@@ -49,9 +49,9 @@ variables:
             Mystery: "Mistério"
             Romance: Romance
 help:
-    name: genres
-    alias: pixar_genero_filme
-    title: "Gênero dos filmes da Pixar"
+    name: pixar_generos
+    alias: pixar_generos
+    title: "Gêneros dos filmes da Pixar"
     description: "Filmes e seus gêneros"
-    usage: pixar_genero_filme
-    format: Tibble com 128 linhas e 2 colunas
+    usage: pixar_generos
+    format: Um tibble com 128 linhas e 2 colunas

@@ -7,7 +7,7 @@ variables:
         desc: "Título do filme"
         values:
             Toy Story: "Toy Story - Um Mundo de Aventuras"
-            A Bug''s Life: Vida de Inseto
+            A Bug's Life: Vida de Inseto
             Toy Story 2: "Toy Story 2"
             Monsters, Inc.:  "Monstros S. A."
             Finding Nemo: Procurando Nemo
@@ -52,9 +52,9 @@ variables:
             Won Special Achievement: "Venceu Prêmio Especial"
             Won: Venceu
 help:
-    name: academy
+    name: pixar_indicacoes_oscar
     alias: pixar_indicacoes_oscar
     title: "Filmes da Pixar com indicações ao Oscar"
     description: "Filmes da Pixar que foram indicados ao Oscar, a categoria em que concorreram e o resultado da indicação"
     usage: pixar_indicacoes_oscar
-    format: Tibble com 72 linhas e 3 colunas
+    format: Um tibble com 72 linhas e 3 colunas

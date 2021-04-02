@@ -4,19 +4,19 @@ df:
 variables:
   number:
     trans: numero
-    desc: "Ordem de lançamento dos filme"
+    desc: "Ordem de lançamento dos filmes"
   film:
     trans: filme
     desc: "Título do filme"
     values:
       Toy Story: "Toy Story - Um Mundo de Aventuras"
-      A Bug''s Life: Vida de Inseto
+      A Bug's Life: Vida de Inseto
       Toy Story 2: "Toy Story 2"
       Monsters, Inc.:  "Monstros S. A."
       Finding Nemo: Procurando Nemo
       The Incredibles: Os Incríveis
       Cars: Carros
-      Ratatouille: Ratatui
+      Ratatouille: Ratatouille
       WALL-E: WALL-E
       Up: Up - Altas Aventuras
       Toy Story 3: "Toy Story 3"
@@ -39,9 +39,9 @@ variables:
     trans: data_lancamento
     desc: "Data de lançamento do filme"
 help:
-  name: pixar_films
+  name: pixar_filmes
   alias: pixar_filmes
-  title: "Títulos lançados pela Pixar"
+  title: "Filmes da Pixar"
   description: "Nome e data de lançamento dos filmes da Pixar"
   usage: pixar_filmes
-  format: tibble com 27 linhas e 3 colunas
+  format: Um tibble com 27 linhas e 3 colunas

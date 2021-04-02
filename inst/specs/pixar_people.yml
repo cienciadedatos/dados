@@ -1,19 +1,19 @@
 df:
     source: pixarfilms::pixar_people
-    name: pixar_equipe_filmagem
+    name: pixar_equipe
 variables:
     film:
         trans: filme
         desc: "Título do filme"
         values:
             Toy Story: "Toy Story - Um Mundo de Aventuras"
-            A Bug''s Life: Vida de Inseto
+            A Bug's Life: Vida de Inseto
             Toy Story 2: "Toy Story 2"
             Monsters, Inc.:  "Monstros S. A."
             Finding Nemo: Procurando Nemo
             The Incredibles: Os Incríveis
             Cars: Carros
-            Ratatouille: Ratatui
+            Ratatouille: Ratatouille
             WALL-E: WALL-E
             Up: Up - Altas Aventuras
             Toy Story 3: "Toy Story 3"
@@ -34,20 +34,20 @@ variables:
             Lightyear: Lightyear
     role_type:
         trans: cargo
-        desc: "Cargo das pessoas que trabalharam(ão) no filme"
+        desc: "Cargo das pessoas"
         values:
-            Director: Diretor
+            Director: "Diretor(a)"
             Screenwriter: Roteirista
-            Storywriter: "Escritor da história"
-            Producer: Produtor
-            Musician: "Músico"
+            Storywriter: "Escritor(a) da história"
+            Producer: "Produtor(a)"
+            Musician: "Músico(a)"
     name:
         trans: nome
         desc: "Nome da pessoa que ocupa o cargo"
 help:
-    name: genres
-    alias: pixar_equipe_filmagem
-    title: "Equipes de filmagem responsáveis pelas produções dos filmes"
-    description: "Filmes e suas equipes de filmagem"
-    usage: pixar_equipe_filmagem
-    format: Tibble com 228 linhas e 3 colunas
+    name: pixar_equipe
+    alias: pixar_equipe
+    title: "Equipe dos filmes"
+    description: "Principais pessoas envolvidas nas produções dos filmes da Pixar"
+    usage: pixar_equipe
+    format: Um tibble com 228 linhas e 3 colunas

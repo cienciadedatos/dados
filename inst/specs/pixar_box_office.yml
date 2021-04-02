@@ -7,13 +7,13 @@ variables:
         desc: "Título do filme"
         values:
             Toy Story: "Toy Story - Um Mundo de Aventuras"
-            A Bug''s Life: Vida de Inseto
+            A Bug's Life: Vida de Inseto
             Toy Story 2: "Toy Story 2"
             Monsters, Inc.:  "Monstros S. A."
             Finding Nemo: Procurando Nemo
             The Incredibles: Os Incríveis
             Cars: Carros
-            Ratatouille: Ratatui
+            Ratatouille: Ratatouille
             WALL-E: WALL-E
             Up: Up - Altas Aventuras
             Toy Story 3: "Toy Story 3"
@@ -31,20 +31,20 @@ variables:
             Soul: Soul
     budget:
         trans: orcamento
-        desc: "Orçamento do filme"
+        desc: "Orçamento do filme (em dólar americano)"
     box_office_us_canada:
         trans: bilheteria_eua_canada
-        desc: "Valor gerado pela venda de ingressos nos EUA e Canada (em dólar)"
+        desc: "Valor gerado pela venda de ingressos nos EUA e Canada (em dólar americano)"
     box_office_other:
-        trans: bilheteria_outros
-        desc: "Valor gerado pela venda de ingressos nos demais países (em dólar)"
+        trans: bilheteria_outros_paises
+        desc: "Valor gerado pela venda de ingressos nos demais países (em dólar americano)"
     box_office_worldwide:
         trans: bilheteria_mundial
-        desc: Valor gerado com a venda de ingressos no mundo inteiro
+        desc: "Valor gerado com a venda de ingressos no mundo inteiro (em dólar americano)"
 help:
-    name: box_office
+    name: pixar_bilheteria
     alias: pixar_bilheteria
-    title: "Filmes da Pixar com seus respectiveis orçamentos e valor de bilheteria"
-    description: "Filme com o orçamentos e bilheterias por localização"
+    title: "Bilheteria dos filmes da Pixar"
+    description: "Filmes da Pixar com seus respectivos orçamentos e valor de bilheteria"
     usage: pixar_bilheteria
-    format: Tibble com 23 linhas e 5 colunas
+    format: Um tibble com 23 linhas e 5 colunas
