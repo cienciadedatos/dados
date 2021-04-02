@@ -1,0 +1,57 @@
+df:
+    source: pixarfilms::genres
+    name: pixar_genero_filme
+variables:
+    film:
+        trans: filme
+        desc: "Título do filme"
+        values:
+            Toy Story: "Toy Story - Um Mundo de Aventuras"
+            A Bug''s Life: Vida de Inseto
+            Toy Story 2: "Toy Story 2"
+            Monsters, Inc.:  "Monstros S. A."
+            Finding Nemo: Procurando Nemo
+            The Incredibles: Os Incríveis
+            Cars: Carros
+            Ratatouille: Ratatui
+            WALL-E: WALL-E
+            Up: Up - Altas Aventuras
+            Toy Story 3: "Toy Story 3"
+            Cars 2: "Carros 2"
+            Brave: Valente
+            Monsters University: Universidade Monstros
+            Inside Out: Divertidamente
+            The Good Dinosaur: O Bom Dinossauro
+            Finding Dory: Procurando Dory
+            Cars 3: "Carros 3"
+            Coco: "Viva - A Vida é Uma Festa"
+            Incredibles 2: "Os Incríveis 2"
+            Toy Story 4: "Toy Story 4"
+            Onward: "Dois Irmãos: Uma Jornada Fantástica"
+            Soul: Soul
+            Luca: Luca
+            Turning Red: Turning Red
+            Lightyear: Lightyear
+    genre:
+        trans: genero
+        desc: "Gênero do filme"
+        values:
+            Animation: "Animação"
+            Adventure: Aventuras
+            Comedy: "Comédia"
+            Family: "Família"
+            Fantasy: Fantasia
+            Action: "Ação"
+            Sport: Esporte
+            Sci-Fi: "Ficção Científica"
+            Drama: Drama
+            Music: Musical
+            Mystery: "Mistério"
+            Romance: Romance
+help:
+    name: genres
+    alias: pixar_genero_filme
+    title: "Gênero dos filmes da Pixar"
+    description: "Filmes e seus gêneros"
+    usage: pixar_genero_filme
+    format: Tibble com 128 linhas e 2 colunas

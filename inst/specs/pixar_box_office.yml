@@ -1,0 +1,50 @@
+df:
+    source: pixarfilms::box_office
+    name: pixar_bilheteria
+variables:
+    film:
+        trans: filme
+        desc: "Título do filme"
+        values:
+            Toy Story: "Toy Story - Um Mundo de Aventuras"
+            A Bug''s Life: Vida de Inseto
+            Toy Story 2: "Toy Story 2"
+            Monsters, Inc.:  "Monstros S. A."
+            Finding Nemo: Procurando Nemo
+            The Incredibles: Os Incríveis
+            Cars: Carros
+            Ratatouille: Ratatui
+            WALL-E: WALL-E
+            Up: Up - Altas Aventuras
+            Toy Story 3: "Toy Story 3"
+            Cars 2: "Carros 2"
+            Brave: Valente
+            Monsters University: Universidade Monstros
+            Inside Out: Divertidamente
+            The Good Dinosaur: O Bom Dinossauro
+            Finding Dory: Procurando Dory
+            Cars 3: "Carros 3"
+            Coco: "Viva - A Vida é Uma Festa"
+            Incredibles 2: "Os Incríveis 2"
+            Toy Story 4: "Toy Story 4"
+            Onward: "Dois Irmãos: Uma Jornada Fantástica"
+            Soul: Soul
+    budget:
+        trans: orcamento
+        desc: "Orçamento do filme"
+    box_office_us_canada:
+        trans: bilheteria_eua_canada
+        desc: "Valor gerado pela venda de ingressos nos EUA e Canada (em dólar)"
+    box_office_other:
+        trans: bilheteria_outros
+        desc: "Valor gerado pela venda de ingressos nos demais países (em dólar)"
+    box_office_worldwide:
+        trans: bilheteria_mundial
+        desc: Valor gerado com a venda de ingressos no mundo inteiro
+help:
+    name: box_office
+    alias: pixar_bilheteria
+    title: "Filmes da Pixar com seus respectiveis orçamentos e valor de bilheteria"
+    description: "Filme com o orçamentos e bilheterias por localização"
+    usage: pixar_bilheteria
+    format: Tibble com 23 linhas e 5 colunas
