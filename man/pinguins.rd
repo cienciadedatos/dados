@@ -4,7 +4,7 @@
 \title{Medidas de pinguins adultos perto da Estação Palmer, Antártida (Palmer Station)}
 \format{Um tibble com 344 linhas e 8 colunas
 \describe{
-\item{especies}{Um fator com as espécies de pinguim (Pinguim-de-adélia, Pinguim-de-barbicha e Pinguim-gentoo)}
+\item{especie}{Um fator com as espécies de pinguim (Pinguim-de-adélia, Pinguim-de-barbicha e Pinguim-gentoo)}
 \item{ilha}{Um fator com cada ilha do Arquipélago Palmer, na Antártida (Biscoe, Dream, Togersen)}
 \item{comprimento_bico}{Um número inteiro que indica o comprimento do bico (em milímetros)}
 \item{profundidade_bico}{Um número inteiro que indica a profundidade do bico (em milímetros)}
