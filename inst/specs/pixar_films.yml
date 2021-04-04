@@ -3,7 +3,7 @@ df:
   name: pixar_filmes
 variables:
   number:
-    trans: numero
+    trans: ordem_lancamento
     desc: "Ordem de lançamento dos filmes"
   film:
     trans: filme
@@ -42,6 +42,6 @@ help:
   name: pixar_filmes
   alias: pixar_filmes
   title: "Filmes da Pixar"
-  description: "Nome e data de lançamento dos filmes da Pixar"
+  description: "Nome e data e ordem de lançamento dos filmes da Pixar"
   usage: pixar_filmes
   format: Um tibble com 27 linhas e 3 colunas
