@@ -25,7 +25,7 @@ variables:
       auburn, white: Ruivo, Branco
       auburn, grey: Ruivo, Cinza
       white: Branco
-      auburn: Ruivo
+      auburn: Castanho-avermelhado
       unknown: Desconhecido
   skin_color:
     trans: cor_da_pele
