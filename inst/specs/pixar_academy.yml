@@ -1,6 +1,6 @@
 df:
     source: pixarfilms::academy
-    name: pixar_indicacoes_oscar
+    name: pixar_oscars
 variables:
     film:
         trans: filme
@@ -52,9 +52,9 @@ variables:
             Won Special Achievement: "Venceu Prêmio Especial"
             Won: Venceu
 help:
-    name: pixar_indicacoes_oscar
-    alias: pixar_indicacoes_oscar
+    name: pixar_oscars
+    alias: pixar_oscars
     title: "Filmes da Pixar com indicações ao Oscar"
     description: "Filmes da Pixar que foram indicados ao Oscar, a categoria em que concorreram e o resultado da indicação"
-    usage: pixar_indicacoes_oscar
+    usage: pixar_oscars
     format: Um tibble com 72 linhas e 3 colunas
