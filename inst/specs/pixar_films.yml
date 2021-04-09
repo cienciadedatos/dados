@@ -1,0 +1,47 @@
+df:
+  source: pixarfilms::pixar_films
+  name: pixar_filmes
+variables:
+  number:
+    trans: ordem_lancamento
+    desc: "Ordem de lançamento dos filmes"
+  film:
+    trans: filme
+    desc: "Título do filme"
+    values:
+      Toy Story: "Toy Story - Um Mundo de Aventuras"
+      A Bug's Life: Vida de Inseto
+      Toy Story 2: "Toy Story 2"
+      Monsters, Inc.:  "Monstros S. A."
+      Finding Nemo: Procurando Nemo
+      The Incredibles: Os Incríveis
+      Cars: Carros
+      Ratatouille: Ratatouille
+      WALL-E: WALL-E
+      Up: Up - Altas Aventuras
+      Toy Story 3: "Toy Story 3"
+      Cars 2: "Carros 2"
+      Brave: Valente
+      Monsters University: Universidade Monstros
+      Inside Out: Divertidamente
+      The Good Dinosaur: O Bom Dinossauro
+      Finding Dory: Procurando Dory
+      Cars 3: "Carros 3"
+      Coco: "Viva - A Vida é Uma Festa"
+      Incredibles 2: "Os Incríveis 2"
+      Toy Story 4: "Toy Story 4"
+      Onward: "Dois Irmãos: Uma Jornada Fantástica"
+      Soul: Soul
+      Luca: Luca
+      Turning Red: Turning Red
+      Lightyear: Lightyear
+  release_date:
+    trans: data_lancamento
+    desc: "Data de lançamento do filme"
+help:
+  name: pixar_filmes
+  alias: pixar_filmes
+  title: "Filmes da Pixar"
+  description: "Nome e data e ordem de lançamento dos filmes da Pixar"
+  usage: pixar_filmes
+  format: Um tibble com 27 linhas e 3 colunas

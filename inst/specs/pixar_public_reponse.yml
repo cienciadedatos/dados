@@ -1,0 +1,50 @@
+df:
+    source: pixarfilms::public_response
+    name: pixar_avalicao_publico
+variables:
+    film:
+        trans: filme
+        desc: "Título do filme"
+        values:
+            Toy Story: "Toy Story - Um Mundo de Aventuras"
+            A Bug's Life: Vida de Inseto
+            Toy Story 2: "Toy Story 2"
+            Monsters, Inc.:  "Monstros S. A."
+            Finding Nemo: Procurando Nemo
+            The Incredibles: Os Incríveis
+            Cars: Carros
+            Ratatouille: Ratatouille
+            WALL-E: WALL-E
+            Up: Up - Altas Aventuras
+            Toy Story 3: "Toy Story 3"
+            Cars 2: "Carros 2"
+            Brave: Valente
+            Monsters University: Universidade Monstros
+            Inside Out: Divertidamente
+            The Good Dinosaur: O Bom Dinossauro
+            Finding Dory: Procurando Dory
+            Cars 3: "Carros 3"
+            Coco: "Viva - A Vida é Uma Festa"
+            Incredibles 2: "Os Incríveis 2"
+            Toy Story 4: "Toy Story 4"
+            Onward: "Dois Irmãos: Uma Jornada Fantástica"
+            Soul: Soul
+    rotten_tomatoes:
+        trans: nota_rotten_tomatoes
+        desc: "Avaliação obtida pelo site Rotten Tomatoes. As avaliações são numéricas e vão de 0 a 100."
+    metacritic:
+        trans: nota_metacritic
+        desc: "Avaliação obtida pelo site Metacritic. As avaliações são numéricas e vão de 0 a 100."
+    cinema_score:
+        trans: nota_cinema_score
+        desc: "Avaliação obtida pelo site CinemaScore. Avaliação em escala alfabética que varia de A+ a F."
+    critics_choice:
+        trans: nota_critics_choice
+        desc: "Avaliação obtida pelo Critics' Choice Movie Awards que varia de 0 a 100."
+help:
+    name: pixar_avalicao_publico
+    alias: pixar_avalicao_publico
+    title: "Filmes da Pixar e avaliações"
+    description: "Filmes da Pixar com avaliações do público e da crítica, obtidas por diferentes sites"
+    usage: pixar_avalicao_publico
+    format: Um tibble com 23 linhas e 5 colunas
