@@ -27,7 +27,7 @@ knitr::opts_chunk$set(echo = TRUE)
 [![Travis build status](https://travis-ci.com/cienciadedatos/dados.svg?branch=master)](https://travis-ci.com/cienciadedatos/dados)
 <!-- badges: end -->
 
-Este pacote faz a tradução de conjuntos de dados em inglês originalmente disponíveis em outros pacotes de R. Os dados traduzidos são utilizados nos exemplos do livro [R for Data Science](https://r4ds.had.co.nz/) de Hadley Wickham & Garrett Grolemund, cuja [versão em português](https://www.altabooks.com.br/produto/r-para-data-science-importe-arrume-transforme-visualize-e-modele-dados/) foi publicada por AltaBooks & O'Reilly.
+Este pacote disponibiliza a tradução de conjuntos de dados em inglês originalmente disponíveis em outros pacotes de R. Os dados traduzidos são utilizados nos exemplos do livro [R for Data Science](https://r4ds.had.co.nz/) de Hadley Wickham & Garrett Grolemund, cuja [versão em português](https://www.altabooks.com.br/produto/r-para-data-science-importe-arrume-transforme-visualize-e-modele-dados/) foi publicada por AltaBooks & O'Reilly.
 
 ## Instalação
 
@@ -42,8 +42,6 @@ remotes::install_github("cienciadedatos/dados")
 ## Traduções
 
 As traduções disponíveis dentro de `dados` são as seguintes:
-
-(NOTA: a medida que vamos traduzindo, os conjuntos de dados serão exibidos nesta tabela)
 
 ```{r, echo = FALSE}
 
@@ -98,4 +96,4 @@ diamante %>%
 
 ## Funções internas de `dados`
 
-As funções internas de `dados` foram desenvolvidas originalmente por seu pacote irmão: [`datos`](https://cienciadedatos.github.io/datos/)
+As funções internas de `dados` foram desenvolvidas originalmente por seu pacote irmão: [`datos`](https://cienciadedatos.github.io/datos/).
