@@ -108,6 +108,15 @@ variables:
       Human: Humano
       Droid: Droide
       Yoda's species: "Espécie do Yoda"
+      Rodian: Rodiano
+      Trandoshan: Trandoshano
+      Sullustan: Sullustano
+      Neimodian: Neimoidiano
+      Tholothian: Tholotiano
+      Chagrian: Chagriano
+      Geonosian: Geonosiano
+      Skakoan: Skakoano
+      Pau'an: Pau'ano
   films:
     trans: filmes
     desc: Lista de filmes em que o/a personagem apareceu
