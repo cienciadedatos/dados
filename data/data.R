@@ -40,6 +40,18 @@ delayedAssign('pessoas',
         eval(parse(file.path(system.file('scripts','pessoas.txt', package = 'dados')))))
 delayedAssign('arremesadores',
         eval(parse(file.path(system.file('scripts','arremesadores.txt', package = 'dados')))))
+delayedAssign('pixar_oscars',
+        eval(parse(file.path(system.file('scripts','pixar_oscars.txt', package = 'dados')))))
+delayedAssign('pixar_bilheteria',
+        eval(parse(file.path(system.file('scripts','pixar_bilheteria.txt', package = 'dados')))))
+delayedAssign('pixar_filmes',
+        eval(parse(file.path(system.file('scripts','pixar_filmes.txt', package = 'dados')))))
+delayedAssign('pixar_generos',
+        eval(parse(file.path(system.file('scripts','pixar_generos.txt', package = 'dados')))))
+delayedAssign('pixar_equipe',
+        eval(parse(file.path(system.file('scripts','pixar_equipe.txt', package = 'dados')))))
+delayedAssign('pixar_avalicao_publico',
+        eval(parse(file.path(system.file('scripts','pixar_avalicao_publico.txt', package = 'dados')))))
 delayedAssign('avioes',
         eval(parse(file.path(system.file('scripts','avioes.txt', package = 'dados')))))
 delayedAssign('presidentes_eua',

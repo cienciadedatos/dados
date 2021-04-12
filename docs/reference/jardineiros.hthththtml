@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Dados do gêiser Velho Fiel (Old Faithful) — velho_fiel • dados</title>
+<title>Tabela de estatísticas do jardineiro — jardineiros • dados</title>
 
 
 <!-- jquery -->
@@ -39,8 +39,8 @@
 
 
 
-<meta property="og:title" content="Dados do gêiser Velho Fiel (Old Faithful) — velho_fiel" />
-<meta property="og:description" content="Dados do tempo de espera entre erupções e duração de cada erupção do gêiser Velho Fiel (Old Faithful), localizado no Parque Nacional de Yellowstone, em Wyoming, nos Estados Unidos." />
+<meta property="og:title" content="Tabela de estatísticas do jardineiro — jardineiros" />
+<meta property="og:description" content="Estatísticas de defesa" />
 
 
 
@@ -80,7 +80,7 @@
       <ul class="nav navbar-nav">
         <li>
   <a href="../index.html">
-    <span class="fas fa-home fa-lg"></span>
+    <span class="fas fa fas fa-home fa-lg"></span>
      
   </a>
 </li>
@@ -91,7 +91,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="https://github.com/cienciadedatos/dados/">
-    <span class="fab fa-github fa-lg"></span>
+    <span class="fab fa fab fa-github fa-lg"></span>
      
   </a>
 </li>
@@ -108,25 +108,43 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Dados do gêiser Velho Fiel (Old Faithful)</h1>
+    <h1>Tabela de estatísticas do jardineiro</h1>
     
-    <div class="hidden name"><code>velho_fiel.rd</code></div>
+    <div class="hidden name"><code>jardineiros.rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Dados do tempo de espera entre erupções e duração de cada erupção do gêiser Velho Fiel (Old Faithful), localizado no Parque Nacional de Yellowstone, em Wyoming, nos Estados Unidos.</p>
+    <p>Estatísticas de defesa</p>
     </div>
 
-    <pre class="usage"><span class='va'>velho_fiel</span></pre>
 
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>Um data.frame com 272 linhas e 2 colunas</p><dl>
-<dt>erupcoes</dt><dd><p>Tempo das erupções (em minutos)</p></dd>
-<dt>tempo_espera</dt><dd><p>Minutos entre as erupções</p></dd>
+    <p>Um data frame com 140.921 linhas e 18 colunas</p><dl'>
+<dt>id_jogador</dt><dd><p>ID do jogador</p></dd>
+<dt>id_ano</dt><dd><p>Ano</p></dd>
+<dt>ordem_equipe</dt><dd><p>Ordem em que o jogador se moveu entre as equipes na mesma temporada</p></dd>
+<dt>id_equipe</dt><dd><p>ID da equipe (fator)</p></dd>
+<dt>id_liga</dt><dd><p>ID da liga (fator com níveis AA, AL, FL, NL, PL, UA)</p></dd>
+<dt>posicao</dt><dd><p>Posição do jogador defensivo</p></dd>
+<dt>jogos</dt><dd><p>Jogos</p></dd>
+<dt>jogos_iniciados</dt><dd><p>Jogos iniciados</p></dd>
+<dt>inn_outs</dt><dd><p>Tempo jogado pelo jogador expresso em outs</p></dd>
+<dt>outs_feitos</dt><dd><p>Outs feitas pelo jogador</p></dd>
+<dt>assistencias</dt><dd><p>Assistências realizadas pelo jogador</p></dd>
+<dt>erros</dt><dd><p>Erros cometidos pelo jogador</p></dd>
+<dt>eliminacao_dupla</dt><dd><p>Eliminação dupla em que o jogador esteve envolvido defensivamente</p></dd>
+<dt>bolas_passadas</dt><dd><p>Bolas passadas (aplicável a receptores)</p></dd>
+<dt>lancamentos_desviados</dt><dd><p>Wild pitches - arremessos ruins que permitem o avanço de corredores adversários (aplicável a arremessadores)</p></dd>
+<dt>bases_roubadas</dt><dd><p>Bases roubadas pelo oponente (aplicável aos receptor)</p></dd>
+<dt>capturado_roubando</dt><dd><p>Opositores apanhados em tentativa de roubo (aplicável a receptores)</p></dd>
+<dt>taxa_zona</dt><dd><p>Porcentagem de bolas capturadas por um defensor, em sua zona defensiva típica</p></dd>
 
 </dl>
+    <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
+
+    <div class='dont-index'><p><code><a href='https://rdrr.io/pkg/Lahman/man/Fielding.html'>Fielding</a></code></p></div>
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
@@ -139,11 +157,11 @@
 
       <footer>
       <div class="copyright">
-  <p>Developed by Riva Quiroga, Sara Mortara, Beatriz Milz, Andrea Sánchez-Tapia, Alejandra Andrea Tapia Silva, Beatriz Maurer Costa, Jean Prado, Renata Hirota, William Amorim, Emmanuelle Rodrigues Nunes.</p>
+  <p>Developed by Riva Quiroga, Sara Mortara, Beatriz Milz, Andrea Sánchez-Tapia, Alejandra Andrea Tapia Silva, Beatriz Maurer Costa, Jean Prado, Renata Hirota.</p>
 </div>
 
 <div class="pkgdown">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.6.1.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.5.1.</p>
 </div>
 
       </footer>
