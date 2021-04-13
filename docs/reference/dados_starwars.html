@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Tabela de estatísticas do jardineiro — jardineiros • dados</title>
+<title>Personagens de Starwars — dados_starwars • dados</title>
 
 
 <!-- jquery -->
@@ -39,8 +39,8 @@
 
 
 
-<meta property="og:title" content="Tabela de estatísticas do jardineiro — jardineiros" />
-<meta property="og:description" content="Estatísticas de defesa" />
+<meta property="og:title" content="Personagens de Starwars — dados_starwars" />
+<meta property="og:description" content="Contém observações de personagens de Starwars. Os dados originais, da SWAPI - a API de Starwars,  https://swapi.dev/ - foram revisados para refletir pesquisas adicionais sobre gênero e sexo dos/das personagens." />
 
 
 
@@ -80,7 +80,7 @@
       <ul class="nav navbar-nav">
         <li>
   <a href="../index.html">
-    <span class="fas fa fas fa-home fa-lg"></span>
+    <span class="fas fa-home fa-lg"></span>
      
   </a>
 </li>
@@ -91,7 +91,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="https://github.com/cienciadedatos/dados/">
-    <span class="fab fa fab fa-github fa-lg"></span>
+    <span class="fab fa-github fa-lg"></span>
      
   </a>
 </li>
@@ -108,43 +108,39 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Tabela de estatísticas do jardineiro</h1>
+    <h1>Personagens de Starwars</h1>
     
-    <div class="hidden name"><code>jardineiros.rd</code></div>
+    <div class="hidden name"><code>dados_starwars.rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Estatísticas de defesa</p>
+    <p>Contém observações de personagens de Starwars. Os dados originais, da SWAPI - a API de Starwars,  https://swapi.dev/ - foram revisados para refletir pesquisas adicionais sobre gênero e sexo dos/das personagens.</p>
     </div>
 
 
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>Um data frame com 140.921 linhas e 18 colunas</p><dl'>
-<dt>id_jogador</dt><dd><p>ID do jogador</p></dd>
-<dt>id_ano</dt><dd><p>Ano</p></dd>
-<dt>ordem_equipe</dt><dd><p>Ordem em que o jogador se moveu entre as equipes na mesma temporada</p></dd>
-<dt>id_equipe</dt><dd><p>ID da equipe (fator)</p></dd>
-<dt>id_liga</dt><dd><p>ID da liga (fator com níveis AA, AL, FL, NL, PL, UA)</p></dd>
-<dt>posicao</dt><dd><p>Posição do jogador defensivo</p></dd>
-<dt>jogos</dt><dd><p>Jogos</p></dd>
-<dt>jogos_iniciados</dt><dd><p>Jogos iniciados</p></dd>
-<dt>inn_outs</dt><dd><p>Tempo jogado pelo jogador expresso em outs</p></dd>
-<dt>outs_feitos</dt><dd><p>Outs feitas pelo jogador</p></dd>
-<dt>assistencias</dt><dd><p>Assistências realizadas pelo jogador</p></dd>
-<dt>erros</dt><dd><p>Erros cometidos pelo jogador</p></dd>
-<dt>eliminacao_dupla</dt><dd><p>Eliminação dupla em que o jogador esteve envolvido defensivamente</p></dd>
-<dt>bolas_passadas</dt><dd><p>Bolas passadas (aplicável a receptores)</p></dd>
-<dt>lancamentos_desviados</dt><dd><p>Wild pitches - arremessos ruins que permitem o avanço de corredores adversários (aplicável a arremessadores)</p></dd>
-<dt>bases_roubadas</dt><dd><p>Bases roubadas pelo oponente (aplicável aos receptor)</p></dd>
-<dt>capturado_roubando</dt><dd><p>Opositores apanhados em tentativa de roubo (aplicável a receptores)</p></dd>
-<dt>taxa_zona</dt><dd><p>Porcentagem de bolas capturadas por um defensor, em sua zona defensiva típica</p></dd>
+    <p>Um tibble com 87 linhas e 14 colunas</p><dl>
+<dt>nome</dt><dd><p>Nome</p></dd>
+<dt>altura</dt><dd><p>Altura em centímetros (cm)</p></dd>
+<dt>massa</dt><dd><p>Massa em quilogramas (kg)</p></dd>
+<dt>cor_do_cabelo</dt><dd><p>Cor do cabelo</p></dd>
+<dt>cor_da_pele</dt><dd><p>Cor da pele</p></dd>
+<dt>cor_dos_olhos</dt><dd><p>Cor dos olhos</p></dd>
+<dt>ano_nascimento</dt><dd><p>Ano de nascimento BBY (BBY = antes da batalha de Yavin)</p></dd>
+<dt>sexo_biologico</dt><dd><p>Sexo Biológico, sendo macho, fêmea, hermafrodita, ou nenhum (no caso dos Droides)</p></dd>
+<dt>genero</dt><dd><p>Gênero - O papel de gênero ou identidade de gênero da/do personagem conforme determinado por sua personalidade ou a maneira como foram programados (como no caso dos Droides)</p></dd>
+<dt>planeta_natal</dt><dd><p>Nome do planeta natal</p></dd>
+<dt>especie</dt><dd><p>Nome da espécie</p></dd>
+<dt>filmes</dt><dd><p>Lista de filmes em que o/a personagem apareceu</p></dd>
+<dt>veiculos</dt><dd><p>Lista de veículos que o/a personagem pilotou nos filmes</p></dd>
+<dt>naves_espaciais</dt><dd><p>Lista de naves espaciais que o/a personagem pilotou nos filmes</p></dd>
 
 </dl>
     <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
 
-    <div class='dont-index'><p><code><a href='https://rdrr.io/pkg/Lahman/man/Fielding.html'>Fielding</a></code></p></div>
+    <div class='dont-index'><p><code><a href='https://dplyr.tidyverse.org/reference/starwars.html'>starwars</a></code></p></div>
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
@@ -157,11 +153,11 @@
 
       <footer>
       <div class="copyright">
-  <p>Developed by Riva Quiroga, Sara Mortara, Beatriz Milz, Andrea Sánchez-Tapia, Alejandra Andrea Tapia Silva, Beatriz Maurer Costa, Jean Prado, Renata Hirota.</p>
+  <p>Developed by Riva Quiroga, Sara Mortara, Beatriz Milz, Andrea Sánchez-Tapia, Alejandra Andrea Tapia Silva, Beatriz Maurer Costa, Jean Prado, Renata Hirota, William Amorim, Emmanuelle Rodrigues Nunes.</p>
 </div>
 
 <div class="pkgdown">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.5.1.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.6.1.</p>
 </div>
 
       </footer>
