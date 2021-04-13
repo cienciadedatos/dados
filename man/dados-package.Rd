@@ -10,7 +10,7 @@ Este pacote faz a tradução dos seguintes
     conjuntos de dados: 'airlines', 'airports', 'ames_raw', 'AwardsManagers',
     'babynames', 'Batting', 'diamonds', 'faithful', 'fueleconomy',
     'Fielding', 'flights', 'gapminder', 'gss_cat', 'iris', 'Managers',
-    'mpg', 'mtcars', 'atmos', 'penguins', 'People, 'Pitching', 'planes',
+    'mpg', 'mtcars', 'atmos', 'penguins', 'People, 'Pitching', 'pixarfilms','planes',
     'presidential', 'table1', 'table2', 'table3', 'table4a', 'table4b',
     'table5', 'vehicles', 'weather', 'who'.  English: It provides a
     Portuguese translated version of the datasets listed above.
@@ -36,6 +36,7 @@ Authors:
   \item Jean Prado \email{jeangrprado@gmail.com} (\href{https://orcid.org/0000-0002-7928-774X}{ORCID})
   \item Renata Hirota \email{re.hirota@gmail.com} (\href{https://orcid.org/0000-0002-3589-3246}{ORCID})
   \item William Amorim \email{wamorim@curso-r.com} (\href{https://orcid.org/0000-0003-0543-3473}{ORCID})
+  \item Emmanuelle Rodrigues Nunes \email{emmanuellernunes@gmail.com} (\href{https://orcid.org/0000-0001-5994-352X}{ORCID})
 }
 
 }

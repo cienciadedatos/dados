@@ -1,0 +1,60 @@
+df:
+    source: pixarfilms::academy
+    name: pixar_oscars
+variables:
+    film:
+        trans: filme
+        desc: "Título do filme"
+        values:
+            Toy Story: "Toy Story - Um Mundo de Aventuras"
+            A Bug's Life: Vida de Inseto
+            Toy Story 2: "Toy Story 2"
+            Monsters, Inc.:  "Monstros S. A."
+            Finding Nemo: Procurando Nemo
+            The Incredibles: Os Incríveis
+            Cars: Carros
+            Ratatouille: Ratatouille
+            WALL-E: WALL-E
+            Up: Up - Altas Aventuras
+            Toy Story 3: "Toy Story 3"
+            Cars 2: "Carros 2"
+            Brave: Valente
+            Monsters University: Universidade Monstros
+            Inside Out: Divertida Mente
+            The Good Dinosaur: O Bom Dinossauro
+            Finding Dory: Procurando Dory
+            Cars 3: "Carros 3"
+            Coco: "Viva - A Vida é Uma Festa"
+            Incredibles 2: "Os Incríveis 2"
+            Toy Story 4: "Toy Story 4"
+            Onward: "Dois Irmãos: Uma Jornada Fantástica"
+            Soul: Soul
+    award_type:
+        trans: tipo_premio_indicado
+        desc: "Tipo de prêmio"
+        values:
+            Animated Feature: "Melhor Filme de Animação"
+            Original Screenplay: Melhor Roteiro Original
+            Adapted Screenplay: Melhor Roteiro Adaptado
+            Original Score: Melhor Trilha Sonora
+            Original Song: "Melhor Canção Original"
+            Other: Outro
+            Sound Editing: "Melhor Edição de Som"
+            Sound Mixing: Melhor Mixagem de Som
+            Best Picture: Melhor Filme
+    status:
+        trans: resultado
+        desc: "Resultado da indicação"
+        values:
+            Award not yet introduced: "Prêmio ainda não introduzido"
+            Nominated: Nomeado
+            Ineligible: "Inelegível"
+            Won Special Achievement: "Venceu Prêmio Especial"
+            Won: Venceu
+help:
+    name: pixar_oscars
+    alias: pixar_oscars
+    title: "Filmes da Pixar com indicações ao Oscar"
+    description: "Filmes da Pixar que foram indicados ao Oscar, a categoria em que concorreram e o resultado da indicação"
+    usage: pixar_oscars
+    format: Um tibble com 72 linhas e 3 colunas

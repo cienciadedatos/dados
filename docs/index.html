@@ -16,7 +16,7 @@
     conjuntos de dados: airlines, airports, ames_raw, AwardsManagers,
     babynames, Batting, diamonds, faithful, fueleconomy,
     Fielding, flights, gapminder, gss_cat, iris, Managers,
-    mpg, mtcars, atmos, penguins, People, Pitching, planes,
+    mpg, mtcars, atmos, penguins, People, Pitching, pixarfilms,planes,
     presidential, table1, table2, table3, table4a, table4b,
     table5, vehicles, weather, who'.  English: It provides a
     Portuguese translated version of the datasets listed above.">
@@ -79,7 +79,7 @@
 </h1></div>
 <!-- badges: start -->
 
-<p>Este pacote faz a tradução de conjuntos de dados em inglês originalmente disponíveis em outros pacotes de R. Os dados traduzidos são utilizados nos exemplos do livro <a href="https://r4ds.had.co.nz/">R for Data Science</a> de Hadley Wickham &amp; Garrett Grolemund, cuja <a href="https://www.altabooks.com.br/produto/r-para-data-science-importe-arrume-transforme-visualize-e-modele-dados/">versão em português</a> foi publicada por AltaBooks &amp; O’Reilly.</p>
+<p>Este pacote disponibiliza a tradução de conjuntos de dados em inglês originalmente disponíveis em outros pacotes de R. Os dados traduzidos são utilizados nos exemplos do livro <a href="https://r4ds.had.co.nz/">R for Data Science</a> de Hadley Wickham &amp; Garrett Grolemund, cuja <a href="https://www.altabooks.com.br/produto/r-para-data-science-importe-arrume-transforme-visualize-e-modele-dados/">versão em português</a> foi publicada por AltaBooks &amp; O’Reilly.</p>
 <div id="instalação" class="section level2">
 <h2 class="hasAnchor">
 <a href="#instala%C3%A7%C3%A3o" class="anchor"></a>Instalação</h2>
@@ -92,13 +92,12 @@
 <h2 class="hasAnchor">
 <a href="#tradu%C3%A7%C3%B5es" class="anchor"></a>Traduções</h2>
 <p>As traduções disponíveis dentro de <code>dados</code> são as seguintes:</p>
-<p>(NOTA: a medida que vamos traduzindo, os conjuntos de dados serão exibidos nesta tabela)</p>
 <table class="table">
 <colgroup>
-<col width="14%">
-<col width="62%">
+<col width="17%">
+<col width="58%">
 <col width="11%">
-<col width="11%">
+<col width="12%">
 </colgroup>
 <thead><tr class="header">
 <th align="left">Nome</th>
@@ -264,6 +263,42 @@
 <td align="left">penguins</td>
 </tr>
 <tr class="odd">
+<td align="left">pixar_oscars</td>
+<td align="left">Filmes da Pixar com indicações ao Oscar</td>
+<td align="left">pixarfilms</td>
+<td align="left">academy</td>
+</tr>
+<tr class="even">
+<td align="left">pixar_bilheteria</td>
+<td align="left">Bilheteria dos filmes da Pixar</td>
+<td align="left">pixarfilms</td>
+<td align="left">box_office</td>
+</tr>
+<tr class="odd">
+<td align="left">pixar_generos</td>
+<td align="left">Gêneros dos filmes da Pixar</td>
+<td align="left">pixarfilms</td>
+<td align="left">genres</td>
+</tr>
+<tr class="even">
+<td align="left">pixar_filmes</td>
+<td align="left">Filmes da Pixar</td>
+<td align="left">pixarfilms</td>
+<td align="left">pixar_films</td>
+</tr>
+<tr class="odd">
+<td align="left">pixar_equipe</td>
+<td align="left">Equipe dos filmes</td>
+<td align="left">pixarfilms</td>
+<td align="left">pixar_people</td>
+</tr>
+<tr class="even">
+<td align="left">pixar_avalicao_publico</td>
+<td align="left">Filmes da Pixar e avaliações</td>
+<td align="left">pixarfilms</td>
+<td align="left">public_response</td>
+</tr>
+<tr class="odd">
 <td align="left">tabela1</td>
 <td align="left">Registros de tuberculose da Organização Mundial da Saúde (primeira variante)</td>
 <td align="left">tidyr</td>
@@ -321,16 +356,16 @@
 <span class="fu"><a href="https://tibble.tidyverse.org/reference/glimpse.html">glimpse</a></span><span class="op">(</span><span class="va">diamante</span><span class="op">)</span>
 <span class="co">#&gt; Rows: 53,940</span>
 <span class="co">#&gt; Columns: 10</span>
-<span class="co">#&gt; $ preco         &lt;int&gt; 326, 326, 327, 334, 335, 336, 336, 337, 337, 338, 339, …</span>
-<span class="co">#&gt; $ quilate       &lt;dbl&gt; 0.23, 0.21, 0.23, 0.29, 0.31, 0.24, 0.24, 0.26, 0.22, 0…</span>
-<span class="co">#&gt; $ corte         &lt;ord&gt; Ideal, Premium, Bom, Premium, Bom, Muito Bom, Muito Bom…</span>
-<span class="co">#&gt; $ cor           &lt;ord&gt; E, E, E, I, J, J, I, H, E, H, J, J, F, J, E, E, I, J, J…</span>
-<span class="co">#&gt; $ transparencia &lt;ord&gt; SI2, SI1, VS1, VS2, SI2, VVS2, VVS1, SI1, VS2, VS1, SI1…</span>
-<span class="co">#&gt; $ profundidade  &lt;dbl&gt; 61.5, 59.8, 56.9, 62.4, 63.3, 62.8, 62.3, 61.9, 65.1, 5…</span>
-<span class="co">#&gt; $ tabela        &lt;dbl&gt; 55, 61, 65, 58, 58, 57, 57, 55, 61, 61, 55, 56, 61, 54,…</span>
-<span class="co">#&gt; $ x             &lt;dbl&gt; 3.95, 3.89, 4.05, 4.20, 4.34, 3.94, 3.95, 4.07, 3.87, 4…</span>
-<span class="co">#&gt; $ y             &lt;dbl&gt; 3.98, 3.84, 4.07, 4.23, 4.35, 3.96, 3.98, 4.11, 3.78, 4…</span>
-<span class="co">#&gt; $ z             &lt;dbl&gt; 2.43, 2.31, 2.31, 2.63, 2.75, 2.48, 2.47, 2.53, 2.49, 2…</span></pre></div>
+<span class="co">#&gt; $ preco         &lt;int&gt; 326, 326, 327, 334, 335, 336, 336, 337, 337, 338, 339, 3…</span>
+<span class="co">#&gt; $ quilate       &lt;dbl&gt; 0.23, 0.21, 0.23, 0.29, 0.31, 0.24, 0.24, 0.26, 0.22, 0.…</span>
+<span class="co">#&gt; $ corte         &lt;ord&gt; Ideal, Premium, Bom, Premium, Bom, Muito Bom, Muito Bom,…</span>
+<span class="co">#&gt; $ cor           &lt;ord&gt; E, E, E, I, J, J, I, H, E, H, J, J, F, J, E, E, I, J, J,…</span>
+<span class="co">#&gt; $ transparencia &lt;ord&gt; SI2, SI1, VS1, VS2, SI2, VVS2, VVS1, SI1, VS2, VS1, SI1,…</span>
+<span class="co">#&gt; $ profundidade  &lt;dbl&gt; 61.5, 59.8, 56.9, 62.4, 63.3, 62.8, 62.3, 61.9, 65.1, 59…</span>
+<span class="co">#&gt; $ tabela        &lt;dbl&gt; 55, 61, 65, 58, 58, 57, 57, 55, 61, 61, 55, 56, 61, 54, …</span>
+<span class="co">#&gt; $ x             &lt;dbl&gt; 3.95, 3.89, 4.05, 4.20, 4.34, 3.94, 3.95, 4.07, 3.87, 4.…</span>
+<span class="co">#&gt; $ y             &lt;dbl&gt; 3.98, 3.84, 4.07, 4.23, 4.35, 3.96, 3.98, 4.11, 3.78, 4.…</span>
+<span class="co">#&gt; $ z             &lt;dbl&gt; 2.43, 2.31, 2.31, 2.63, 2.75, 2.48, 2.47, 2.53, 2.49, 2.…</span></pre></div>
 <p>Os dados traduzidos permanecerão carregados em sua sessão de R:</p>
 <div class="sourceCode" id="cb4"><pre class="downlit">
 <span class="va">diamante</span> <span class="op">%&gt;%</span>
@@ -345,7 +380,7 @@
 <h2 class="hasAnchor">
 <a href="#fun%C3%A7%C3%B5es-internas-de-dados" class="anchor"></a>Funções internas de <code>dados</code>
 </h2>
-<p>As funções internas de <code>dados</code> foram desenvolvidas originalmente por seu pacote irmão: <a href="https://cienciadedatos.github.io/datos/"><code>datos</code></a></p>
+<p>As funções internas de <code>dados</code> foram desenvolvidas originalmente por seu pacote irmão: <a href="https://cienciadedatos.github.io/datos/"><code>datos</code></a>.</p>
 </div>
 </div>
   </div>
@@ -379,6 +414,7 @@
 <li>Jean Prado <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0002-7928-774X" target="orcid.widget" aria-label="ORCID"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
 <li>Renata Hirota <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0002-3589-3246" target="orcid.widget" aria-label="ORCID"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
 <li>William Amorim <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0003-0543-3473" target="orcid.widget" aria-label="ORCID"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li>Emmanuelle Rodrigues Nunes <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0001-5994-352X" target="orcid.widget" aria-label="ORCID"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
 </ul>
 </div>
 
@@ -394,7 +430,7 @@
 
 
       <footer><div class="copyright">
-  <p>Developed by Riva Quiroga, Sara Mortara, Beatriz Milz, Andrea Sánchez-Tapia, Alejandra Andrea Tapia Silva, Beatriz Maurer Costa, Jean Prado, Renata Hirota, William Amorim.</p>
+  <p>Developed by Riva Quiroga, Sara Mortara, Beatriz Milz, Andrea Sánchez-Tapia, Alejandra Andrea Tapia Silva, Beatriz Maurer Costa, Jean Prado, Renata Hirota, William Amorim, Emmanuelle Rodrigues Nunes.</p>
 </div>
 
 <div class="pkgdown">
