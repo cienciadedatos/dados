@@ -46,6 +46,8 @@ delayedAssign('presidentes_eua',
         eval(parse(file.path(system.file('scripts','presidentes_eua.txt', package = 'dados')))))
 delayedAssign('salarios',
         eval(parse(file.path(system.file('scripts','salarios.txt', package = 'dados')))))
+delayedAssign('dados_starwars',
+        eval(parse(file.path(system.file('scripts','dados_starwars.txt', package = 'dados')))))
 delayedAssign('tabela1',
         eval(parse(file.path(system.file('scripts','tabela1.txt', package = 'dados')))))
 delayedAssign('tabela2',
