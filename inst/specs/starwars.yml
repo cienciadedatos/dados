@@ -1,0 +1,159 @@
+df:
+  source: dplyr::starwars
+  name: dados_starwars
+variables:
+  name:
+    trans: nome
+    desc: Nome
+  height:
+    trans: altura
+    desc: Altura em centímetros (cm)
+  mass:
+    trans: massa
+    desc: Massa em quilogramas (kg)
+  hair_color:
+    trans: cor_do_cabelo
+    desc: Cor do cabelo
+    values:
+      blond: Loiro
+      blonde: Loiro
+      none: Nenhum
+      brown: Castanho
+      brown, grey: Castanho, Cinza
+      grey: Cinza
+      black: Preto
+      auburn, white: Ruivo, Branco
+      auburn, grey: Ruivo, Cinza
+      white: Branco
+      auburn: Castanho avermelhado
+      unknown: Desconhecido
+  skin_color:
+    trans: cor_da_pele
+    desc: Cor da pele
+    values:
+      fair: Branca clara
+      gold: Ouro
+      white, blue: Branca, Azul
+      white: Branca
+      light: Clara
+      white, red: Branca, Vermelha
+      unknown: Desconhecida
+      green: Verde
+      green-tan, brown: Bronzeado verde, Marrom
+      pale: Branca pálida
+      metal: Metal
+      dark: Negra
+      brown mottle: Marrom com manchas
+      brown: Marrom
+      grey: Cinza
+      mottled green: Verde com manchas
+      orange: Larajna
+      blue, grey: Azul, Cinza
+      grey, red: Cinza, Vermelha
+      red: Vermelha
+      blue: Azul
+      grey, green, yellow: Cinza, Verde, Amarela
+      yellow: Amarela
+      tan: Bronzeada
+      fair, green, yellow: Branca clara, Verde, Amarela
+      grey, blue: Cinza, Azul
+      silver, red: Prata, Vermelha
+      green, grey: Verde, Cinza
+      red, blue, white: Vermelha, Azul, Branca
+      brown, white: Marrom, Branca
+      none: Nenhuma
+  eye_color:
+    trans: cor_dos_olhos
+    desc: Cor dos olhos
+    values:
+      blue: Azul
+      yellow: Amarelo
+      red: Vermelho
+      brown: Castanho
+      blue-gray: Azul acinzentado
+      black: Preto
+      orange: Laranja
+      hazel: Castanho esverdeado
+      pink: Rosa
+      unknown: Desconhecido
+      red, blue: Vermelho, Azul
+      gold: Ouro
+      green, yellow: Verde, Amarelo
+      white: Branco
+      dark: Preto
+  birth_year:
+    trans: ano_nascimento
+    desc: Ano de nascimento BBY (BBY = antes da batalha de Yavin)
+  sex:
+    trans: sexo_biologico
+    desc: "Sexo Biológico, sendo macho, fêmea, hermafrodita, ou nenhum (no caso dos Droides)"
+    values:
+      male: Macho
+      none: Nenhum
+      female: Fêmea
+      hermaphroditic: Hermafrodita
+  gender:
+    trans: genero
+    desc: "Gênero - O papel de gênero ou identidade de gênero da/do personagem conforme determinado por sua personalidade ou a maneira como foram programados (como no caso dos Droides)"
+    values:
+      masculine: Masculino
+      feminine: Feminino
+  homeworld:
+    trans: planeta_natal
+    desc: Nome do planeta natal
+  species:
+    trans: especie
+    desc: Nome da espécie
+    values:
+      Human: Humano
+      Droid: Droide
+      Yoda's species: "Espécie do Yoda"
+      Rodian: Rodiano
+      Trandoshan: Trandoshano
+      Sullustan: Sullustano
+      Neimodian: Neimoidiano
+      Tholothian: Tholotiano
+      Chagrian: Chagriano
+      Geonosian: Geonosiano
+      Skakoan: Skakoano
+      Pau'an: Pau'ano
+  films:
+    trans: filmes
+    desc: Lista de filmes em que o/a personagem apareceu
+    # values:
+    #   A New Hope: ["Uma Nova Esperança"]
+    #   The Empire Strikes Back: ["O Império Contra-Ataca"]
+    #   Return of the Jedi: ["O Retorno de Jedi"]
+    #   The Phantom Menace: ["A Ameaça Fantasma"]
+    #   Attack of the Clones: ["Ataque dos Clones"]
+    #   Revenge of the Sith: ["A Vingança dos Sith"]
+    #   The Force Awakens: ["O Despertar da Força"]
+    #   c("Attack of the Clones", "Revenge of the Sith"): ["Ataque dos Clones", "A Vingança dos Sith"]
+    #   c("Revenge of the Sith", "A New Hope"): ["A Vingança dos Sith", "Uma Nova Esperança"]
+    #   c("The Empire Strikes Back", "Revenge of the Sith", "Return of the Jedi", "A New Hope", "The Force Awakens"): ["O Império Contra-Ataca", "A Vingança dos Sith", "O Retorno de Jedi", "Uma Nova Esperança", "O Despertar da Força"]
+    #   c("Attack of the Clones", "Revenge of the Sith", "A New Hope"): ["Ataque dos Clones", "A Vingança dos Sith", "Uma Nova Esperança"]
+    #   c("Attack of the Clones", "The Phantom Menace", "Revenge of the Sith"): ["Ataque dos Clones", "A Ameaça Fantasma", "A Vingança dos Sith"]
+    #   c("The Phantom Menace", "Return of the Jedi", "A New Hope"): ["A Ameaça Fantasma", "O Retorno de Jedi", "Uma Nova Esperança"]
+    #   c("The Empire Strikes Back", "Return of the Jedi", "A New Hope"): ["O Império Contra-Ataca", "O Retorno de Jedi", "Uma Nova Esperança"]
+    #   c("The Empire Strikes Back", "Revenge of the Sith", "Return of the Jedi", "A New Hope"): ["O Império Contra-Ataca", "A Vingança dos Sith", "O Retorno de Jedi", "Uma Nova Esperança"]
+    #   c("The Empire Strikes Back", "Return of the Jedi", "A New Hope", "The Force Awakens"): ["O Império Contra-Ataca", "O Retorno de Jedi", "Uma Nova Esperança", "O Despertar da Força"]
+    #   c("Attack of the Clones", "The Phantom Menace"): ["Ataque dos Clones", "A Ameaça Fantasma"]
+    #   c("The Phantom Menace", "Revenge of the Sith"): ["A Ameaça Fantasma", "A Vingança dos Sith"]
+    #   c("Return of the Jedi", "The Force Awakens"): ["O Retorno de Jedi", "O Despertar da Força"]
+    #   c("The Empire Strikes Back", "Return of the Jedi"): ["O Império Contra-Ataca", "O Retorno de Jedi"]
+    #   c("The Empire Strikes Back", "Attack of the Clones", "Return of the Jedi"): ["O Império Contra-Ataca", "Ataque dos Clones", "O Retorno de Jedi"]
+    #   c("The Empire Strikes Back", "Attack of the Clones", "The Phantom Menace", "Revenge of the Sith", "Return of the Jedi"): ["O Império Contra-Ataca", "Ataque dos Clones", "A Ameaça Fantasma", "A Vingança dos Sith", "O Retorno de Jedi"]
+    #   c("The Empire Strikes Back", "Attack of the Clones", "The Phantom Menace", "Revenge of the Sith", "Return of the Jedi", "A New Hope"): ["O Império Contra-Ataca", "Ataque dos Clones", "A Ameaça Fantasma", "A Vingança dos Sith", "O Retorno de Jedi", "Uma Nova Esperança"]
+    #   c("The Empire Strikes Back", "Attack of the Clones", "The Phantom Menace", "Revenge of the Sith", "Return of the Jedi", "A New Hope", "The Force Awakens"): ["O Império Contra-Ataca", "Ataque dos Clones", "A Ameaça Fantasma", "A Vingança dos Sith", "O Retorno de Jedi", "Uma Nova Esperança", "O Despertar da Força"]
+  vehicles:
+    trans: veiculos
+    desc: "Lista de veículos que o/a personagem pilotou nos filmes"
+  starships:
+    trans: naves_espaciais
+    desc: "Lista de naves espaciais que o/a personagem pilotou nos filmes"
+help:
+  name: dados_starwars
+  alias: dados_starwars
+  title: "Personagens de Starwars"
+  description: "Contém observações de personagens de Starwars. Os dados originais, da SWAPI - a API de Starwars,  https://swapi.dev/ - foram revisados para refletir pesquisas adicionais sobre gênero e sexo dos/das personagens."
+  format: Um tibble com 87 linhas e 14 colunas
