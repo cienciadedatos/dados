@@ -4,23 +4,23 @@ df:
 variables:
   Sepal.Length:
     trans: Comprimento.Sepala
-    desc: Comprimento da Sépala
+    desc: "Comprimento da S\u00e9pala"
   Sepal.Width:
     trans: Largura.Sepala
-    desc: "Largura da Sépala"
+    desc: "Largura da S\u00e9pala"
   Petal.Length:
     trans: Comprimento.Petala
-    desc: "Comprimento da Pétala"
+    desc: "Comprimento da P\u00e9tala"
   Petal.Width:
     trans: Largura.Petala
-    desc: "Largura da Pétala"
+    desc: "Largura da P\u00e9tala"
   Species:
     trans: Especies
-    desc: "A espécie correspondente da flor de Íris (Iris setosa, I. versicolor, I. virginica)"
+    desc: "A esp\u00e9cie correspondente da flor de \u00cdris (Iris setosa, I. versicolor, I. virginica)"
 help:
   name: dados_iris
   alias: dados_iris
-  title: "Dados de espécies de flor de Íris por Edgar Anderson"
-  description: "O famoso conjunto de dados sobre espécies de flor de Íris (Edgar Anderson e Ronald Fisher) fornece as medidas em centímetros das variáveis de comprimento e largura da sépala e pétala, para 50 flores de cada uma das 3 espécies de íris. As espécies são Iris setosa, I. versicolor e I. virginica"
+  title: "Dados de esp\u00e9cies de flor de \u00cdris por Edgar Anderson"
+  description: "O famoso conjunto de dados sobre esp\u00e9cies de flor de \u00cdris (Edgar Anderson e Ronald Fisher) fornece as medidas em cent\u00edmetros das vari\u00e1veis de comprimento e largura da s\u00e9pala e p\u00e9tala, para 50 flores de cada uma das 3 esp\u00e9cies de \u00edris. As esp\u00e9cies s\u00e3o Iris setosa, I. versicolor e I. virginica"
   usage: dados_iris
   format: Um data.frame com 150 linhas e 5 colunas

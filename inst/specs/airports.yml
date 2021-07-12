@@ -4,37 +4,37 @@ df:
 variables:
   faa:
     trans: codigo_aeroporto
-    desc: Código FAA do aeroporto
+    desc: "C\u00f3digo FAA do aeroporto"
   name:
     trans: nome
     desc: Nome do aeroporto
   lat:
     trans: latitude
-    desc: "Coordenada de localização do aeroporto"
+    desc: "Coordenada de localiza\u00e7\u00e3o do aeroporto"
   lon:
     trans: longitude
-    desc: "Coordenada de localização do aeroporto"
+    desc: "Coordenada de localiza\u00e7\u00e3o do aeroporto"
   alt:
     trans: altura
-    desc: "Altura medida em pés"
+    desc: "Altura medida em p\u00e9s"
   tz:
     trans: fuso_horario
-    desc: "Diferença de fuso horário do Meridiano de Greenwich (GMT)"
+    desc: "Diferen\u00e7a de fuso hor\u00e1rio do Meridiano de Greenwich (GMT)"
   dst:
     trans: horario_verao
-    desc: "Horário legal de acordo com as políticas de economia de energia.
-      A = Horário de verão (Daylight Saving Time) padrão dos EUA:
-        começa o segundo sábado de março E;
-        termina o primeiro sábado de novembro;
+    desc: "Hor\u00e1rio legal de acordo com as pol\u00edticas de economia de energia.
+      A = Hor\u00e1rio de ver\u00e3o (Daylight Saving Time) padr\u00e3o dos EUA:
+        come\u00e7a o segundo s\u00e1bado de mar\u00e7o E;
+        termina o primeiro s\u00e1bado de novembro;
       U = Desconhecido;
-      N = Não possui horário de verão"
+      N = N\u00e3o possui hor\u00e1rio de ver\u00e3o"
   tzone:
     trans: fuso_horario_iana
-    desc: "Fuso horário IANA, determinado de acordo com o serviço web GeoNames"
+    desc: "Fuso hor\u00e1rio IANA, determinado de acordo com o servi\u00e7o web GeoNames"
 help:
   name: aeroportos
   alias: aeroportos
   title: Aeroportos
-  description: "Metadados úteis sobre aeroportos"
+  description: "Metadados \u00fateis sobre aeroportos"
   usage: aeroportos
   format: Um data.frame com 1.458 linhas e 8 colunas

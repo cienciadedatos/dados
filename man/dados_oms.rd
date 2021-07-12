@@ -19,7 +19,8 @@
 \item{novos_fpp_m1524}{Casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 15 a 24 anos (1524)}
 \item{novos_fpp_m2534}{Casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 25 a 34 anos (2534)}
 \item{novos_fpp_m3544}{Casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 35 a 44 anos (3544)}
-\item{novos_fpp_m4554}{Casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 45 a 54 anos (4554) new_sp_f5564: trans: novos_fpp_m5564 desc: Casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 55 a 64 anos (5564)}
+\item{novos_fpp_m4554}{Casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 45 a 54 anos (4554)}
+\item{novos_fpp_m5564}{Casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 55 a 64 anos (5564)}
 \item{novos_fpp_m65}{Casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 65 ou mais anos}
 \item{novos_fpn_h014}{Casos novos, diagnóstico frotis pulmonar negativo (fpn), homens (h) de 0 a 14 anos (014)}
 \item{novos_fpn_h1524}{Casos novos, diagnóstico frotis pulmonar negativo (fpn), homens (h) de 15 a 24 anos (1524)}

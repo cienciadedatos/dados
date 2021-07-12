@@ -4,14 +4,14 @@ df:
 variables:
     film:
         trans: filme
-        desc: "Título do filme"
+        desc: "T\u00edtulo do filme"
         values:
             Toy Story: "Toy Story - Um Mundo de Aventuras"
             A Bug's Life: Vida de Inseto
             Toy Story 2: "Toy Story 2"
             Monsters, Inc.:  "Monstros S. A."
             Finding Nemo: Procurando Nemo
-            The Incredibles: Os Incríveis
+            The Incredibles: "Os Incr\u00edveis"
             Cars: Carros
             Ratatouille: Ratatouille
             WALL-E: WALL-E
@@ -24,34 +24,34 @@ variables:
             The Good Dinosaur: O Bom Dinossauro
             Finding Dory: Procurando Dory
             Cars 3: "Carros 3"
-            Coco: "Viva - A Vida é Uma Festa"
-            Incredibles 2: "Os Incríveis 2"
+            Coco: "Viva - A Vida \u00e9 Uma Festa"
+            Incredibles 2: "Os Incr\u00edveis 2"
             Toy Story 4: "Toy Story 4"
-            Onward: "Dois Irmãos: Uma Jornada Fantástica"
+            Onward: "Dois Irm\u00e3os: Uma Jornada Fant\u00e1stica"
             Soul: Soul
             Luca: Luca
             Turning Red: Turning Red
             Lightyear: Lightyear
     genre:
         trans: genero
-        desc: "Gênero do filme"
+        desc: "G\u00eanero do filme"
         values:
-            Animation: "Animação"
+            Animation: "Anima\u00e7\u00e3o"
             Adventure: Aventura
-            Comedy: "Comédia"
-            Family: "Família"
+            Comedy: "Com\u00e9dia"
+            Family: "Fam\u00edlia"
             Fantasy: Fantasia
-            Action: "Ação"
+            Action: "A\u00e7\u00e3o"
             Sport: Esporte
-            Sci-Fi: "Ficção Científica"
+            Sci-Fi: "Fic\u00e7\u00e3o Cient\u00edfica"
             Drama: Drama
             Music: Musical
-            Mystery: "Mistério"
+            Mystery: "Mist\u00e9rio"
             Romance: Romance
 help:
     name: pixar_generos
     alias: pixar_generos
-    title: "Gêneros dos filmes da Pixar"
-    description: "Filmes e seus gêneros"
+    title: "G\u00eaneros dos filmes da Pixar"
+    description: "Filmes e seus g\u00eaneros"
     usage: pixar_generos
     format: Um tibble com 128 linhas e 2 colunas

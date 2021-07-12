@@ -4,40 +4,40 @@ df:
 variables:
   year:
     trans: ano
-    desc: Ano da data de saída do voo
+    desc: "Ano da data de sa\u00edda do voo"
   month:
     trans: mes
-    desc: "Mês da data de saída do voo"
+    desc: "M\u00eas da data de sa\u00edda do voo"
   day:
     trans: dia
-    desc: "Dia da data de saída do voo"
+    desc: "Dia da data de sa\u00edda do voo"
   dep_time:
     trans: horario_saida
-    desc: "Horário real de saída do voo (formato HHMM ou HMM), hora local"
+    desc: "Hor\u00e1rio real de sa\u00edda do voo (formato HHMM ou HMM), hora local"
   sched_dep_time:
     trans: saida_programada
-    desc: "Horário programado para a saída do voo (formato HHMM ou HMM), hora local"
+    desc: "Hor\u00e1rio programado para a sa\u00edda do voo (formato HHMM ou HMM), hora local"
   dep_delay:
     trans: atraso_saida
-    desc: "Atraso de saída em minutos. Valores negativos indicam saída adiantada"
+    desc: "Atraso de sa\u00edda em minutos. Valores negativos indicam sa\u00edda adiantada"
   arr_time:
     trans: horario_chegada
-    desc: "Horário real de chegada do voo (formato HHMM ou HMM), hora local"
+    desc: "Hor\u00e1rio real de chegada do voo (formato HHMM ou HMM), hora local"
   sched_arr_time:
     trans: chegada_prevista
-    desc: "Horário programado para a chegada do voo (formato HHMM ou HMM), hora local"
+    desc: "Hor\u00e1rio programado para a chegada do voo (formato HHMM ou HMM), hora local"
   arr_delay:
     trans: atraso_chegada
     desc: "Atraso de chegada em minutos. Valores negativos indicam chegada adiantada"
   carrier:
     trans: companhia_aerea
-    desc: "Abreviação de dois dígitos da companhia aérea. Ver `companhias_aereas` para obter o nome da companhia aérea"
+    desc: "Abrevia\u00e7\u00e3o de dois d\u00edgitos da companhia a\u00e9rea. Ver `companhias_aereas` para obter o nome da companhia a\u00e9rea"
   flight:
     trans: voo
-    desc: "Número do voo"
+    desc: "N\u00famero do voo"
   tailnum:
     trans: cauda
-    desc: "Número da cauda do avião"
+    desc: "N\u00famero da cauda do avi\u00e3o"
   origin:
     trans: origem
     desc: "Origem do voo. Ver `aeroportos` para metadados adicionais"
@@ -49,16 +49,16 @@ variables:
     desc: "Quantidade de tempo no ar, em minutos"
   distance:
     trans: distancia
-    desc: "Distância entre aeroportos, em milhas"
+    desc: "Dist\u00e2ncia entre aeroportos, em milhas"
   hour:
     trans: hora
-    desc: "Hora do horário programado para saída do voo"
+    desc: "Hora do hor\u00e1rio programado para sa\u00edda do voo"
   minute:
     trans: minuto
-    desc: "Minutos do horário programado para a saída do voo"
+    desc: "Minutos do hor\u00e1rio programado para a sa\u00edda do voo"
   time_hour:
     trans: data_hora
-    desc: "Data e hora programados para o voo em formato POSIXct. Juntamente com a coluna origem, pode ser usado para juntar dados de voos aos dados meteorológicos disponíveis em `dados_clima`"
+    desc: "Data e hora programados para o voo em formato POSIXct. Juntamente com a coluna origem, pode ser usado para juntar dados de voos aos dados meteorol\u00f3gicos dispon\u00edveis em `dados_clima`"
 help:
   name: voos
   alias: voos

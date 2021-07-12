@@ -7,10 +7,10 @@ variables:
     desc: Nome
   height:
     trans: altura
-    desc: Altura em centímetros (cm)
+    desc: "Altura em cent\u00edmetros (cm)"
   mass:
     trans: massa
-    desc: Massa em quilogramas (kg)
+    desc: "Massa em quilogramas (kg)"
   hair_color:
     trans: cor_do_cabelo
     desc: Cor do cabelo
@@ -40,7 +40,7 @@ variables:
       unknown: Desconhecida
       green: Verde
       green-tan, brown: Bronzeado verde, Marrom
-      pale: Branca pálida
+      pale: B"ranca p\u00e1lida
       metal: Metal
       dark: Negra
       brown mottle: Marrom com manchas
@@ -86,15 +86,15 @@ variables:
     desc: Ano de nascimento BBY (BBY = antes da batalha de Yavin)
   sex:
     trans: sexo_biologico
-    desc: "Sexo Biológico, sendo macho, fêmea, hermafrodita, ou nenhum (no caso dos Droides)"
+    desc: "Sexo Biol\u00f3gico, sendo macho, f\u00eamea, hermafrodita, ou nenhum (no caso dos Droides)"
     values:
       male: Macho
       none: Nenhum
-      female: Fêmea
+      female: "F\u00eamea"
       hermaphroditic: Hermafrodita
   gender:
     trans: genero
-    desc: "Gênero - O papel de gênero ou identidade de gênero da/do personagem conforme determinado por sua personalidade ou a maneira como foram programados (como no caso dos Droides)"
+    desc: "G\u00eanero - O papel de g\u00eanero ou identidade de g\u00eanero da/do personagem conforme determinado por sua personalidade ou a maneira como foram programados (como no caso dos Droides)"
     values:
       masculine: Masculino
       feminine: Feminino
@@ -103,11 +103,11 @@ variables:
     desc: Nome do planeta natal
   species:
     trans: especie
-    desc: Nome da espécie
+    desc: "Nome da esp\u00e9cie"
     values:
       Human: Humano
       Droid: Droide
-      Yoda's species: "Espécie do Yoda"
+      Yoda's species: "Esp\u00e9cie do Yoda"
       Rodian: Rodiano
       Trandoshan: Trandoshano
       Sullustan: Sullustano
@@ -116,38 +116,38 @@ variables:
       Chagrian: Chagriano
       Geonosian: Geonosiano
       Skakoan: Skakoano
-      Pau'an: Pau'ano
+      Pau'an: "Pau'ano"
   films:
     trans: filmes
-    desc: Lista de filmes em que o/a personagem apareceu
+    desc: "Lista de filmes em que o/a personagem apareceu"
     # values:
-    #   A New Hope: ["Uma Nova Esperança"]
-    #   The Empire Strikes Back: ["O Império Contra-Ataca"]
+    #   A New Hope: ["Uma Nova Esperan\u00e7a"]
+    #   The Empire Strikes Back: ["O Imp\u00e9rio Contra-Ataca"]
     #   Return of the Jedi: ["O Retorno de Jedi"]
-    #   The Phantom Menace: ["A Ameaça Fantasma"]
+    #   The Phantom Menace: ["A Amea\u00e7a Fantasma"]
     #   Attack of the Clones: ["Ataque dos Clones"]
-    #   Revenge of the Sith: ["A Vingança dos Sith"]
-    #   The Force Awakens: ["O Despertar da Força"]
-    #   c("Attack of the Clones", "Revenge of the Sith"): ["Ataque dos Clones", "A Vingança dos Sith"]
-    #   c("Revenge of the Sith", "A New Hope"): ["A Vingança dos Sith", "Uma Nova Esperança"]
-    #   c("The Empire Strikes Back", "Revenge of the Sith", "Return of the Jedi", "A New Hope", "The Force Awakens"): ["O Império Contra-Ataca", "A Vingança dos Sith", "O Retorno de Jedi", "Uma Nova Esperança", "O Despertar da Força"]
-    #   c("Attack of the Clones", "Revenge of the Sith", "A New Hope"): ["Ataque dos Clones", "A Vingança dos Sith", "Uma Nova Esperança"]
-    #   c("Attack of the Clones", "The Phantom Menace", "Revenge of the Sith"): ["Ataque dos Clones", "A Ameaça Fantasma", "A Vingança dos Sith"]
-    #   c("The Phantom Menace", "Return of the Jedi", "A New Hope"): ["A Ameaça Fantasma", "O Retorno de Jedi", "Uma Nova Esperança"]
-    #   c("The Empire Strikes Back", "Return of the Jedi", "A New Hope"): ["O Império Contra-Ataca", "O Retorno de Jedi", "Uma Nova Esperança"]
-    #   c("The Empire Strikes Back", "Revenge of the Sith", "Return of the Jedi", "A New Hope"): ["O Império Contra-Ataca", "A Vingança dos Sith", "O Retorno de Jedi", "Uma Nova Esperança"]
-    #   c("The Empire Strikes Back", "Return of the Jedi", "A New Hope", "The Force Awakens"): ["O Império Contra-Ataca", "O Retorno de Jedi", "Uma Nova Esperança", "O Despertar da Força"]
-    #   c("Attack of the Clones", "The Phantom Menace"): ["Ataque dos Clones", "A Ameaça Fantasma"]
-    #   c("The Phantom Menace", "Revenge of the Sith"): ["A Ameaça Fantasma", "A Vingança dos Sith"]
-    #   c("Return of the Jedi", "The Force Awakens"): ["O Retorno de Jedi", "O Despertar da Força"]
-    #   c("The Empire Strikes Back", "Return of the Jedi"): ["O Império Contra-Ataca", "O Retorno de Jedi"]
-    #   c("The Empire Strikes Back", "Attack of the Clones", "Return of the Jedi"): ["O Império Contra-Ataca", "Ataque dos Clones", "O Retorno de Jedi"]
-    #   c("The Empire Strikes Back", "Attack of the Clones", "The Phantom Menace", "Revenge of the Sith", "Return of the Jedi"): ["O Império Contra-Ataca", "Ataque dos Clones", "A Ameaça Fantasma", "A Vingança dos Sith", "O Retorno de Jedi"]
-    #   c("The Empire Strikes Back", "Attack of the Clones", "The Phantom Menace", "Revenge of the Sith", "Return of the Jedi", "A New Hope"): ["O Império Contra-Ataca", "Ataque dos Clones", "A Ameaça Fantasma", "A Vingança dos Sith", "O Retorno de Jedi", "Uma Nova Esperança"]
-    #   c("The Empire Strikes Back", "Attack of the Clones", "The Phantom Menace", "Revenge of the Sith", "Return of the Jedi", "A New Hope", "The Force Awakens"): ["O Império Contra-Ataca", "Ataque dos Clones", "A Ameaça Fantasma", "A Vingança dos Sith", "O Retorno de Jedi", "Uma Nova Esperança", "O Despertar da Força"]
+    #   Revenge of the Sith: ["A Vingan\u00e7a dos Sith"]
+    #   The Force Awakens: ["O Despertar da For\u00e7a"]
+    #   c("Attack of the Clones", "Revenge of the Sith"): ["Ataque dos Clones", "A Vingan\u00e7a dos Sith"]
+    #   c("Revenge of the Sith", "A New Hope"): ["A Vingan\u00e7a dos Sith", "Uma Nova Esperan\u00e7a"]
+    #   c("The Empire Strikes Back", "Revenge of the Sith", "Return of the Jedi", "A New Hope", "The Force Awakens"): ["O Imp\u00e9rio Contra-Ataca", "A Vingan\u00e7a dos Sith", "O Retorno de Jedi", "Uma Nova Esperan\u00e7a", "O Despertar da For\u00e7a"]
+    #   c("Attack of the Clones", "Revenge of the Sith", "A New Hope"): ["Ataque dos Clones", "A Vingan\u00e7a dos Sith", "Uma Nova Esperan\u00e7a"]
+    #   c("Attack of the Clones", "The Phantom Menace", "Revenge of the Sith"): ["Ataque dos Clones", "A Amea\u00e7a Fantasma", "A Vingan\u00e7a dos Sith"]
+    #   c("The Phantom Menace", "Return of the Jedi", "A New Hope"): ["A Amea\u00e7a Fantasma", "O Retorno de Jedi", "Uma Nova Esperan\u00e7a"]
+    #   c("The Empire Strikes Back", "Return of the Jedi", "A New Hope"): ["O Imp\u00e9rio Contra-Ataca", "O Retorno de Jedi", "Uma Nova Esperan\u00e7a"]
+    #   c("The Empire Strikes Back", "Revenge of the Sith", "Return of the Jedi", "A New Hope"): ["O Imp\u00e9rio Contra-Ataca", "A Vingan\u00e7a dos Sith", "O Retorno de Jedi", "Uma Nova Esperan\u00e7a"]
+    #   c("The Empire Strikes Back", "Return of the Jedi", "A New Hope", "The Force Awakens"): ["O Imp\u00e9rio Contra-Ataca", "O Retorno de Jedi", "Uma Nova Esperan\u00e7a", "O Despertar da For\u00e7a"]
+    #   c("Attack of the Clones", "The Phantom Menace"): ["Ataque dos Clones", "A Amea\u00e7a Fantasma"]
+    #   c("The Phantom Menace", "Revenge of the Sith"): ["A Amea\u00e7a Fantasma", "A Vingan\u00e7a dos Sith"]
+    #   c("Return of the Jedi", "The Force Awakens"): ["O Retorno de Jedi", "O Despertar da For\u00e7a"]
+    #   c("The Empire Strikes Back", "Return of the Jedi"): ["O Imp\u00e9rio Contra-Ataca", "O Retorno de Jedi"]
+    #   c("The Empire Strikes Back", "Attack of the Clones", "Return of the Jedi"): ["O Imp\u00e9rio Contra-Ataca", "Ataque dos Clones", "O Retorno de Jedi"]
+    #   c("The Empire Strikes Back", "Attack of the Clones", "The Phantom Menace", "Revenge of the Sith", "Return of the Jedi"): ["O Imp\u00e9rio Contra-Ataca", "Ataque dos Clones", "A Amea\u00e7a Fantasma", "A Vingan\u00e7a dos Sith", "O Retorno de Jedi"]
+    #   c("The Empire Strikes Back", "Attack of the Clones", "The Phantom Menace", "Revenge of the Sith", "Return of the Jedi", "A New Hope"): ["O Imp\u00e9rio Contra-Ataca", "Ataque dos Clones", "A Amea\u00e7a Fantasma", "A Vingan\u00e7a dos Sith", "O Retorno de Jedi", "Uma Nova Esperan\u00e7a"]
+    #   c("The Empire Strikes Back", "Attack of the Clones", "The Phantom Menace", "Revenge of the Sith", "Return of the Jedi", "A New Hope", "The Force Awakens"): ["O Imp\u00e9rio Contra-Ataca", "Ataque dos Clones", "A Amea\u00e7a Fantasma", "A Vingan\u00e7a dos Sith", "O Retorno de Jedi", "Uma Nova Esperan\u00e7a", "O Despertar da For\u00e7a"]
   vehicles:
     trans: veiculos
-    desc: "Lista de veículos que o/a personagem pilotou nos filmes"
+    desc: "Lista de ve\u00edculos que o/a personagem pilotou nos filmes"
   starships:
     trans: naves_espaciais
     desc: "Lista de naves espaciais que o/a personagem pilotou nos filmes"
@@ -155,5 +155,5 @@ help:
   name: dados_starwars
   alias: dados_starwars
   title: "Personagens de Starwars"
-  description: "Contém observações de personagens de Starwars. Os dados originais, da SWAPI - a API de Starwars,  https://swapi.dev/ - foram revisados para refletir pesquisas adicionais sobre gênero e sexo dos/das personagens."
+  description: "Cont\u00e9m observa\u00e7\u00f4es de personagens de Starwars. Os dados originais, da SWAPI - a API de Starwars,  https://swapi.dev/ - foram revisados para refletir pesquisas adicionais sobre g\u00eanero e sexo dos/das personagens."
   format: Um tibble com 87 linhas e 14 colunas

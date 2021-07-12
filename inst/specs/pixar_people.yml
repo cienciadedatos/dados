@@ -4,14 +4,14 @@ df:
 variables:
     film:
         trans: filme
-        desc: "Título do filme"
+        desc: "T\u00edtulo do filme"
         values:
             Toy Story: "Toy Story - Um Mundo de Aventuras"
             A Bug's Life: Vida de Inseto
             Toy Story 2: "Toy Story 2"
             Monsters, Inc.:  "Monstros S. A."
             Finding Nemo: Procurando Nemo
-            The Incredibles: Os Incríveis
+            The Incredibles: "Os Incr\u00edveis"
             Cars: Carros
             Ratatouille: Ratatouille
             WALL-E: WALL-E
@@ -24,10 +24,10 @@ variables:
             The Good Dinosaur: O Bom Dinossauro
             Finding Dory: Procurando Dory
             Cars 3: "Carros 3"
-            Coco: "Viva - A Vida é Uma Festa"
-            Incredibles 2: "Os Incríveis 2"
+            Coco: "Viva - A Vida \u00e9 Uma Festa"
+            Incredibles 2: "Os Incr\u00edveis 2"
             Toy Story 4: "Toy Story 4"
-            Onward: "Dois Irmãos: Uma Jornada Fantástica"
+            Onward: "Dois Irm\u00e3os: Uma Jornada Fant\u00e1stica"
             Soul: Soul
             Luca: Luca
             Turning Red: Turning Red
@@ -38,9 +38,9 @@ variables:
         values:
             Director: "Diretor(a)"
             Screenwriter: Roteirista
-            Storywriter: "Escritor(a) da história"
+            Storywriter: "Escritor(a) da hist\u00f3ria"
             Producer: "Produtor(a)"
-            Musician: "Músico(a)"
+            Musician: "M\u00fasico(a)"
     name:
         trans: nome
         desc: "Nome da pessoa que ocupa o cargo"
@@ -48,6 +48,6 @@ help:
     name: pixar_equipe
     alias: pixar_equipe
     title: "Equipe dos filmes"
-    description: "Principais pessoas envolvidas nas produções dos filmes da Pixar"
+    description: "Principais pessoas envolvidas nas produ\u00e7\u00f4es dos filmes da Pixar"
     usage: pixar_equipe
     format: Um tibble com 228 linhas e 3 colunas

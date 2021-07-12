@@ -16,10 +16,10 @@ variables:
     desc: ID da liga (fator)
   inseason:
     trans: ordem_gerencial_temporada
-    desc: Ordem na gerência de equipes durante uma temporada.
-      0 Se o indivíduo gerenciava a equipe o ano inteiro.
-      Caso contrário, indica onde o gerente apareceu na ordem gerencial
-      (1 para o primeiro gerente, 2 para o segundo, etc.)
+    desc: "Ordem na ger\u00eancia de equipes durante uma temporada.
+      0 Se o indiv\u00edduo gerenciava a equipe o ano inteiro.
+      Caso contr\u00e1rio, indica onde o gerente apareceu na ordem gerencial
+      (1 para o primeiro gerente, 2 para o segundo, etc.)"
   G:
     trans: jogos_gerenciados
     desc: Jogos gerenciados
@@ -31,11 +31,11 @@ variables:
     desc: Jogos perdidos
   rank:
     trans: posicao
-    desc: "Posição final da equipe na classificação daquele ano"
+    desc: "Posi\u00e7\u00e3o final da equipe na classifica\u00e7\u00e3o daquele ano"
   plyrMgr:
     trans: jogador_gerente
     desc: "Tem valor 'S' (sim) para jogadores que foram jogadores e gerentes de equipe
-       por uma temporada e 'N' (não) caso contrário (fator)."
+       por uma temporada e 'N' (n\u00e3o) caso contr\u00e1rio (fator)."
     values:
       "Y": "S"
       "N": "N"
@@ -43,5 +43,5 @@ help:
   name: gerentes
   alias: gerentes
   title: Tabela de gerentes
-  description: "Informações sobre gerentes de equipe individuais, equipes que eles gerenciaram e algumas estatísticas básicas para essas equipes em cada ano"
+  description: "Informa\u00e7\u00f4es sobre gerentes de equipe individuais, equipes que eles gerenciaram e algumas estat\u00edsticas b\u00e1sicas para essas equipes em cada ano"
   format: Um data frame com 3.504 linhas e 10 colunas

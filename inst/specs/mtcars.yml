@@ -4,19 +4,19 @@ df:
 variables:
   mpg:
     trans: milhas_por_galao
-    desc: "Milhas por galão (US)"
+    desc: "Milhas por gal\u00e3o (US)"
   cyl:
     trans: cilindros
-    desc: "Número de cilindros"
+    desc: "N\u00famero de cilindros"
   disp:
     trans: cilindrada
-    desc: "Volume de deslocamento do motor em polegadas cúbicas"
+    desc: "Volume de deslocamento do motor em polegadas c\u00fabicas"
   hp:
     trans: cavalos_forca
-    desc: "Cavalos força bruto"
+    desc: "Cavalos for\u00e7a bruto"
   drat:
     trans: eixo
-    desc: "Relação de eixo traseiro"
+    desc: "Rela\u00e7\u00e3o de eixo traseiro"
   wt:
     trans: peso
     desc: Peso (1000 libras)
@@ -28,17 +28,17 @@ variables:
     desc: Forma do motor (V ou em linha)
   am:
     trans: transmissao
-    desc: "Tipo de transmissão (0 = automático, 1 = manual)"
+    desc: "Tipo de transmiss\u00e3o (0 = autom\u00e1tico, 1 = manual)"
   gear:
     trans: marchas
-    desc: "Número de marchas à frente"
+    desc: "N\u00famero de marchas \u00e0 frente"
   carb:
     trans: carburadores
-    desc: "Número de carburadores"
+    desc: "N\u00famero de carburadores"
 help:
   name: mtcarros
   alias: mtcarros
-  title: "Testes de estrada para automóveis"
-  description: "Os dados foram extraídos da revista Motor Trend US, de 1974, e incluem o consumo de combustível e 10 aspectos do design e desempenho de automóveis para 32 automóveis (modelos 1973-74)"
+  title: "Testes de estrada para autom\u00f3veis"
+  description: "Os dados foram extra\u00eddos da revista Motor Trend US, de 1974, e incluem o consumo de combust\u00edvel e 10 aspectos do design e desempenho de autom\u00f3veis para 32 autom\u00f3veis (modelos 1973-74)"
   usage: mtcarros
   format: Um data.frame com 32 linhas e 12 colunas

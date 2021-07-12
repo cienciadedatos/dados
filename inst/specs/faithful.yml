@@ -4,14 +4,14 @@ df:
 variables:
   eruptions:
     trans: erupcoes
-    desc: Tempo das erupções (em minutos)
+    desc: "Tempo das erup\u00e7\u00f4es (em minutos)"
   waiting:
     trans: tempo_espera
-    desc: "Minutos entre as erupções"
+    desc: "Minutos entre as erup\u00e7\u00f4es"
 help:
   name: velho_fiel
   alias: velho_fiel
-  title: "Dados do gêiser Velho Fiel (Old Faithful)"
-  description: "Dados do tempo de espera entre erupções e duração de cada erupção do gêiser Velho Fiel (Old Faithful), localizado no Parque Nacional de Yellowstone, em Wyoming, nos Estados Unidos."
+  title: "Dados do g\u00eaiser Velho Fiel (Old Faithful)"
+  description: "Dados do tempo de espera entre erup\u00e7\u00f4es e dura\u00e7\u00e3o de cada erup\u00e7\u00e3o do g\u00eaiser Velho Fiel (Old Faithful), localizado no Parque Nacional de Yellowstone, em Wyoming, nos Estados Unidos."
   usage: velho_fiel
   format: Um data.frame com 272 linhas e 2 colunas

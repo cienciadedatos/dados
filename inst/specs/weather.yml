@@ -4,13 +4,13 @@ df:
 variables:
   origin:
     trans: origem
-    desc: Estação meteorológica. Coluna origem pode ser usada para juntar com os dados dados::voos
+    desc: "Esta\u00e7\u00e3o meteorol\u00f3gica. Coluna origem pode ser usada para juntar com os dados dados::voos"
   year:
     trans: ano
     desc: "Ano do registro"
   month:
     trans: mes
-    desc: "Mês do registro"
+    desc: "M\u00eas do registro"
   day:
     trans: dia
     desc: "Dia do registro"
@@ -19,16 +19,16 @@ variables:
     desc: "Hora do registro"
   temp:
     trans: temperatura
-    desc: "Temperatura média em graus Farenheint"
+    desc: "Temperatura m\u00e9dia em graus Farenheint"
   dewp:
     trans: ponto_condensacao
-    desc: "Ponto de condensação, isto é, temperatura (em Farenheits) na qual o vapor d'água se condensa"
+    desc: "Ponto de condensa\u00e7\u00e3o, isto \u00e9, temperatura (em Farenheits) na qual o vapor d'\u00e1gua se condensa"
   humid:
     trans: umidade
     desc: "Umidade relativa"
   wind_dir:
     trans: direcao_vento
-    desc: "Direção do vento em graus"
+    desc: "Dire\u00e7\u00e3o do vento em graus"
   wind_speed:
     trans: velocidade_vento
     desc: "Velocidade do vento medida em milhas por hora"
@@ -37,13 +37,13 @@ variables:
     desc: "Velocidade da rajada de vento medida em milhas por hora"
   precip:
     trans: precipitacao
-    desc: "Precipitação da chuva medida em polegadas"
+    desc: "Precipita\u00e7\u00e3o da chuva medida em polegadas"
   pressure:
     trans: pressao
-    desc: "Pressão atmosférica ao nível do mar em milibares"
+    desc: "Press\u00e3o atmosf\u00e9rica ao n\u00edvel do mar em milibares"
   visib:
     trans: visibilidade
-    desc: "Visibilidade média em milhas"
+    desc: "Visibilidade m\u00e9dia em milhas"
   time_hour:
     trans: data_hora
     desc: "Data e hora de registro em formato POSIXct"
@@ -51,6 +51,6 @@ help:
   name: clima
   alias: clima
   title: Dados de clima
-  description: "Metadatos da estação meteorológica de três aeroportos de Nova Iorque LGA, JFK e EWR"
+  description: "Metadatos da esta\u00e7\u00e3o meteorol\u00f3gica de tr\u00eas aeroportos de Nova Iorque LGA, JFK e EWR"
   usage: clima
   format: Um data.frame com 26.115 linhas e 15 colunas

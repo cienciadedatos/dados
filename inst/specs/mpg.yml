@@ -13,26 +13,26 @@ variables:
     desc: "Capacidade do motor, em litros"
   year:
     trans: ano
-    desc: Ano de fabricação
+    desc: "Ano de fabrica\u00e7\u00e3o"
   cyl:
     trans: cilindros
-    desc: "Número de cilindros"
+    desc: "N\u00famero de cilindros"
   trans:
     trans: transmissao
-    desc: "Tipo de transmissão"
+    desc: "Tipo de transmiss\u00e3o"
   drv:
     trans: tracao
     values:
       f: d
       r: t
       4: 4
-    desc: "Tipo de tração (d = dianteira, t = traseira, 4 = 4x4)"
+    desc: "Tipo de tra\u00e7\u00e3o (d = dianteira, t = traseira, 4 = 4x4)"
   cty:
     trans: cidade
-    desc: "Milhas da cidade por galão"
+    desc: "Milhas da cidade por gal\u00e3o"
   hwy:
     trans: rodovia
-    desc: "Milhas rodoviárias por galão"
+    desc: "Milhas rodovi\u00e1rias por gal\u00e3o"
   fl:
     trans: combustivel
     values:
@@ -41,13 +41,13 @@ variables:
       e: e
       d: d
       c: g
-    desc: Tipo de combustível (p = premium, r = regular, e = etanol, d = diesel, g = gás natural comprimido)
+    desc: "Tipo de combust\u00edvel (p = premium, r = regular, e = etanol, d = diesel, g = g\u00e1s natural comprimido)"
   class:
     trans: classe
     values:
       2seater: 2 assentos
       compact: compacto
-      midsize: médio
+      midsize: "m\u00e9dio"
       minivan: minivan
       pickup: pickup
       subcompact: subcompacto
@@ -56,7 +56,7 @@ variables:
 help:
   name: milhas
   alias: milhas
-  title: "Dados de economia de combustível de 1999 a 2008 para 38 modelos populares de carros"
-  description: "Este conjunto de dados contém um subconjunto dos dados de economia de combustível que a EPA disponibiliza em http://fueleconomy.gov. Ele contém apenas modelos que tiveram um novo lançamento todos os anos entre 1999 e 2008 - isso foi usado como um proxy para a popularidade do carro"
+  title: "Dados de economia de combust\u00edvel de 1999 a 2008 para 38 modelos populares de carros"
+  description: "Este conjunto de dados cont\u00e9m um subconjunto dos dados de economia de combust\u00edvel que a EPA disponibiliza em http://fueleconomy.gov. Ele cont\u00e9m apenas modelos que tiveram um novo lan\u00e7amento todos os anos entre 1999 e 2008 - isso foi usado como um proxy para a popularidade do carro"
   usage: milhas
   format: Um data.frame com 234 linhas e 11 colunas

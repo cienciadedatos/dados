@@ -18,9 +18,9 @@
 \item{homerun}{Número de homeruns}
 \item{corridas_impulsionadas}{Corridas impulsionadas como resultado da vez ao bastão do rebatedor}
 \item{bases_roubadas}{Bases roubadas}
-\item{capturado_roubando}{Eliminações em tentativa de roubo de base}
+\item{capturado_roubando}{Eliminaçôes em tentativa de roubo de base}
 \item{base_bolas}{Base por bolas}
-\item{strikeouts}{Eliminações por strikes}
+\item{strikeouts}{Eliminaçôes por strikes}
 \item{base_intencional}{Base por bolas intencional}
 \item{HBP}{Vezes atingidas pelo arremessador (Hit by pitch - HBP)}
 \item{toque_sacrificio}{Toque de sacrifício}

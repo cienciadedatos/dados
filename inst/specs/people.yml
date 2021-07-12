@@ -10,13 +10,13 @@ variables:
     desc: "Ano de nascimento"
   birthMonth:
     trans: mes_nascimento
-    desc: Mês de nascimento
+    desc: "M\u00eas de nascimento"
   birthDay:
     trans: dia_nascimento
     desc: "Dia de nascimento"
   birthCountry:
     trans: pais_nascimento
-    desc: "País de nascimento"
+    desc: "Pa\u00eds de nascimento"
   birthState:
     trans: estado_nascimento
     desc: Estado de nascimento
@@ -28,13 +28,13 @@ variables:
     desc: "Ano de falecimento"
   deathMonth:
     trans: mes_falecimento
-    desc: Mês de falecimento
+    desc: "M\u00eas de falecimento"
   deathDay:
     trans: dia_falecimento
     desc: "Dia de falecimento"
   deathCountry:
     trans: pais_falecimento
-    desc: "País de falecimento"
+    desc: "Pa\u00eds de falecimento"
   deathState:
     trans: estado_falecimento
     desc: Estado de falecimento
@@ -49,7 +49,7 @@ variables:
     desc: Sobrenome
   nameGiven:
     trans: nome_proprio
-    desc: "Nome próprio"
+    desc: "Nome pr\u00f3prio"
   weight:
     trans: peso
     desc: Peso em libras
@@ -58,28 +58,28 @@ variables:
     desc: Altura em polegadas
   bats:
     trans: rebatedor
-    desc: Se, como rebatedor, você é destro (D) ou canhoto (C)
+    desc: "Se, como rebatedor, voc\u00ea \u00e9 destro (D) ou canhoto (C)"
     values:
       R: D
       L: C
   throws:
     trans: arremessador
-    desc: Se, como arremessador, você é destro (D) ou canhoto (C)
+    desc: "Se, como arremessador, voc\u00ea \u00e9 destro (D) ou canhoto (C)"
     values:
       R: D
       L: C
   debut:
     trans: data_primeiro_jogo
-    desc: "Data do primeiro jogo na primeira divisão"
+    desc: "Data do primeiro jogo na primeira divis\u00e3o"
   finalGame:
     trans: data_ultimo_jogo
-    desc: "Data do último jogo na primeira divisão"
+    desc: "Data do \u00faltimo jogo na primeira divis\u00e3o"
   retroID:
     trans: id_retrosheet
-    desc: "Código do jogador usado em Retrosheet (http://www.retrosheet.org/)"
+    desc: "C\u00f3digo do jogador usado em Retrosheet (http://www.retrosheet.org/)"
   bbrefID:
     trans: id_brw
-    desc: "Código do jogador usado em Baseball Reference website (http://www.baseball-reference.com/)"
+    desc: "C\u00f3digo do jogador usado em Baseball Reference website (http://www.baseball-reference.com/)"
   deathDate:
     trans: data_falecimento
     desc: Data de falecimento em formato yyyy-mm-dd
@@ -90,8 +90,8 @@ help:
   name: pessoas
   alias: pessoas
   title: Tabela de pessoas
-  description: "Nomes de jogadores, data de nascimento e informações
-     bibliográficas. Este arquivo é usado para obter detalhes sobre os jogadores listados em rebatedores,
-     arremessadores e outros arquivos nos quais os jogadores são identificados por
+  description: "Nomes de jogadores, data de nascimento e informa\u00e7\u00f4es
+     bibliogr\u00e1ficas. Este arquivo \u00e9 usado para obter detalhes sobre os jogadores listados em rebatedores,
+     arremessadores e outros arquivos nos quais os jogadores s\u00e3o identificados por
     id_jogador"
   format: Um data frame com 19.617 linhas e 26 colunas

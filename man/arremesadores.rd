@@ -30,7 +30,7 @@
 \item{BK}{Balks (movimento ilegal do corpo pelo lançador)}
 \item{BFP}{Rebatedores que o arremessador enfrentou}
 \item{jogos_terminados}{Jogos em que o lançador termina o jogo}
-\item{corridas}{Corridas cedidas (merecidas e ñao merecidas)}
+\item{corridas}{Corridas cedidas (merecidas e nao merecidas)}
 \item{toques_sacrificio}{Toques de sacrifício (impulsiona o avanço de um corredor) feitos pelo (rebatedor) oponente}
 \item{fly_sacrificio}{Flys (rebatidas altas no campo externo) de sacrifício (impulsiona uma corrida) contra o arremessador}
 \item{eliminacao_dupla}{Arremessos que levam a uma rebatida rasteira com eliminação dupla na mesma jogada}

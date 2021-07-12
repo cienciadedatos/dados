@@ -4,7 +4,7 @@ df:
 variables:
   price:
     trans: preco
-    desc: Preço em dólares americanos (US$ 326-US$ 18.823)
+    desc: "Pre\u00e7o em d\u00f3lares americanos (US$ 326-US$ 18.823)"
   carat:
     trans: quilate
     desc: Peso do diamante (0,2-5,01 ct)
@@ -20,26 +20,26 @@ variables:
     desc: Cor de diamante, de J (pior) a D (melhor)
   clarity:
     trans: transparencia
-    desc: Quão transparente é o diamante (I1 (pior), SI1, SI2, VS1, VS2, VVS1, VVS2, IF (melhor))
+    desc: "Qu\u00e3o transparente \u00e9 o diamante (I1 (pior), SI1, SI2, VS1, VS2, VVS1, VVS2, IF (melhor))"
   depth:
     trans: profundidade
     desc: Porcentagem da profundidade `total = z / mean(x, y) = 2 * z / (x + y) (43-79)`
   table:
     trans: tabela
-    desc: Largura do topo do diamante em relação ao seu ponto mais largo (43-95 mm)
+    desc: "Largura do topo do diamante em rela\u00e7\u00e3o ao seu ponto mais largo (43-95 mm)"
   x:
     trans: x
-    desc: Comprimento em milímetros
+    desc: "Comprimento em mil\u00edmetros"
   y:
     trans: y
-    desc: Largura em milímetros
+    desc: "Largura em mil\u00edmetros"
   z:
     trans: z
-    desc: Profundidade em milímetros
+    desc: "Profundidade em mil\u00edmetros"
 help:
   name: diamante
   alias: diamante
-  title: Preço de 50 mil diamantes
-  description: Um conjunto de dados contendo os preços de quase 54 mil diamantes
+  title: "Pre\u00e7o de 50 mil diamantes"
+  description: "Um conjunto de dados contendo os pre\u00e7os de quase 54 mil diamantes"
   usage: diamante
   format: Um data.frame com 53.940 linhas e 10 colunas

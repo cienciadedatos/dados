@@ -89,4 +89,5 @@ Imports:
     yaml,
     pixarfilms
 Suggests:
-    covr
+    covr,
+    testthat (>= 3.0.0)
