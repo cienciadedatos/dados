@@ -265,10 +265,10 @@ variables:
     desc: "Casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 35 a 44 anos (3544)"
   new_sp_f4554:
     trans: novos_fpp_m4554
-    desc: "Casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 45 a 54 anos (4554)
+    desc: "Casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 45 a 54 anos (4554)"
   new_sp_f5564:
     trans: novos_fpp_m5564
-    desc: Casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 55 a 64 anos (5564)"
+    desc: "Casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 55 a 64 anos (5564)"
   new_sp_f65:
     trans: novos_fpp_m65
     desc: "Casos novos, diagnóstico frotis pulmonar positivo (fpp), mulheres (m) de 65 ou mais anos"
