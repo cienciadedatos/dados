@@ -16,7 +16,7 @@ variables:
     desc: ID da equipe (fator)
   lgID:
     trans: id_liga
-    desc: ID da liga (fator com os níveis AA, AL, FL, NL, PL, UA)
+    desc: "ID da liga (fator com os n\u00edveis AA, AL, FL, NL, PL, UA)"
   W:
     trans: jogos_ganhados
     desc: Jogos disputados ganhados
@@ -31,16 +31,16 @@ variables:
     desc: Jogos disputados iniciados
   CG:
     trans: jogos_completos
-    desc: "Número de jogos completos que o jogador lançou"
+    desc: "N\u00famero de jogos completos que o jogador lan\u00e7ou"
   SHO:
     trans: shutouts
-    desc: "Número de shutouts (jogos completos sem permitir corridas) que o jogador lançou"
+    desc: "N\u00famero de shutouts (jogos completos sem permitir corridas) que o jogador lan\u00e7ou"
   SV:
     trans: jogos_salvos
     desc: Jogos salvos
   IPouts:
     trans: IPouts
-    desc: "Outs lançadas à equipe adversária (igual a entradas lançadas x 3)"
+    desc: "Outs lan\u00e7adas \u00e0 equipe advers\u00e1ria (igual a entradas lan\u00e7adas x 3)"
   H:
     trans: hits
     desc: Hits cedidos ao oponente
@@ -49,7 +49,7 @@ variables:
     desc: Corridas merecidas (por culpa do arremessador) cedidas
   HR:
     trans: homerun
-    desc: "Número de homeruns"
+    desc: "N\u00famero de homeruns"
   BB:
     trans: BB
     desc: Base por bolas cedidas ao oponente
@@ -58,43 +58,43 @@ variables:
     desc: Strikeout dados ao oponente
   BAOpp:
     trans: media_rebatida_oponente
-    desc: "Média de rebatidas do oponente"
+    desc: "M\u00e9dia de rebatidas do oponente"
   ERA:
     trans: media_corridas_merecidas
-    desc: "Média de corridas merecidas cedidas (normalizada para 9 entradas lançadas)"
+    desc: "M\u00e9dia de corridas merecidas cedidas (normalizada para 9 entradas lan\u00e7adas)"
   IBB:
     trans: IBB
     desc: Base por bolas intencionais cedidas ao oponente
   WP:
     trans: lances_desviados
-    desc: "Wild pitches (arremessos ruins que permitem o avanço de corredores adversários) lançados pelo arremessador"
+    desc: "Wild pitches (arremessos ruins que permitem o avan\u00e7o de corredores advers\u00e1rios) lan\u00e7ados pelo arremessador"
   HBP:
     trans: HBP
-    desc: "Número de avanços cedidos à primeira base por atingir o rebatedor com o arremesso"
+    desc: "N\u00famero de avan\u00e7os cedidos \u00e0 primeira base por atingir o rebatedor com o arremesso"
   BK:
     trans: BK
-    desc: Balks (movimento ilegal do corpo pelo lançador)
+    desc: "Balks (movimento ilegal do corpo pelo lan\u00e7ador)"
   BFP:
     trans: BFP
     desc: Rebatedores que o arremessador enfrentou
   GF:
     trans: jogos_terminados
-    desc: "Jogos em que o lançador termina o jogo"
+    desc: "Jogos em que o lan\u00e7ador termina o jogo"
   R:
     trans: corridas
-    desc: Corridas cedidas (merecidas e ñao merecidas)
+    desc: Corridas cedidas (merecidas e nao merecidas)
   SH:
     trans: toques_sacrificio
-    desc: "Toques de sacrifício (impulsiona o avanço de um corredor) feitos pelo (rebatedor) oponente"
+    desc: "Toques de sacrif\u00edcio (impulsiona o avan\u00e7o de um corredor) feitos pelo (rebatedor) oponente"
   SF:
     trans: fly_sacrificio
-    desc: "Flys (rebatidas altas no campo externo) de sacrifício (impulsiona uma corrida) contra o arremessador"
+    desc: "Flys (rebatidas altas no campo externo) de sacrif\u00edcio (impulsiona uma corrida) contra o arremessador"
   GIDP:
     trans: eliminacao_dupla
-    desc: "Arremessos que levam a uma rebatida rasteira com eliminação dupla na mesma jogada"
+    desc: "Arremessos que levam a uma rebatida rasteira com elimina\u00e7\u00e3o dupla na mesma jogada"
 help:
   name: arremesadores
   alias: arremesadores
-  title: "Tabela de estatísticas de arremesadores"
-  description: "Estatísticas de arremesadores"
+  title: "Tabela de estat\u00edsticas de arremesadores"
+  description: "Estat\u00edsticas de arremesadores"
   format: Um data frame com 46.699 linhas e 30 colunas

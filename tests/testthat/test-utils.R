@@ -9,7 +9,7 @@ test_that("Script generator works", {
     data_script(
       script_path = tempfile(),
       script_target = tempdir(),
-      spec_path = system.file("specs", package = "datos"),
+      spec_path = system.file("specs", package = "dados"),
       is_test = TRUE
     ),
     "list"

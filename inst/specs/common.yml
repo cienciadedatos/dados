@@ -10,14 +10,14 @@ variables:
     desc: Modelo
   "n":
     trans: total_modelos
-    desc: Número total de modelos
+    desc: "N\u00famero total de modelos"
   years:
     trans: total_modelos_ano
-    desc: "Número total de modelos-ano"
+    desc: "N\u00famero total de modelos-ano"
 help:
   name: comuns
   alias: comuns
   title: Modelos comuns de carros
-  description: "Esses modelos têm pelo menos 10 anos de dados. Esse conjunto de dados é adequado para uma join para restringir o número de observações a um nível mais gerenciável."
+  description: "Esses modelos t\u00eam pelo menos 10 anos de dados. Esse conjunto de dados \u00e9 adequado para uma join para restringir o n\u00famero de observa\u00e7\u00f4es a um n\u00edvel mais gerenci\u00e1vel."
   usage: comuns
   format: Um data.frame com 347 linhas e 4 colunas

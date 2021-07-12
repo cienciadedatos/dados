@@ -4,14 +4,14 @@ df:
 variables:
     film:
         trans: filme
-        desc: "Título do filme"
+        desc: "T\u00edtulo do filme"
         values:
             Toy Story: "Toy Story - Um Mundo de Aventuras"
             A Bug's Life: Vida de Inseto
             Toy Story 2: "Toy Story 2"
             Monsters, Inc.:  "Monstros S. A."
             Finding Nemo: Procurando Nemo
-            The Incredibles: Os Incríveis
+            The Incredibles: "Os Incr\u00edveis"
             Cars: Carros
             Ratatouille: Ratatouille
             WALL-E: WALL-E
@@ -24,37 +24,37 @@ variables:
             The Good Dinosaur: O Bom Dinossauro
             Finding Dory: Procurando Dory
             Cars 3: "Carros 3"
-            Coco: "Viva - A Vida é Uma Festa"
-            Incredibles 2: "Os Incríveis 2"
+            Coco: "Viva - A Vida \u00e9 Uma Festa"
+            Incredibles 2: "Os Incr\u00edveis 2"
             Toy Story 4: "Toy Story 4"
-            Onward: "Dois Irmãos: Uma Jornada Fantástica"
+            Onward: "Dois Irm\u00e3os: Uma Jornada Fant\u00e1stica"
             Soul: Soul
     award_type:
         trans: tipo_premio_indicado
-        desc: "Tipo de prêmio"
+        desc: "Tipo de pr\u00eamio"
         values:
-            Animated Feature: "Melhor Filme de Animação"
+            Animated Feature: "Melhor Filme de Anima\u00e7\u00e3o"
             Original Screenplay: Melhor Roteiro Original
             Adapted Screenplay: Melhor Roteiro Adaptado
             Original Score: Melhor Trilha Sonora
-            Original Song: "Melhor Canção Original"
+            Original Song: "Melhor Can\u00e7\u00e3o Original"
             Other: Outro
-            Sound Editing: "Melhor Edição de Som"
+            Sound Editing: "Melhor Edi\u00e7\u00e3o de Som"
             Sound Mixing: Melhor Mixagem de Som
             Best Picture: Melhor Filme
     status:
         trans: resultado
-        desc: "Resultado da indicação"
+        desc: "Resultado da indica\u00e7\u00e3o"
         values:
-            Award not yet introduced: "Prêmio ainda não introduzido"
+            Award not yet introduced: "Pr\u00eamio ainda n\u00e3o introduzido"
             Nominated: Nomeado
-            Ineligible: "Inelegível"
-            Won Special Achievement: "Venceu Prêmio Especial"
+            Ineligible: "Ineleg\u00edvel"
+            Won Special Achievement: "Venceu Pr\u00eamio Especial"
             Won: Venceu
 help:
     name: pixar_oscars
     alias: pixar_oscars
-    title: "Filmes da Pixar com indicações ao Oscar"
-    description: "Filmes da Pixar que foram indicados ao Oscar, a categoria em que concorreram e o resultado da indicação"
+    title: "Filmes da Pixar com indica\u00e7\u00f4es ao Oscar"
+    description: "Filmes da Pixar que foram indicados ao Oscar, a categoria em que concorreram e o resultado da indica\u00e7\u00e3o"
     usage: pixar_oscars
     format: Um tibble com 72 linhas e 3 colunas

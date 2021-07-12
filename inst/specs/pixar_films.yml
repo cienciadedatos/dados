@@ -4,17 +4,17 @@ df:
 variables:
   number:
     trans: ordem_lancamento
-    desc: "Ordem de lançamento dos filmes"
+    desc: "Ordem de lan\u00e7amento dos filmes"
   film:
     trans: filme
-    desc: "Título do filme"
+    desc: "T\u00edtulo do filme"
     values:
       Toy Story: "Toy Story - Um Mundo de Aventuras"
       A Bug's Life: Vida de Inseto
       Toy Story 2: "Toy Story 2"
       Monsters, Inc.:  "Monstros S. A."
       Finding Nemo: Procurando Nemo
-      The Incredibles: Os Incríveis
+      The Incredibles: "Os Incr\u00edveis"
       Cars: Carros
       Ratatouille: Ratatouille
       WALL-E: WALL-E
@@ -27,21 +27,21 @@ variables:
       The Good Dinosaur: O Bom Dinossauro
       Finding Dory: Procurando Dory
       Cars 3: "Carros 3"
-      Coco: "Viva - A Vida é Uma Festa"
-      Incredibles 2: "Os Incríveis 2"
+      Coco: "Viva - A Vida \u00e9 Uma Festa"
+      Incredibles 2: "Os Incr\u00edveis 2"
       Toy Story 4: "Toy Story 4"
-      Onward: "Dois Irmãos: Uma Jornada Fantástica"
+      Onward: "Dois Irm\u00e3os: Uma Jornada Fant\u00e1stica"
       Soul: Soul
       Luca: Luca
       Turning Red: Turning Red
       Lightyear: Lightyear
   release_date:
     trans: data_lancamento
-    desc: "Data de lançamento do filme"
+    desc: "Data de lan\u00e7amento do filme"
 help:
   name: pixar_filmes
   alias: pixar_filmes
   title: "Filmes da Pixar"
-  description: "Nome e data e ordem de lançamento dos filmes da Pixar"
+  description: "Nome e data e ordem de lan\u00e7amento dos filmes da Pixar"
   usage: pixar_filmes
   format: Um tibble com 27 linhas e 3 colunas

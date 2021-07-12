@@ -9,6 +9,6 @@
 \item{nome}{Nome da pessoa que ocupa o cargo}
 }}
 \usage{pixar_equipe}
-\description{Principais pessoas envolvidas nas produções dos filmes da Pixar}
+\description{Principais pessoas envolvidas nas produçôes dos filmes da Pixar}
 \seealso{\code{\link[pixarfilms]{pixar_people}}}
 \keyword{datasets}
