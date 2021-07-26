@@ -47,7 +47,7 @@ variables:
     values:
       G: Livre
       PG: "Orientação parental sugerida"
-      N/A: N/A
+      N/A: NA
       Not Rated: "Não avaliado"
 help:
   name: pixar_filmes
