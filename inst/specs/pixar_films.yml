@@ -38,6 +38,17 @@ variables:
   release_date:
     trans: data_lancamento
     desc: "Data de lançamento do filme"
+  run_time:
+    trans: duracao
+    desc: "Duração do filme em minutos"
+  film_rating:
+    trans: classificacao_indicativa
+    desc: "Classificação indicativa baseada no sistema de classificação de filmes da Motion Picture Association (MPA)"
+    values:
+      G: Livre
+      PG: "Orientação parental sugerida"
+      N/A: NA
+      Not Rated: "Não avaliado"
 help:
   name: pixar_filmes
   alias: pixar_filmes
