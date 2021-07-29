@@ -40,13 +40,13 @@ variables:
     desc: "Data de lan\u00e7amento do filme"
   run_time:
     trans: duracao
-    desc: "Dura\u00e7ão do filme em minutos"
+    desc: "Dura\u00e7\u00e3o do filme em minutos"
   film_rating:
     trans: classificacao_indicativa
-    desc: "Classifica\u00e7\00e3o indicativa baseada no sistema de classifica\u00e\00e3ão de filmes da Motion Picture Association (MPA)"
+    desc: "Classifica\u00e7\u00e3o indicativa baseada no sistema de classifica\u00e7\u00e3o de filmes da Motion Picture Association (MPA)"
     values:
       G: Livre
-      PG: "Orienta\u00e7\00e3o parental sugerida"
+      PG: "Orienta\u00e7\u00e3o parental sugerida"
       N/A: NA
       Not Rated: "N\00e3o avaliado"
 help:
