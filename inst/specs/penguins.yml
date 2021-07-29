@@ -4,42 +4,42 @@ df:
 variables:
   species:
     trans: especie
-    desc: Um fator com as espécies de pinguim (Pinguim-de-adélia, Pinguim-de-barbicha e Pinguim-gentoo)
+    desc: "Um fator com as esp\u00e9cies de pinguim (Pinguim-de-ad\u00e9lia, Pinguim-de-barbicha e Pinguim-gentoo)"
     values:
-      Adelie: "Pinguim-de-adélia"
+      Adelie: "Pinguim-de-ad\u00e9lia"
       Chinstrap: "Pinguim-de-barbicha"
       Gentoo: "Pinguim-gentoo"
   island:
     trans: ilha
-    desc: "Um fator com cada ilha do Arquipélago Palmer, na Antártida (Biscoe, Dream, Togersen)"
+    desc: "Um fator com cada ilha do Arquip\u00e9lago Palmer, na Ant\u00e1rtida (Biscoe, Dream, Togersen)"
     values:
       Biscoe: Biscoe
       Dream: Dream
       Togersen: Togersen
   bill_length_mm:
     trans: comprimento_bico
-    desc: "Um número inteiro que indica o comprimento do bico (em milímetros)"
+    desc: "Um n\u00famero inteiro que indica o comprimento do bico (em mil\u00edmetros)"
   bill_depth_mm:
     trans: profundidade_bico
-    desc: "Um número inteiro que indica a profundidade do bico (em milímetros)"
+    desc: "Um n\u00famero inteiro que indica a profundidade do bico (em mil\u00edmetros)"
   flipper_length_mm:
     trans: comprimento_nadadeira
-    desc: "Um número inteiro que indica o comprimento da nadadeira (em milímetros)"
+    desc: "Um n\u00famero inteiro que indica o comprimento da nadadeira (em mil\u00edmetros)"
   body_mass_g:
     trans: massa_corporal
-    desc: "Um número inteiro que indica a massa corporal (em gramas)"
+    desc: "Um n\u00famero inteiro que indica a massa corporal (em gramas)"
   sex:
     trans: sexo
-    desc: "Um fator que indica o sexo do(a) pinguim (macho, fêmea)"
+    desc: "Um fator que indica o sexo do(a) pinguim (macho, f\u00eamea)"
     values:
       male: "macho"
-      female: "fêmea"
+      female: "f\u00eamea"
   year:
     trans: ano
-    desc: "Um número inteiro que indica o ano de estudo (2007, 2008 ou 2009)"
+    desc: "Um n\u00famero inteiro que indica o ano de estudo (2007, 2008 ou 2009)"
 help:
   name: pinguins
   alias: pinguins
-  title: "Medidas de pinguins adultos perto da Estação Palmer, Antártida (Palmer Station)"
-  description: "Inclui espécies de pinguins e ilhas do Arquipélago Palmer, medidas de cada espécie (comprimento da nadadeira, massa corporal e dimensões do bico), sexo de cada pinguim e ano de documentação. Esse é um subconjunto de dados do `penguins_raw`."
+  title: "Medidas de pinguins adultos perto da Esta\u00e7\u00e3o Palmer, Ant\u00e1rtida (Palmer Station)"
+  description: "Inclui esp\u00e9cies de pinguins e ilhas do Arquip\u00e9lago Palmer, medidas de cada esp\u00e9cie (comprimento da nadadeira, massa corporal e dimens\u00f4es do bico), sexo de cada pinguim e ano de documenta\u00e7\u00e3o. Esse \u00e9 um subconjunto de dados do `penguins_raw`."
   format: Um tibble com 344 linhas e 8 colunas

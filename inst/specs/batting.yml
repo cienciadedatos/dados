@@ -16,43 +16,43 @@ variables:
     desc: ID da equipe (fator)
   lgID:
     trans: id_liga
-    desc: ID da liga (fator com os níveis AA, AL, FL, NL, PL, UA)
+    desc: "ID da liga (fator com os n\u00edveis AA, AL, FL, NL, PL, UA)"
   G:
     trans: jogos
-    desc: "Número de jogos em que o jogador participou oficialmente"
+    desc: "N\u00famero de jogos em que o jogador participou oficialmente"
   AB:
     trans: vez_bastao
-    desc: "Número de vezes ao bastão válidas"
+    desc: "N\u00famero de vezes ao bast\u00e3o v\u00e1lidas"
   R:
     trans: corridas
     desc: "Corridas anotadas"
   H:
     trans: rebatidas_simples
-    desc: "Número de vezes em que o jogador chegou à primeira base com uma rebatida válida"
+    desc: "N\u00famero de vezes em que o jogador chegou \u00e0 primeira base com uma rebatida v\u00e1lida"
   X2B:
     trans: rebatidas_duplas
-    desc: "Número de vezes em que o jogador chegou à segunda base com uma rebatida válida"
+    desc: "N\u00famero de vezes em que o jogador chegou \u00e0 segunda base com uma rebatida v\u00e1lida"
   X3B:
     trans: rebatidas_triplas
-    desc: "Número de vezes em que o jogador chegou à terceira base com uma rebatida válida"
+    desc: "N\u00famero de vezes em que o jogador chegou \u00e0 terceira base com uma rebatida v\u00e1lida"
   HR:
     trans: homerun
-    desc: "Número de homeruns"
+    desc: "N\u00famero de homeruns"
   RBI:
     trans: corridas_impulsionadas
-    desc: "Corridas impulsionadas como resultado da vez ao bastão do rebatedor"
+    desc: "Corridas impulsionadas como resultado da vez ao bast\u00e3o do rebatedor"
   SB:
     trans: bases_roubadas
     desc: Bases roubadas
   CS:
     trans: capturado_roubando
-    desc: "Eliminações em tentativa de roubo de base"
+    desc: "Elimina\u00e7\u00f4es em tentativa de roubo de base"
   BB:
     trans: base_bolas
     desc: Base por bolas
   SO:
     trans: strikeouts
-    desc: "Eliminações por strikes"
+    desc: "Elimina\u00e7\u00f4es por strikes"
   IBB:
     trans: base_intencional
     desc: Base por bolas intencional
@@ -61,16 +61,16 @@ variables:
     desc: "Vezes atingidas pelo arremessador (Hit by pitch - HBP)"
   SH:
     trans: toque_sacrificio
-    desc: Toque de sacrifício
+    desc: "Toque de sacrif\u00edcio"
   SF:
     trans: fly_sacrificio
-    desc: "Flys (rebatidas altas no campo externo) de sacrifício (impulsiona uma corrida)"
+    desc: "Flys (rebatidas altas no campo externo) de sacrif\u00edcio (impulsiona uma corrida)"
   GIDP:
     trans: eliminacao_dupla_induzida
-    desc: "Rebatidas rasteiras induzindo a uma eliminação dupla"
+    desc: "Rebatidas rasteiras induzindo a uma elimina\u00e7\u00e3o dupla"
 help:
   name: rebatedores
   alias: rebatedores
-  title: "Tabela de estatíticas de Beisebol"
-  description: "Estatísticas de rebatedores"
+  title: "Tabela de estat\u00edticas de Beisebol"
+  description: "Estat\u00edsticas de rebatedores"
   format: Um data frame com 105.861 linhas e 22 colunas

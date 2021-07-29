@@ -15,6 +15,6 @@
 \item{posicao}{Posição final da equipe na classificação daquele ano}
 \item{jogador_gerente}{Tem valor 'S' (sim) para jogadores que foram jogadores e gerentes de equipe por uma temporada e 'N' (não) caso contrário (fator).}
 }}
-\description{Informações sobre gerentes de equipe individuais, equipes que eles gerenciaram e algumas estatísticas básicas para essas equipes em cada ano}
+\description{Informaçôes sobre gerentes de equipe individuais, equipes que eles gerenciaram e algumas estatísticas básicas para essas equipes em cada ano}
 \seealso{\code{\link[Lahman]{Managers}}}
 \keyword{datasets}

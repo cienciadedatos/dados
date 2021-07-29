@@ -16,10 +16,10 @@ variables:
     desc: ID da equipe (fator)
   lgID:
     trans: id_liga
-    desc: ID da liga (fator com níveis AA, AL, FL, NL, PL, UA)
+    desc: "ID da liga (fator com n\u00edveis AA, AL, FL, NL, PL, UA)"
   POS:
     trans: posicao
-    desc: "Posição do jogador defensivo"
+    desc: "Posi\u00e7\u00e3o do jogador defensivo"
   G:
     trans: jogos
     desc: Jogos
@@ -34,31 +34,31 @@ variables:
     desc: Outs feitas pelo jogador
   A:
     trans: assistencias
-    desc: "Assistências realizadas pelo jogador"
+    desc: "Assist\u00eancias realizadas pelo jogador"
   E:
     trans: erros
     desc: Erros cometidos pelo jogador
   DP:
     trans: eliminacao_dupla
-    desc: Eliminação dupla em que o jogador esteve envolvido defensivamente
+    desc: "Elimina\u00e7\u00e3o dupla em que o jogador esteve envolvido defensivamente"
   PB:
     trans: bolas_passadas
-    desc: "Bolas passadas (aplicável a receptores)"
+    desc: "Bolas passadas (aplic\u00e1vel a receptores)"
   WP:
     trans: lancamentos_desviados
-    desc: "Wild pitches - arremessos ruins que permitem o avanço de corredores adversários (aplicável a arremessadores)"
+    desc: "Wild pitches - arremessos ruins que permitem o avan\u00e7o de corredores advers\u00e1rios (aplic\u00e1vel a arremessadores)"
   SB:
     trans: bases_roubadas
-    desc: "Bases roubadas pelo oponente (aplicável aos receptor)"
+    desc: "Bases roubadas pelo oponente (aplic\u00e1vel aos receptor)"
   CS:
     trans: capturado_roubando
-    desc: "Opositores apanhados em tentativa de roubo (aplicável a receptores)"
+    desc: "Opositores apanhados em tentativa de roubo (aplic\u00e1vel a receptores)"
   ZR:
     trans: taxa_zona
-    desc: "Porcentagem de bolas capturadas por um defensor, em sua zona defensiva típica"
+    desc: "Porcentagem de bolas capturadas por um defensor, em sua zona defensiva t\u00edpica"
 help:
   name: jardineiros
   alias: jardineiros
-  title: "Tabela de estatísticas do jardineiro"
-  description: "Estatísticas de defesa"
+  title: "Tabela de estat\u00edsticas do jardineiro"
+  description: "Estat\u00edsticas de defesa"
   format: Um data frame com 140.921 linhas e 18 colunas

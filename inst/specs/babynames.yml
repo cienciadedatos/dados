@@ -7,20 +7,20 @@ variables:
     desc: "Ano de registro"
   sex:
     trans: sexo
-    desc: Sexo do(a) bebê
+    desc: "Sexo do(a) beb\u00ea"
   name:
     trans: nome
     desc: Nome
   n:
     trans: n
-    desc: "Número de ocorrências"
+    desc: "N\u00famero de ocorr\u00eancias"
   prop:
     trans: prop
-    desc: "Proporção"
+    desc: "Propor\u00e7\u00e3o"
 help:
   name: bebes
   alias: bebes
-  title: "Nomes de bebês"
-  description: "Dados completos sobre nomes de bebês fornecidos pela Administração de Segurança Social dos EUA. Inclui todos os nomes com pelo menos 5 usos"
+  title: "Nomes de beb\u00eas"
+  description: "Dados completos sobre nomes de beb\u00eas fornecidos pela Administra\u00e7\u00e3o de Seguran\u00e7a Social dos EUA. Inclui todos os nomes com pelo menos 5 usos"
   usage: bebes
   format: Um data.frame com 1.924.665 linhas e 5 colunas
