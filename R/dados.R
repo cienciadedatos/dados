@@ -19,4 +19,7 @@ NULL
 #' @import gapminder
 #' @import nasaweather
 #' @import nycflights13
+#' @import palmerpenguins
+#' @import pixarfilms
+#' @import AmesHousing
 NULL
