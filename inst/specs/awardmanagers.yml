@@ -31,5 +31,5 @@ help:
   name: premios_gerentes
   alias: premios_gerentes
   title: "Tabela de pr\u00eamios dos gerentes"
-  description: "Informa\u00e7\u00f4es sobre pr\u00eamios para gerentes"
+  description: "Informa\u00e7\u00f5es sobre pr\u00eamios para gerentes"
   format: Um data.frame com 179 linhas e 6 colunas

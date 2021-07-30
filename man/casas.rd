@@ -17,7 +17,7 @@
 \item{utilidades}{Tipo de utilizades disponíveis (eletricidade, gás, água e esgoto)}
 \item{lote_config}{Configuração do lote}
 \item{terreno_declive}{Declive do terreno}
-\item{vizinhanca}{Localizaçôes físicas dentro dos limites da cidade de ames}
+\item{vizinhanca}{Localizações físicas dentro dos limites da cidade de ames}
 \item{condicao_1}{Proximidade da propriedade estradas ou rodovias importantes}
 \item{condicao_2}{Proximidade da propriedade de estradas ou rodovias importantes (caso uma segunda exista)}
 \item{moradia_tipo}{Tipo de moradia. Valores: família única,  conversão para 2 famílias (originalmente construída para 2 famílias), duplex, unidade final de moradia (Townhouse End Unit), unidade interna de moradia (Townhouse Inside Unit).}
@@ -59,11 +59,11 @@
 \item{acima_solo_num_quartos}{Número de quartos da casa}
 \item{acima_solo_num_cozinhas}{Número de cozinhas da casa}
 \item{cozinha_qualidade}{Qualidade da cozinha}
-\item{acima_solo_num_comodos}{Número de cõmodos acima do solo}
+\item{acima_solo_num_comodos}{Número de cômodos acima do solo}
 \item{funcional}{Funcionalidade da casa (indica o quanto a casa está apta para moradia)}
 \item{total_num_lareiras}{Número total de lareiras}
 \item{lareira_qualidade}{Qualidade da(s) lareira(s). Valores: excelente (fogueira de alvenaria exepecional), boa (lareira de alvenaria no nível principal), regular (fogueira pré-fabricada no porão),  média (lareira pré-fabricada na sala de estar principal ou lareira de alvenaria no porão), ruim (fogão Ben Franklin), sem lareira.}
-\item{garagem_tipo}{Localização da garagem. Valores: mais do que 1 tipo de garagem, anexada à casa, garagem no porão, embutida (parte da casa - tipicamente tem cõmodo acima da garagem), abrigo com teto construído ao lado da casa (carport), garagem não anexada à casa, sem garagem.}
+\item{garagem_tipo}{Localização da garagem. Valores: mais do que 1 tipo de garagem, anexada à casa, garagem no porão, embutida (parte da casa - tipicamente tem cômodo acima da garagem), abrigo com teto construído ao lado da casa (carport), garagem não anexada à casa, sem garagem.}
 \item{garagem_ano_construcao}{Ano de construção da garagem}
 \item{garagem_acabamento}{Tipo de acabamento da garagem}
 \item{garagem_capacidade_carros}{Capacidade de carros da garagem}

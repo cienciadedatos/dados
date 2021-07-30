@@ -16,7 +16,7 @@ variables:
     desc: "72 pontos no tempo. Uma vez por m\u00eas desde janeiro de 1995 at\u00e9 dezembro de 2000"
   surftemp:
     trans: temp_superficie
-    desc: "Temperatura m\u00e9dia mensal baseada na energia emitida da superf\u00edcie da Terra em condi\u00e7\u00f4es de c\u00e9u claro (em K)"
+    desc: "Temperatura m\u00e9dia mensal baseada na energia emitida da superf\u00edcie da Terra em condi\u00e7\u00f5es de c\u00e9u claro (em K)"
   temp:
     trans: temperatura
     desc: "Temperatura m\u00e9dia mensal do ar perto da superf\u00edcie da Terra (em K)"
@@ -25,7 +25,7 @@ variables:
     desc: "Press\u00e3o m\u00e9dia mensal da superf\u00edcie atmosf\u00e9rica num determinado local na superf\u00edcie da Terra (em mbar)"
   ozone:
     trans: ozonio
-    desc: "M\u00e9dia mensal do total de oz\u00f5nio na coluna atmosf\u00e9rica (em Dobsons)"
+    desc: "M\u00e9dia mensal do total de oz\u00f4nio na coluna atmosf\u00e9rica (em Dobsons)"
   cloudlow:
     trans: nuvem_baixa
     desc: "Porcentagem m\u00e9dia mensal do c\u00e9u coberto por nuvens com press\u00e3o superior a 680 mbar ou aproximadamente menor que 3,24 km"

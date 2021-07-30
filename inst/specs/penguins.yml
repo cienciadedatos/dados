@@ -41,5 +41,5 @@ help:
   name: pinguins
   alias: pinguins
   title: "Medidas de pinguins adultos perto da Esta\u00e7\u00e3o Palmer, Ant\u00e1rtida (Palmer Station)"
-  description: "Inclui esp\u00e9cies de pinguins e ilhas do Arquip\u00e9lago Palmer, medidas de cada esp\u00e9cie (comprimento da nadadeira, massa corporal e dimens\u00f4es do bico), sexo de cada pinguim e ano de documenta\u00e7\u00e3o. Esse \u00e9 um subconjunto de dados do `penguins_raw`."
+  description: "Inclui esp\u00e9cies de pinguins e ilhas do Arquip\u00e9lago Palmer, medidas de cada esp\u00e9cie (comprimento da nadadeira, massa corporal e dimens\u00f5es do bico), sexo de cada pinguim e ano de documenta\u00e7\u00e3o. Esse \u00e9 um subconjunto de dados do `penguins_raw`."
   format: Um tibble com 344 linhas e 8 colunas

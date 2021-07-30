@@ -19,6 +19,6 @@
 \item{veiculos}{Lista de veículos que o/a personagem pilotou nos filmes}
 \item{naves_espaciais}{Lista de naves espaciais que o/a personagem pilotou nos filmes}
 }}
-\description{Contém observaçôes de personagens de Starwars. Os dados originais, da SWAPI - a API de Starwars,  https://swapi.dev/ - foram revisados para refletir pesquisas adicionais sobre gênero e sexo dos/das personagens.}
+\description{Contém observações de personagens de Starwars. Os dados originais, da SWAPI - a API de Starwars,  https://swapi.dev/ - foram revisados para refletir pesquisas adicionais sobre gênero e sexo dos/das personagens.}
 \seealso{\code{\link[dplyr]{starwars}}}
 \keyword{datasets}

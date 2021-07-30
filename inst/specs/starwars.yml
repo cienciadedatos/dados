@@ -155,5 +155,5 @@ help:
   name: dados_starwars
   alias: dados_starwars
   title: "Personagens de Starwars"
-  description: "Cont\u00e9m observa\u00e7\u00f4es de personagens de Starwars. Os dados originais, da SWAPI - a API de Starwars,  https://swapi.dev/ - foram revisados para refletir pesquisas adicionais sobre g\u00eanero e sexo dos/das personagens."
+  description: "Cont\u00e9m observa\u00e7\u00f5es de personagens de Starwars. Os dados originais, da SWAPI - a API de Starwars,  https://swapi.dev/ - foram revisados para refletir pesquisas adicionais sobre g\u00eanero e sexo dos/das personagens."
   format: Um tibble com 87 linhas e 14 colunas

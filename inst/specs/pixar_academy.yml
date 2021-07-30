@@ -54,7 +54,7 @@ variables:
 help:
     name: pixar_oscars
     alias: pixar_oscars
-    title: "Filmes da Pixar com indica\u00e7\u00f4es ao Oscar"
+    title: "Filmes da Pixar com indica\u00e7\u00f5es ao Oscar"
     description: "Filmes da Pixar que foram indicados ao Oscar, a categoria em que concorreram e o resultado da indica\u00e7\u00e3o"
     usage: pixar_oscars
     format: Um tibble com 72 linhas e 3 colunas

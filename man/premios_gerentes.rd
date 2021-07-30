@@ -11,6 +11,6 @@
 \item{empate}{Tem valor "S" (sim) para os prêmios que correspondem a um empate e "N" (não) caso contrário.}
 \item{notas}{Notas sobre o prêmio}
 }}
-\description{Informaçôes sobre prêmios para gerentes}
+\description{Informações sobre prêmios para gerentes}
 \seealso{\code{\link[Lahman]{AwardsManagers}}}
 \keyword{datasets}

@@ -48,6 +48,6 @@ help:
     name: pixar_equipe
     alias: pixar_equipe
     title: "Equipe dos filmes"
-    description: "Principais pessoas envolvidas nas produ\u00e7\u00f4es dos filmes da Pixar"
+    description: "Principais pessoas envolvidas nas produ\u00e7\u00f5es dos filmes da Pixar"
     usage: pixar_equipe
     format: Um tibble com 228 linhas e 3 colunas
