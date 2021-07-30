@@ -13,6 +13,6 @@
 \item{sexo}{Um fator que indica o sexo do(a) pinguim (macho, fêmea)}
 \item{ano}{Um número inteiro que indica o ano de estudo (2007, 2008 ou 2009)}
 }}
-\description{Inclui espécies de pinguins e ilhas do Arquipélago Palmer, medidas de cada espécie (comprimento da nadadeira, massa corporal e dimensôes do bico), sexo de cada pinguim e ano de documentação. Esse é um subconjunto de dados do `penguins_raw`.}
+\description{Inclui espécies de pinguins e ilhas do Arquipélago Palmer, medidas de cada espécie (comprimento da nadadeira, massa corporal e dimensões do bico), sexo de cada pinguim e ano de documentação. Esse é um subconjunto de dados do `penguins_raw`.}
 \seealso{\code{\link[palmerpenguins]{penguins}}}
 \keyword{datasets}

@@ -43,8 +43,8 @@ variables:
 help:
   name: avioes
   alias: avioes
-  title: "Dados de avi\u00f4es"
-  description: "Metadatos de avi\u00f4es e seus c\u00f3digos de cauda no registro de avia\u00e7\u00e3o da FAA.
+  title: "Dados de avi\u00f5es"
+  description: "Metadatos de avi\u00f5es e seus c\u00f3digos de cauda no registro de avia\u00e7\u00e3o da FAA.
     American Airways (AA) e Envoy Air (MQ) reportam n\u00famero de frota no lugar do n\u00famero de calda, por isso n\u00e3o \u00e9 poss\u00edvel relacion\u00e1-los"
   usage: avioes
   format: Um data.frame com 3.322 linhas e 9 colunas

@@ -43,5 +43,5 @@ help:
   name: gerentes
   alias: gerentes
   title: Tabela de gerentes
-  description: "Informa\u00e7\u00f4es sobre gerentes de equipe individuais, equipes que eles gerenciaram e algumas estat\u00edsticas b\u00e1sicas para essas equipes em cada ano"
+  description: "Informa\u00e7\u00f5es sobre gerentes de equipe individuais, equipes que eles gerenciaram e algumas estat\u00edsticas b\u00e1sicas para essas equipes em cada ano"
   format: Um data frame com 3.504 linhas e 10 colunas

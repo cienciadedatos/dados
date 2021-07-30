@@ -42,13 +42,13 @@ variables:
       Cabo Verde: Cabo Verde
       Cayman Islands: Ilhas Caiman
       Cambodia: Camboja
-      Cameroon: "Camar\u00f4es"
+      Cameroon: "Camar\u00f5es"
       Canada: "Canad\u00e1"
       Central African Republic: "Rep\u00fablica Centroafricana"
       Chad: Chade
       Chile: Chile
       China, Macao SAR: Macau, China
-      Colombia: "Col\u00f5mbia"
+      Colombia: "Col\u00f4mbia"
       Comoros: Comores
       Congo: "Rep\u00fablica do Congo"
       Cook Islands: Ilhas Cook
@@ -69,7 +69,7 @@ variables:
       El Salvador: El Salvador
       Equatorial Guinea: "Guin\u00e9-Equatorial"
       Eritrea: Eritreia
-      Estonia: "Est\u00f5nia"
+      Estonia: "Est\u00f4nia"
       Ethiopia: "Eti\u00f3pia"
       Fiji: Fiji
       Finland: "Finl\u00e2ndia"
@@ -111,7 +111,7 @@ variables:
       Kyrgyzstan: "Quirguist\u00e3o"
       Kuwait: Kuwaite
       Lao People's Democratic Republic: Laos
-      Latvia: "Let\u00f5nia"
+      Latvia: "Let\u00f4nia"
       Lebanon: "L\u00edbano"
       Lesotho: Lesoto
       Liberia: "Lib\u00e9ria"
@@ -130,7 +130,7 @@ variables:
       Mexico: "M\u00e9xico"
       Micronesia (Federated States of): "Micron\u00e9sia"
       Mongolia: "Mong\u00f3lia"
-      Monaco: "M\u00f5naco"
+      Monaco: "M\u00f4naco"
       Montenegro: Montenegro
       Montserrat: Montserrat
       Morocco: Marrocos
@@ -141,7 +141,7 @@ variables:
       Nepal: Nepal
       Netherlands: "Pa\u00edses Baixos"
       Netherlands Antilles: Antilhas Neerlandesas
-      New Caledonia: "Nova Caled\u00f5nia"
+      New Caledonia: "Nova Caled\u00f4nia"
       New Zealand: "Nova Zel\u00e2ndia"
       Nicaragua: "Nicar\u00e1gua"
       Niger: "N\u00edger"
@@ -157,7 +157,7 @@ variables:
       Paraguay: Paraguai
       Peru: Peru
       Philippines: Filipinas
-      Poland: "Pol\u00f5nia"
+      Poland: "Pol\u00f4nia"
       Portugal: Portugal
       Puerto Rico: Porto Rico
       Qatar: Catar
@@ -195,7 +195,7 @@ variables:
       United Republic of Tanzania: "Tanz\u00e2nia"
       Tajikistan: "Tajiquist\u00e3o"
       Thailand: "Tail\u00e2ndia"
-      The Former Yugoslav Republic of Macedonia: "Maced\u00f5nia do Norte"
+      The Former Yugoslav Republic of Macedonia: "Maced\u00f4nia do Norte"
       Timor-Leste: Timor-Leste
       Togo: Togo
       Trinidad and Tobago: Trindade e Tobago

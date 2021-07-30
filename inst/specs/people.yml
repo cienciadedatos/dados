@@ -90,7 +90,7 @@ help:
   name: pessoas
   alias: pessoas
   title: Tabela de pessoas
-  description: "Nomes de jogadores, data de nascimento e informa\u00e7\u00f4es
+  description: "Nomes de jogadores, data de nascimento e informa\u00e7\u00f5es
      bibliogr\u00e1ficas. Este arquivo \u00e9 usado para obter detalhes sobre os jogadores listados em rebatedores,
      arremessadores e outros arquivos nos quais os jogadores s\u00e3o identificados por
     id_jogador"

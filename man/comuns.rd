@@ -10,6 +10,6 @@
 \item{total_modelos_ano}{Número total de modelos-ano}
 }}
 \usage{comuns}
-\description{Esses modelos têm pelo menos 10 anos de dados. Esse conjunto de dados é adequado para uma join para restringir o número de observaçôes a um nível mais gerenciável.}
+\description{Esses modelos têm pelo menos 10 anos de dados. Esse conjunto de dados é adequado para uma join para restringir o número de observações a um nível mais gerenciável.}
 \seealso{\code{\link[fueleconomy]{common}}}
 \keyword{datasets}

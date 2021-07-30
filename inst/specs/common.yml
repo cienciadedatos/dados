@@ -18,6 +18,6 @@ help:
   name: comuns
   alias: comuns
   title: Modelos comuns de carros
-  description: "Esses modelos t\u00eam pelo menos 10 anos de dados. Esse conjunto de dados \u00e9 adequado para uma join para restringir o n\u00famero de observa\u00e7\u00f4es a um n\u00edvel mais gerenci\u00e1vel."
+  description: "Esses modelos t\u00eam pelo menos 10 anos de dados. Esse conjunto de dados \u00e9 adequado para uma join para restringir o n\u00famero de observa\u00e7\u00f5es a um n\u00edvel mais gerenci\u00e1vel."
   usage: comuns
   format: Um data.frame com 347 linhas e 4 colunas

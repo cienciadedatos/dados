@@ -1,7 +1,7 @@
 \docType{data}
 \name{pixar_oscars}
 \alias{pixar_oscars}
-\title{Filmes da Pixar com indicaçôes ao Oscar}
+\title{Filmes da Pixar com indicações ao Oscar}
 \format{Um tibble com 72 linhas e 3 colunas
 \describe{
 \item{filme}{Título do filme}

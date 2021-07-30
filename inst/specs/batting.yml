@@ -46,13 +46,13 @@ variables:
     desc: Bases roubadas
   CS:
     trans: capturado_roubando
-    desc: "Elimina\u00e7\u00f4es em tentativa de roubo de base"
+    desc: "Elimina\u00e7\u00f5es em tentativa de roubo de base"
   BB:
     trans: base_bolas
     desc: Base por bolas
   SO:
     trans: strikeouts
-    desc: "Elimina\u00e7\u00f4es por strikes"
+    desc: "Elimina\u00e7\u00f5es por strikes"
   IBB:
     trans: base_intencional
     desc: Base por bolas intencional

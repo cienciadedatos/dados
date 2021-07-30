@@ -31,10 +31,10 @@ variables:
             Soul: Soul
     rotten_tomatoes:
         trans: nota_rotten_tomatoes
-        desc: "Avalia\u00e7\u00e3o obtida pelo site Rotten Tomatoes. As avalia\u00e7\u00f4es s\u00e3o num\u00e9ricas e v\u00e3o de 0 a 100."
+        desc: "Avalia\u00e7\u00e3o obtida pelo site Rotten Tomatoes. As avalia\u00e7\u00f5es s\u00e3o num\u00e9ricas e v\u00e3o de 0 a 100."
     metacritic:
         trans: nota_metacritic
-        desc: "Avalia\u00e7\u00e3o obtida pelo site Metacritic. As avalia\u00e7\u00f4es s\u00e3o num\u00e9ricas e v\u00e3o de 0 a 100."
+        desc: "Avalia\u00e7\u00e3o obtida pelo site Metacritic. As avalia\u00e7\u00f5es s\u00e3o num\u00e9ricas e v\u00e3o de 0 a 100."
     cinema_score:
         trans: nota_cinema_score
         desc: "Avalia\u00e7\u00e3o obtida pelo site CinemaScore. Avalia\u00e7\u00e3o em escala alfab\u00e9tica que varia de A+ a F."
@@ -44,7 +44,7 @@ variables:
 help:
     name: pixar_avalicao_publico
     alias: pixar_avalicao_publico
-    title: "Filmes da Pixar e avalia\u00e7\u00f4es"
-    description: "Filmes da Pixar com avalia\u00e7\u00f4es do p\u00fablico e da cr\u00edtica, obtidas por diferentes sites"
+    title: "Filmes da Pixar e avalia\u00e7\u00f5es"
+    description: "Filmes da Pixar com avalia\u00e7\u00f5es do p\u00fablico e da cr\u00edtica, obtidas por diferentes sites"
     usage: pixar_avalicao_publico
     format: Um tibble com 23 linhas e 5 colunas

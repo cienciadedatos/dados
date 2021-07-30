@@ -9,6 +9,6 @@
 \item{casos}{Número de casos registrados}
 \item{populacao}{População do país}
 }}
-\description{Contém observaçôes de casos registrados no Afeganistão, Brasil e China nos anos de 1999 e 2000}
+\description{Contém observações de casos registrados no Afeganistão, Brasil e China nos anos de 1999 e 2000}
 \seealso{\code{\link[tidyr]{table1}}}
 \keyword{datasets}
