@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
 <!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- pkgdown --><link href="pkgdown.css" rel="stylesheet">
 <script src="pkgdown.js"></script><meta property="og:title" content="Translate Datasets to Portuguese">
-<meta property="og:description" content="Este pacote faz a tradução dos seguintes 
+<meta property="og:description" content="Este pacote traduz os seguintes 
     conjuntos de dados: airlines, airports, ames_raw, AwardsManagers,
     babynames, Batting, diamonds, faithful, fueleconomy,
     Fielding, flights, gapminder, gss_cat, iris, Managers,
@@ -26,6 +26,8 @@
 <![endif]-->
 </head>
 <body data-spy="scroll" data-target="#toc">
+    
+
     <div class="container template-home">
       <header><div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -38,25 +40,22 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">dados</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.0.0.9000</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.1.0</span>
       </span>
     </div>
 
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
 <li>
-  <a href="index.html">
-    <span class="fas fa-home fa-lg"></span>
-     
-  </a>
+  <a href="reference/index.html">Reference</a>
 </li>
 <li>
-  <a href="reference/index.html">Reference</a>
+  <a href="news/index.html">Changelog</a>
 </li>
       </ul>
 <ul class="nav navbar-nav navbar-right">
 <li>
-  <a href="https://github.com/cienciadedatos/dados/">
+  <a href="https://github.com/cienciadedatos/dados/" class="external-link">
     <span class="fab fa-github fa-lg"></span>
      
   </a>
@@ -73,24 +72,26 @@
 
       </header><div class="row">
   <div class="contents col-md-9">
-<div id="dados-" class="section level1">
-<div class="page-header"><h1 class="hasAnchor">
-<a href="#dados-" class="anchor"></a>dados <img src="reference/figures/dados-hex.png" align="right" width="120px">
+<div class="section level1">
+<div class="page-header"><h1 id="dados-">dados <img src="reference/figures/dados-hex.png" align="right" width="120px"><a class="anchor" aria-label="anchor" href="#dados-"></a>
 </h1></div>
 <!-- badges: start -->
 
-<p>Este pacote disponibiliza a tradução de conjuntos de dados em inglês originalmente disponíveis em outros pacotes de R. Os dados traduzidos são utilizados nos exemplos do livro <a href="https://r4ds.had.co.nz/">R for Data Science</a> de Hadley Wickham &amp; Garrett Grolemund, cuja <a href="https://www.altabooks.com.br/produto/r-para-data-science-importe-arrume-transforme-visualize-e-modele-dados/">versão em português</a> foi publicada por AltaBooks &amp; O’Reilly.</p>
-<div id="instalação" class="section level2">
-<h2 class="hasAnchor">
-<a href="#instala%C3%A7%C3%A3o" class="anchor"></a>Instalação</h2>
-<p>O pacote <code>dados</code> atualmente está em desenvolvimento. Esta versão (em progresso) pode ser instalada a partir do GitHub:</p>
+<p>Este pacote disponibiliza a tradução de conjuntos de dados em inglês originalmente disponíveis em outros pacotes de R. Os dados traduzidos são utilizados nos exemplos do livro <a href="https://r4ds.had.co.nz/" class="external-link">R for Data Science</a> de Hadley Wickham &amp; Garrett Grolemund, cuja <a href="https://www.altabooks.com.br/produto/r-para-data-science-importe-arrume-transforme-visualize-e-modele-dados/" class="external-link">versão em português</a> foi publicada por AltaBooks &amp; O’Reilly.</p>
+<div class="section level2">
+<h2 id="instalação">Instalação<a class="anchor" aria-label="anchor" href="#instala%C3%A7%C3%A3o"></a>
+</h2>
+<p>Este pacote pode ser instalado a partir do CRAN:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"dados"</span><span class="op">)</span></code></pre></div>
+<p>A versão de desenvolvimento pode ser instalada a partir do GitHub:</p>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co"># install.packages("remotes")</span>
-<span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html">install_github</a></span><span class="op">(</span><span class="st">"cienciadedatos/dados"</span><span class="op">)</span></code></pre></div>
+<span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"cienciadedatos/dados"</span><span class="op">)</span></code></pre></div>
 </div>
-<div id="traduções" class="section level2">
-<h2 class="hasAnchor">
-<a href="#tradu%C3%A7%C3%B5es" class="anchor"></a>Traduções</h2>
+<div class="section level2">
+<h2 id="traduções">Traduções<a class="anchor" aria-label="anchor" href="#tradu%C3%A7%C3%B5es"></a>
+</h2>
 <p>As traduções disponíveis dentro de <code>dados</code> são as seguintes:</p>
 <table class="table">
 <colgroup>
@@ -349,17 +350,17 @@
 </tbody>
 </table>
 </div>
-<div id="uso" class="section level2">
-<h2 class="hasAnchor">
-<a href="#uso" class="anchor"></a>Uso</h2>
+<div class="section level2">
+<h2 id="uso">Uso<a class="anchor" aria-label="anchor" href="#uso"></a>
+</h2>
 <p>O pacote <code>dados</code> pode ser carregado como qualquer outro pacote de R:</p>
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/cienciadedatos/dados">dados</a></span><span class="op">)</span>
-<span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://ggplot2.tidyverse.org">ggplot2</a></span><span class="op">)</span>
-<span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://dplyr.tidyverse.org">dplyr</a></span><span class="op">)</span></code></pre></div>
-<p>Ao carregar o pacote, as variáveis que contêm os dados estarão disponíveis imediatamente para uso. Porém, os dados não serão traduzidos até que a variável seja “chamada” explicitamente por um comando. Neste exemplo, o conjunto de dados <code>diamante</code>, que provém de <code><a href="https://ggplot2.tidyverse.org/reference/diamonds.html">ggplot2::diamonds</a></code>, é carregado no <em>workspace</em> do R no momento em que o chamamos pela primeira vez em português:</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu"><a href="https://pillar.r-lib.org/reference/glimpse.html">glimpse</a></span><span class="op">(</span><span class="va">diamante</span><span class="op">)</span>
+<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/cienciadedatos/dados" class="external-link">dados</a></span><span class="op">)</span>
+<span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://ggplot2.tidyverse.org" class="external-link">ggplot2</a></span><span class="op">)</span>
+<span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://dplyr.tidyverse.org" class="external-link">dplyr</a></span><span class="op">)</span></code></pre></div>
+<p>Ao carregar o pacote, as variáveis que contêm os dados estarão disponíveis imediatamente para uso. Porém, os dados não serão traduzidos até que a variável seja “chamada” explicitamente por um comando. Neste exemplo, o conjunto de dados <code>diamante</code>, que provém de <code><a href="https://ggplot2.tidyverse.org/reference/diamonds.html" class="external-link">ggplot2::diamonds</a></code>, é carregado no <em>workspace</em> do R no momento em que o chamamos pela primeira vez em português:</p>
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="https://pillar.r-lib.org/reference/glimpse.html" class="external-link">glimpse</a></span><span class="op">(</span><span class="va">diamante</span><span class="op">)</span>
 <span class="co">#&gt; Rows: 53,940</span>
 <span class="co">#&gt; Columns: 10</span>
 <span class="co">#&gt; $ preco         &lt;int&gt; 326, 326, 327, 334, 335, 336, 336, 337, 337, 338, 339, 3…</span>
@@ -373,73 +374,85 @@
 <span class="co">#&gt; $ y             &lt;dbl&gt; 3.98, 3.84, 4.07, 4.23, 4.35, 3.96, 3.98, 4.11, 3.78, 4.…</span>
 <span class="co">#&gt; $ z             &lt;dbl&gt; 2.43, 2.31, 2.31, 2.63, 2.75, 2.48, 2.47, 2.53, 2.49, 2.…</span></code></pre></div>
 <p>Os dados traduzidos permanecerão carregados em sua sessão de R:</p>
-<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="va">diamante</span> <span class="op">%&gt;%</span>
-  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span><span class="va">corte</span> <span class="op">==</span> <span class="st">"Bom"</span><span class="op">)</span> <span class="op">%&gt;%</span>
-  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span>
-  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_boxplot.html">geom_boxplot</a></span><span class="op">(</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span><span class="va">transparencia</span>, <span class="va">preco</span>, fill <span class="op">=</span> <span class="va">transparencia</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span>
-  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/theme.html">theme</a></span><span class="op">(</span>legend.position <span class="op">=</span> <span class="st">"none"</span><span class="op">)</span> <span class="op">+</span>
-  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/labs.html">labs</a></span><span class="op">(</span>title <span class="op">=</span> <span class="st">"Diamantes"</span>, subtitle <span class="op">=</span> <span class="st">"Preço e transparência"</span>, y <span class="op">=</span> <span class="st">"Preço"</span>, x <span class="op">=</span> <span class="st">"Transparência"</span><span class="op">)</span></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="va">diamante</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span>
+  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html" class="external-link">filter</a></span><span class="op">(</span><span class="va">corte</span> <span class="op">==</span> <span class="st">"Bom"</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span>
+  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html" class="external-link">ggplot</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span>
+  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_boxplot.html" class="external-link">geom_boxplot</a></span><span class="op">(</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html" class="external-link">aes</a></span><span class="op">(</span><span class="va">transparencia</span>, <span class="va">preco</span>, fill <span class="op">=</span> <span class="va">transparencia</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span>
+  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/theme.html" class="external-link">theme</a></span><span class="op">(</span>legend.position <span class="op">=</span> <span class="st">"none"</span><span class="op">)</span> <span class="op">+</span>
+  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/labs.html" class="external-link">labs</a></span><span class="op">(</span>title <span class="op">=</span> <span class="st">"Diamantes"</span>, subtitle <span class="op">=</span> <span class="st">"Preço e transparência"</span>, y <span class="op">=</span> <span class="st">"Preço"</span>, x <span class="op">=</span> <span class="st">"Transparência"</span><span class="op">)</span></code></pre></div>
 <p><img src="reference/figures/diamantes.png"></p>
 </div>
-<div id="funções-internas-de-dados" class="section level2">
-<h2 class="hasAnchor">
-<a href="#fun%C3%A7%C3%B5es-internas-de-dados" class="anchor"></a>Funções internas de <code>dados</code>
+<div class="section level2">
+<h2 id="funções-internas-de-dados">Funções internas de <code>dados</code>
+<a class="anchor" aria-label="anchor" href="#fun%C3%A7%C3%B5es-internas-de-dados"></a>
 </h2>
-<p>As funções internas de <code>dados</code> foram desenvolvidas originalmente por seu pacote irmão: <a href="https://cienciadedatos.github.io/datos/"><code>datos</code></a>.</p>
+<p>As funções internas de <code>dados</code> foram desenvolvidas originalmente por seu pacote irmão: <a href="https://cienciadedatos.github.io/datos/" class="external-link"><code>datos</code></a>.</p>
 </div>
 </div>
   </div>
 
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <div class="links">
-<h2>Links</h2>
+<h2 data-toc-skip>Links</h2>
 <ul class="list-unstyled">
-<li>Browse source code at <br><a href="https://github.com/cienciadedatos/dados/">https://​github.com/​cienciadedatos/​dados/​</a>
-</li>
-<li>Report a bug at <br><a href="https://github.com/cienciadedatos/dados/issues">https://​github.com/​cienciadedatos/​dados/​issues</a>
-</li>
-</ul>
-</div>
-<div class="license">
-<h2>License</h2>
-<ul class="list-unstyled">
-<li><a href="LICENSE.html">Full license</a></li>
-<li><small><a href="https://www.r-project.org/Licenses/GPL-3">GPL-3</a></small></li>
-</ul>
-</div>
-<div class="developers">
-<h2>Developers</h2>
-<ul class="list-unstyled">
-<li>Riva Quiroga <br><small class="roles"> Author, maintainer </small> <a href="https://orcid.org/0000-0002-1147-4135" target="orcid.widget" aria-label="ORCID"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
-<li>Sara Mortara <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0001-6221-7537" target="orcid.widget" aria-label="ORCID"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
-<li>Beatriz Milz <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0002-3064-4486" target="orcid.widget" aria-label="ORCID"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
-<li>Andrea Sánchez-Tapia <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0002-3521-4338" target="orcid.widget" aria-label="ORCID"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
-<li>Alejandra Andrea Tapia Silva <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0003-0762-7618" target="orcid.widget" aria-label="ORCID"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
-<li>Beatriz Maurer Costa <br><small class="roles"> Author </small>  </li>
-<li>Jean Prado <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0002-7928-774X" target="orcid.widget" aria-label="ORCID"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
-<li>Renata Hirota <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0002-3589-3246" target="orcid.widget" aria-label="ORCID"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
-<li>William Amorim <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0003-0543-3473" target="orcid.widget" aria-label="ORCID"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
-<li>Emmanuelle Rodrigues Nunes <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0001-5994-352X" target="orcid.widget" aria-label="ORCID"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li><a href="https://github.com/cienciadedatos/dados/" class="external-link">Browse source code</a></li>
+<li><a href="https://github.com/cienciadedatos/dados/issues" class="external-link">Report a bug</a></li>
 </ul>
 </div>
 
-  <div class="dev-status">
-<h2>Dev status</h2>
+<div class="license">
+<h2 data-toc-skip>License</h2>
 <ul class="list-unstyled">
-<li><a href="https://github.com/cienciadedatos/dados/actions"><img src="https://github.com/cienciadedatos/dados/workflows/R-CMD-check/badge.svg" alt="R-CMD-check"></a></li>
+<li><a href="LICENSE.html">Full license</a></li>
+<li><small><a href="https://www.r-project.org/Licenses/GPL-3" class="external-link">GPL-3</a></small></li>
 </ul>
 </div>
+
+
+<div class="citation">
+<h2 data-toc-skip>Citation</h2>
+<ul class="list-unstyled">
+<li><a href="authors.html#citation">Citing dados</a></li>
+</ul>
 </div>
+
+<div class="developers">
+<h2 data-toc-skip>Developers</h2>
+<ul class="list-unstyled">
+<li>Riva Quiroga <br><small class="roles"> Author, maintainer </small> <a href="https://orcid.org/0000-0002-1147-4135" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li>Sara Mortara <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0001-6221-7537" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li>Beatriz Milz <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0002-3064-4486" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li>Andrea Sánchez-Tapia <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0002-3521-4338" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li>Alejandra Andrea Tapia Silva <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0003-0762-7618" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li>Beatriz Maurer Costa <br><small class="roles"> Author </small>  </li>
+<li>Jean Prado <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0002-7928-774X" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li>Renata Hirota <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0002-3589-3246" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li>William Amorim <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0003-0543-3473" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li>Emmanuelle Rodrigues Nunes <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0001-5994-352X" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+</ul>
+</div>
+
+<div class="dev-status">
+<h2 data-toc-skip>Dev status</h2>
+<ul class="list-unstyled">
+<li><a href="https://cran.r-project.org/package=dados" class="external-link"><img src="https://www.r-pkg.org/badges/version/dados" alt="CRAN status"></a></li>
+<li><a href="https://github.com/cienciadedatos/dados/actions" class="external-link"><img src="https://github.com/cienciadedatos/dados/workflows/R-CMD-check/badge.svg" alt="R-CMD-check"></a></li>
+</ul>
+</div>
+
+  </div>
 </div>
 
 
       <footer><div class="copyright">
-  <p>Developed by Riva Quiroga, Sara Mortara, Beatriz Milz, Andrea Sánchez-Tapia, Alejandra Andrea Tapia Silva, Beatriz Maurer Costa, Jean Prado, Renata Hirota, William Amorim, Emmanuelle Rodrigues Nunes.</p>
+  <p></p>
+<p>Developed by Riva Quiroga, Sara Mortara, Beatriz Milz, Andrea Sánchez-Tapia, Alejandra Andrea Tapia Silva, Beatriz Maurer Costa, Jean Prado, Renata Hirota, William Amorim, Emmanuelle Rodrigues Nunes.</p>
 </div>
 
 <div class="pkgdown">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.6.1.</p>
+  <p></p>
+<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.1.</p>
 </div>
 
       </footer>
@@ -447,6 +460,8 @@
 
   
 
+
+  
 
   </body>
 </html>

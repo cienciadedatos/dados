@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![CRAN
+status](https://www.r-pkg.org/badges/version/dados)](https://cran.r-project.org/package=dados)
 [![R-CMD-check](https://github.com/cienciadedatos/dados/workflows/R-CMD-check/badge.svg)](https://github.com/cienciadedatos/dados/actions)
 <!-- badges: end -->
 
@@ -18,8 +20,13 @@ foi publicada por AltaBooks & O’Reilly.
 
 ## Instalação
 
-O pacote `dados` atualmente está em desenvolvimento. Esta versão (em
-progresso) pode ser instalada a partir do GitHub:
+Este pacote pode ser instalado a partir do CRAN:
+
+``` r
+install.packages("dados")
+```
+
+A versão de desenvolvimento pode ser instalada a partir do GitHub:
 
 ``` r
 # install.packages("remotes")
