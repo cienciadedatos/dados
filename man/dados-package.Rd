@@ -6,14 +6,7 @@
 \alias{dados-package}
 \title{dados: Translate Datasets to Portuguese}
 \description{
-Este pacote faz a tradução dos seguintes 
-    conjuntos de dados: 'airlines', 'airports', 'ames_raw', 'AwardsManagers',
-    'babynames', 'Batting', 'diamonds', 'faithful', 'fueleconomy',
-    'Fielding', 'flights', 'gapminder', 'gss_cat', 'iris', 'Managers',
-    'mpg', 'mtcars', 'atmos', 'penguins', 'People, 'Pitching', 'pixarfilms','planes',
-    'presidential', 'table1', 'table2', 'table3', 'table4a', 'table4b',
-    'table5', 'vehicles', 'weather', 'who'.  English: It provides a
-    Portuguese translated version of the datasets listed above.
+Este pacote traduz os seguintes conjuntos de dados: 'airlines', 'airports', 'ames_raw', 'AwardsManagers', 'babynames', 'Batting', 'diamonds', 'faithful', 'fueleconomy', 'Fielding', 'flights', 'gapminder', 'gss_cat', 'iris', 'Managers', 'mpg', 'mtcars', 'atmos', 'penguins', 'People, 'Pitching', 'pixarfilms','planes', 'presidential', 'table1', 'table2', 'table3', 'table4a', 'table4b', 'table5', 'vehicles', 'weather', 'who'. English: It provides a Portuguese translated version of the datasets listed above.
 }
 \seealso{
 Useful links:
