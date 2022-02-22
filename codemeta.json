@@ -1,0 +1,329 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "identifier": "dados",
+  "description": "Este pacote traduz os seguintes conjuntos de dados: 'airlines', 'airports', 'ames_raw', 'AwardsManagers', 'babynames', 'Batting', 'diamonds', 'faithful', 'fueleconomy', 'Fielding', 'flights', 'gapminder', 'gss_cat', 'iris', 'Managers', 'mpg', 'mtcars', 'atmos', 'penguins', 'People, 'Pitching', 'pixarfilms','planes', 'presidential', 'table1', 'table2', 'table3', 'table4a', 'table4b', 'table5', 'vehicles', 'weather', 'who'. English: It provides a Portuguese translated version of the datasets listed above.",
+  "name": "dados: Translate Datasets to Portuguese",
+  "codeRepository": "https://github.com/cienciadedatos/dados",
+  "issueTracker": "https://github.com/cienciadedatos/dados/issues",
+  "license": "https://spdx.org/licenses/GPL-3.0",
+  "version": "0.1.0",
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "R",
+    "url": "https://r-project.org"
+  },
+  "runtimePlatform": "R version 4.1.2 (2021-11-01)",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Riva",
+      "familyName": "Quiroga",
+      "email": "riva.quiroga@uc.cl",
+      "@id": "https://orcid.org/0000-0002-1147-4135"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Sara",
+      "familyName": "Mortara",
+      "email": "saramortara@gmail.com",
+      "@id": "https://orcid.org/0000-0001-6221-7537"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Beatriz",
+      "familyName": "Milz",
+      "email": "beatriz.milz@usp.br",
+      "@id": "https://orcid.org/0000-0002-3064-4486"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Andrea",
+      "familyName": "Sánchez-Tapia",
+      "email": "andreasancheztapia@gmail.com",
+      "@id": "https://orcid.org/0000-0002-3521-4338"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Alejandra Andrea",
+      "familyName": "Tapia Silva",
+      "email": "alejandraandreatapiasilva@gmail.com",
+      "@id": "https://orcid.org/0000-0003-0762-7618"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Beatriz",
+      "familyName": "Maurer Costa",
+      "email": "beatrizmcosta@me.com"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Jean",
+      "familyName": "Prado",
+      "email": "jeangrprado@gmail.com",
+      "@id": "https://orcid.org/0000-0002-7928-774X"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Renata",
+      "familyName": "Hirota",
+      "email": "re.hirota@gmail.com",
+      "@id": "https://orcid.org/0000-0002-3589-3246"
+    },
+    {
+      "@type": "Person",
+      "givenName": "William",
+      "familyName": "Amorim",
+      "email": "wamorim@curso-r.com",
+      "@id": "https://orcid.org/0000-0003-0543-3473"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Emmanuelle",
+      "familyName": "Rodrigues Nunes",
+      "email": "emmanuellernunes@gmail.com",
+      "@id": "https://orcid.org/0000-0001-5994-352X"
+    }
+  ],
+  "maintainer": [
+    {
+      "@type": "Person",
+      "givenName": "Riva",
+      "familyName": "Quiroga",
+      "email": "riva.quiroga@uc.cl",
+      "@id": "https://orcid.org/0000-0002-1147-4135"
+    }
+  ],
+  "softwareSuggestions": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "covr",
+      "name": "covr",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=covr"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "testthat",
+      "name": "testthat",
+      "version": ">= 3.0.0",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=testthat"
+    }
+  ],
+  "softwareRequirements": {
+    "1": {
+      "@type": "SoftwareApplication",
+      "identifier": "R",
+      "name": "R",
+      "version": ">= 3.5.0"
+    },
+    "2": {
+      "@type": "SoftwareApplication",
+      "identifier": "AmesHousing",
+      "name": "AmesHousing",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=AmesHousing"
+    },
+    "3": {
+      "@type": "SoftwareApplication",
+      "identifier": "babynames",
+      "name": "babynames",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=babynames"
+    },
+    "4": {
+      "@type": "SoftwareApplication",
+      "identifier": "dplyr",
+      "name": "dplyr",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=dplyr"
+    },
+    "5": {
+      "@type": "SoftwareApplication",
+      "identifier": "forcats",
+      "name": "forcats",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=forcats"
+    },
+    "6": {
+      "@type": "SoftwareApplication",
+      "identifier": "fueleconomy",
+      "name": "fueleconomy",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=fueleconomy"
+    },
+    "7": {
+      "@type": "SoftwareApplication",
+      "identifier": "gapminder",
+      "name": "gapminder",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=gapminder"
+    },
+    "8": {
+      "@type": "SoftwareApplication",
+      "identifier": "ggplot2",
+      "name": "ggplot2",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=ggplot2"
+    },
+    "9": {
+      "@type": "SoftwareApplication",
+      "identifier": "Lahman",
+      "name": "Lahman",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=Lahman"
+    },
+    "10": {
+      "@type": "SoftwareApplication",
+      "identifier": "palmerpenguins",
+      "name": "palmerpenguins",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=palmerpenguins"
+    },
+    "11": {
+      "@type": "SoftwareApplication",
+      "identifier": "nasaweather",
+      "name": "nasaweather",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=nasaweather"
+    },
+    "12": {
+      "@type": "SoftwareApplication",
+      "identifier": "nycflights13",
+      "name": "nycflights13",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=nycflights13"
+    },
+    "13": {
+      "@type": "SoftwareApplication",
+      "identifier": "rlang",
+      "name": "rlang",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=rlang"
+    },
+    "14": {
+      "@type": "SoftwareApplication",
+      "identifier": "tibble",
+      "name": "tibble",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=tibble"
+    },
+    "15": {
+      "@type": "SoftwareApplication",
+      "identifier": "tidyr",
+      "name": "tidyr",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=tidyr"
+    },
+    "16": {
+      "@type": "SoftwareApplication",
+      "identifier": "yaml",
+      "name": "yaml",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=yaml"
+    },
+    "17": {
+      "@type": "SoftwareApplication",
+      "identifier": "pixarfilms",
+      "name": "pixarfilms",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=pixarfilms"
+    },
+    "SystemRequirements": null
+  },
+  "fileSize": "380.571KB",
+  "releaseNotes": "https://github.com/cienciadedatos/dados/blob/master/NEWS.md",
+  "readme": "https://github.com/cienciadedatos/dados/blob/master/README.md",
+  "contIntegration": "https://github.com/cienciadedatos/dados/actions"
+}
