@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![CRAN
+status](https://www.r-pkg.org/badges/version/dados)](https://cran.r-project.org/package=dados)
 [![R-CMD-check](https://github.com/cienciadedatos/dados/workflows/R-CMD-check/badge.svg)](https://github.com/cienciadedatos/dados/actions)
 <!-- badges: end -->
 
@@ -13,13 +15,18 @@ originalmente disponíveis em outros pacotes de R. Os dados traduzidos
 são utilizados nos exemplos do livro [R for Data
 Science](https://r4ds.had.co.nz/) de Hadley Wickham & Garrett Grolemund,
 cuja [versão em
-português](https://www.altabooks.com.br/produto/r-para-data-science-importe-arrume-transforme-visualize-e-modele-dados/)
-foi publicada por AltaBooks & O’Reilly.
+português](https://altabooks.com.br/produto/r-para-data-science/) foi
+publicada por AltaBooks & O’Reilly.
 
 ## Instalação
 
-O pacote `dados` atualmente está em desenvolvimento. Esta versão (em
-progresso) pode ser instalada a partir do GitHub:
+Este pacote pode ser instalado a partir do CRAN:
+
+``` r
+install.packages("dados")
+```
+
+A versão de desenvolvimento pode ser instalada a partir do GitHub:
 
 ``` r
 # install.packages("remotes")

@@ -11,6 +11,7 @@
 
 0 errors | 0 warnings | 1 note
 
+* This resubmission fixes the broken link in the README file.
 * This is a new release.
 * This is a package intended for Portuguese speaking users (= non-ASCII characters)
 * This is a "twin" package of {datos}, currently on CRAN: same R code, same maintainer, different files on inst/ (in Portuguese instead of Spanish)

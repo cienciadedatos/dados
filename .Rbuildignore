@@ -7,3 +7,5 @@
 ^pkgdown$
 ^\.github$
 ^cran-comments\.md$
+^codemeta\.json$
+^CRAN-RELEASE$
