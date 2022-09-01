@@ -1,6 +1,6 @@
 Package: dados
 Title: Translate Datasets to Portuguese
-Version: 0.1.0
+Version: 0.1.9000
 Authors@R: c(
     person(given = "Riva",
            family = "Quiroga",

@@ -38,8 +38,8 @@ delayedAssign('pinguins',
         eval(parse(file.path(system.file('scripts','pinguins.txt', package = 'dados')))))
 delayedAssign('pessoas',
         eval(parse(file.path(system.file('scripts','pessoas.txt', package = 'dados')))))
-delayedAssign('arremesadores',
-        eval(parse(file.path(system.file('scripts','arremesadores.txt', package = 'dados')))))
+delayedAssign('arremessadores',
+        eval(parse(file.path(system.file('scripts','arremessadores.txt', package = 'dados')))))
 delayedAssign('pixar_oscars',
         eval(parse(file.path(system.file('scripts','pixar_oscars.txt', package = 'dados')))))
 delayedAssign('pixar_bilheteria',
