@@ -1,6 +1,6 @@
 df:
   source: Lahman::Pitching
-  name: arremesadores
+  name: arremessadores
 variables:
   playerID:
     trans: id_jogador
@@ -93,8 +93,8 @@ variables:
     trans: eliminacao_dupla
     desc: "Arremessos que levam a uma rebatida rasteira com elimina\u00e7\u00e3o dupla na mesma jogada"
 help:
-  name: arremesadores
-  alias: arremesadores
-  title: "Tabela de estat\u00edsticas de arremesadores"
-  description: "Estat\u00edsticas de arremesadores"
+  name: arremessadores
+  alias: arremessadores
+  title: "Tabela de estat\u00edsticas de arremessadores"
+  description: "Estat\u00edsticas de arremessadores"
   format: Um data frame com 46.699 linhas e 30 colunas
