@@ -1,0 +1,32 @@
+df:
+  source: tidyr::cms_patient_experience
+  name: cms_paciente_experiencia
+variables:
+  org_pac_id:
+    trans: organizacao_id
+    desc: "Identificador da organização"
+  org_nm:
+    trans: organizacao_nome
+    desc: "Nome da organização"
+  measure_cd:
+    trans: medida_codigo
+    desc: "Código da medida"
+  measure_title:
+    trans: medida_titulo
+    desc: "Título da medida"
+    values:
+      CAHPS for MIPS SSM: Getting Timely Care, Appointments, and Information: "Obtenção de cuidados, consultas e informações no momento certo"
+      CAHPS for MIPS SSM: How Well Providers Communicate: "O quão bem os provedores se comunicam"
+      CAHPS for MIPS SSM: Patient's Rating of Provider: "Avaliação dos pacientes sobre o provedor"
+      CAHPS for MIPS SSM: Health Promotion and Education: "Promoção e educação em saúde"
+      CAHPS for MIPS SSM: Courteous and Helpful Office Staff: "Equipe do consultório cortês e prestativa"
+      CAHPS for MIPS SSM: Stewardship of Patient Resources: "Administração dos recursos do paciente"
+  prf_rate:
+    trans: taxa_performance
+    desc: "Medição da taxa de performance"
+help:
+  name: cms_paciente_experiencia
+  alias: cms_paciente_experiencia
+  title: "Dados dos Centros de Serviços Medicare e Medicaid"
+  description: "Contém alguns dados levemente arrumados de 'Prestadores de cuidados paliativos - Dados do provedor', que fornece uma lista de agências de cuidados paliativos junto com alguns dados sobre a qualidade do atendimento ao paciente, https://data.cms.gov/provider-data/dataset/252m-zfp9"
+  format: Um tibble com 500 linhas e 5 colunas
