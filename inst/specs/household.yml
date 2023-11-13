@@ -6,10 +6,10 @@ variables:
     trans: familia
     desc: "Identificador da família"
   dob_child1:
-    trans: data_nascimento_crianca1
+    trans: datanascimento_crianca1
     desc: "Data de nascimento da primeira criança"
   dob_child2:
-    trans: data_nascimento_crianca2
+    trans: datanascimento_crianca2
     desc: "Data de nascimento da segunda criança"
   name_child1:
     trans: nome_crianca1
