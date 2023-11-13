@@ -9,7 +9,7 @@ variables:
     trans: musica
     desc: "Nome da música"
   date.entered:
-    trans:
+    trans: data.adicionada
     desc: "Data em que a música entrou no Top 100"
   wk1:
     trans: semana1
