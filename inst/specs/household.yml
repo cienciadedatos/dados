@@ -1,0 +1,25 @@
+df:
+  source: tidyr::household
+  name: nucleo_familiar
+variables:
+  family:
+    trans: familia
+    desc: "Identificador da família"
+  dob_child1:
+    trans: data_nascimento_crianca1
+    desc: "Data de nascimento da primeira criança"
+  dob_child2:
+    trans: data_nascimento_crianca2
+    desc: "Data de nascimento da segunda criança"
+  name_child1:
+    trans: nome_crianca1
+    desc: "Nome da primeira criança"
+  name_child2:
+    trans: nome_crianca2
+    desc: "Nome da segunda criança"
+help:
+  name: nucleo_familiar
+  alias: nucleo_familiar
+  title: "Dados de núcleo familiar"
+  description: "Cont\u00e9m observa\u00e7\u00f5es de 5 famílias, com até 2 crianças cada. Esses dados são baseados no exemplo disponívem em: vignette('datatable-reshape', package = 'data.table')"
+  format: Um tibble com 5 linhas e 5 colunas
