@@ -78,3 +78,5 @@ delayedAssign('clima',
         eval(parse(file.path(system.file('scripts','clima.txt', package = 'dados')))))
 delayedAssign('dados_oms',
         eval(parse(file.path(system.file('scripts','dados_oms.txt', package = 'dados')))))
+delayedAssign('dados_oms2',
+        eval(parse(file.path(system.file('scripts','dados_oms2.txt', package = 'dados')))))
