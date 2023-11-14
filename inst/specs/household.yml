@@ -4,22 +4,22 @@ df:
 variables:
   family:
     trans: familia
-    desc: "Identificador da família"
+    desc: "Identificador da fam\u00edlia"
   dob_child1:
     trans: datanascimento_crianca1
-    desc: "Data de nascimento da primeira criança"
+    desc: "Data de nascimento da primeira crian\u00e7a"
   dob_child2:
     trans: datanascimento_crianca2
-    desc: "Data de nascimento da segunda criança"
+    desc: "Data de nascimento da segunda crian\u00e7a"
   name_child1:
     trans: nome_crianca1
-    desc: "Nome da primeira criança"
+    desc: "Nome da primeira crian\u00e7a"
   name_child2:
     trans: nome_crianca2
-    desc: "Nome da segunda criança"
+    desc: "Nome da segunda crian\u00e7a"
 help:
   name: nucleo_familiar
   alias: nucleo_familiar
-  title: "Dados de núcleo familiar"
-  description: "Cont\u00e9m observa\u00e7\u00f5es de 5 famílias, com até 2 crianças cada. Esses dados são baseados no exemplo disponível em: vignette('datatable-reshape', package = 'data.table')"
+  title: "Dados de n\u00facleo familiar"
+  description: "Cont\u00e9m observa\u00e7\u00f5es de 5 fam\u00edlias, com at\u00e9 2 crian\u00e7as cada. Esses dados s\u00e3o baseados no exemplo dispon\u00edvel em: vignette('datatable-reshape', package = 'data.table')"
   format: Um tibble com 5 linhas e 5 colunas

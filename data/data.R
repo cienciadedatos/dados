@@ -26,6 +26,8 @@ delayedAssign('dados_gapminder',
         eval(parse(file.path(system.file('scripts','dados_gapminder.txt', package = 'dados')))))
 delayedAssign('questionario',
         eval(parse(file.path(system.file('scripts','questionario.txt', package = 'dados')))))
+delayedAssign('nucleo_familiar',
+        eval(parse(file.path(system.file('scripts','nucleo_familiar.txt', package = 'dados')))))
 delayedAssign('dados_iris',
         eval(parse(file.path(system.file('scripts','dados_iris.txt', package = 'dados')))))
 delayedAssign('gerentes',
