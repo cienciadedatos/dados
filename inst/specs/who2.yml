@@ -224,46 +224,46 @@ variables:
   year:
     trans: ano
     desc: Ano
-  new_sp_m_014:
+  sp_m_014:
     trans: fpp_h_014
     desc: "Casos novos, diagn\u00f3stico frotis pulmonar positivo (fpp), homens (h) de 0 a 14 anos (014)"
-  new_sp_m_1524:
+  sp_m_1524:
     trans: fpp_h_1524
     desc: "Casos novos, diagn\u00f3stico frotis pulmonar positivo (fpp), homens (h) de 15 a 24 anos (1524)"
-  new_sp_m_2534:
+  sp_m_2534:
     trans: fpp_h_2534
     desc: "Casos novos, diagn\u00f3stico frotis pulmonar positivo (fpp), homens (h) de 25 a 34 anos (2534)"
-  new_sp_m_3544:
+  sp_m_3544:
     trans: fpp_h_3544
     desc: "Casos novos, diagn\u00f3stico frotis pulmonar positivo (fpp), homens (h) de 35 a 44 anos (3544)"
-  new_sp_m_4554:
+  sp_m_4554:
     trans: fpp_h_4554
     desc: "Casos novos, diagn\u00f3stico frotis pulmonar positivo (fpp), homens (h) de 45 a 54 anos (4554)"
-  new_sp_m_5564:
+  sp_m_5564:
     trans: fpp_h_5564
     desc: "Casos novos, diagn\u00f3stico frotis pulmonar positivo (fpp), homens (h) de 55 a 64 anos (5564)"
-  new_sp_m_65:
+  sp_m_65:
     trans: fpp_h_65
     desc: "Casos novos, diagn\u00f3stico frotis pulmonar positivo (fpp), homens (h) de 65 ou mais anos"
-  new_sp_f_014:
+  sp_f_014:
     trans: fpp_m_014
     desc: "Casos novos, diagn\u00f3stico frotis pulmonar positivo (fpp), mulheres (m) de 0 a 14 anos (014)"
-  new_sp_f_1524:
+  sp_f_1524:
     trans: fpp_m_1524
     desc: "Casos novos, diagn\u00f3stico frotis pulmonar positivo (fpp), mulheres (m) de 15 a 24 anos (1524)"
-  new_sp_f_2534:
+  sp_f_2534:
     trans: fpp_m_2534
     desc: "Casos novos, diagn\u00f3stico frotis pulmonar positivo (fpp), mulheres (m) de 25 a 34 anos (2534)"
-  new_sp_f_3544:
+  sp_f_3544:
     trans: fpp_m_3544
     desc: "Casos novos, diagn\u00f3stico frotis pulmonar positivo (fpp), mulheres (m) de 35 a 44 anos (3544)"
-  new_sp_f_4554:
+  sp_f_4554:
     trans: fpp_m_4554
     desc: "Casos novos, diagn\u00f3stico frotis pulmonar positivo (fpp), mulheres (m) de 45 a 54 anos (4554)"
-  new_sp_f_5564:
+  sp_f_5564:
     trans: fpp_m_5564
     desc: "Casos novos, diagn\u00f3stico frotis pulmonar positivo (fpp), mulheres (m) de 55 a 64 anos (5564)"
-  new_sp_f_65:
+  sp_f_65:
     trans: fpp_m_65
     desc: "Casos novos, diagn\u00f3stico frotis pulmonar positivo (fpp), mulheres (m) de 65 ou mais anos"
   sn_m_014:
