@@ -58,7 +58,6 @@ Authors@R: c(
           role = "aut",
           email = "eric.scopinho@gmail.com")
         )
-
 Description: Este pacote traduz os seguintes 
     conjuntos de dados: 'airlines', 'airports', 'ames_raw', 'AwardsManagers',
     'babynames', 'Batting', 'diamonds', 'faithful', 'fueleconomy',
