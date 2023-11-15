@@ -1,0 +1,32 @@
+df:
+  source: tidyr::cms_patient_experience
+  name: cms_paciente_experiencia
+variables:
+  org_pac_id:
+    trans: organizacao_id
+    desc: "Identificador da organiza\u00e7\u00e3o"
+  org_nm:
+    trans: organizacao_nome
+    desc: "Nome da organiza\u00e7\u00e3o"
+  measure_cd:
+    trans: medida_codigo
+    desc: "C\u00f3digo da medida"
+  measure_title:
+    trans: medida_titulo
+    desc: "T\u00edtulo da medida"
+    values:
+      "CAHPS for MIPS SSM: Getting Timely Care, Appointments, and Information": "Obten\u00e7\u00e3o de cuidados, consultas e informa\u00e7\u00f5es no momento certo"
+      "CAHPS for MIPS SSM: How Well Providers Communicate": "O qu\u00e3o bem os provedores se comunicam"
+      "CAHPS for MIPS SSM: Patient's Rating of Provider'": "Avalia\u00e7\u00e3o dos pacientes sobre o provedor"
+      "CAHPS for MIPS SSM: Health Promotion and Education": "Promo\u00e7\u00e3o e educa\u00e7\u00e3o em sa\u00fade"
+      "CAHPS for MIPS SSM: Courteous and Helpful Office Staff": "Equipe do consult\u00f3rio cort\u00eas e prestativa"
+      "CAHPS for MIPS SSM: Stewardship of Patient Resources": "Administra\u00e7\u00e3o dos recursos do paciente"
+  prf_rate:
+    trans: taxa_performance
+    desc: "Medi\u00e7\u00e3o da taxa de performance"
+help:
+  name: cms_paciente_experiencia
+  alias: cms_paciente_experiencia
+  title: "Dados dos Centros de Servi\u00e7os de Assist\u00eancia M\u00e9dica (*Medicare*) e Medicamentos (*Medicaid*)"
+  description: "Cont\u00e9m alguns dados levemente arrumados de 'Prestadores de cuidados paliativos - Dados do provedor', que fornece uma lista de ag\u00eancias de cuidados paliativos intensivos (*hospice*) junto com alguns dados sobre a qualidade do atendimento ao paciente, https://data.cms.gov/provider-data/dataset/252m-zfp9"
+  format: Um tibble com 500 linhas e 5 colunas

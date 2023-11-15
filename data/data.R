@@ -14,6 +14,8 @@ delayedAssign('rebatedores',
         eval(parse(file.path(system.file('scripts','rebatedores.txt', package = 'dados')))))
 delayedAssign('top100musicas',
         eval(parse(file.path(system.file('scripts','top100musicas.txt', package = 'dados')))))
+delayedAssign('cms_paciente_experiencia',
+        eval(parse(file.path(system.file('scripts','cms_paciente_experiencia.txt', package = 'dados')))))
 delayedAssign('comuns',
         eval(parse(file.path(system.file('scripts','comuns.txt', package = 'dados')))))
 delayedAssign('diamante',
