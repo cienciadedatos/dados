@@ -2,7 +2,7 @@
 \name{dados_oms}
 \alias{dados_oms}
 \title{Dados de tuberculose da Organização Mundial da Saúde}
-\format{Um data frame com 7240 linhas e 60 colunas
+\format{Um tibble com 7240 linhas e 60 colunas
 \describe{
 \item{pais}{Nome do país}
 \item{iso2}{Código ISO de dois dígitos do país}

@@ -12,6 +12,8 @@ delayedAssign('bebes',
         eval(parse(file.path(system.file('scripts','bebes.txt', package = 'dados')))))
 delayedAssign('rebatedores',
         eval(parse(file.path(system.file('scripts','rebatedores.txt', package = 'dados')))))
+delayedAssign('top100musicas',
+        eval(parse(file.path(system.file('scripts','top100musicas.txt', package = 'dados')))))
 delayedAssign('cms_paciente_experiencia',
         eval(parse(file.path(system.file('scripts','cms_paciente_experiencia.txt', package = 'dados')))))
 delayedAssign('comuns',
@@ -28,6 +30,8 @@ delayedAssign('dados_gapminder',
         eval(parse(file.path(system.file('scripts','dados_gapminder.txt', package = 'dados')))))
 delayedAssign('questionario',
         eval(parse(file.path(system.file('scripts','questionario.txt', package = 'dados')))))
+delayedAssign('nucleo_familiar',
+        eval(parse(file.path(system.file('scripts','nucleo_familiar.txt', package = 'dados')))))
 delayedAssign('dados_iris',
         eval(parse(file.path(system.file('scripts','dados_iris.txt', package = 'dados')))))
 delayedAssign('gerentes',
@@ -80,3 +84,5 @@ delayedAssign('clima',
         eval(parse(file.path(system.file('scripts','clima.txt', package = 'dados')))))
 delayedAssign('dados_oms',
         eval(parse(file.path(system.file('scripts','dados_oms.txt', package = 'dados')))))
+delayedAssign('dados_oms2',
+        eval(parse(file.path(system.file('scripts','dados_oms2.txt', package = 'dados')))))

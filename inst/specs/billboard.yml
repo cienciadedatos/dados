@@ -1,0 +1,248 @@
+df:
+  source: tidyr::billboard
+  name: top100musicas
+variables:
+  artist:
+    trans: "artista"
+    desc: "Nome do(a) artista"
+  track:
+    trans: musica
+    desc: "Nome da m\u00fasica"
+  date.entered:
+    trans: data.adicionada
+    desc: "Data em que a m\u00fasica entrou no Top 100"
+  wk1:
+    trans: semana1
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk2:
+    trans: semana2
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk3:
+    trans: semana3
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk4:
+    trans: semana4
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk5:
+    trans: semana5
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk6:
+    trans: semana6
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk7:
+    trans: semana7
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk8:
+    trans: semana8
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk9:
+    trans: semana9
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk10:
+    trans: semana10
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk11:
+    trans: semana11
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk12:
+    trans: semana12
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk13:
+    trans: semana13
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk14:
+    trans: semana14
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk15:
+    trans: semana15
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk16:
+    trans: semana16
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk17:
+    trans: semana17
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk18:
+    trans: semana18
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk19:
+    trans: semana19
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk20:
+    trans: semana20
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk21:
+    trans: semana21
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk22:
+    trans: semana22
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk23:
+    trans: semana23
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk24:
+    trans: semana24
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk25:
+    trans: semana25
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk26:
+    trans: semana26
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk27:
+    trans: semana27
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk28:
+    trans: semana28
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk29:
+    trans: semana29
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk30:
+    trans: semana30
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk31:
+    trans: semana31
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk32:
+    trans: semana32
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk33:
+    trans: semana33
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk34:
+    trans: semana34
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk35:
+    trans: semana35
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk36:
+    trans: semana36
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk37:
+    trans: semana37
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk38:
+    trans: semana38
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk39:
+    trans: semana39
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk40:
+    trans: semana40
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk41:
+    trans: semana41
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk42:
+    trans: semana42
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk43:
+    trans: semana43
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk44:
+    trans: semana44
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk45:
+    trans: semana45
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk46:
+    trans: semana46
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk47:
+    trans: semana47
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk48:
+    trans: semana48
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk49:
+    trans: semana49
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk50:
+    trans: semana50
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk51:
+    trans: semana51
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk52:
+    trans: semana52
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk53:
+    trans: semana53
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk54:
+    trans: semana54
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk55:
+    trans: semana55
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk56:
+    trans: semana56
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk57:
+    trans: semana57
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk58:
+    trans: semana58
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk59:
+    trans: semana59
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk60:
+    trans: semana60
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk61:
+    trans: semana61
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk62:
+    trans: semana62
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk63:
+    trans: semana63
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk64:
+    trans: semana64
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk65:
+    trans: semana65
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk66:
+    trans: semana66
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk67:
+    trans: semana67
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk68:
+    trans: semana68
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk69:
+    trans: semana69
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk70:
+    trans: semana70
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk71:
+    trans: semana71
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk72:
+    trans: semana72
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk73:
+    trans: semana73
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk74:
+    trans: semana74
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk75:
+    trans: semana75
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+  wk76:
+    trans: semana76
+    desc: "Ranking da m\u00fasica em cada semana, ap\u00f3s entrar no ranking"
+
+help:
+  name: top100musicas
+  alias: top100musicas
+  title: "Top 100 m\u00fasicas da Billboard no ano 2000"
+  description: "Classifica\u00e7\u00f5es de m\u00fasicas no top 100 da Billboard no ano 2000"
+  format: Um tibble com 317 linhas e 79 colunas

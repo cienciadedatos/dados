@@ -37,6 +37,9 @@
     <loc>/reference/clima.html</loc>
   </url>
   <url>
+    <loc>/reference/cms_paciente_experiencia.html</loc>
+  </url>
+  <url>
     <loc>/reference/companhias_aereas.html</loc>
   </url>
   <url>
@@ -58,6 +61,9 @@
     <loc>/reference/dados_oms.html</loc>
   </url>
   <url>
+    <loc>/reference/dados_oms2.html</loc>
+  </url>
+  <url>
     <loc>/reference/dados_starwars.html</loc>
   </url>
   <url>
@@ -77,6 +83,9 @@
   </url>
   <url>
     <loc>/reference/mtcarros.html</loc>
+  </url>
+  <url>
+    <loc>/reference/nucleo_familiar.html</loc>
   </url>
   <url>
     <loc>/reference/pessoas.html</loc>
@@ -134,6 +143,9 @@
   </url>
   <url>
     <loc>/reference/tabela5.html</loc>
+  </url>
+  <url>
+    <loc>/reference/top100musicas.html</loc>
   </url>
   <url>
     <loc>/reference/veiculos.html</loc>
