@@ -20,6 +20,6 @@ variables:
 help:
   name: presidentes_eua
   alias: presidentes_eua
-  title: "Per\u00edodo que engloba 11 presidentes, desde Eisenhower at\u00e9 Obama"
-  description: "Nome, data de in\u00edcio e de t\u00e9rmino do mandato e partido pol\u00edtico de 11 presidentes dos Estados Unidos, de Eisenhower a Obama."
-  format: Um data.frame com 11 linhas e 4 colunas
+  title: "Per\u00edodo que engloba 12 presidentes, desde Eisenhower at\u00e9 Trump"
+  description: "Nome, data de in\u00edcio e de t\u00e9rmino do mandato e partido pol\u00edtico de 12 presidentes dos Estados Unidos, de Eisenhower a Trump."
+  format: Um data.frame com 12 linhas e 4 colunas
