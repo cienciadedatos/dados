@@ -15,12 +15,12 @@ variables:
     trans: medida_titulo
     desc: "Título da medida"
     values:
-      CAHPS for MIPS SSM: Getting Timely Care, Appointments, and Information: "Obtenção de cuidados, consultas e informações no momento certo"
-      CAHPS for MIPS SSM: How Well Providers Communicate: "O quão bem os provedores se comunicam"
-      CAHPS for MIPS SSM: Patient's Rating of Provider: "Avaliação dos pacientes sobre o provedor"
-      CAHPS for MIPS SSM: Health Promotion and Education: "Promoção e educação em saúde"
-      CAHPS for MIPS SSM: Courteous and Helpful Office Staff: "Equipe do consultório cortês e prestativa"
-      CAHPS for MIPS SSM: Stewardship of Patient Resources: "Administração dos recursos do paciente"
+      "CAHPS for MIPS SSM: Getting Timely Care, Appointments, and Information": "Obtenção de cuidados, consultas e informações no momento certo"
+      "CAHPS for MIPS SSM: How Well Providers Communicate": "O quão bem os provedores se comunicam"
+      "CAHPS for MIPS SSM: Patient's Rating of Provider'": "Avaliação dos pacientes sobre o provedor"
+      "CAHPS for MIPS SSM: Health Promotion and Education": "Promoção e educação em saúde"
+      "CAHPS for MIPS SSM: Courteous and Helpful Office Staff": "Equipe do consultório cortês e prestativa"
+      "CAHPS for MIPS SSM: Stewardship of Patient Resources": "Administração dos recursos do paciente"
   prf_rate:
     trans: taxa_performance
     desc: "Medição da taxa de performance"
