@@ -54,6 +54,7 @@ Authors@R: c(
           comment = c(ORCID = "0000-0001-5994-352X")
           )
         )
+    person("Eric", "Scopinho", , "eric.scopinho@gmail.com", role = "aut")
 Description: Este pacote traduz os seguintes 
     conjuntos de dados: 'airlines', 'airports', 'ames_raw', 'AwardsManagers',
     'babynames', 'Batting', 'diamonds', 'faithful', 'fueleconomy',
