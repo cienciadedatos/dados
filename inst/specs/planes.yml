@@ -3,7 +3,7 @@ df:
   name: avioes
 variables:
   tailnum:
-    trans: numero_cauda
+    trans: codigo_cauda
     desc: "C\u00f3digo da cauda do avi\u00e3o (empenagem)"
   year:
     trans: ano
