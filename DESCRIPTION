@@ -1,6 +1,6 @@
 Package: dados
 Title: Translate Datasets to Portuguese
-Version: 0.1.9000
+Version: 0.2.0
 Authors@R: c(
     person(given = "Riva",
            family = "Quiroga",
@@ -60,11 +60,12 @@ Authors@R: c(
         )
 Description: Este pacote traduz os seguintes 
     conjuntos de dados: 'airlines', 'airports', 'ames_raw', 'AwardsManagers',
-    'babynames', 'Batting', 'diamonds', 'faithful', 'fueleconomy',
-    'Fielding', 'flights', 'gapminder', 'gss_cat', 'iris', 'Managers',
-    'mpg', 'mtcars', 'atmos', 'penguins', 'People, 'Pitching', 'pixarfilms','planes',
+    'babynames', 'Batting', 'billboard', 'cms_patient_experience', 
+    'diamonds', 'faithful', 'fueleconomy', 'Fielding', 'flights', 'gapminder',
+    'gss_cat', 'household', 'iris', 'Managers', 'mpg', 'mtcars', 'atmos',
+    'penguins', 'People, 'Pitching', 'pixarfilms','planes',
     'presidential', 'table1', 'table2', 'table3', 'table4a', 'table4b',
-    'table5', 'vehicles', 'weather', 'who'.  English: It provides a
+    'table5', 'vehicles', 'weather', 'who', 'who2'.  English: It provides a
     Portuguese translated version of the datasets listed above.
 License: GPL-3
 Encoding: UTF-8
