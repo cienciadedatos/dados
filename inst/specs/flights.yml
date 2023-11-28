@@ -36,8 +36,8 @@ variables:
     trans: voo
     desc: "N\u00famero do voo"
   tailnum:
-    trans: cauda
-    desc: "N\u00famero da cauda do avi\u00e3o"
+    trans: codigo_cauda
+    desc: "C\u00f3digo da cauda do avi\u00e3o (empenagem)"
   origin:
     trans: origem
     desc: "Origem do voo. Ver `aeroportos` para metadados adicionais"
