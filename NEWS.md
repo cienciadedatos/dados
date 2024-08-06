@@ -10,6 +10,8 @@
 
 * New dataset: translation of `tidyr::cms_patient_experience`.
 
+* New dataset: translation of `stringr::fruit`.
+
 
 # dados 0.1.0
 
