@@ -1,0 +1,43 @@
+# Vetor de frases, criado com o ChatGPT
+# Solicitei que adicionasse frases de livros do Machado de Assis
+frases <- c(
+  "Ao verme que primeiro roeu as frias carnes do meu cad\u00E1ver dedico como saudosa lembran\u00E7a estas Mem\u00F3rias P\u00F3stumas.",
+  "N\u00E3o tive filhos, n\u00E3o transmiti a nenhuma criatura o legado da nossa mis\u00E9ria.",
+  "Ao vencedor, as batatas.",
+  "Marcela amou-me durante quinze meses e onze contos de r\u00E9is.",
+  "Aos quarenta e cinco anos estava ainda mo\u00E7o, e para a minha cura n\u00E3o havia outro rem\u00E9dio sen\u00E3o um enterro.",
+  "Olhando bem para dentro de mim mesmo, verifiquei que a vida podia ser comparada a uma viagem de barco.",
+  "Eu sou um homem que carrega dentro de si muitos homens mortos.",
+  "Certo de que a fortuna n\u00E3o \u00E9 sen\u00E3o uma grande roleta, em que uns poucos ganham e muitos perdem.",
+  "A verdadeira filosofia \u00E9 a que nos ensina a viver sem morrer de medo.",
+  "O tempo \u00E9 um rato roedor das coisas, que as diminui ou altera no sentido de torn\u00E1-las rid\u00EDculas.",
+  "Nunca conheci quem tivesse levado porrada. Todos os meus conhecidos t\u00EAm sido campe\u00F5es em tudo.",
+  "N\u00E3o \u00E9 o sentimento que nos atrapalha, mas sim a tentativa de entend\u00EA-lo.",
+  "O destino \u00E9 um ca\u00E7ador furtivo.",
+  "A loucura, objeto de meus estudos, \u00E9 um enigma que s\u00F3 a morte resolver\u00E1.",
+  "Cada qual sabe amar a seu modo; o modo pouco importa; o essencial \u00E9 que saiba amar.",
+  "A dor \u00E9 um rem\u00E9dio indispens\u00E1vel ao ser humano.",
+  "Cada qual sabe amar a seu modo; o modo pouco importa; o essencial \u00E9 que saiba amar.",
+  "A diferen\u00E7a entre a paisagem e o homem \u00E9 que a paisagem n\u00E3o muda nunca.",
+  "A desconfian\u00E7a \u00E9 a m\u00E3e da seguran\u00E7a.",
+  "A vida sem luta \u00E9 um mar morto no centro do organismo universal.",
+  "A melhor defini\u00E7\u00E3o do amor n\u00E3o vale um beijo de mo\u00E7a namorada.",
+  "A d\u00FAvida \u00E9 o privil\u00E9gio dos s\u00E1bios.",
+  "A eternidade \u00E9 um rel\u00F3gio de areia.",
+  "A esperan\u00E7a \u00E9 um empr\u00E9stimo que se pede \u00E0 felicidade.",
+  "A humildade \u00E9 o \u00FAnico escudo contra a vaidade.",
+  "A ironia \u00E9 a chave do esp\u00EDrito.",
+  "A maior parte das pessoas que falam das belezas da virtude n\u00E3o a praticam.",
+  "A mentira \u00E9 muitas vezes t\u00E3o involunt\u00E1ria como a respira\u00E7\u00E3o.",
+  "A morte \u00E9 um sono sem sonhos.",
+  "A saudade \u00E9 o remorso de n\u00E3o termos aproveitado cada instante.",
+  "A virtude \u00E9 o brilho do esp\u00EDrito.",
+  "As feridas da alma s\u00E3o curadas com carinho, aten\u00E7\u00E3o e paz.",
+  "Calar \u00E9 o segredo dos fortes.",
+  "O passado \u00E9 um pr\u00F3logo.",
+  "Os olhos s\u00E3o o espelho da alma.",
+  "A vida \u00E9 uma com\u00E9dia para os que pensam e uma trag\u00E9dia para os que sentem.",
+  "Viver \u00E9 a coisa mais rara do mundo. A maioria das pessoas apenas existe."
+)
+
+usethis::use_data(frases, overwrite = TRUE)
