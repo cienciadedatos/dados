@@ -21,8 +21,8 @@ Useful links:
 
 Authors:
 \itemize{
+  \item Beatriz Milz \email{milz.bea@gmail.com} (\href{https://orcid.org/0000-0002-3064-4486}{ORCID})
   \item Sara Mortara \email{saramortara@gmail.com} (\href{https://orcid.org/0000-0001-6221-7537}{ORCID})
-  \item Beatriz Milz \email{beatriz.milz@usp.br} (\href{https://orcid.org/0000-0002-3064-4486}{ORCID})
   \item Andrea Sánchez-Tapia \email{andreasancheztapia@gmail.com} (\href{https://orcid.org/0000-0002-3521-4338}{ORCID})
   \item Alejandra Andrea Tapia Silva \email{alejandraandreatapiasilva@gmail.com} (\href{https://orcid.org/0000-0003-0762-7618}{ORCID})
   \item Beatriz Maurer Costa \email{beatrizmcosta@me.com}
@@ -30,6 +30,7 @@ Authors:
   \item Renata Hirota \email{re.hirota@gmail.com} (\href{https://orcid.org/0000-0002-3589-3246}{ORCID})
   \item William Amorim \email{wamorim@curso-r.com} (\href{https://orcid.org/0000-0003-0543-3473}{ORCID})
   \item Emmanuelle Rodrigues Nunes \email{emmanuellernunes@gmail.com} (\href{https://orcid.org/0000-0001-5994-352X}{ORCID})
+  \item Eric Scopinho \email{eric.scopinho@gmail.com}
 }
 
 }

@@ -20,11 +20,12 @@ library(stringr)
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# dados <img src="man/figures/dados-hex.png" align="right" width = "120px"/>
+# dados <img src="man/figures/dados-hex.png" align="right" width="120px"/>
 
 <!-- badges: start -->
-[![CRAN status](https://www.r-pkg.org/badges/version/dados)](https://cran.r-project.org/package=dados)
-[![R-CMD-check](https://github.com/cienciadedatos/dados/workflows/R-CMD-check/badge.svg)](https://github.com/cienciadedatos/dados/actions)
+
+[![CRAN status](https://www.r-pkg.org/badges/version/dados)](https://cran.r-project.org/package=dados) [![R-CMD-check](https://github.com/cienciadedatos/dados/workflows/R-CMD-check/badge.svg)](https://github.com/cienciadedatos/dados/actions)
+
 <!-- badges: end -->
 
 Este pacote disponibiliza a tradução de conjuntos de dados em inglês originalmente disponíveis em outros pacotes de R. Os dados traduzidos são utilizados nos exemplos do livro [R for Data Science](https://r4ds.had.co.nz/) de Hadley Wickham & Garrett Grolemund, cuja [versão em português](https://altabooks.com.br/produto/r-para-data-science/) foi publicada por AltaBooks & O'Reilly.
@@ -43,7 +44,6 @@ A versão de desenvolvimento pode ser instalada a partir do GitHub:
 # install.packages("remotes")
 remotes::install_github("cienciadedatos/dados")
 ```
-
 
 ## Traduções
 
@@ -67,10 +67,11 @@ pkgs %>%
   knitr::kable()
 ```
 
+Os dados para praticar a manipulação de strings são `frases`, `palavras` e `frutas`.
 
 ## Uso
 
-O pacote `dados` pode ser carregado como qualquer outro pacote de R: 
+O pacote `dados` pode ser carregado como qualquer outro pacote de R:
 
 ```{r, message = FALSE}
 library(dados)
@@ -78,7 +79,7 @@ library(ggplot2)
 library(dplyr)
 ```
 
-Ao carregar o pacote, as variáveis que contêm os dados estarão disponíveis imediatamente para uso. Porém, os dados não serão traduzidos até que a variável seja "chamada" explicitamente por um comando. Neste exemplo, o conjunto de dados `diamante`, que provém de `ggplot2::diamonds`, é carregado no _workspace_ do R no momento em que o chamamos pela primeira vez em português:
+Ao carregar o pacote, as variáveis que contêm os dados estarão disponíveis imediatamente para uso. Porém, os dados não serão traduzidos até que a variável seja "chamada" explicitamente por um comando. Neste exemplo, o conjunto de dados `diamante`, que provém de `ggplot2::diamonds`, é carregado no *workspace* do R no momento em que o chamamos pela primeira vez em português:
 
 ```{r}
 glimpse(diamante)
@@ -97,8 +98,7 @@ diamante %>%
 
 ```
 
-<img src="man/figures/diamantes.png">
-
+<img src="man/figures/diamantes.png"/>
 
 ## Funções internas de `dados`
 

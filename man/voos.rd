@@ -15,7 +15,7 @@
 \item{atraso_chegada}{Atraso de chegada em minutos. Valores negativos indicam chegada adiantada}
 \item{companhia_aerea}{Abreviação de dois dígitos da companhia aérea. Ver `companhias_aereas` para obter o nome da companhia aérea}
 \item{voo}{Número do voo}
-\item{cauda}{Número da cauda do avião}
+\item{codigo_cauda}{Código da cauda do avião (empenagem)}
 \item{origem}{Origem do voo. Ver `aeroportos` para metadados adicionais}
 \item{destino}{Destino do voo. Ver `aeroportos` para metadados adicionais}
 \item{tempo_voo}{Quantidade de tempo no ar, em minutos}

@@ -1,13 +1,14 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# dados <img src="man/figures/dados-hex.png" align="right" width = "120px"/>
+# dados <img src="man/figures/dados-hex.png" align="right" width="120px"/>
 
 <!-- badges: start -->
 
 [![CRAN
 status](https://www.r-pkg.org/badges/version/dados)](https://cran.r-project.org/package=dados)
 [![R-CMD-check](https://github.com/cienciadedatos/dados/workflows/R-CMD-check/badge.svg)](https://github.com/cienciadedatos/dados/actions)
+
 <!-- badges: end -->
 
 Este pacote disponibiliza a tradução de conjuntos de dados em inglês
@@ -84,6 +85,9 @@ As traduções disponíveis dentro de `dados` são as seguintes:
 | dados_oms                | Dados de tuberculose da Organização Mundial da Saúde                                         | tidyr          | who                    |
 | dados_oms2               | Dados de tuberculose da Organização Mundial da Saúde                                         | tidyr          | who2                   |
 
+Os dados para praticar a manipulação de strings são `frases`, `palavras`
+e `frutas`.
+
 ## Uso
 
 O pacote `dados` pode ser carregado como qualquer outro pacote de R:
@@ -128,7 +132,7 @@ diamante %>%
   labs(title = "Diamantes", subtitle = "Preço e transparência", y = "Preço", x = "Transparência")
 ```
 
-<img src="man/figures/diamantes.png">
+<img src="man/figures/diamantes.png"/>
 
 ## Funções internas de `dados`
 
