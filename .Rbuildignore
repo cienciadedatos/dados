@@ -9,3 +9,4 @@
 ^cran-comments\.md$
 ^codemeta\.json$
 ^CRAN-RELEASE$
+^data-raw$
