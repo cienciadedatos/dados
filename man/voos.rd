@@ -26,5 +26,4 @@
 }}
 \usage{voos}
 \description{Dados temporais de todos os voos que partiram de Nova York (JFK, LGA e EWR) em 2013}
-\seealso{\code{\link[nycflights13]{flights}}}
 \keyword{datasets}

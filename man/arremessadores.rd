@@ -36,5 +36,4 @@
 \item{eliminacao_dupla}{Arremessos que levam a uma rebatida rasteira com eliminação dupla na mesma jogada}
 }}
 \description{Estatísticas de arremessadores}
-\seealso{\code{\link[Lahman]{Pitching}}}
 \keyword{datasets}

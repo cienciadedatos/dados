@@ -10,5 +10,4 @@
 \item{partido}{Partido político ao qual pertence}
 }}
 \description{Nome, data de início e de término do mandato e partido político de 12 presidentes dos Estados Unidos, de Eisenhower a Trump.}
-\seealso{\code{\link[ggplot2]{presidential}}}
 \keyword{datasets}

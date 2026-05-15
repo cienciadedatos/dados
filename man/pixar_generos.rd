@@ -9,5 +9,4 @@
 }}
 \usage{pixar_generos}
 \description{Filmes e seus gêneros}
-\seealso{\code{\link[pixarfilms]{genres}}}
 \keyword{datasets}

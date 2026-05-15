@@ -22,5 +22,4 @@
 }}
 \usage{clima}
 \description{Metadatos da estação meteorológica de três aeroportos de Nova Iorque LGA, JFK e EWR}
-\seealso{\code{\link[nycflights13]{weather}}}
 \keyword{datasets}

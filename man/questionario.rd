@@ -16,5 +16,4 @@
 }}
 \usage{questionario}
 \description{Amostra de variáveis categóricas do questinário 'General Social Survey' (GSS)}
-\seealso{\code{\link[forcats]{gss_cat}}}
 \keyword{datasets}

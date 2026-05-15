@@ -11,5 +11,4 @@
 \item{taxa_performance}{Medição da taxa de performance}
 }}
 \description{Contém alguns dados levemente arrumados de 'Prestadores de cuidados paliativos - Dados do provedor', que fornece uma lista de agências de cuidados paliativos intensivos (*hospice*) junto com alguns dados sobre a qualidade do atendimento ao paciente, https://data.cms.gov/provider-data/dataset/252m-zfp9}
-\seealso{\code{\link[tidyr]{cms_patient_experience}}}
 \keyword{datasets}

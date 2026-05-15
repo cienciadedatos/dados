@@ -10,3 +10,5 @@
 ^codemeta\.json$
 ^CRAN-RELEASE$
 ^data-raw$
+^\.positai$
+^\.claude$

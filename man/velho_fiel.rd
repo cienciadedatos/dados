@@ -9,5 +9,4 @@
 }}
 \usage{velho_fiel}
 \description{Dados do tempo de espera entre erupções e duração de cada erupção do gêiser Velho Fiel (Old Faithful), localizado no Parque Nacional de Yellowstone, em Wyoming, nos Estados Unidos.}
-\seealso{\code{\link[datasets]{faithful}}}
 \keyword{datasets}

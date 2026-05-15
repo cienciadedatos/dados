@@ -10,5 +10,4 @@
 }}
 \usage{pixar_equipe}
 \description{Principais pessoas envolvidas nas produções dos filmes da Pixar}
-\seealso{\code{\link[pixarfilms]{pixar_people}}}
 \keyword{datasets}

@@ -12,5 +12,4 @@
 }}
 \usage{pixar_avalicao_publico}
 \description{Filmes da Pixar com avaliações do público e da crítica, obtidas por diferentes sites}
-\seealso{\code{\link[pixarfilms]{public_response}}}
 \keyword{datasets}

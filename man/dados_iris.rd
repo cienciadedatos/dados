@@ -12,5 +12,4 @@
 }}
 \usage{dados_iris}
 \description{O famoso conjunto de dados sobre espécies de flor de Íris (Edgar Anderson e Ronald Fisher) fornece as medidas em centímetros das variáveis de comprimento e largura da sépala e pétala, para 50 flores de cada uma das 3 espécies de íris. As espécies são Iris setosa, I. versicolor e I. virginica}
-\seealso{\code{\link[datasets]{iris}}}
 \keyword{datasets}

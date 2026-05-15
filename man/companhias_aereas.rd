@@ -9,5 +9,4 @@
 }}
 \usage{companhias_aereas}
 \description{Nomes das companhias aéreas e seus respectivos códigos de dois dígitos}
-\seealso{\code{\link[nycflights13]{airlines}}}
 \keyword{datasets}

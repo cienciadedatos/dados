@@ -17,5 +17,4 @@
 }}
 \usage{diamante}
 \description{Um conjunto de dados contendo os preços de quase 54 mil diamantes}
-\seealso{\code{\link[ggplot2]{diamonds}}}
 \keyword{datasets}

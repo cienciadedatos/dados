@@ -24,5 +24,4 @@
 \item{taxa_zona}{Porcentagem de bolas capturadas por um defensor, em sua zona defensiva típica}
 }}
 \description{Estatísticas de defesa}
-\seealso{\code{\link[Lahman]{Fielding}}}
 \keyword{datasets}

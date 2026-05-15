@@ -11,5 +11,4 @@
 \item{salario}{Salário em dólares}
 }}
 \description{Dados salariais do jogador}
-\seealso{\code{\link[Lahman]{Salaries}}}
 \keyword{datasets}

@@ -28,5 +28,4 @@
 \item{eliminacao_dupla_induzida}{Rebatidas rasteiras induzindo a uma eliminação dupla}
 }}
 \description{Estatísticas de rebatedores}
-\seealso{\code{\link[Lahman]{Batting}}}
 \keyword{datasets}
