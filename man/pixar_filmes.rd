@@ -12,5 +12,4 @@
 }}
 \usage{pixar_filmes}
 \description{Nome e data e ordem de lançamento dos filmes da Pixar}
-\seealso{\code{\link[pixarfilms]{pixar_films}}}
 \keyword{datasets}

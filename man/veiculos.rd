@@ -19,5 +19,4 @@
 }}
 \usage{veiculos}
 \description{Dados de economia de combustível da Agência de Proteção Ambiental(EPA) dos Estados Unidos, 1985-2015. Contém uma seleção de variáveis e não considera veículos com dados incompletos.}
-\seealso{\code{\link[fueleconomy]{vehicles}}}
 \keyword{datasets}

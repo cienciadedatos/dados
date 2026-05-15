@@ -10,5 +10,4 @@
 }}
 \usage{pixar_oscars}
 \description{Filmes da Pixar que foram indicados ao Oscar, a categoria em que concorreram e o resultado da indicação}
-\seealso{\code{\link[pixarfilms]{academy}}}
 \keyword{datasets}

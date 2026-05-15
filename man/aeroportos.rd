@@ -15,5 +15,4 @@
 }}
 \usage{aeroportos}
 \description{Metadados úteis sobre aeroportos}
-\seealso{\code{\link[nycflights13]{airports}}}
 \keyword{datasets}

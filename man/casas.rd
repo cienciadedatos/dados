@@ -89,6 +89,5 @@
 }}
 \usage{casas}
 \description{Base dados descrita em De Cock (2011) com 82 características de 2930 propriedades vendidas em Ames, Iowa, EUA.}
-\source{\url{http://jse.amstat.org/v19n3/decock/DataDocumentation.txt}}
-\seealso{\code{\link[AmesHousing]{ames_raw}}}
+\source{\url{https://jse.amstat.org/v19n3/decock/DataDocumentation.txt}}
 \keyword{datasets}

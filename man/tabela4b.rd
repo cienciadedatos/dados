@@ -9,5 +9,4 @@
 \item{2000}{População no ano 2000}
 }}
 \description{Contém observações de casos registrados no Afeganistão, Brasil e China nos anos de 1999 e 2000}
-\seealso{\code{\link[tidyr]{table4b}}}
 \keyword{datasets}

@@ -65,5 +65,4 @@
 }}
 \usage{dados_oms2}
 \description{Subconjunto de dados do relatório anual de tuberculose da Organização Mundial da Saúde. A tibble dados_oms2 é uma versão levemente modificada de dados_oms, ajustando as variaveis para serem mais consistentes, removendo iso2, iso3 e adicionando _ depois do sexo biológico}
-\seealso{\code{\link[tidyr]{who2}}}
 \keyword{datasets}

@@ -18,5 +18,4 @@
 }}
 \usage{mtcarros}
 \description{Os dados foram extraídos da revista Motor Trend US, de 1974, e incluem o consumo de combustível e 10 aspectos do design e desempenho de automóveis para 32 automóveis (modelos 1973-74)}
-\seealso{\code{\link[datasets]{mtcars}}}
 \keyword{datasets}

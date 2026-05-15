@@ -67,5 +67,4 @@
 }}
 \usage{dados_oms}
 \description{Subconjunto de dados do relatório anual de tuberculose da Organização Mundial da Saúde}
-\seealso{\code{\link[tidyr]{who}}}
 \keyword{datasets}

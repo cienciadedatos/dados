@@ -16,5 +16,4 @@
 }}
 \usage{avioes}
 \description{Metadatos de aviões e seus códigos de cauda no registro de aviação da FAA. American Airways (AA) e Envoy Air (MQ) reportam número de frota no lugar do número de calda, por isso não é possível relacioná-los}
-\seealso{\code{\link[nycflights13]{planes}}}
 \keyword{datasets}

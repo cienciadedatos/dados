@@ -12,5 +12,4 @@
 }}
 \usage{pixar_bilheteria}
 \description{Filmes da Pixar com seus respectivos orçamentos e valor de bilheteria}
-\seealso{\code{\link[pixarfilms]{box_office}}}
 \keyword{datasets}

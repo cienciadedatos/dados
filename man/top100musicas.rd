@@ -85,5 +85,4 @@
 \item{semana76}{Ranking da música em cada semana, após entrar no ranking}
 }}
 \description{Classificações de músicas no top 100 da Billboard no ano 2000}
-\seealso{\code{\link[tidyr]{billboard}}}
 \keyword{datasets}

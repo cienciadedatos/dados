@@ -11,5 +11,4 @@
 \item{nome_crianca2}{Nome da segunda criança}
 }}
 \description{Contém observações de 5 famílias, com até 2 crianças cada. Esses dados são baseados no exemplo disponível em: vignette('datatable-reshape', package = 'data.table')}
-\seealso{\code{\link[tidyr]{household}}}
 \keyword{datasets}

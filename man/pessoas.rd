@@ -32,5 +32,4 @@
 \item{data_nascimento}{Data de nascimento em formato yyyy-mm-dd}
 }}
 \description{Nomes de jogadores, data de nascimento e informações bibliográficas. Este arquivo é usado para obter detalhes sobre os jogadores listados em rebatedores, arremessadores e outros arquivos nos quais os jogadores são identificados por id_jogador}
-\seealso{\code{\link[Lahman]{People}}}
 \keyword{datasets}

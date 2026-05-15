@@ -12,5 +12,4 @@
 }}
 \usage{bebes}
 \description{Dados completos sobre nomes de bebês fornecidos pela Administração de Segurança Social dos EUA. Inclui todos os nomes com pelo menos 5 usos}
-\seealso{\code{\link[babynames]{babynames}}}
 \keyword{datasets}

@@ -18,5 +18,4 @@
 }}
 \usage{milhas}
 \description{Este conjunto de dados contém um subconjunto dos dados de economia de combustível que a EPA disponibiliza em http://fueleconomy.gov. Ele contém apenas modelos que tiveram um novo lançamento todos os anos entre 1999 e 2008 - isso foi usado como um proxy para a popularidade do carro}
-\seealso{\code{\link[ggplot2]{mpg}}}
 \keyword{datasets}
