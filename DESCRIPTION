@@ -68,6 +68,7 @@ Description: Este pacote traduz os seguintes
     Portuguese translated version of the datasets listed above.
 License: GPL-3
 Encoding: UTF-8
+Language: pt
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
