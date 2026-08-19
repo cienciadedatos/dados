@@ -10,8 +10,10 @@ import(palmerpenguins)
 import(pixarfilms)
 import(rlang)
 importFrom(Lahman,playerInfo)
-importFrom(dplyr,as_tibble)
-importFrom(dplyr,group_by)
+importFrom(dplyr,
+  as_tibble,
+  group_by
+)
 importFrom(forcats,fct_c)
 importFrom(ggplot2,ggplot)
 importFrom(stats,setNames)
