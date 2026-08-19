@@ -1,6 +1,6 @@
 Package: dados
 Title: Translate Datasets to Portuguese
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: c(
     person(given = "Riva",
            family = "Quiroga",
@@ -58,20 +58,22 @@ Authors@R: c(
           role = "aut",
           email = "eric.scopinho@gmail.com")
         )
-Description: Este pacote traduz os seguintes 
-    conjuntos de dados: 'airlines', 'airports', 'ames_raw', 'AwardsManagers',
-    'babynames', 'Batting', 'diamonds', 'faithful', 'fueleconomy',
-    'Fielding', 'flights', 'gapminder', 'gss_cat', 'iris', 'Managers',
-    'mpg', 'mtcars', 'atmos', 'penguins', 'People, 'Pitching', 'pixarfilms','planes',
-    'presidential', 'table1', 'table2', 'table3', 'table4a', 'table4b',
-    'table5', 'vehicles', 'weather', 'who'.  English: It provides a
-    Portuguese translated version of the datasets listed above.
+Description: Este pacote traduz os seguintes conjuntos de dados: 'academy',
+    'airlines', 'airports', 'ames_raw', 'atmos', 'AwardsManagers',
+    'babynames', 'Batting', 'billboard', 'box_office',
+    'cms_patient_experience', 'common', 'diamonds', 'faithful', 'Fielding',
+    'flights', 'gapminder', 'genres', 'gss_cat', 'household', 'iris',
+    'Managers', 'mpg', 'mtcars', 'penguins', 'People', 'Pitching',
+    'pixar_films', 'pixar_people', 'planes', 'presidential',
+    'public_response', 'Salaries', 'starwars', 'table1', 'table2',
+    'table3', 'table4a', 'table4b', 'table5', 'vehicles', 'weather', 'who',
+    'who2'. English: It provides a Portuguese translated version of the
+    datasets listed above.
 License: GPL-3
 Encoding: UTF-8
 Language: pt
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.3
 URL: https://github.com/cienciadedatos/dados
 BugReports: https://github.com/cienciadedatos/dados/issues
 Depends: 
@@ -96,3 +98,4 @@ Imports:
 Suggests:
     covr,
     testthat (>= 3.0.0)
+Config/roxygen2/version: 8.1.0

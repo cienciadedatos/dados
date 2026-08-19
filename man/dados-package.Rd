@@ -6,7 +6,7 @@
 \alias{dados-package}
 \title{dados: Translate Datasets to Portuguese}
 \description{
-Este pacote traduz os seguintes conjuntos de dados: 'airlines', 'airports', 'ames_raw', 'AwardsManagers', 'babynames', 'Batting', 'diamonds', 'faithful', 'fueleconomy', 'Fielding', 'flights', 'gapminder', 'gss_cat', 'iris', 'Managers', 'mpg', 'mtcars', 'atmos', 'penguins', 'People, 'Pitching', 'pixarfilms','planes', 'presidential', 'table1', 'table2', 'table3', 'table4a', 'table4b', 'table5', 'vehicles', 'weather', 'who'. English: It provides a Portuguese translated version of the datasets listed above.
+Este pacote traduz os seguintes conjuntos de dados: 'academy', 'airlines', 'airports', 'ames_raw', 'atmos', 'AwardsManagers', 'babynames', 'Batting', 'billboard', 'box_office', 'cms_patient_experience', 'common', 'diamonds', 'faithful', 'Fielding', 'flights', 'gapminder', 'genres', 'gss_cat', 'household', 'iris', 'Managers', 'mpg', 'mtcars', 'penguins', 'People', 'Pitching', 'pixar_films', 'pixar_people', 'planes', 'presidential', 'public_response', 'Salaries', 'starwars', 'table1', 'table2', 'table3', 'table4a', 'table4b', 'table5', 'vehicles', 'weather', 'who', 'who2'. English: It provides a Portuguese translated version of the datasets listed above.
 }
 \seealso{
 Useful links:
@@ -21,6 +21,7 @@ Useful links:
 
 Authors:
 \itemize{
+  \item Riva Quiroga \email{riva.quiroga@uc.cl} (\href{https://orcid.org/0000-0002-1147-4135}{ORCID})
   \item Beatriz Milz \email{milz.bea@gmail.com} (\href{https://orcid.org/0000-0002-3064-4486}{ORCID})
   \item Sara Mortara \email{saramortara@gmail.com} (\href{https://orcid.org/0000-0001-6221-7537}{ORCID})
   \item Andrea Sánchez-Tapia \email{andreasancheztapia@gmail.com} (\href{https://orcid.org/0000-0002-3521-4338}{ORCID})
